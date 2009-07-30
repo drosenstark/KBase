@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="idgvxqkebw5d79bebw5pf2n">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Properties.SnippetTitleBox">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference20" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Properties.PropertyComboBox">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference21" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Properties.PropertyValue">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference22" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Properties.PropertiesPane">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference1" referencedUin="design:view:::id90jy3ed9f33rbed9f3cyg">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*Properties.LocationPane"/>
+        </reference>
+        <reference df-class-name="reference2" referencedUin="design:view:::idezpewed9f33rbed9f3cyw">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*Properties.ParentPane"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

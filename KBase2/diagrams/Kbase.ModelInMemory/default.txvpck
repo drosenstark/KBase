@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="id8qrjjecz0oip7ecz0omx4">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelInMemory.Snippet">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference77" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelInMemory.PersistentIdGenerator">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference78" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelInMemory.SnippetDictionary">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference79" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelInMemory.SearchContainerInMemory">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference80" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelInMemory.SnippetUI">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

@@ -1,0 +1,45 @@
+ Volume in drive D is Data
+ Volume Serial Number is AC98-4D89
+
+ Directory of D:\dans-data\c-sharp\Hot\KBase2\Support
+
+03/31/2006  03:26 PM    <DIR>          .
+03/31/2006  03:26 PM    <DIR>          ..
+09/10/2005  03:15 PM               318 closedBook Blue.ico
+07/29/2005  04:08 PM               318 closedBook Cyan.ico
+07/27/2005  07:17 AM               318 closedBook Gray.ico
+07/31/2005  08:04 AM               318 closedBook Green.ico
+07/31/2005  08:04 AM               318 closedBook Purple.ico
+07/27/2005  07:17 AM               318 closedBook Red.ico
+07/27/2005  07:17 AM               318 closedBook Yellow.ico
+07/31/2005  08:01 AM               318 closedFolder Blue.ico
+07/31/2005  08:00 AM               318 closedFolder Cyan.ico
+07/31/2005  08:07 AM               318 closedFolder Gray.ico
+07/31/2005  08:04 AM               318 closedFolder Green.ico
+07/31/2005  08:01 AM               318 closedFolder Purple.ico
+07/31/2005  07:55 AM               318 closedFolder Red.ico
+07/31/2005  08:01 AM               318 closedFolder Yellow.ico
+09/11/2005  10:43 AM             1,078 Copy of kbase.ico
+03/31/2006  03:26 PM                 0 icons.txt
+10/15/2005  04:13 PM             1,078 kbase.ico
+09/10/2005  02:24 PM             5,411 kbase.xsl
+09/20/2005  07:17 PM               318 left.ico
+09/10/2005  02:23 PM             6,373 license.rtf
+09/10/2005  03:15 PM               318 openBook Blue.ico
+07/27/2005  07:17 AM               318 openBook Cyan.ico
+07/27/2005  07:17 AM               318 openBook Gray.ico
+07/27/2005  07:17 AM               318 openBook Green.ico
+07/27/2005  07:17 AM               318 openBook Purple.ico
+07/27/2005  07:17 AM               318 openBook Red.ico
+07/27/2005  07:17 AM               318 openBook Yellow.ico
+07/31/2005  08:00 AM               318 openFolder Blue.ico
+07/31/2005  08:02 AM               318 openFolder Cyan.ico
+07/31/2005  08:07 AM               318 openFolder Gray.ico
+07/31/2005  08:04 AM               318 openFolder Green.ico
+07/31/2005  08:01 AM               318 openFolder Purple.ico
+07/31/2005  07:53 AM               318 openFolder Red.ico
+07/31/2005  08:01 AM               318 openFolder Yellow.ico
+09/19/2005  02:19 PM             1,479 outline.xsl
+09/20/2005  07:10 PM               318 right.ico
+              36 File(s)         24,959 bytes
+               2 Dir(s)   6,201,921,536 bytes free

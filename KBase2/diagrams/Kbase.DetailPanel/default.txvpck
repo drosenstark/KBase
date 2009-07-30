@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="iddl663ebw5d79bebw5pf0x">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.DetailPanel.Line">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference23" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.DetailPanel.RtfConverter">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference24" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.DetailPanel.Selection">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference25" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.DetailPanel.DetailPane">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference26" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.DetailPanel.HyperlinkUtil">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference27" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.DetailPanel.LineMetric">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference28" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.DetailPanel.FindForm">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

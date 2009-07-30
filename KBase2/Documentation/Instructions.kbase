@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KBase>
+  <Version>2005-06-06T22:52:31.2963616+02:00</Version>
+  <Nodes>
+    <Node>
+      <Snippet>386</Snippet>
+      <Children>
+        <Node>
+          <Snippet>395</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>357</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>378</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>355</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>406</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>389</Snippet>
+          <Children>
+            <Node>
+              <Snippet>417</Snippet>
+              <Children />
+            </Node>
+          </Children>
+        </Node>
+      </Children>
+    </Node>
+    <Node>
+      <Snippet>399</Snippet>
+      <Children>
+        <Node>
+          <Snippet>398</Snippet>
+          <Children>
+            <Node>
+              <Snippet>373</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>364</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>363</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>369</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>354</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>387</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>388</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>390</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>391</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>392</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>393</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>394</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>396</Snippet>
+              <Children />
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>397</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>400</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>401</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>402</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>403</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>404</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>405</Snippet>
+          <Children>
+            <Node>
+              <Snippet>406</Snippet>
+              <Children />
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>407</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>408</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>409</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>410</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>411</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>412</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>413</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>414</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>415</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>416</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>417</Snippet>
+          <Children />
+        </Node>
+      </Children>
+    </Node>
+  </Nodes>
+  <Snippets>
+    <Snippet>
+      <Text>2005-05-30 22:24 PM
+- Links between snippets added.
+- Back and forward added, use alt-left and alt-right
+- Items can be moved up and down now using shift-alt-up and shift-alt-down
+- Selection can be expanded using shift-up and shift-down</Text>
+      <Title>Alpha 0.9</Title>
+      <Created>2005-05-30T22:24:27.8208304+02:00</Created>
+      <Id>417</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-05-04 17:09 PM
+Many of our users have been asking for it: now with icon colors!
+
+2005-05-20 10:14 AM
+Also, some minor bugs fixed
+</Text>
+      <Title>Alpha 0.8</Title>
+      <Created>2005-05-04T12:09:09.4905024+02:00</Created>
+      <Id>416</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-27 20:46 PM
+- Fixed the property pane and various selection issues including moves and copies.
+- Added more informative warnings for illegal moves and copies.
+</Text>
+      <Title>Alpha 0.7D</Title>
+      <Created>2005-04-27T20:46:17.5645360+02:00</Created>
+      <Id>415</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-21 14:41 PM
+New features
+- Export now works without saving.
+- Erase all instances has been added to the right click menu of the Snippets.
+- Now with Color!  PocketPC does not show color but will not destroy color information in the KBase files.
+- Snippets can have their order changed now with Move Up and Move Down in the right click menu.
+- Searches now show up under a Search Results Node.
+- Searches now can be performed with NOT.
+
+Bug fixes
+- Some editing and selecting quirks were fixed
+- Find and search had some problems in the .6 release, now fixed.</Text>
+      <Title>Alpha 0.7C</Title>
+      <Created>2005-04-21T14:40:55.9989008+02:00</Created>
+      <Id>414</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-14 04:34 AM
+- Lot of stuff fixed, mostly resolving multiple selection issues, drag and drop, and tabbing.  Much more stable than 0.6A.
+- Also fixed up the properties pane quite a bit to show more useful information.
+
+2005-04-15 00:06 AM
+- Added plus and minus and f2 on keyboard.  
+- Still trying to remove instability due to the new multiple selection stuff.  It seems quite close now.
+
+2005-04-15 15:31 PM 
+- There were major multiple selection problems and interactions with expand/collapse.  Those should be fixed.
+- For unknown reasons, the rename usually doesn't work on a double click.  The user has several options:
+	- Hold down the left mouse button and hit the right mouse button (chord).
+	- Hit F2.
+	- Right click and select rename.
+</Text>
+      <Title>Alpha 0.6B4</Title>
+      <Created>2005-04-14T04:33:58.3752048+02:00</Created>
+      <Id>413</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-13 03:47 AM
+- This was a huge leap, now the multiple selection is 90% my own code.  And I'm totally circumventing the normal WinForms code, so we'll see how it goes.  Multiple selection should be way better.  New bugs have surely been introduced.
+- Multiple instances of the same snippet under the same parent are now disallowed.
+</Text>
+      <Title>Alpha 0.6A</Title>
+      <Created>2005-04-13T03:47:31.1803168+02:00</Created>
+      <Id>412</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-13 03:47 AM
+Resolved problems with sizing in the properties pane.</Text>
+      <Title>Alpha 0.5E2</Title>
+      <Created>2005-04-13T03:46:50.1813632+02:00</Created>
+      <Id>411</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-11 16:41 PM
+- Moved the properties pane (again), now it's on top of the detail pane.
+- Added the Snippet Title to the properties pane.
+- Fixed the tabbing around a bit and added Insert to put in a new snippet.
+</Text>
+      <Title>Alpha 0.5E</Title>
+      <Created>2005-04-11T16:41:10.5442224+02:00</Created>
+      <Id>410</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-04 17:27 PM
+Properties pane has been fixed.  It now handles multiple selections correctly.  
+
+Also, it's been moved to the right and now has a little instructions label in blue.</Text>
+      <Title>Alpha 0.5D</Title>
+      <Created>2005-04-04T17:27:44.5447168+02:00</Created>
+      <Id>409</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-03-27 17:38 PM
+A few changes:
+- Some window settings are now saved to a kbase.config if possible.  If not it just uses the defaults.
+- The format of Edit --&gt; Insert Date has been changed.  Try it.
+- "More locations" in the Property Pane numbers the other locations.</Text>
+      <Title>Alpha 0.5C</Title>
+      <Created>2005-03-27T17:38:19.1844862+02:00</Created>
+      <Id>408</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>3/25/2005 8:04:22 PM
+Property Pane has been made a basic pane of the KBase.</Text>
+      <Title>Alpha 0.5B</Title>
+      <Created>2005-03-25T20:04:09.0438272+01:00</Created>
+      <Id>407</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>3/25/2005 8:06:44 PM
+
+*** Set up a KBase with 5 Snippets like this:
+*** 
+*** STATUS
+*** 	TO DO
+*** 	FINISHED
+*** IDEAS
+*** 	BLAH
+
+
+*** Then drag STATUS from the Snippet Pane to the Properties window.  Now
+*** click on BLAH in the Snippet Pane.  You'll see the combo box which
+*** represents BLAH'S STATUS.  Change the Combo Box to TO DO.  Now
+*** BLAH is a child of TO DO.  Or change it to FINISHED.  Now it's a child of FINISHED.
+*** Or change it to nothing, and it is now just a child of IDEAS.
+
+You can remove a Property by double clicking on its name.
+
+The property pane works with multiple selections.  If your nodes do not all have the same value for a particular property, no value is shown.</Text>
+      <Title>Property Pane</Title>
+      <Created>2005-03-25T20:03:05.9330784+01:00</Created>
+      <Id>406</Id>
+      <Color>
+      </Color>
+      <Icon>Yellow</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>3/25/2005 8:01:37 PM
+A Property pane has been added. 
+
+
+Some basic bugs have been fixed
+- Edit menu</Text>
+      <Title>Alpha 0.5A</Title>
+      <Created>2005-03-25T20:01:30.6460624+01:00</Created>
+      <Id>405</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>3/17/2005 1:00:25 PM
+- PocketPC version is now in Alpha, and it works quite nicely.
+- Added "Show Snippet Info" to the right click menus for the snippets.
+- Embedded the icons in the assembly so the user doesn't know about them.</Text>
+      <Title>Alpha 0.4C</Title>
+      <Created>2005-03-17T13:00:17.5458656+01:00</Created>
+      <Id>404</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2/15/2005 10:37:28 AM
+In preparation for the PocketPC version, the file format has changed radically.  Now it's quite nice, though we maintain backwards compatibility.  Have a look.  Also, note that the .xsl has changed a lot.</Text>
+      <Title>Alpha 0.4B</Title>
+      <Created>2005-02-15T10:37:22.5924512+01:00</Created>
+      <Id>403</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2/8/2005 11:47:19 AM
+Getting ready to change the file format a bit.  Will include a converter of some type.
+
+But the real news is that Paste was broken, now fixed.</Text>
+      <Title>Alpha 0.3</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>402</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>1/26/2005 12:11:01 PM
+0.2D
+Some little improvements, trying to stop the illegal moves and copies.
+
+Also, the multiple selection is improved, now if you click on the empty space, it deselects all.
+
+</Text>
+      <Title>Alpha 0.2D</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>401</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>Wow, the C version is now done, and I’m fucking done.  Except for small bugs and stuff.  
+
+It’s pretty wild, it does:
+
+Full cut-past-copy-drag in or between snippet panes in different KBases
+Ctrl keys are now implemented Ctrl-C, X, V, and Delete.
+Paste a multilined text file in and it will create snippets for each line
+
+I can’t remember anything else.  Oh, the KBase blows up if you try to make a sibling its sibling’s child.  Or there’s a lawsuit.  I forget which.  To fix.
+
+Anyway, check it out.  It’s called 0.2C and it kicks ass.
+
+Oh, sorry, sort by date got left out of this release cycle.  Look for it in the future!
+
+Various bug fixes.</Text>
+      <Title>Alpha 0.2C</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>400</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Release History</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>399</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>12/16/2004 12:27:34 AM
+Snippets whose title contains the text "Pre-Alpha"
+9 snippets found (0 seconds).</Text>
+      <Title>Pre-Alpha</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>398</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>12/16/2004 12:24:12 AM
+This version has a lot of new stuff and a lot of bug fixes.  Two new things at least:
+- The "text panel" on the right side sometimes gets out of whack if you paste in weird or complicated text.  It has now has a "Redo Formatting" in its context menu.
+- The left panel has some new stuff in the context (right click) menus, most notably the "Show Like Snippets" to uncover Twin snippets.</Text>
+      <Title>Alpha 0.1A</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>397</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>11/17/2004 6:10:20 PM
+This is the last version before Alpha!  That's because it's the first version that I've actually tested.  Lots of great new stuff, lots of bug fixes.
+- Pasting has been enhanced: 99% of all pasting operations go smoothly without introducing any formatting that will be removed later.  
+- "RedoFormatting" has been added just in case your snippet gets messed up.
+- The XSL file has been fixed so that it used textarea instead of pre tags -- the results are a lot better.
+- InsertFileLink has been fixed so that it doesn't encode front slashes (duh!).
+- Font Zoom has been fixed so that it "sticks" (it used to reset to the original font all the time).
+- Search has been fixed to not have a taskbar icon, and also to not show NONE for the 2nd and 3rd line.
+
+11/19/2004 9:31:38 PM
+- Find now can search beyond the current snippet.  Once you're out of the current snippet, you search snippet titles as well.
+- You can now do a File --&gt; Merge Into Current, to merge two (or more) KBases.
+
+
+</Text>
+      <Title>Pre-Alpha 0.0.1i</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>396</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>Prerequisites
+- To use TheKBase you will need a Windows XP/2000 or better OS with the .NET  framework installed.  How can you tell if you have it installed?  Try running TheKBase.  If it doesn't work, you might try installing the .NET Framework.  See: 
+	http://msdn.microsoft.com/netframework/downloads/framework1_1/
+	for more details.
+
+KBase
+- You can put kbase.exe anywhere. 
+	You should assocate the extension ".kbase" with the KBase.  If you don't know how to do this, please ask someone or search on "how to associate a file extension windows" in Google.
+- To do exporting, you'll need to be able to find the file kbase.xsl. By default, TheKBase will look for it in the directory it was launched from.
+
+</Text>
+      <Title>Installation</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>395</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>10/25/2004 6:09:07 PM
+- CHANGES TO SWITCHING BETWEEN SNIPPETS
+	- First time view of snippets has been sped up a bit.  It's prettier too (processing happens offscreen).
+	- If you make changes to a snippet it was previously very slow or extraordinarily slow (to switch from it).  This has been sped up considerably, particularly with large snippets (with a lot of line breaks).  
+	- After you view a snippet the first time, if you have made no changes to it, the switching is VERY fast (cached).
+
+- FIND - Implemented Find (different from search: find is for text within a snippet).
+
+- EXPORT USING XSLT
+	- Developed generic XSL stylesheet (&lt;file://kbase.xsl&gt;) to generate HTML from a KBase.  This still needs a bit of work (for instance, I'm using PRE tags, so there is no word wrap.  That should be fixed.)
+	- Implemented the export from within the KBase: Now you can use Tools ---&gt; Export Using XSLT to create, for example, an HTML version of the KBase you're looking at.
+
+- DIRTY/CLEAN - The KBase now knows when it needs saving before exiting and other actions. It prompts you to save in the appropriate circumstances.
+ 
+- Little changes
+	- Zoom is better
+	- Menus fixed up a bit 
+	- Opening files now sees .kbase and .xml together.
+	- Reset button implemented in Search
+
+
+</Text>
+      <Title>Pre-Alpha 0.0.1h</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>394</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>10/24/2004 10:02:03 PM
+David Foote: im curious, what do you see as the major difference between onenote, and snipetthing
+
+me: onenote is a totally closed format that no one will ever understand with a bunch of visual features that probably don't help much unless you really thought paper was more than just a technology.
+
+me: file format, I mean
+
+me: Plus, the main thing is that the KBase does multiple categorization.  It is as of yet unknown as to whether it will be useful.
+
+me: But today, with the 1g version you can do this simple exercise:
+
+me: Make a snip called tech with several things in it,and make a snip call companies with several things in it.  Then you can "CTRL-DRAG" (not copy, but twin or something) the companies that are also tech companies etc.
+
+me: The nice thing is that then you can do a simple search to pull out everything in TECH that IS ALSO in COMPANIES.
+
+me: Will this be useful?  
+
+me: Not sure yet.
+
+me: But yeah, MULTIPLE CATEGORIZATION and TOTALLY STUPID YET OPEN STANDARDS FILE FORMAT are what make it better to use a product that can barely stand on its own as text editor as oppposed to OneNote.
+</Text>
+      <Title>Marketing quotes</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>393</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>10/24/2004 3:56:28 AM
+Did a scalability test with a 45 meg file with 125K categories (50*50*50).  Took about a minute to save or load (PIII 1.1 Gig with 500 Megs Ram Win XP Pro).  Also, check this search out!
+
+10/24/2004 8:08:22 PM
+Snippets whose Title Contains the text "Batch 1"
+And
+Snippets whose Title Contains the text "Node 21"
+50 snippets found (3.8154864 seconds).
+
+Obviously this file is a joke and is way bigger than whatever one could create in a single user version of this thing.
+</Text>
+      <Title>Notes on Scalability</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>392</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>- To get this to be even a bit efficient, I had to develop the SnippetDictionary. Ironically, it's a bit like doing memory management.  What a hassle.  And then in the end, no one will even know it's there.
+</Text>
+      <Title>Notes on Search</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>391</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>10/24/2004 6:27:21 PM
+For those who care, here's the deal:
+- If you delete a snippet that is not linked, the KBase prompts you to confirm.  This is because you will kill the Snippet and its children.
+- If you delete a snippet that is linked to another snippet, it just deletes.  The other one(s) is(are) still there.
+- On the other hand, if you try to delete a Snippet WHOSE PARENT IS LINKED TO THE SAME NUMBER OF SNIPPETS AS YOUR SNIPPET, the KBase will ask you to confirm.  This is because you will kill the Snippet (not just here, but also in the other X places it occurs in your KBase).</Text>
+      <Title>Notes on snippet deletion</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>390</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Latest Version</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>389</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>10/24/2004 5:42:26 PM 
+- This was a strenuous release cycle, but I think the thing works.  From the beginning of the project until now over a week has passed.
+- Now with Search!  I need feedback on this functionality whenever you can.
+- Some behaviors have changed.  Notably
+	- You no longer press shift to drag and MOVE a node.
+	- The Snippet deletion, moving, and so forth should seem natural (see the notes in the child Snippet here).
+- Some surprising results about the scalability of this stupid program are in, see the notes subSnip.
+	
+	
+THING THAT ARE DEFINITELY MISSING
+- A "find" function which will be easy to implement
+- The KBase doesn't know when the file is 'dirty' hence it always prompts you to save.  This affects Save, Save As, Exit, New and Load.
+- I'll have to incorporate soon.  This is way too much work.
+- Then there's a bunch of other stuff that I probably won't implement for a while, like the way the Window can't remember its position and details like that.
+- There are other bugs that are not mentioned here.</Text>
+      <Title>Pre-Alpha 0.0.1g</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>388</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>- Highlighting of like nodes on click.  Does this mean that I don't have to implement the "find like" functionality?</Text>
+      <Title>Pre-Alpha 0.0.1f</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>387</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>TheKBase is from Confusionists.com (www.confusionists.com).  What does it do?
+- Allows you to classify ideas in a multi-dimensional hierarchy.  
+- What?  
+	- In the KBase, all ideas/categories/thingers are called Snippets.  Each one has a little blue book icon in the left pane, some properties, and some text associated (what you're looking at here).
+	- A Snippet can reside under more than one parent in the Snippet hierarchy.
+	- For example, a Snippet called "My Favorite Train Food" can sit under both "Food" and under "Transportation".  
+	- This is simple at first but can result in extremely interesting relationships.  TheKBase provides a Search mechanism to discover these relationships.
+
+</Text>
+      <Title>General information</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>386</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>Keys
+- Use Ctrl-B to toggle bullets
+- Use Ctrl-T and Ctrl-T to indent more or less, respectively (or, with selected text, use Tab or Shift-Tab)
+- Use Ctrl-C and Ctrl-V for cut and paste
+- Use Ctrl-Z and Ctrl-Y for undo and redo
+- Use Ctrl-F for find
+
+Edit Menu (right click for a lot of the same funcionality)
+- Many of the same keys occur in the edit menu.
+- You may insert File hyperlinks using the Edit menu. They will be relative to your TheKBase file (e.g., ../../kid.jpg)
+- Also you can insert the date from the Edit menu.
+
+
+
+</Text>
+      <Title>Detail Pane (Right Side)</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>378</Id>
+      <Color>
+      </Color>
+      <Icon>Purple</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>The First Release, really really fucked up.
+
+- There is no search functionality yet
+- Cutting (ctrl-X) doesn't work right
+- Undoing doesn't work in the Detail Pane (that sucks!). Bastards!
+- The Icons for the left side always have to be in the same place where you launched the program.  This is a problem.
+- There is no way to insert hyperlinks to other snippets in the detail pane yet.  This would be really nice.
+- A lot of the "gestures" are a bit screwy and need fixing.  mailto:kbase@confusionists.com</Text>
+      <Title>Pre-Alpha 0.0.1a</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>373</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>ADDED/FIXED
+- Sorting in the SerializableSnippetPane
+
+MORE OUTSTANDING PROBLEMS (See Alpha 0.0.1a)
+- Error checking is lacking
+- Should consider adding a messagePane for debugging feedback
+
+MAJOR MISSING FEATURES
+- Well, this is a prototype, but some kind of search functionality would be useful.
+- There is no way to figure out which are the other parents of a SerializableSnippet.  That would be nice.
+
+It's beginning to look like a program
+</Text>
+      <Title>Pre-Alpha 0.0.1d</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>369</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>ADDED/FIXED
+- Added New File functionality, though there must be a way for users to understand that they are editing a New KBase from the get go.
+- Fixed the gestures in the left pane.  This was easy, but only because I'd already come so far.
+- If the program can't find its icons it informs the user and then works CORRECTLY. Maybe it's better without the stupid icons anyway.
+
+MORE OUTSTANDING PROBLEMS (See Alpha 0.0.1a)
+- Need CUT urgently (well, there is CTRL-X cut, but it doesn't work correctly).  On the other hand, perhaps it works MORE correctly than Paste in some sense. Must research this.
+- The Icons thing (that the program loses its icons if it's not launched from the right directory), that sucks.
+- The Snippets (left side) need to be maintained SORTED all the time (right now they are in the order created).
+- Should have an Edit --&gt; Insert Date functionality.
+- Error checking is currently totally improvised.
+</Text>
+      <Title>Pre-Alpha 0.0.1b</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>364</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>ADDED/FIXED
+- Totally changed the way copy, cut and paste is handled.  Now it's normal and undo works (well, sometimes it's a bit funny and could be improved).
+- Added Insert Date 
+- Added Zoom In and Zoom Out on SerializableSnippet and Detail Panes
+- Added Copy Plain Text from the Detail Pane. NOTE: This is how the thing is serialized anyway.
+
+</Text>
+      <Title>Pre-Alpha 0.0.1c</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>363</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>Most functionality works through context menus (right clicking), including:
+- CREATING a new root snippet 
+- CREATING a new snippet underneath a snippet
+
+To WORK WITH a snippet, you must select it.  You can select multiple snippets by using CTRL and SHIFT keys.
+
+To have a snippet reside in TWO PLACES AT ONCE
+- Hold down control while you drag a snippet OR 
+- Use Copy and Paste from the context menu OR
+- Use Copy and Paste via keyboard shortcuts CTRL-C, CTRL-V.
+- NOTE: the "copy" is really the same snippet.  It has the same text, the same title, and the same children.  But not the same parents.  
+
+To MOVE a snippet so that it changes parents
+- Drag and drop it to the new parent OR
+- Use Cut and Paste from the context menu OR
+- Use Cut and Paste via keyboard shortcuts CTRL-X, CTRL-V.
+
+Other functionality can be found by right clicking on a Snippet, including
+- Getting information about the Snippet
+- Ways to move the snippet around and delete them.
+
+Massive Snippet Creation
+- If you have a lot of Snippets that you want to create in a text file, copy the text file into the Windows Clipboard and paste it into a snippet.  A child snippet will be created for each line in the text file.
+
+Hot Keys in the Snippet Pane
+- To navigate back and forward as you click, use alt-left and alt-right
+- Items can be moved up and down now using shift-alt-up and shift-alt-down
+- Selection can be expanded using shift-up and shift-down
+
+</Text>
+      <Title>Snippet Pane (Left Side)</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>357</Id>
+      <Color>
+      </Color>
+      <Icon>Green</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>Pure XML 1.0.  XML is the most universally used data exchange format around, meaning that it's infinitely flexible and can be imported, displayed, manipulated, and whatever by a variety of programs.  
+
+One of the biggest points about this pertains to the XSL stylesheets you can make for your KBase.  For instance, you can take the results of a search and export them to HTML.
+
+</Text>
+      <Title>The KBase file format</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>355</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>10/22/2004 5:43:57 AM
+- This release really changes everything because... you guessed it!  The data structure was all fucked up in the files and things got all cross-linked and shit!  Sorry about that.  No need to send me your file, however: it will now work correctly.  The next time you save it, it will be smaller and better.
+- This deep study of the understructure of the app gives us a new confidence that it actually does do something and relatively well.
+
+THINKING ABOUT
+- Search.  I have some ideas.
+- Also, soon snippets will allow you to find "next like snippet" which means the same snippet but with other parents</Text>
+      <Title>Pre-Alpha 0.0.1e</Title>
+      <Created>2005-02-15T10:37:00.9713616+01:00</Created>
+      <Id>354</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+  </Snippets>
+</KBase>

@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Kbase2Api.dll
+bin\Debug\Kbase2Api.pdb
+obj\Debug\Kbase2Api.dll
+obj\Debug\Kbase2Api.pdb
+bin\Release\Kbase2Api.dll
+bin\Release\Kbase2Api.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Kbase2Api.dll
+obj\Release\Kbase2Api.pdb

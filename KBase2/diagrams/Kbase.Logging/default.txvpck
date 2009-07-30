@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="id6echjebw5d79bebw5pf1s">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Logging.DebugForm">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference38" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Logging.DebugTextBoxTraceListener">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference39" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Logging.DebugTextBox">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference40" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Logging.Debugger">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

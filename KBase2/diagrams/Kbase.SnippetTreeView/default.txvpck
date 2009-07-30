@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="id2jg8iecz0oip7ecz0omxz">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.SnippetTreeView.LocalClipboard">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference58" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.SnippetTreeView.NamedImage">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference59" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.SnippetTreeView.IconSelector">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference60" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.SnippetTreeView.IconSelectorTreeView">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference61" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.SnippetTreeView.IconList">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference62" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.SnippetTreeView.SnippetTNode">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference63" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.SnippetTreeView.SnippetPane">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference64" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.SnippetTreeView.TreeNodeIconSelector">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

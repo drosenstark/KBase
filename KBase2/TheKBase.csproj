@@ -1,0 +1,494 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B93B19E-F050-4D7B-8C50-3AFF1942E36A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Support\kbase.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>TheKBase</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kbase</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>Kbase.Startup</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <ManifestCertificateThumbprint>0BC050AA3CF4E6A695807D99F2C268F64A3B9C83</ManifestCertificateThumbprint>
+    <ManifestKeyFile>TheKBase_TemporaryKey.pfx</ManifestKeyFile>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>d:\eraseme\kbase-publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.thekbase.com</SupportUrl>
+    <ProductName>TheKBase</ProductName>
+    <PublisherName>Confusionists, Inc.</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <DisallowUrlActivation>true</DisallowUrlActivation>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.0.0.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <RunFxCop>false</RunFxCop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="src\Kbase.DetailPanel\DetailPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.DetailPanel\DetailPaneDragDropSupport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.DetailPanel\FindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.DetailPanel\HyperlinkUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.DetailPanel\RtfConverter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Icon\NamedIconSet.cs" />
+    <Compile Include="src\Kbase.Icon\NamedImage.cs" />
+    <Compile Include="src\Kbase.LibraryWrap\PlugInErrorHandler.cs" />
+    <Compile Include="src\Kbase.LibraryWrap\XmlEncryption.cs" />
+    <Compile Include="src\Kbase.MainFrm\SolicitPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.MainFrm\SolicitPasswordForm.Designer.cs">
+      <DependentUpon>SolicitPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Kbase.ModelInMemory\ComparerIcon.cs" />
+    <Compile Include="src\Kbase.ModelInMemory\ComprarerCreateDate.cs" />
+    <Compile Include="src\Kbase.ModelInMemory\ComprarerModifiedDate.cs" />
+    <Compile Include="src\Kbase.Model\Search\SearchTypes.cs" />
+    <Compile Include="src\Kbase.Model\SnippetInstanceTopLevel.cs" />
+    <Compile Include="src\Kbase.Model\SnippetUIFullCollapse.cs" />
+    <Compile Include="src\Kbase.Model\SnippetUINoCollapse.cs" />
+    <Compile Include="src\Kbase.Model\SnippetUIExpandNoCollapse.cs" />
+    <Compile Include="src\Kbase.MultipleSelectionTreeView\NavigationToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Model\IllegalMoveOrCopyException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Model\ModelGateway.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Model\Snippet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Model\SnippetInstance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Model\SnippetUI.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.ModelInMemory\PersistentIdGenerator.cs" />
+    <Compile Include="src\Kbase.ModelInMemory\SearchContainerInMemory.cs" />
+    <Compile Include="src\Kbase.ModelInMemory\SnippetInMemory.cs" />
+    <Compile Include="src\Kbase.ModelInMemory\SnippetDictionary.cs" />
+    <Compile Include="src\Kbase.MultipleSelectionTreeView\NavigationHistory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.MultipleSelectionTreeView\ScrollingTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.MultipleSelectionTreeView\TreeNodeMultipleSelect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.MultipleSelectionTreeView\TreeNodeMultipleSelectArrayList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.MultipleSelectionTreeView\TreeViewMultipleSelect.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.LibraryWrap\PluginManager.cs" />
+    <Compile Include="src\Kbase.LibraryWrap\PlugInUtilImpl.cs" />
+    <Compile Include="src\Kbase.PropertiesForm\SnippetInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.PropertiesForm\SnippetInfoForm.Designer.cs">
+      <DependentUpon>SnippetInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Kbase.Properties\DefaultPropertiesPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Properties\MultiplePropertiesSelectionException.cs" />
+    <Compile Include="src\Kbase.Properties\ParentPane\ParentPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Properties\ParentPane\ParentPaneNode.cs" />
+    <Compile Include="src\Kbase.Properties\LocationPane\LocationPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Properties\LocationPane\LocationPaneNode.cs" />
+    <Compile Include="src\Kbase.Properties\PropertiesPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Properties\PropertiesPaneHolder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Properties\PropertySet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Properties\SnippetDetailPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Properties\PropertyValue.cs" />
+    <Compile Include="src\Kbase.Properties\PropertyComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Properties\SnippetDateBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Properties\SnippetTitleBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Model\Search\SearchCriterion.cs" />
+    <Compile Include="src\Kbase.Search\SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Search\SearchFormPart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Model\Search\SearchContainer.cs" />
+    <Compile Include="src\Kbase.Serialization\SerializableCriterion.cs" />
+    <Compile Include="src\Kbase.Serialization\SerializableSnippet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Serialization\SerializableUniverse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Serialization\Serializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Serialization\SerializerDom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.MainFrm\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.MainFrm\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Kbase.MainFrm\FancyMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.MainFrm\FancyMessageBox.Designer.cs">
+      <DependentUpon>FancyMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Kbase.SnippetTreeView\IconSelectorTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.SnippetTreeView\SelectSnippetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.SnippetTreeView\SelectSnippetForm.Designer.cs">
+      <DependentUpon>SelectSnippetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Kbase.SnippetTreeView\TreeNodeIconSelector.cs" />
+    <Compile Include="src\Kbase\Encryption.cs" />
+    <Compile Include="src\Kbase.LibraryWrap\Logger.cs" />
+    <Compile Include="src\Kbase\Settings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.Icon\IconList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.SnippetTreeView\IconSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.SnippetTreeView\LocalClipboard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.SnippetTreeView\SnippetPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.SnippetTreeView\SnippetTNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase\FatalErrorException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.MainFrm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Kbase\Startup.cs" />
+    <Compile Include="src\Kbase.MainFrm\TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Kbase\Universe.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\Kbase\EventHandlers.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.DetailPanel\DetailPane.resx">
+      <DependentUpon>DetailPane.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.DetailPanel\FindForm.resx">
+      <DependentUpon>FindForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.DetailPanel\RtfConverter.resx">
+      <DependentUpon>RtfConverter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.MultipleSelectionTreeView\ScrollingTreeView.resx">
+      <DependentUpon>ScrollingTreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.MultipleSelectionTreeView\TreeViewMultipleSelect.resx">
+      <DependentUpon>TreeViewMultipleSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.Properties\SnippetDetailPane.resx">
+      <DependentUpon>SnippetDetailPane.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.Properties\PropertyComboBox.resx">
+      <DependentUpon>PropertyComboBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.Properties\SnippetTitleBox.resx">
+      <DependentUpon>SnippetTitleBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.Search\SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.Search\SearchFormPart.resx">
+      <DependentUpon>SearchFormPart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.SnippetTreeView\IconSelector.resx">
+      <DependentUpon>IconSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.SnippetTreeView\SnippetPane.resx">
+      <DependentUpon>SnippetPane.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.MainFrm\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.MainFrm\FancyMessageBox.resx">
+      <DependentUpon>FancyMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.MainFrm\TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase\Universe.resx">
+      <DependentUpon>Universe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Support\closedBook Blue.ico">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Support\closedBook Cyan.ico" />
+    <EmbeddedResource Include="Support\closedBook Gray.ico" />
+    <EmbeddedResource Include="Support\closedBook Green.ico" />
+    <EmbeddedResource Include="Support\closedBook Purple.ico" />
+    <EmbeddedResource Include="Support\closedBook Red.ico" />
+    <EmbeddedResource Include="Support\closedBook Yellow.ico" />
+    <EmbeddedResource Include="Support\closedFolder Blue.ico" />
+    <EmbeddedResource Include="Support\closedFolder Cyan.ico" />
+    <EmbeddedResource Include="Support\closedFolder Gray.ico" />
+    <EmbeddedResource Include="Support\closedFolder Green.ico" />
+    <EmbeddedResource Include="Support\closedFolder Purple.ico" />
+    <EmbeddedResource Include="Support\closedFolder Red.ico" />
+    <EmbeddedResource Include="Support\closedFolder Yellow.ico">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Support\kbase.ico" />
+    <EmbeddedResource Include="Support\license.rtf" />
+    <EmbeddedResource Include="Support\openBook Blue.ico" />
+    <EmbeddedResource Include="Support\openBook Cyan.ico" />
+    <EmbeddedResource Include="Support\openBook Gray.ico" />
+    <EmbeddedResource Include="Support\openBook Green.ico" />
+    <EmbeddedResource Include="Support\openBook Purple.ico" />
+    <EmbeddedResource Include="Support\openBook Red.ico" />
+    <EmbeddedResource Include="Support\openBook Yellow.ico" />
+    <EmbeddedResource Include="Support\openFolder Blue.ico" />
+    <EmbeddedResource Include="Support\openFolder Cyan.ico" />
+    <EmbeddedResource Include="Support\openFolder Gray.ico" />
+    <EmbeddedResource Include="Support\openFolder Green.ico" />
+    <EmbeddedResource Include="Support\openFolder Purple.ico" />
+    <EmbeddedResource Include="Support\openFolder Red.ico" />
+    <EmbeddedResource Include="Support\openFolder Yellow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BookLetter.jpg" />
+    <Content Include="Support\kbase.xsl" />
+    <EmbeddedResource Include="src\Kbase.MainFrm\MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.MainFrm\SolicitPasswordForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SolicitPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Kbase.PropertiesForm\SnippetInfoForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SnippetInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Support\refresh.ico" />
+    <EmbeddedResource Include="src\Kbase.SnippetTreeView\SelectSnippetForm.resx">
+      <DependentUpon>SelectSnippetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Support\left.ico" />
+    <EmbeddedResource Include="Support\right.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="KbaseServer">
+      <Visible>False</Visible>
+      <Group>Server</Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConfusionUtilities\ConfusionUtilities.csproj">
+      <Project>{1CAD6120-5F27-44B6-946E-D68FF5548EFE}</Project>
+      <Name>ConfusionUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kbase2Api\Kbase2Api.csproj">
+      <Project>{0E6FF538-F398-4D0B-A5DF-6988EA1D9BE9}</Project>
+      <Name>Kbase2Api</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

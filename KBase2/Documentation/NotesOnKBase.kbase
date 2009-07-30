@@ -1,0 +1,2186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KBase>
+  <Version>2005-08-02T18:26:46.3437500+02:00</Version>
+  <Nodes>
+    <Node>
+      <Snippet>400</Snippet>
+      <Children>
+        <Node>
+          <Snippet>380</Snippet>
+          <Children>
+            <Node>
+              <Snippet>379</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>389</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>390</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>401</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>407</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>412</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>387</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>394</Snippet>
+                  <Children>
+                    <Node>
+                      <Snippet>416</Snippet>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Snippet>392</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>385</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>386</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>378</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>402</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>377</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>404</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>416</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>427</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>433</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>444</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>447</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>448</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>450</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>451</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>452</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>453</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>454</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>381</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>387</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>388</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>391</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>405</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>406</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>408</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>410</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>417</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>424</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>426</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>393</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>432</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>434</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>435</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>436</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>437</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>443</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>445</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>446</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>449</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>459</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>376</Snippet>
+          <Children>
+            <Node>
+              <Snippet>382</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>407</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>412</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>447</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>448</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>451</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>373</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>393</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>432</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>449</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>427</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>354</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>403</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>440</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>450</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>455</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>441</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>425</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>417</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>410</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>408</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>406</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>404</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>402</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>394</Snippet>
+                  <Children>
+                    <Node>
+                      <Snippet>416</Snippet>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Snippet>392</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>391</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>388</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>387</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>385</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>378</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>429</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>377</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>424</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>386</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>426</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>431</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>390</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>435</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>433</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>437</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>436</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>438</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>434</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>401</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>456</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>452</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>457</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>446</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>445</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>443</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>454</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>444</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>458</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>453</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>460</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>459</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>405</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>416</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>397</Snippet>
+          <Children>
+            <Node>
+              <Snippet>398</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>404</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>405</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>406</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>435</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>454</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>399</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>377</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>378</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>385</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>386</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>392</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>394</Snippet>
+                  <Children>
+                    <Node>
+                      <Snippet>416</Snippet>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Snippet>401</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>402</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>391</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>393</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>407</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>408</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>387</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>410</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>412</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>388</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>416</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>417</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>390</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>424</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>426</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>427</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>432</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>433</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>434</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>436</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>437</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>445</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>446</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>447</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>448</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>449</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>450</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>451</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>444</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>443</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>452</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>453</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>459</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+      </Children>
+    </Node>
+    <Node>
+      <Snippet>384</Snippet>
+      <Children>
+        <Node>
+          <Snippet>394</Snippet>
+          <Children>
+            <Node>
+              <Snippet>416</Snippet>
+              <Children />
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>401</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>416</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>425</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>427</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>392</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>434</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>391</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>435</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>390</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>405</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>436</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>406</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>385</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>386</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>377</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>437</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>404</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>412</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>438</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>407</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>387</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>388</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>410</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>378</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>402</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>432</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>433</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>408</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>393</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>417</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>440</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>452</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>453</Snippet>
+          <Children />
+        </Node>
+      </Children>
+    </Node>
+    <Node>
+      <Snippet>370</Snippet>
+      <Children>
+        <Node>
+          <Snippet>383</Snippet>
+          <Children>
+            <Node>
+              <Snippet>340</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>345</Snippet>
+                  <Children>
+                    <Node>
+                      <Snippet>374</Snippet>
+                      <Children>
+                        <Node>
+                          <Snippet>346</Snippet>
+                          <Children />
+                        </Node>
+                        <Node>
+                          <Snippet>349</Snippet>
+                          <Children />
+                        </Node>
+                      </Children>
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Snippet>343</Snippet>
+                  <Children>
+                    <Node>
+                      <Snippet>375</Snippet>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Snippet>341</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>368</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>369</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>395</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>396</Snippet>
+              <Children />
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>461</Snippet>
+          <Children />
+        </Node>
+      </Children>
+    </Node>
+    <Node>
+      <Snippet>442</Snippet>
+      <Children>
+        <Node>
+          <Snippet>443</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>444</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>445</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>446</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>447</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>448</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>449</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>450</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>451</Snippet>
+          <Children />
+        </Node>
+      </Children>
+    </Node>
+  </Nodes>
+  <Snippets>
+    <Snippet>
+      <Text>2005-08-02 16:01 PM
+There are a few different issues here.  First is the SnippetPane and second is the Snippets.
+
+SNIPPETPANE
+- Right now the user makes a change to a SnippetTNode, which is attached to the SnippetPane via it's Nodes property.
+- The refactor is quite different:
+	- Introduce a SnippetNode object, which is really a model object.  It can return its children, for instance, or get its parents (is that necessary?  if so, do it).  This should obviously be an IFC so as maintain distribuibility.
+	- The user does NOT make changes to the SnippetTNodes.  Instead, the user makes changes (or tries to make changes) to the SnippetNode object to which each SnippetTNode is linked.
+	- Changes in the SnippetNode fire events on the corresponding SnippetTNode.
+	- But where are the SnippetNodes housed?  Though I guess they are linked to the SnippetTNodes so really the Nodes should be sufficient to get you there, but some kind of way to traverse the tree or at least find children and so forth should be doable.  Some kind of dictionary.
+- So what are the ns for this
+	- Well we have one called SnippetTreeView, so this should be 
+	- SnippetStructure
+	- I wonder if we can just have one that handles both the snippets and their structure?  Like Model.  And then have the current implementation where it is currently?
+	
+SNIPPET
+- Right now all the Snippets are loaded into memory and the SnippetDictionary is as well.  The SnippetDictionary merely needs to become an IFC so as to be able to load Snippets at will.</Text>
+      <Title>Notes on refactoring for enterprise</Title>
+      <Created>2005-08-02T16:01:07.0000000+02:00</Created>
+      <Id>461</Id>
+      <Color>
+      </Color>
+      <Icon>Misc Star</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Done</Title>
+      <Created>2005-06-11T12:23:24.6750816+02:00</Created>
+      <Id>460</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-05-16 12:19 PM
+</Text>
+      <Title>Find doesn't ensure selected visible</Title>
+      <Created>2005-05-16T07:19:24.5705024+02:00</Created>
+      <Id>459</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Done Technicolor 0.1</Title>
+      <Created>2005-05-04T12:07:25.8114192+02:00</Created>
+      <Id>458</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Done Alpha 0.7D</Title>
+      <Created>2005-04-27T20:43:28.0307584+02:00</Created>
+      <Id>457</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Done Alpha 0.7C</Title>
+      <Created>2005-04-27T01:00:00.4869248+02:00</Created>
+      <Id>456</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Done (Needs Testing)</Title>
+      <Created>2005-04-27T00:59:47.0676288+02:00</Created>
+      <Id>455</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Change name to TheKBase everywhere</Title>
+      <Created>2005-04-27T01:01:55.1017328+02:00</Created>
+      <Id>454</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:16 PM
+Well, I guess this won't be that hard, but there are a lot of more impotant things to handle for now.</Text>
+      <Title>Choosing icons for snippets</Title>
+      <Created>2005-04-25T18:16:20.4376800+02:00</Created>
+      <Id>453</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:12 PM
+The product has changed name, it is now TheKBase with no space.</Text>
+      <Title>Change name to TheKBase everywhere</Title>
+      <Created>2005-04-25T18:12:15.0348080+02:00</Created>
+      <Id>452</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:06 PM
+2) it would be nice to incorporate the action of automatically expanding a snippet when the cursor hovers on it for 2 sec or smthg like that
+
+DR: have to look at this in File Explorer, how does it work?
+</Text>
+      <Title>Automatic expansion on hover over for a drag</Title>
+      <Created>2005-04-25T18:05:51.2028848+02:00</Created>
+      <Id>451</Id>
+      <Color>White</Color>
+      <Icon>Book Yellow</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:06 PM
+1) if you cut a snippet you can apparently paste it only once...
+
+DR: Rejected, this is consistent with Excel, File Explorer, but not with Word.
+</Text>
+      <Title>Cutting only allows one paste</Title>
+      <Created>2005-04-25T18:05:27.6890736+02:00</Created>
+      <Id>450</Id>
+      <Color>White</Color>
+      <Icon>Book Yellow</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:06 PM
+2) hmmm. now this is really confusing... I tried to delete a snippet... 
+there was a warning that it would permanently remove it... but it had a few clones in other locations. I tried since with dozens of snippets and the message always pops-up even if all of them have several clones. 
+With some other snippets this does not happen, i.e. they are deleted without a warning since they have clones...
+
+2005-04-25 18:08 PM
+this is hard to replicate, must look at it in the code.
+
+</Text>
+      <Title>Delete permanently is sometimes not right</Title>
+      <Created>2005-04-25T18:05:08.1109216+02:00</Created>
+      <Id>449</Id>
+      <Color>White</Color>
+      <Icon>Book Yellow</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:06 PM
+1) other locations (Property pane) are listed by the order of adding them--I think. It may be better to list them either alphabetically or by the order they appear in the Categories Pane... I am not sure about this point
+
+</Text>
+      <Title>Order properties alphabetically</Title>
+      <Created>2005-04-25T18:04:43.9962464+02:00</Created>
+      <Id>448</Id>
+      <Color>White</Color>
+      <Icon>Book Yellow</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:06 PM
+7) compared to the rest, this is really a minor issue, but if you select a bunch of snippets, and then "cut" them, you may want them to go dimmed or smthg...
+
+
+</Text>
+      <Title>Dim Snippets on Cut Maybe</Title>
+      <Created>2005-04-25T18:04:26.9417232+02:00</Created>
+      <Id>447</Id>
+      <Color>White</Color>
+      <Icon>Book Yellow</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:06 PM
+5) select a snippet that already belongs to a drop-down box category, assign it to another drop-down box category, it moves there, but the location pane goes grey??
+DR: Correct, this only happens if you are working on the actual snippet LOCATED UNDER THE CATEGORY.  If you're doing this, why not just move it your damn self?
+
+6) also, those snippets that are moved elsewhere, stay selected (open book
+icon) and highlighted permanently (you
+need to click on them to change that), although they are not really selected... in terms of operations
+DR: This is another problem when you are working with the snippets that are under the category itself.
+
+2005-04-27 01:02 AM
+Okay, this is looking pretty good.  Should ensure that the snippets are visible in their new locations, I think.</Text>
+      <Title>Selection Issues on Property Assignment</Title>
+      <Created>2005-04-25T18:04:00.3835344+02:00</Created>
+      <Id>446</Id>
+      <Color>255, 255, 128</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:06 PM
+4) multiple selection (again) does not work properly with drop-down boxes. I selected a bunch of snippets, then tried to assign them to a category from the drop-down box, and it would assign only one at the time, while still keeping all of them highlighted.
+DR: The problem is more complex than this.  It doesn't work only if they already have different categories assigned.
+
+
+2005-04-27 00:59 AM
+I think this bug has been squashed, needs to be tested out.
+</Text>
+      <Title>Property Pane Doesn't Assign Categories Correctly</Title>
+      <Created>2005-04-25T18:02:57.5932464+02:00</Created>
+      <Id>445</Id>
+      <Color>255, 255, 128</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:06 PM
+2) when you try to paste a snippet into a location where it already exists, the pop-up message says illegal move. You should consider a message "this snippet already exists" or smthg like that. Especially since, if you're copying a bunch of snippets, only a few of them may be duplicates...
+
+</Text>
+      <Title>illegal move/copy could describe more</Title>
+      <Created>2005-04-25T18:02:30.5343376+02:00</Created>
+      <Id>444</Id>
+      <Color>255, 255, 128</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-25 18:06 PM
+1) copy a snippet, paste it in a (couple of) new location(s), and the location window will show and count all those clones selected as separate snippets ("multiple snippets selected...")
+
+3) have all sub-snippets of a snippet selected, let's say you have 5 snippets selected, now paste another snippet into that parent snippet, it is also added to the selection, so now you have 6 snippets selected
+
+2005-04-27 17:24 PM
+Yeah this was a problem with the ReplaceSelectionWith method.</Text>
+      <Title>selection issues on copy</Title>
+      <Created>2005-04-25T18:01:53.1706112+02:00</Created>
+      <Id>443</Id>
+      <Color>255, 255, 128</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Misha's KBase Notes 4-24</Title>
+      <Created>2005-04-22T14:23:13.1086240+02:00</Created>
+      <Id>442</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Done Alpha 0.6</Title>
+      <Created>2005-04-21T18:24:38.0999200+02:00</Created>
+      <Id>441</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-20 21:12 PM
+Or is it legal?
+
+2005-04-21 18:22 PM
+I couldn't replicate this, not sure what was happening.</Text>
+      <Title>How can you add a Twin as a child of its Twin?  that sucks!</Title>
+      <Created>2005-04-20T21:12:32.5081232+02:00</Created>
+      <Id>440</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-20 21:05 PM
+many of the right click events are not checking if the pop up node is in the selection group
+
+2005-04-21 03:33 AM
+fixed copy and cut</Text>
+      <Title>many of the right click events are not checking if the pop up node is in the selection group</Title>
+      <Created>2005-04-20T21:04:50.6339808+02:00</Created>
+      <Id>438</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-20 20:34 PM
+</Text>
+      <Title>Find is now fucked</Title>
+      <Created>2005-04-20T20:34:10.2376208+02:00</Created>
+      <Id>437</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-20 10:40 AM
+2005-04-20 21:07 PM
+Hey that took like 3 seconds!</Text>
+      <Title>Detail pane doesn't deactivate on multiple selection</Title>
+      <Created>2005-04-20T10:40:30.8500448+02:00</Created>
+      <Id>436</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Color support needed on PocketPC</Title>
+      <Created>2005-04-19T17:52:19.6990128+02:00</Created>
+      <Id>435</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Changing color doesn't set Kbase to dirty</Title>
+      <Created>2005-04-19T11:36:36.9441232+02:00</Created>
+      <Id>434</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-19 11:32 AM
+&gt;b) if you try to drag a snippet to its parent snippet it gives you an 
+&gt;"illegal move" message. But, then, this is the only way to re-order 
+&gt;snippets...
+
+Yes that's been noted, he he.  I think I'm going to just add two things to the right click menu for Move Up and Move Down.  That's way cooler anyway, right?  If the snippets are not children of the same parent it will error.  feature request.
+</Text>
+      <Title>Provide a way to reorder snippets</Title>
+      <Created>2005-04-19T11:32:10.9115872+02:00</Created>
+      <Id>433</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-19 11:30 AM
+&gt;c) after you paste some text into a snippet (content pane), then move to 
+&gt;another snippet and try to paste the same text, gives you an error
+
+This happens if the text is coming from a NON-text source (if it's from Notepad, for instance, this doesn't happen).  Okay, I'll fix this BUG when I can.
+</Text>
+      <Title>Pasting Text from Word only works once</Title>
+      <Created>2005-04-19T11:29:28.5781632+02:00</Created>
+      <Id>432</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-18 13:00 PM
+Do the prep for the coloring stuff, just making sure everything is OO.
+
+2005-04-18 13:27 PM
+Okay, yeah, now it's looking a lot more comprehensible and nicer.</Text>
+      <Title>Doing prep for Coloring</Title>
+      <Created>2005-04-18T13:00:12.2718240+02:00</Created>
+      <Id>431</Id>
+      <Color>128, 255, 0</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Done Alpha 0.7</Title>
+      <Created>2005-04-18T12:39:40.4705808+02:00</Created>
+      <Id>429</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-18 03:09 AM
+This is essential for my diary in KBase.  Also this should put the day afterwords just for fun.</Text>
+      <Title>Allow pasting of date in Title Line</Title>
+      <Created>2005-04-18T03:09:09.6357632+02:00</Created>
+      <Id>427</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-18 03:04 AM
+If you rename it as expected, it edits it, but in fact it should force an Edit as soon as you create the snippet.  It already has a snippet name and everything.
+
+2005-04-18 12:55 PM
+let's see about this.
+
+2005-04-18 12:57 PM
+Nice!</Text>
+      <Title>When you create a new snippet it should edit right away</Title>
+      <Created>2005-04-18T03:03:57.7973616+02:00</Created>
+      <Id>426</Id>
+      <Color>128, 255, 0</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-15 00:04 AM
+plus and minus for collapsing</Text>
+      <Title>Added collapsing and stuff</Title>
+      <Created>2005-04-15T00:04:36.1129952+02:00</Created>
+      <Id>425</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-14 13:12 PM
+Wow that took 5 minutes!  You don't remove the highlights if the snippet is already in a changed color.</Text>
+      <Title>Conflict between snippet highlights and multiple selection highlights</Title>
+      <Created>2005-04-14T13:07:28.6982736+02:00</Created>
+      <Id>424</Id>
+      <Color>128, 255, 0</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-14 12:49 PM
+If you click on a snippet and then edit it in the detail pane, then click on that same snippet and try to create a child, it does create it but gives you an Illegal Move error.  What up?
+
+Note: it's a move that it's trying to do.
+
+</Text>
+      <Title>Weird mouse error 1</Title>
+      <Created>2005-04-14T12:48:35.5889424+02:00</Created>
+      <Id>417</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-14 12:45 PM
+</Text>
+      <Title>Add shift movement features</Title>
+      <Created>2005-04-14T12:45:43.9921984+02:00</Created>
+      <Id>416</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-14 04:25 AM</Text>
+      <Title>Make searches savable</Title>
+      <Created>2005-04-14T04:24:56.2256320+02:00</Created>
+      <Id>412</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-13 11:33 AM
+Man the new thing is so fucked up I don't know where to start.
+- Renaming on double click no longer works
+- On new, it selects but then it unselects
+- The original code sucked anyway, because it doesn't "lessen" the selection at all
+
+2005-04-14 12:51 PM
+This is all pretty good, although shift still doesn't allow you to lessen the selection.</Text>
+      <Title>Multiple Selection Issues (3)</Title>
+      <Created>2005-04-13T11:32:45.0785312+02:00</Created>
+      <Id>410</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>"more locations" does not have a scroll bar now..
+
+2005-04-12 10:41 AM
+Wow that was fucked up, changed to a RichTextBox
+
+2005-04-12 11:38 AM
+Fuck that is still fucked up, leaving it alone for now.
+
+2005-04-13 00:47 AM
+Now it's actually quite nice.
+</Text>
+      <Title>Scroll bar is fucked up in properties pane</Title>
+      <Created>2005-04-12T09:50:02.3978320+02:00</Created>
+      <Id>408</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-12 03:43 AM
+Wow, did you ever think that instead of making the KBase multisnippet, you could it make it multi-tab on the right side and add a Open in new tab to the snippets. 
+
+Probably won't do this for a while.</Text>
+      <Title>Multi-pane on detailpane</Title>
+      <Created>2005-04-12T03:42:45.6282080+02:00</Created>
+      <Id>407</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-12 03:41 AM
+Another problem is that when you save it loses the cursor on the detail pane, so you have to get it to focus on the detail pane or there's no program.
+
+2005-04-12 10:07 AM
+Okay for right now I fixed that with Ctrl-S, later I might do it if you select it from the file menu.</Text>
+      <Title>Detail Pane loses focus on save</Title>
+      <Created>2005-04-12T03:41:12.1638128+02:00</Created>
+      <Id>406</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Ctrl-backspace doesn't work on PPC</Title>
+      <Created>2005-04-12T03:38:49.0980944+02:00</Created>
+      <Id>405</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-11 18:43 PM
+This will be particulary cool because that way you can use insert date for the thing.
+
+2005-04-12 02:45 AM
+Going to try to do this now.  Should take about 15 minutes at most, supposing I can get the emulator up and running
+
+2005-04-12 03:26 AM
+man this is taking forever.
+
+2005-04-12 03:35 AM
+Okay it's done and tested, nice!  I also figured out how to get focus over to the detail pane.</Text>
+      <Title>Make editing pick up first line as title</Title>
+      <Created>2005-04-11T18:43:21.4508064+02:00</Created>
+      <Id>404</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>adfdasfdsaf</Text>
+      <Title>Rejected</Title>
+      <Created>2005-04-11T14:58:14.7138144+02:00</Created>
+      <Id>403</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-11 14:45 PM
+The name of the snippet should be a text box.
+
+2005-04-11 14:46 PM
+Starting to work on this now.  Approx time should be 45 mins, 1 hour with moving the box to the right place (above the detail pane).
+
+2005-04-11 14:54 PM
+Got the properties pane located at the top.
+
+2005-04-11 15:26 PM
+Let's start again, I was just talking to Ruth for 22 minutes, subtract that
+
+2005-04-11 15:56 PM
+Okay, got it just about on time anyway, and also discarded the more locations thing.</Text>
+      <Title>Name to properties pane</Title>
+      <Created>2005-04-11T14:38:35.0575520+02:00</Created>
+      <Id>402</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Add NOT to search</Title>
+      <Created>2005-04-11T14:37:44.9354800+02:00</Created>
+      <Id>401</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Categories</Title>
+      <Created>2005-04-11T14:35:06.4175424+02:00</Created>
+      <Id>400</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Desktop</Title>
+      <Created>2005-04-11T14:36:12.4024240+02:00</Created>
+      <Id>399</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>PocketPC</Title>
+      <Created>2005-04-11T14:36:08.4567504+02:00</Created>
+      <Id>398</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Platform</Title>
+      <Created>2005-04-11T14:36:02.9989024+02:00</Created>
+      <Id>397</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>10/25/2004 5:42:34 PM
+Add RegEx to "is" or "contains" possibilities.  That's pretty easy.
+
+Bugs:
+
+
+
+
+
+1/22/2005 10:09:38 PM
+Okay, so I'm trying to get some of the Bugs logged here:
+
+1/22/2005 10:09:47 PM
+Misha would like sort by ID or date.  I guess I can understand this, because there is an initial date in which a snippet is added to the KBase.  Sure you can't see it or touch it... well, it could show up in the header header.  Could be neat.
+
+
+
+
+3/27/2005 3:36:45 PM
+KBase should serialize its settings to an XML file.  If the XML file is not writable or readable, it should just go on.
+
+3/27/2005 3:37:22 PM
+Number the SnippetInfo
+
+</Text>
+      <Title>Old To Do</Title>
+      <Created>2005-04-05T11:56:20.4519184+02:00</Created>
+      <Id>396</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>10/22/2004 8:58:41 PM
+- Should do paste special from before.  That was actually a nice feature.  Paste Plain Text.
+- This is done.  
+
+10/23/2004 12:32:04 PM
+- One of the nicest things I did yesterday was the highlighting.  Nice job!
+
+10/24/2004 3:56:28 AM
+Did a scalability test with a 45 meg file with 125K categories (50*50*50).
+ - file://..%2fSample+KBases%2fa+lot+of+folders.zip 
+
+10/22/2004 8:00:41 PM
+- Adding IDs to the real objects and using those instead of hashes.  Maybe the IDs should be consistent between one save and the next?  Not sure but it seems right. (though this doesn't solve the problem of consistency among KBases, but whatever.) 
+- Done 10/22/2004 8:58:54 PM
+
+10/22/2004 8:59:41 PM
+This is a great idea.  Why not have them all change colors when you select them?  That's fine, I'll do that.
+
+10/25/2004 12:36:08 AM
+- Fix unhighlighting, right now it has some problems.
+
+10/25/2004 12:48:39 AM
+- Now icons are always found if they're where the application is.
+
+10/25/2004 12:36:50 AM
+- MainForm should not store the original path but rather the actual path with which we manage to open the file.  Also, how does it handle it if it can't open a file at all?
+- Still kind of fucked up, actually, but it's okay.  Right now if the file is not right, but there is already a file loaded, it doesn't leave the file alone.  
+
+10/23/2004 12:27:46 PM
+- Insert File Link blows up when the clipboard is empty.  Fix that.  
+	- 10/23/2004 7:03:24 PM - I think this is fixed. Confirm that?
+- While you're at it, fix the urls.  The substitution of %20s is only half the story.
+	- 10/23/2004 7:17:09 PM - Okay, that's fixed.  Is it true that the System.Web assembly comes with the redistributable and therefore doesn't need to included as a file? 
+- Also, Clipboard clears on Insert Date.  Why doesn't it get restored?  I think this is fixed, was a nulls problem?
+
+10/25/2004 1:03:45 AM
+- The DetailPane serialization sucks, actually.  I mean, it seems okay but it's not.  Maybe there's some way to do it without repainting, oh yeah, you can suspend updating, that would be cool.
+- Also use StringBuffers for everything.10/25/2004 1:03:45 AM
+- 10/25/2004 6:07:07 PM Did all that, and the other thing (which took 2 minutes) is to cache the RTF text in the Snippets so as not to recreate it all the time.  It would be more efficient to be able to build RTF from the snippets without using the pane, but whatever.  I mean, it's ugly now but it's fast if you don't change the sniippet.  Wow, it even works for my schizo saving habits!
+
+11/14/2004 5:40:30 PM
+10/27/2004 12:42:38 PM
+Surround links with &lt;&gt; and IF we're pasting somewhere that's not a line beginning include a space too and put a space afterwords.
+
+
+11/14/2004 5:41:16 PM
+	10/23/2004 12:33:57 PM
+	- Edit Find, mentioned under Searching
+	
+	10/23/2004 12:34:13 PM
+	- DIRTY checks, must know when the file has been edited.
+
+	- 10/25/2004 1:06:37 AM
+		Make a sample XSL file for this thing
+	
+	- 10/25/2004 1:06:59 AM
+		Doesn't handle if the file is screwed up correctly.  MainForm should always have a last-path to go back to.
+
+11/14/2004 8:29:47 PM
+11/14/2004 7:19:02 PM
+For the file links, back slashes should be reversed before encoding.  That should get rid of the 2Fs, right?
+
+11/17/2004 7:14:45 PM
+11/17/2004 6:20:31 PM
+Add a find next.  This is a pain in the ass but very important.
+11/14/2004 5:42:14 PM
+Bug: The none doesn't work correctly in searching
+11/14/2004 5:42:27 PM
+Bug: the Search window has an icon
+
+
+Bug Number: Misha2004-12-C 12/17/2004
+Description: in copy and paste, ctrl-v and shift-ins produce different results... 
+neither of them is the plain text result. Can we put the latter as the 
+default, or at least assign it a shortcut?
+Status: Assigned to drosenstark 12/17/2004, verified 12/17/2004
+Notes: 
+Currently, only CTRL-V works correctly.  Must include other shortcuts.
+12/17/2004 2:15:09 PM
+Fixed.  Might be nice to clarify what the hell the paste does, since it's pretty special in the KBase.
+
+Bug Number: Misha2004-12-A 12/17/2004
+Description: if a snippet is selected (in the left pane) and you right-click on its 
+name, it will be interpeted as a second-click.
+Status: Assigned to drosenstark 12/18/2004
+Notes: 
+12/17/2004 2:02:41 PM
+Seems like this is consistent with Windows Explorer.
+
+
+
+Bug Number: Misha2004-12-B 12/17/2004
+Description: there is no double-click and second-click difference in the left pane, 
+I guess this may be ok, but it's just hard to get used to. I constantly 
+keep second-clicking to change the name and nothing happens
+Status: Assigned to drosenstark 12/18/2004
+Notes: 
+12/17/2004 2:02:41 PM
+Seems like this is consistent with Windows Explorer.  To change the name you do a second click on the name that is NOT part of the double click.
+
+
+
+
+Bug Number: Misha2004-12-D 12/17/2004
+Description: ok, this one may be important... when you're dragging stuff in the ledft 
+pane, if you get to the bottom, it won't scroll... that action should be 
+easy to program, I assume
+Status: Assigned to drosenstark 12/18/2004
+Notes: 
+12/17/2004 2:02:41 PM
+This is a problem.
+This might help: http://support.microsoft.com/kb/177743
+http://www.dotnet4all.com/dotnet-code/2004/10/how-to-scroll-treeview.html
+12/17/2004 11:11:22 PM
+Done.
+
+
+
+
+1/22/2005 10:18:12 PM
+My thing: you can't do anything to the top level.  I mean, neither copy nor move.
+DR: This must be fixed first.
+1/22/2005 11:24:07 PM -- FIXED, actually it took like 1/2 an hour.  It was an Exception being thrown in the new fancy scroller thinger.
+
+
+
+1/22/2005 10:14:12 PM
+if your search produces 0 results, it still creates a snippet... this may be unavoidable, since otherwise you would have to create a custom pop up just to show there were no results, but it is kinda funny :)
+1/23/2005 5:56:41 PM - DONE
+
+
+
+
+3/27/2005 3:32:29 PM
+Some of these were finished months ago, kind of lost track.
+
+1/22/2005 10:13:08 PM
+multiple snippet selection (ctrl-click)
+
+1/22/2005 10:13:12 PM
+copy snippets between kbases (probably via clipboard) assign date-time to snippets, add sort by 
+
+1/22/2005 10:13:15 PM
+date option paste/import a list as snippets: e.g a list of files, each gets a snippet
+
+
+
+
+11/14/2004 7:18:52 PM
+File link should be Ctrl-L maybe? 
+
+3/27/2005 3:36:33 PM
+Date insert shouldn't have the seconds
+3/27/2005 3:45:42 PM done
+
+
+
+
+
+
+
+
+
+</Text>
+      <Title>Old Done</Title>
+      <Created>2005-04-05T11:56:12.6106432+02:00</Created>
+      <Id>395</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-05 11:57 AM
+F2 to rename the snippet.
+Tabs to move around.
+
+2005-04-11 16:02 PM
+First let's do the tabs at least.  That should take 20 minutes at most.
+
+2005-04-11 16:27 PM
+that's done but it took a long time because the issue got complicated.  I realized that the updating was all fucked up and had to fix that.
+
+2005-04-13 05:02 AM
+Wow that just got fucked up and now it doesn't work at all.  Fuck.  Must be able to tab into that panel thinger.
+
+2005-04-14 12:44 PM
+I think this is generally done now.  See the other one.</Text>
+      <Title>Add keyboard shortcuts for fast movement</Title>
+      <Created>2005-04-05T11:57:16.8029472+02:00</Created>
+      <Id>394</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-05 11:55 AM
+Don't know how to display this yet, but you get the idea</Text>
+      <Title>Show created date in the properties pane</Title>
+      <Created>2005-04-05T11:55:26.5243744+02:00</Created>
+      <Id>393</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-05 11:54 AM
+Change more locations so that it doesn't display the snippet name.
+
+2005-04-14 12:52 PM
+done</Text>
+      <Title>change  more locations</Title>
+      <Created>2005-04-05T11:54:27.8399904+02:00</Created>
+      <Id>392</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-04 18:03 PM
+
+2005-04-11 15:56 PM
+Let's see how long this takes.  I think it will be about 2 minutes.
+
+2005-04-11 15:58 PM
+It's was already done.</Text>
+      <Title>Closing and cancelling still normalizes window</Title>
+      <Created>2005-04-04T18:03:11.1726576+02:00</Created>
+      <Id>391</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-04 18:01 PM
+I know this is going to sound strange
+but I just thought about an amazing functionality addition:
+
+how about being able to assign different (colors of) icons to a select (obviously, mutually exclusive) list of properties
+
+in my example, I can say:
+show all "source" snippet icons RED, all category snippets YELLOW, and all 'regular' snippets BLUE
+
+this would really help in figuring out stuff in the left pane, and, for the future broader user base, would resemble (with an obvious improvement in functionality) the windows explorer interface
+
+
+
+
+
+</Text>
+      <Title>Coloring snippets</Title>
+      <Created>2005-04-04T18:01:35.7955120+02:00</Created>
+      <Id>390</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-04 18:01 PM
+3) one topic we have not discussed so far: the search box.  How difficult would it be to implement a) more elaborate Boolean search (e.g with AndNot, etc.), b) an open box rather than drop-down boxes with standard conventions (e.g. quotation marks, wildcards)
+
+</Text>
+      <Title>Search box like google</Title>
+      <Created>2005-04-04T18:01:06.1428736+02:00</Created>
+      <Id>389</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-04 18:00 PM
+When selection moves for a multiple select, the moved nodes don't get reselected correctly.
+
+Now that's true for the single snippets too.
+
+2005-04-14 04:25 AM
+Okay this is pretty much fixed</Text>
+      <Title>multiple selection issues (2)</Title>
+      <Created>2005-04-04T18:00:45.6233680+02:00</Created>
+      <Id>388</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-04 18:00 PM
+1) on  ctrl-select, clicking on selection does not unselect
+
+2005-04-14 04:26 AM
+I think this is done now.
+</Text>
+      <Title>multiple selection issues (1)</Title>
+      <Created>2005-04-04T18:00:07.2682160+02:00</Created>
+      <Id>387</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-04 17:59 PM
+
+delete from all locations?
+
+is it already there? I thought so.
+
+
+
+
+2005-04-18 12:54 PM
+Did this in like 15-20 minutes
+
+</Text>
+      <Title>erase all instances</Title>
+      <Created>2005-04-04T17:59:15.2534224+02:00</Created>
+      <Id>386</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-04 17:58 PM
+copying the same snippet twice under the same parent should be prevented (pop-up warning)
+
+2005-04-11 14:40 PM
+You MIGHT be able to do this by overriding equals so that nodes just check if they have the same snippet.  That might work, although it would probably make copying the node difficult.
+
+You can definitely do this by change the addition of a child and just rejecting it.  Though right now we do that directly by modifying the Nodes collection.  Fuck.
+
+2005-04-13 00:45 AM
+Done</Text>
+      <Title>disallow identical twins</Title>
+      <Created>2005-04-04T17:58:40.1128928+02:00</Created>
+      <Id>385</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>All Issues</Title>
+      <Created>2005-04-04T17:57:20.0077072+02:00</Created>
+      <Id>384</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Old Stuff</Title>
+      <Created>2005-04-04T17:55:06.1251936+02:00</Created>
+      <Id>383</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Considering</Title>
+      <Created>2005-04-04T17:54:34.2994304+02:00</Created>
+      <Id>382</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Bug</Title>
+      <Created>2005-04-04T17:57:59.5645872+02:00</Created>
+      <Id>381</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Type</Title>
+      <Created>2005-04-04T17:57:46.2955072+02:00</Created>
+      <Id>380</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Feature Request</Title>
+      <Created>2005-04-04T17:53:58.3877920+02:00</Created>
+      <Id>379</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>multiple selections don't work in snippet</Title>
+      <Created>2005-04-04T17:57:08.0705424+02:00</Created>
+      <Id>378</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-04-04 17:56 PM
+which reminds me: partial export (of selected snippets only) is a must. 
+Hope it would be an easy addition.  later we can think about various types of export, like top level only, or left pane only :)
+
+2005-04-13 04:57 AM
+This will not be implemented, but I will implement an export without save.
+
+2005-04-18 11:27 AM
+Okay working on this.  I need a 
+
+IxpathPathNavigable for input, looks like XmlDocument already implements this IFC.  Yes, through XMLNode
+an XmlWriter for output
+
+my god how do you do a piped stream in .net?  Or is the whole deal that there are only streams and no difference between input and output?  Yeah, it's true, from a StreamWriter you can get the BaseStream... really, though I don't want to even create the doc in memory, but I guess that's inevitable.
+
+2005-04-18 12:30 PM
+What a fucking bitch, that's done.  I was trying to Pipe some streams and shit but that was not possible.  </Text>
+      <Title>Export without Save (was partial export)</Title>
+      <Created>2005-04-04T17:56:15.1444384+02:00</Created>
+      <Id>377</Id>
+      <Color>White</Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Status</Title>
+      <Created>2005-04-04T17:54:14.0803568+02:00</Created>
+      <Id>376</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>I think the icons are excellent.  If you have 'em, they work and if not they don't.  No problem.
+
+Must get the sorting under control.
+
+10/21/2004 7:59:37 PM
+- Okay just inserted sorting.  I wanted it to be automatic, but it's hard to trap the event and not fuck with it.
+- I COULD do something pretty easy and show the other parents by highlighting them in like red.  Not sure what the point is yet.
+- 10/22/2004 11:27:00 PM 
+- That's done, the highlighting thing that is
+
+
+- Must remember the dream of the thing: be able to see Snippets that are in this category AND that category.  It should in fact be able to product that as another category called SEARCH RESULTS.
+
+
+
+
+
+</Text>
+      <Title>old</Title>
+      <Created>2005-03-27T15:33:44.3826561+02:00</Created>
+      <Id>375</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>Maybe RTF conversion to text would be possible. Or better, to html. I only allow indents, bullets, and maybe later bold italics underline.
+
+But I would need to get to there from the RTF.  Shit!
+
+http://search.cpan.org/~sburke/RTF-Writer-1.11/lib/RTF/Cookbook.pod#RTF_Document_Structure
+
+</Text>
+      <Title>old</Title>
+      <Created>2005-03-27T15:34:22.6087660+02:00</Created>
+      <Id>374</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>To Do</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>373</Id>
+      <Color>White</Color>
+      <Icon>Book Purple</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>See the other file:
+file://Instructions.kbase </Text>
+      <Title>Notes</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>370</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>		private void button1_Click(object sender, System.EventArgs e)
+		{
+			Analyze(SearchType.Both);
+			Analyze(SearchType.Title);
+			Analyze(SearchType.Text);
+		}
+
+		private void Analyze(SearchType test) {
+			Debug.WriteLine("Analyzing " + test);
+			if ((test &amp; SearchType.Title)&gt;0)
+				Debug.WriteLine("in the title!");
+			if ((test &amp; SearchType.Text)&gt;0)
+				Debug.WriteLine("in the text!");
+		}
+
+
+		enum SearchType {
+			Title = 1,
+			Text = 2,
+			Both = Title | Text
+		}</Text>
+      <Title>Code snips</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>369</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>10/23/2004 12:32:43 PM
+- This is the most important feature of the thing.  Because it will make the whole thing work.
+- Note that there must be and Edit Find, too.
+
+10/23/2004 12:30:13 PM
+- Last night I did a bunch of stuff with Searching.  Most of the underpinnings for a boolean search for parents.  Must expand out to include:
+	- IS or contains
+	- OR and AND are already there, NOT is *not* one of the conditions for that.
+	
+10/24/2004 7:43:02 PM
+- I can't believe how close to done this looks: it's really incredible.
+
+10/25/2004 6:11:36 PM
+- Searches should be repeatable from the Search node itself.  </Text>
+      <Title>Searching</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>368</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Doing</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>354</Id>
+      <Color>White</Color>
+      <Icon>Book Red</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>This is going to be wild, but let me try getting rid of my whole paste thing and just do it with the Load method.  This will probably not work very well.
+
+
+10/21/2004 5:19:31 PM
+Go: 3:45pm
+
+Stop: 4:07 That sucks.  The whole thing flashes, hard to control  Realized that pasting is fucked up with the bullets.  Must not just be a toggle, must be able to insist.
+
+On the other hand, let's try another experiment.  What if we just get rid of all the fancy cutting and pasting altogether?
+
+Go: 4:13 pm.
+Done: 4:25, looks nice!  Must adjust it so that the formatting is always the same as the base font.  Can I do that?
+
+5:13pm, Okay, got sidetracked, included zooming.  Was that in the feature list?  What feature list.
+
+5:19pm, Wow just put in Date insertion.  Nice, okay, must sleep.  Why is the window always centered in the wrong place.</Text>
+      <Title>Something crazy</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>349</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>The problem is that right now it's kind of a funky and totally non-standard concept that I'm using for cut and paste.  And even for serializing.
+
+The main problem was that RTF is total crap.  My simple text format no está mal.  But then again, it's not as standard as HTML.  Really, I'm not sure about all of this yet.  But I think that my crazy format is probably not the best idea, not to mention the total chapuza sobre como lo he hecho
+
+</Text>
+      <Title>Cutting and Pasting</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>346</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>DetailPane</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>345</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Snippet Pane</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>343</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>- Why does the window always show up in a fucked up place?</Text>
+      <Title>KnowledgeBase</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>341</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Investigations</Title>
+      <Created>2005-02-24T10:32:44.6433184+01:00</Created>
+      <Id>340</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+  </Snippets>
+</KBase>

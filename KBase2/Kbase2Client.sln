@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8918B01-A977-44F7-9F7C-9C7100E9DFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheKBase", "TheKBase.csproj", "{6B93B19E-F050-4D7B-8C50-3AFF1942E36A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1CAD6120-5F27-44B6-946E-D68FF5548EFE} = {1CAD6120-5F27-44B6-946E-D68FF5548EFE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kbase2Api", "..\Kbase2Api\Kbase2Api.csproj", "{0E6FF538-F398-4D0B-A5DF-6988EA1D9BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KbasePluginSpelling", "..\KbasePluginSpelling\KbasePluginSpelling.csproj", "{BE4B6910-3D9D-4E8A-A02B-8F9F75E62D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfusionUtilities", "..\ConfusionUtilities\ConfusionUtilities.csproj", "{1CAD6120-5F27-44B6-946E-D68FF5548EFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B93B19E-F050-4D7B-8C50-3AFF1942E36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B93B19E-F050-4D7B-8C50-3AFF1942E36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B93B19E-F050-4D7B-8C50-3AFF1942E36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B93B19E-F050-4D7B-8C50-3AFF1942E36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6FF538-F398-4D0B-A5DF-6988EA1D9BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6FF538-F398-4D0B-A5DF-6988EA1D9BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6FF538-F398-4D0B-A5DF-6988EA1D9BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6FF538-F398-4D0B-A5DF-6988EA1D9BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4B6910-3D9D-4E8A-A02B-8F9F75E62D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4B6910-3D9D-4E8A-A02B-8F9F75E62D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4B6910-3D9D-4E8A-A02B-8F9F75E62D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4B6910-3D9D-4E8A-A02B-8F9F75E62D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAD6120-5F27-44B6-946E-D68FF5548EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAD6120-5F27-44B6-946E-D68FF5548EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAD6120-5F27-44B6-946E-D68FF5548EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAD6120-5F27-44B6-946E-D68FF5548EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

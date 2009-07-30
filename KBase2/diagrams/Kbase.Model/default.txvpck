@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="idg81l8ecz0oip7ecz0omov">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Model.SnippetParentEventHandler">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="466,570,200,86"/>
+        </reference>
+        <reference df-class-name="reference68" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Model.SnippetUI">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,10,200,185"/>
+            <reference referencedUin="csharp:l_ast:src:Kbase2Client:Kbase.Model.SnippetUI.snippet">
+                <property name="sourceAnchor" value="210,95"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="330,95"/>
+            </reference>
+        </reference>
+        <reference df-class-name="reference69" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Model.SnippetInstance">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="317,754,200,482"/>
+            <reference referencedUin="csharp:l_ast:src:Kbase2Client:Kbase.Model.SnippetInstance.parent">
+                <property name="sourceAnchor" value="477,1236"/>
+                <property name="bendpoints" value="477,1286,567,1286,567,1196"/>
+                <property name="targetAnchor" value="517,1196"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+            <reference referencedUin="csharp:l_ast:src:Kbase2Client:Kbase.Model.SnippetInstance.snippet">
+                <property name="sourceAnchor" value="429,754"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="429,268"/>
+            </reference>
+            <reference referencedUin="csharp:l_ast:src:Kbase2Client:Kbase.Model.SnippetInstance.Snippet">
+                <property name="sourceAnchor" value="379,754"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="379,268"/>
+            </reference>
+        </reference>
+        <reference df-class-name="reference70" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Model.SearchContainer">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="524,310,187,105"/>
+        </reference>
+        <reference df-class-name="reference71" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Model.ModelGateway">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="744,10,176,169"/>
+        </reference>
+        <reference df-class-name="reference72" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Model.Snippet">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="330,10,149,258"/>
+            <reference referencedUin="csharp:l_ast:src:Kbase2Client:Kbase.Model.Snippet.UI">
+                <property name="sourceAnchor" value="330,181"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="210,181"/>
+            </reference>
+        </reference>
+        <reference df-class-name="reference73" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Model.SnippetChildEventHandler">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="524,450,200,86"/>
+        </reference>
+        <reference df-class-name="reference74" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Model.NewChildIsAncestorException">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="524,175,200,89"/>
+            <reference referencedUin="csharp:l_gnt:src:Kbase2Client:Kbase.Model.NewChildIsAncestorException:Kbase.Model.IllegalMoveOrCopyException">
+                <property name="sourceAnchor" value="624,175"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="624,115"/>
+            </reference>
+        </reference>
+        <reference df-class-name="reference75" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Model.IllegalMoveOrCopyException">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="524,10,200,105"/>
+        </reference>
+        <reference df-class-name="reference76" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Model.SnippetEventHandler">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="686,570,200,86"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

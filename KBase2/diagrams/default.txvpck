@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="id50yxhebw5d79bebw5peng">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="design:view:::id5jvbbebw5d79bebw5pf1s">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*MultipleSelectionTreeView"/>
+            <property name="bounds" value="10,10,200,168"/>
+        </reference>
+        <reference df-class-name="reference38" referencedUin="design:view:::id2su96ebw5d79bebw5pf3i">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Snippet"/>
+            <property name="bounds" value="422,10,83,95"/>
+        </reference>
+        <reference df-class-name="reference39" referencedUin="design:view:::id32u2oebw5d79bebw5pf1c">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*Help"/>
+            <property name="bounds" value="308,210,85,95"/>
+        </reference>
+        <reference df-class-name="reference40" referencedUin="design:view:::idik3n8ebw5d79bebw5pf2n">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*Search"/>
+            <property name="bounds" value="10,450,146,200"/>
+        </reference>
+        <reference df-class-name="reference41" referencedUin="design:view:::idhf13xebw5d79bebw5pf3i">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*Serialization"/>
+            <property name="bounds" value="154,210,134,152"/>
+        </reference>
+        <reference df-class-name="reference42" referencedUin="design:view:::iddrfyiebw5d79bebw5pf3y">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:SnippetPane"/>
+            <property name="bounds" value="308,350,91,95"/>
+        </reference>
+        <reference df-class-name="reference43" referencedUin="design:view:::idgvxqkebw5d79bebw5pf2n">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*Properties"/>
+            <property name="bounds" value="512,210,127,152"/>
+        </reference>
+        <reference df-class-name="reference44" referencedUin="design:view:::iddl663ebw5d79bebw5pf0x">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*DetailPanel"/>
+            <property name="bounds" value="10,210,124,200"/>
+        </reference>
+        <reference df-class-name="reference45" referencedUin="design:view:::id8s90nebw5d79bebw5pf0x">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase"/>
+            <property name="bounds" value="584,10,173,248"/>
+        </reference>
+        <reference df-class-name="reference46" referencedUin="design:view:::id6echjebw5d79bebw5pf1s">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*Logging"/>
+            <property name="bounds" value="230,10,172,152"/>
+        </reference>
+        <reference df-class-name="reference1" referencedUin="design:view:::idiytxwecz0oip7ecz0omwo">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*ModelClientWS"/>
+            <property name="bounds" value="652,344,200,376"/>
+        </reference>
+        <reference df-class-name="reference2" referencedUin="design:view:::id2jg8iecz0oip7ecz0omxz">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*SnippetTreeView"/>
+            <property name="bounds" value="174,456,157,216"/>
+        </reference>
+        <reference df-class-name="reference3" referencedUin="design:view:::id8rq8ecz0oip7ecz0omw9">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*ModelClientServer"/>
+            <property name="bounds" value="870,562,164,152"/>
+        </reference>
+        <reference df-class-name="reference4" referencedUin="design:view:::idg81l8ecz0oip7ecz0omov">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*Model"/>
+            <property name="bounds" value="409,381,186,248"/>
+        </reference>
+        <reference df-class-name="reference5" referencedUin="design:view:::id2z7e8ecz0oip7ecz0omxk">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*SerializationV1"/>
+            <property name="bounds" value="770,2,145,104"/>
+        </reference>
+        <reference df-class-name="reference6" referencedUin="design:view:::id8qrjjecz0oip7ecz0omx4">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*ModelInMemory"/>
+            <property name="bounds" value="769,121,167,168"/>
+        </reference>
+        <reference df-class-name="reference7" referencedUin="design:view:::id3n9zoed9f33rbed9f3cvv">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@__fqn" value="uml:package:Kbase2Client:src:Kbase*Icon"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

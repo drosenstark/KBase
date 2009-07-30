@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApplication2", "..\WindowsApplication2\WindowsApplication2\WindowsApplication2.csproj", "{95CB1B1D-3846-4C5B-BA07-E17DE9DC79DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfusionUtilities", "ConfusionUtilities.csproj", "{1CAD6120-5F27-44B6-946E-D68FF5548EFE}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectName0 = \u0022$/ConfusionUtilities/ConfusionUtilities\u0022,\u0020GGAAAAAA
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection0 = ConfusionUtilities\\
+		SccProjectUniqueName1 = ConfusionUtilities.csproj
+		SccLocalPath1 = ..
+		SccProjectFilePathRelativizedFromConnection1 = ConfusionUtilities\\
+		SccProjectUniqueName2 = ..\\WindowsApplication2\\WindowsApplication2\\WindowsApplication2.csproj
+		SccLocalPath2 = ..
+		SccProjectFilePathRelativizedFromConnection2 = WindowsApplication2\\WindowsApplication2\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95CB1B1D-3846-4C5B-BA07-E17DE9DC79DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CB1B1D-3846-4C5B-BA07-E17DE9DC79DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CB1B1D-3846-4C5B-BA07-E17DE9DC79DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CB1B1D-3846-4C5B-BA07-E17DE9DC79DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAD6120-5F27-44B6-946E-D68FF5548EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAD6120-5F27-44B6-946E-D68FF5548EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAD6120-5F27-44B6-946E-D68FF5548EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAD6120-5F27-44B6-946E-D68FF5548EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

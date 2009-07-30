@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Kbase2Client">
+</Property><Property Name="Solution File" Value="D:\dans-data\c-sharp\Hot\KBase2\Kbase2Client.sln">
+</Property><Property Name="Date" Value="Friday, August 22, 2008">
+</Property><Property Name="Time" Value="20:05 PM">
+</Property></Properties><Event ErrorLevel="0" Project="TheKBase" Source="TheKBase.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TheKBase" Source="TheKBase.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Kbase2Api" Source="..\Kbase2Api\Kbase2Api.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Kbase2Api" Source="..\Kbase2Api\Kbase2Api.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KbasePluginSpelling" Source="..\KbasePluginSpelling\KbasePluginSpelling.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="KbasePluginSpelling" Source="..\KbasePluginSpelling\KbasePluginSpelling.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Kbase2Client.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Kbase2Client.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TheKBase" Source="TheKBase.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Kbase2Api" Source="..\Kbase2Api\Kbase2Api.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="KbasePluginSpelling" Source="..\KbasePluginSpelling\KbasePluginSpelling.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

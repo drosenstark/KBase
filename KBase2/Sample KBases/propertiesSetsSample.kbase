@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kbase>
+  <Version>2007-11-30T17:18:19.6363750-03:00</Version>
+  <Properties>
+  </Properties>
+  <PropertySets>
+    <Child>15</Child>
+    <Child>16</Child>
+  </PropertySets>
+  <TopLevelIds>
+    <Child>9</Child>
+    <Child>12</Child>
+    <Child>15</Child>
+    <Child>16</Child>
+  </TopLevelIds>
+  <Snippets>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Yes</Title>
+      <Created>2007-11-30T16:56:35.1520000-03:00</Created>
+      <Modified>2007-11-30T16:56:36.4957500-03:00</Modified>
+      <Id>23</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Maybe</Title>
+      <Created>2007-11-30T16:56:27.6051250-03:00</Created>
+      <Modified>2007-11-30T16:56:31.0738750-03:00</Modified>
+      <Id>22</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>13</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>No</Title>
+      <Created>2007-11-30T16:56:25.3395000-03:00</Created>
+      <Modified>2007-11-30T16:56:26.7301250-03:00</Modified>
+      <Id>21</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Possible To Do</Title>
+      <Created>2007-11-30T16:56:07.2457500-03:00</Created>
+      <Modified>2007-11-30T16:56:24.5738750-03:00</Modified>
+      <Id>20</Id>
+      <Color>
+      </Color>
+      <Icon>Book Yellow</Icon>
+      <Child>21</Child>
+      <Child>22</Child>
+      <Child>23</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Stupid</Title>
+      <Created>2007-11-30T16:55:54.5738750-03:00</Created>
+      <Modified>2007-11-30T16:56:04.2457500-03:00</Modified>
+      <Id>19</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Money Making</Title>
+      <Created>2007-11-30T16:55:31.2926250-03:00</Created>
+      <Modified>2007-11-30T16:55:53.0113750-03:00</Modified>
+      <Id>18</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>13</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Type</Title>
+      <Created>2007-11-30T16:55:20.9957500-03:00</Created>
+      <Modified>2007-11-30T16:55:48.6988750-03:00</Modified>
+      <Id>17</Id>
+      <Color>
+      </Color>
+      <Icon>Book Yellow</Icon>
+      <Child>18</Child>
+      <Child>19</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Idea Properties</Title>
+      <Created>2007-11-30T16:55:12.1520000-03:00</Created>
+      <Modified>2007-11-30T16:55:16.9957500-03:00</Modified>
+      <Id>16</Id>
+      <Color>
+      </Color>
+      <Icon>Book Yellow</Icon>
+      <Child>17</Child>
+      <Child>20</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Task Properties</Title>
+      <Created>2007-11-30T16:54:59.4332500-03:00</Created>
+      <Modified>2007-11-30T16:55:03.9645000-03:00</Modified>
+      <Id>15</Id>
+      <Color>
+      </Color>
+      <Icon>Book Cyan</Icon>
+      <Child>6</Child>
+      <Child>2</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Electric Socks</Title>
+      <Created>2007-11-30T16:54:08.2770000-03:00</Created>
+      <Modified>2007-11-30T16:54:40.8707500-03:00</Modified>
+      <Id>14</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Peanut Butter Shoes</Title>
+      <Created>2007-11-30T16:53:54.5895000-03:00</Created>
+      <Modified>2007-11-30T16:54:05.3551250-03:00</Modified>
+      <Id>13</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Ideas</Title>
+      <Created>2007-11-30T16:53:24.3238750-03:00</Created>
+      <Modified>2007-11-30T16:53:26.8551250-03:00</Modified>
+      <Id>12</Id>
+      <Color>
+      </Color>
+      <Icon>Book Yellow</Icon>
+      <Child>13</Child>
+      <Child>14</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Make Up New Trash</Title>
+      <Created>2007-11-30T16:06:01.4020000-03:00</Created>
+      <Modified>2007-11-30T16:06:08.9176250-03:00</Modified>
+      <Id>11</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Take Out The Trash</Title>
+      <Created>2007-11-30T16:05:48.8082500-03:00</Created>
+      <Modified>2007-11-30T16:05:58.2301250-03:00</Modified>
+      <Id>10</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Tasks</Title>
+      <Created>2007-11-30T16:05:46.4645000-03:00</Created>
+      <Modified>2007-11-30T16:05:47.8863750-03:00</Modified>
+      <Id>9</Id>
+      <Color>
+      </Color>
+      <Icon>Book Cyan</Icon>
+      <Child>10</Child>
+      <Child>11</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Me</Title>
+      <Created>2007-11-30T16:05:42.3238750-03:00</Created>
+      <Modified>2007-11-30T16:05:43.8395000-03:00</Modified>
+      <Id>8</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Job</Title>
+      <Created>2007-11-30T16:05:39.4020000-03:00</Created>
+      <Modified>2007-11-30T16:05:40.6676250-03:00</Modified>
+      <Id>7</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>For Whom?</Title>
+      <Created>2007-11-30T16:05:34.7770000-03:00</Created>
+      <Modified>2007-11-30T16:05:38.1988750-03:00</Modified>
+      <Id>6</Id>
+      <Color>
+      </Color>
+      <Icon>Book Cyan</Icon>
+      <Child>7</Child>
+      <Child>8</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Finished</Title>
+      <Created>2007-11-30T16:05:27.9957500-03:00</Created>
+      <Modified>2007-11-30T16:05:29.8863750-03:00</Modified>
+      <Id>5</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>To Do</Title>
+      <Created>2007-11-30T16:05:24.1207500-03:00</Created>
+      <Modified>2007-11-30T16:05:25.7770000-03:00</Modified>
+      <Id>4</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Status</Title>
+      <Created>2007-11-30T16:05:07.0270000-03:00</Created>
+      <Modified>2007-11-30T16:05:09.2457500-03:00</Modified>
+      <Id>2</Id>
+      <Color>
+      </Color>
+      <Icon>Book Cyan</Icon>
+      <Child>4</Child>
+      <Child>5</Child>
+    </Snippet>
+  </Snippets>
+</Kbase>

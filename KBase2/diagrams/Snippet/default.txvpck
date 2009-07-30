@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="id2su96ebw5d79bebw5pf3i">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference referencedUin="csharp:l_ast:src:kbase:Kbase.Snippet.Parents">
+            <property name="$shortcutReference" value="true"/>
+            <property name="sourceAnchor" value="276,65"/>
+            <property name="bendpoints" value=""/>
+            <property name="targetAnchor" value="156,65"/>
+        </reference>
+        <reference referencedUin="csharp:l_ast:src:kbase:Kbase.Snippet.Children">
+            <property name="$shortcutReference" value="true"/>
+            <property name="sourceAnchor" value="276,120"/>
+            <property name="bendpoints" value=""/>
+            <property name="targetAnchor" value="156,120"/>
+        </reference>
+        <reference referencedUin="csharp:l_ast:src:kbase:Kbase.Snippet.idGenerator">
+            <property name="$shortcutReference" value="true"/>
+            <property name="sourceAnchor" value="350,520"/>
+            <property name="bendpoints" value=""/>
+            <property name="targetAnchor" value="350,600"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

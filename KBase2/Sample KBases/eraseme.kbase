@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kbase>
+  <Version>2005-08-29T21:33:00.8125000+02:00</Version>
+  <TopLevelIds>
+    <Child>107</Child>
+    <Child>125</Child>
+    <Child>126</Child>
+    <Child>127</Child>
+  </TopLevelIds>
+  <Snippets>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>People</Title>
+      <Created>2005-06-13T19:57:34.1875000+02:00</Created>
+      <Id>107</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>108</Child>
+      <Child>115</Child>
+      <Child>118</Child>
+      <Child>121</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Just the people</Title>
+      <Created>2005-06-13T19:57:38.9062500+02:00</Created>
+      <Id>108</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>109</Child>
+      <Child>110</Child>
+      <Child>111</Child>
+      <Child>112</Child>
+      <Child>113</Child>
+      <Child>114</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Joe</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>109</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Bob</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>110</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Alfredo</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>111</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Lorena</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>112</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>what</Text>
+      <Title>Mary</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>113</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Jane</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>114</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>116</Child>
+    </Snippet>
+    <Snippet>
+      <Text>asdf</Text>
+      <Title>Male</Title>
+      <Created>2005-06-13T19:58:41.8593750+02:00</Created>
+      <Id>116</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>109</Child>
+      <Child>110</Child>
+      <Child>111</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Gender</Title>
+      <Created>2005-06-13T19:58:39.2812500+02:00</Created>
+      <Id>115</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>116</Child>
+      <Child>117</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Female</Title>
+      <Created>2005-06-13T19:58:41.8593750+02:00</Created>
+      <Id>117</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>112</Child>
+      <Child>113</Child>
+      <Child>114</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Business-readiness</Title>
+      <Created>2005-06-13T19:58:50.8125000+02:00</Created>
+      <Id>118</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>119</Child>
+      <Child>120</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Ready for business</Title>
+      <Created>2005-06-13T19:59:22.5781250+02:00</Created>
+      <Id>119</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>109</Child>
+      <Child>112</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Avoid this person!</Title>
+      <Created>2005-06-13T19:59:22.5781250+02:00</Created>
+      <Id>120</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>110</Child>
+      <Child>111</Child>
+      <Child>113</Child>
+      <Child>114</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Money in the bank</Title>
+      <Created>2005-06-14T02:50:24.2500000+02:00</Created>
+      <Id>121</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>122</Child>
+      <Child>123</Child>
+      <Child>124</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Rich</Title>
+      <Created>2005-06-14T02:50:34.0781250+02:00</Created>
+      <Id>122</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>109</Child>
+      <Child>111</Child>
+      <Child>112</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Medium Rich</Title>
+      <Created>2005-06-14T02:50:36.5937500+02:00</Created>
+      <Id>123</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>113</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Poor</Title>
+      <Created>2005-06-14T02:50:50.5937500+02:00</Created>
+      <Id>124</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>110</Child>
+      <Child>114</Child>
+    </Snippet>
+    <Snippet>
+      <Text>adsfadsfsadf</Text>
+      <Title>Business Opportunities</Title>
+      <Created>2005-06-14T03:04:02.3593750+02:00</Created>
+      <Id>125</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>					- wat this is a bit
+- whatever
+- and whatever</Text>
+      <Title>Knowledge Bits</Title>
+      <Created>2005-06-14T03:04:11.2031250+02:00</Created>
+      <Id>126</Id>
+      <Color>
+      </Color>
+      <Icon>Folder Red</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Search Results</Title>
+      <Created>2005-07-29T21:57:53.7968750+02:00</Created>
+      <Id>127</Id>
+      <Color>
+      </Color>
+      <Icon>Folder Gray</Icon>
+      <Child>128</Child>
+      <Child>129</Child>
+      <Child>130</Child>
+    </Snippet>
+    <Snippet>
+      <Text>7/29/2005 9:57:53 PM
+Snippets whose title contains the text "knowl"
+1 snippets found (0.03125 seconds).</Text>
+      <Title>Search for "knowl" (1)</Title>
+      <Created>2005-07-29T21:57:53.7812500+02:00</Created>
+      <Id>128</Id>
+      <Color>
+      </Color>
+      <Icon>Misc X</Icon>
+      <Child>126</Child>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>blah</Title>
+      <Created>2005-07-29T21:58:04.3437500+02:00</Created>
+      <Id>129</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>7/30/2005 8:59:50 PM
+Snippets whose title contains the text "people"
+2 snippets found (0.015625 seconds).</Text>
+      <Title>Search for "people" (2)</Title>
+      <Created>2005-07-30T20:59:50.0625000+02:00</Created>
+      <Id>130</Id>
+      <Color>
+      </Color>
+      <Icon>Book Red</Icon>
+      <Child>108</Child>
+      <Child>107</Child>
+    </Snippet>
+  </Snippets>
+</Kbase>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mainFormWindowState>Maximized</mainFormWindowState>
+  <mainFormSize>
+    <Width>780</Width>
+    <Height>636</Height>
+  </mainFormSize>
+  <mainFormLocation>
+    <X>250</X>
+    <Y>177</Y>
+  </mainFormLocation>
+  <mainFormSplitterSplitPosition>327</mainFormSplitterSplitPosition>
+  <mainFormSplitter2SplitPosition>266</mainFormSplitter2SplitPosition>
+  <mainFormSnippetPaneSize>
+    <Width>324</Width>
+    <Height>543</Height>
+  </mainFormSnippetPaneSize>
+  <mainFormDetailPaneSize>
+    <Width>442</Width>
+    <Height>299</Height>
+  </mainFormDetailPaneSize>
+  <username />
+  <password />
+  <recentFiles>
+    <string>C:\Documents and Settings\drosenstark\Desktop\eraseme.kbase</string>
+    <string>d:\data\ipaq My Documents\notes\KnowledgeBase.kbase</string>
+  </recentFiles>
+  <testing>false</testing>
+  <tracing>false</tracing>
+  <AutoRefreshInSeconds>10</AutoRefreshInSeconds>
+  <SearchIcon>Book Red</SearchIcon>
+  <DefaultIcon>Book Blue</DefaultIcon>
+  <DoNotAskUserToConfirmSelectionChanceInLocationPane>false</DoNotAskUserToConfirmSelectionChanceInLocationPane>
+</Settings>

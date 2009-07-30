@@ -1,0 +1,61 @@
+ZipGenius 6 License Agreement
+-----------------------------
+
+This is a license agreement on how to use and share ZipGenius.
+
+The following terms are used:
+
+USER: the individual who will install and use ZipGenius.
+SOFTWARE: ZipGenius.
+DEVELOPER: M.Dev Software
+
+------------------------------
+
+1) GENERAL TERMS.
+
+- This software is freeware. "Freeware" means that user can install and use this software for free because no price or registration fee is required.
+
+- NO WARRANTY IS OFFERED: this software is distributed under the "AS IS" clause. The developer is not liable in any way due to wrong usage of this software. Please refer to the help file to know how to use this software.
+
+- User can install this software on more than one workstation.
+
+- User can share this software with friends and colleagues.
+
+- User can distribute this software through his own website but only for FREE.
+
+
+2) RESTRICTIONS.
+
+- User can't sell/hire this software as a standalone product.
+
+- User can't modify, tweak, retouch this software without express authorization from the developer.
+
+- User can't use software brand, mark and or other elements to advertise its own activity without explicit authorization from the developer.
+
+- Collection of funds or services for the sale or distribution of this software in any way is strictly prohibited without explicit authorization from the developer.
+
+
+3) SPECIAL TERMS.
+
+- IT Magazines editors or their representatives may include this software in CD-ROMs bundled with their magazines; however they must inform the developer.
+
+- Hardware manufacturers may include this software in CD-ROMs bundled with their products; however they must inform the developer.
+
+- Webmasters can hosts this software: they must inform the developer (see: www.zipgenius.it for further info).
+
+
+4) CORPORATE USERS.
+
+- This software is freeware even for corporate environments. GENERAL TERMS of this license applies to them, too.
+
+
+5) TECHNICAL SUPPORT.
+
+- The developer offers a limited technical support and only by e-mail: see www.zipgenius.it for further details.
+
+6) CONTACTS.
+
+- For any question, please write to info@zipgenius.it
+
+M.Dev Software
+www.zipgenius.it

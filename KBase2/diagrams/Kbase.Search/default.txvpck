@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="idik3n8ebw5d79bebw5pf2n">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Search.SearchTypeConcat">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference11" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Search.SearchTypeIsContains">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference12" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Search.SearchFormPart">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference13" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Search.SearchCriterion">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference14" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Search.SearchForm">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference15" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Search.SearchTypeTextTitle">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference16" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Search.SearchTypeWhere">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

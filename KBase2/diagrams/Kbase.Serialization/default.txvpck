@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="idhf13xebw5d79bebw5pf3i">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Serialization.Serializer">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference17" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Serialization.SerializableSnippet">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference18" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Serialization.SerializableUniverse">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference19" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Serialization.SerializerDom">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

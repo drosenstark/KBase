@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="id8rq8ecz0oip7ecz0omw9">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientServer.ClientServerGateway">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference65" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientServer.Snippet">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference66" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientServer.SearchContainerClient">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference67" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientServer.RunawayThread">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="id8s90nebw5d79bebw5pf0x">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.FancyMessageBox">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference29" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Universe">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference30" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Startup">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference31" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ProgressBox">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference32" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.Settings">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference33" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.TestForm">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference34" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ZeroArgumentEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference35" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.FatalErrorException">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference36" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.MainForm">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference37" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.AboutBox">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

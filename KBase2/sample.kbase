@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KBase>
+  <Version>2005-06-15T02:14:47.8750000+02:00</Version>
+  <Nodes>
+    <Node>
+      <Snippet>107</Snippet>
+      <Children>
+        <Node>
+          <Snippet>108</Snippet>
+          <Children>
+            <Node>
+              <Snippet>109</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>110</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>111</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>112</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>113</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>114</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>131</Snippet>
+              <Children />
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>115</Snippet>
+          <Children>
+            <Node>
+              <Snippet>116</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>109</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>110</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>111</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>131</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>117</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>112</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>113</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>114</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>118</Snippet>
+          <Children>
+            <Node>
+              <Snippet>119</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>109</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>112</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>120</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>110</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>111</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>113</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>114</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>131</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>121</Snippet>
+          <Children>
+            <Node>
+              <Snippet>122</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>109</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>111</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>112</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>131</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>123</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>113</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>124</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>110</Snippet>
+                  <Children />
+                </Node>
+                <Node>
+                  <Snippet>114</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>151</Snippet>
+          <Children>
+            <Node>
+              <Snippet>110</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>111</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>112</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>113</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>114</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>131</Snippet>
+              <Children />
+            </Node>
+          </Children>
+        </Node>
+      </Children>
+    </Node>
+    <Node>
+      <Snippet>126</Snippet>
+      <Children>
+        <Node>
+          <Snippet>129</Snippet>
+          <Children>
+            <Node>
+              <Snippet>134</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>135</Snippet>
+                  <Children>
+                    <Node>
+                      <Snippet>139</Snippet>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Snippet>143</Snippet>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Snippet>130</Snippet>
+                  <Children>
+                    <Node>
+                      <Snippet>143</Snippet>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+              </Children>
+            </Node>
+            <Node>
+              <Snippet>136</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>137</Snippet>
+                  <Children>
+                    <Node>
+                      <Snippet>139</Snippet>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Snippet>140</Snippet>
+                      <Children>
+                        <Node>
+                          <Snippet>141</Snippet>
+                          <Children />
+                        </Node>
+                      </Children>
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Snippet>138</Snippet>
+                  <Children>
+                    <Node>
+                      <Snippet>130</Snippet>
+                      <Children>
+                        <Node>
+                          <Snippet>143</Snippet>
+                          <Children />
+                        </Node>
+                      </Children>
+                    </Node>
+                    <Node>
+                      <Snippet>142</Snippet>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>144</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>145</Snippet>
+          <Children>
+            <Node>
+              <Snippet>146</Snippet>
+              <Children />
+            </Node>
+            <Node>
+              <Snippet>147</Snippet>
+              <Children />
+            </Node>
+          </Children>
+        </Node>
+        <Node>
+          <Snippet>148</Snippet>
+          <Children />
+        </Node>
+        <Node>
+          <Snippet>149</Snippet>
+          <Children>
+            <Node>
+              <Snippet>150</Snippet>
+              <Children>
+                <Node>
+                  <Snippet>148</Snippet>
+                  <Children />
+                </Node>
+              </Children>
+            </Node>
+          </Children>
+        </Node>
+      </Children>
+    </Node>
+  </Nodes>
+  <Snippets>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Uses the KBase</Title>
+      <Created>2005-06-14T19:02:53.6718750+02:00</Created>
+      <Id>151</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Notes on Weber</Title>
+      <Created>2005-06-14T19:00:33.4218750+02:00</Created>
+      <Id>150</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Random Notes</Title>
+      <Created>2005-06-14T19:00:27.5312500+02:00</Created>
+      <Id>149</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-06-14 19:02 PM
+Soon we'll be putting some information here on how to classify information and so forth.  In the meantime, these are some arbitrary notes:
+
+
+
+IV. A PROPOSED TYPOLOGY OF POWER
+
+There are six classes or types of power:
+
+1) Native power.
+
+2) Political power.
+
+3) Paternal power.
+
+4) Economic power.
+
+5) Ideological power, and
+
+6) Associative power.
+
+1. Native power is the one found in the people, or however one may wish to call it: society, the masses, the public. Of course these concepts are not interchangeable among themselves.
+
+If man cannot live in isolation, he has to live in society; society needs order to exist. Society is the ultimate source of that order.
+
+Brute force, the force of the bayonets, can -and it is a historical fact- subjugate a people. Jean Jacques Rousseau referred to this situation when he said that a man can be enslaved by force and if he accepts to do so not to perish, he does well; but when he acquires the strength needed to break the chains and is successful, he does better. Man is liberty and his destiny is found in liberty. Liberty is to man what sovereignty is to the people.
+
+A people cannot be indefinitely subjugated to an arbitrary power or one that does not come from it, this is also a historical fact.
+
+Constitutional law refers to constitutional power, to native power, to the power that belongs to the nation,32 to the power that belongs to the group,33 to the power that adopts the concrete group decision on the manner and form of its own political existence;34 to the constitutional power that is one and the same as the people, to the bearer of this power that can only be the people. Any other possibility moves away from democracy to establish itself as an oppressive power, which is contradictory because man creates and accepts an order to ensure his freedom. Order that does not ensure this freedom will sooner or later perish because it goes against native power, which is the people.
+
+This native power manifests itself in various aspects:
+
+a) By establishing order, usually through a norm or a custom. In other words, by establishing the rules of the game that allow one to live and to live with others in peace, liberty, security and with mechanisms to settle the controversies that arise from living together.
+
+b) By directly deciding the issues that most interest the community through mechanisms such as the referendum, the plebiscite or people’s initiative.
+
+c) By electing those who will rule.
+
+d) By demonstrating massively in the streets, whether to support a measure or to pressure for the change of a decision. Sporadic demonstration of some thousands of people may not have much of an effect, but hundreds of thousands protesting every day proves to be great pressure that will probably reach its goal.
+
+e) By organizing civil opposition, such as that of no taxes or a prolonged general strike.
+
+f) By breaking this order to create a new and different one, whether peacefully, as happened in the Czech revolution called the "Velvet Revolution" or with the fall of the Berlin wall, or violently, as happened in the French, Mexican or Russian revolutions. There is no army that can do anything if hundreds of thousands of men, women, children and elderly people stand before it. Moreover, it becomes more difficult each day for an army to be determined to fire indiscriminately against civilian population to uphold an arbitrary order that has lost legitimacy.
+
+Thus, native power is not a purely theoretic concept that serves as a hypothesis to explain reality, to lucubrate about the power phenomenon, but it is power itself, power by antonomasia, because it is the one that decides the order -understood as the rules of the game- and the one that decides to break with it when it does not serve it, and instead of guaranteeing freedom, it limits or suppresses it outright.
+
+Therefore, there is no greater power, it is the summum of power, it is that of society, that of the people, or if one wants, that of the masses: it is native power that allows its own social convenience. It can be manifested as reality or through a socially accepted norm or custom.
+
+2. Political power is the power of the State. It is the guarantee for living together in order, peace and security. It is the order of effective and homogenous behavior. Its effectiveness is found in the possibility of imposing "obedience to its norms in a legally organized, co-active procedure". Its homogeneity lies in that it be a central planning power that has means for normative regulation.35
+
+The ultimate feature of political power is legitimate monopoly of coercion, the possibility of legitimate use of physical force.
+
+In most cases, legal provisions are complied with voluntarily. If not, life in society would be almost impossible. But in the case of non-compliance there is the possibility that they will be imposed even by force, regardless of the individual’s will. Ultimately, political power comes down to the police, the army and prison, but using them is not the norm. However, they are there for when their use becomes necessary, but this should comply with legal principles.
+
+This political power, it must be stressed, does not act on whim or will but is regulated by legal principles. In this sense, political power is one in the same as the law, jurisprudence, the establishment of the rules of the game in society. Political power is not arbitrary since it should adjust its behavior to the norm. All the country’s inhabitants have the power to directly or indirectly participate in the creation of laws and, as a result, to know exactly what political power can and cannot do. The Constitution stipulates the subordination of power to the law, it creates State agencies and it lists their attributes and limits. They cannot legitimately exercise functions unless they are within the regulating channels that govern them and that are stipulated by the Constitution itself. If State agencies go beyond said laws, they are breaking foundation and basis of their own legitimacy and there are procedures to compensate the violated law.
+
+The fundamental role of political power is to create the legal system. This role is fulfilled in either a democratic, authoritarian or totalitarian system.36 However, the assessing element has special importance: the jurisprudence must be fair, must tend to fulfill an idea of justice, if it wants to last, because if it is perceived as an unfair order, a fight to change it through pacific or violent means will ensue. Thus, justice constitutes a value, and a pragmatic element as well. It is the essence itself of the survival of that jurisprudence.
+
+Read more at http://info8.juridicas.unam.mx/cont/1/arc/arc2.htm
+</Text>
+      <Title>Tipologies</Title>
+      <Created>2005-06-14T18:59:16.8750000+02:00</Created>
+      <Id>148</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-06-14 18:51 PM
+I don't know anything about this.  However, I saw some EURO mutual funds the other day on Yahoo Finance, but I forgot to kbase them and now I will never find them again.  But if I do, this time I'll be on the lookout.</Text>
+      <Title>Currency Trading?</Title>
+      <Created>2005-06-14T18:51:43.0000000+02:00</Created>
+      <Id>147</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Index Funds and ETFs</Title>
+      <Created>2005-06-14T18:51:30.6562500+02:00</Created>
+      <Id>146</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Stock Market</Title>
+      <Created>2005-06-14T18:51:26.3437500+02:00</Created>
+      <Id>145</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-06-14 18:50 PM
+- Hey check this out!  http://www.timeanddate.com/worldclock/full.html
+- I admit, I have nothing to write about dating.  Why not go see Hitch in French? http://www.allocine.fr/pub/interstitiel/lespoupeesrusses.html?Redir=%2Ffilm%2Ffichefilm%2Ehtml%3Fcfilm%3D47705&amp;cpg=3677</Text>
+      <Title>Dating</Title>
+      <Created>2005-06-14T18:47:46.1562500+02:00</Created>
+      <Id>144</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Using IIS with Apache</Title>
+      <Created>2005-06-14T18:47:27.7343750+02:00</Created>
+      <Id>143</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>C# looks a lot like The Java Language &lt;file://this#140&gt;</Text>
+      <Title>C#</Title>
+      <Created>2005-06-14T18:46:13.5156250+02:00</Created>
+      <Id>142</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-06-14 18:46 PM
+Is this really Java 5?  So it's the Java Platform 2, or 5?</Text>
+      <Title>1.5 New Language Features</Title>
+      <Created>2005-06-14T18:46:34.2656250+02:00</Created>
+      <Id>141</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>The Java Language</Title>
+      <Created>2005-06-14T18:46:26.5156250+02:00</Created>
+      <Id>140</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Connecting Tomcat with Apache</Title>
+      <Created>2005-06-14T18:45:46.7187500+02:00</Created>
+      <Id>139</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>.NET</Title>
+      <Created>2005-06-14T18:37:48.1250000+02:00</Created>
+      <Id>138</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Java</Title>
+      <Created>2005-06-14T18:37:42.2812500+02:00</Created>
+      <Id>137</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Platforms</Title>
+      <Created>2005-06-14T18:37:38.1875000+02:00</Created>
+      <Id>136</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Apache</Title>
+      <Created>2005-06-14T18:37:25.8125000+02:00</Created>
+      <Id>135</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Web Servers</Title>
+      <Created>2005-06-14T18:37:16.7031250+02:00</Created>
+      <Id>134</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Arturo</Title>
+      <Created>2005-06-14T18:35:50.0468750+02:00</Created>
+      <Id>131</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>IIS</Title>
+      <Created>2005-06-14T18:37:32.3281250+02:00</Created>
+      <Id>130</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Technology</Title>
+      <Created>2005-06-14T18:36:43.5937500+02:00</Created>
+      <Id>129</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-06-14 18:52 PM
+If anyone wants to help me elaborate these samples, go ahead and send them to me at 
+
+mailto:samples@thekbase.com
+
+Thanks!</Text>
+      <Title>Knowledge Bits</Title>
+      <Created>2005-06-14T03:04:11.2031250+02:00</Created>
+      <Id>126</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Poor</Title>
+      <Created>2005-06-14T02:50:50.5937500+02:00</Created>
+      <Id>124</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Medium Rich</Title>
+      <Created>2005-06-14T02:50:36.5937500+02:00</Created>
+      <Id>123</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Rich</Title>
+      <Created>2005-06-14T02:50:34.0781250+02:00</Created>
+      <Id>122</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Money in the bank</Title>
+      <Created>2005-06-14T02:50:24.2500000+02:00</Created>
+      <Id>121</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Avoid this person!</Title>
+      <Created>2005-06-13T19:59:22.5781250+02:00</Created>
+      <Id>120</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Ready for business</Title>
+      <Created>2005-06-13T19:59:22.5781250+02:00</Created>
+      <Id>119</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Business-readiness</Title>
+      <Created>2005-06-13T19:58:50.8125000+02:00</Created>
+      <Id>118</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Female</Title>
+      <Created>2005-06-13T19:58:41.8593750+02:00</Created>
+      <Id>117</Id>
+      <Color>
+      </Color>
+      <Icon>Green</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Male</Title>
+      <Created>2005-06-13T19:58:41.8593750+02:00</Created>
+      <Id>116</Id>
+      <Color>
+      </Color>
+      <Icon>Purple</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Gender</Title>
+      <Created>2005-06-13T19:58:39.2812500+02:00</Created>
+      <Id>115</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Jane</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>114</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Mary</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>113</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-06-14 18:54 PM
+- Man you can find some pretty weird stuff on people you don't know in Google. Check http://daphne.palomar.edu/marguello/sum02/Hist101/Santos203/Santos_files/frame.htm
+- Please don't Google me!</Text>
+      <Title>Lorena</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>112</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Alfredo</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>111</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>- born in San Francisco, where he spent his first eleven years. 
+- After the death of his father, a journalist, he moved with his mother and sister to eastern Massachusetts near his paternal grandparents. 
+- He wrote his first poems while a student at Lawrence High School, 
+- He entered Dartmouth College in the fall of 1892 but stayed for less than a term, returning home to teach school and to work at various jobs, including factory-hand and newspaperman. 
+- In 1894 he sold his first poem, 'My Butterfly: An Elegy', to a New York magazine, The Independent. 
+- After emerging unscathed he came home to Lawrence where he and Elinor were married in December 1895.
+
+What's The Deal With His Wife
+	- A few facts
+	- from which he graduated as co-valedictorian with the woman he was to marry, Elinor Miriam White. 
+	- That same year, unable to persuade Elinor to marry him (she wanted to finish college first), he headed south on a reckless journey into Virginia's Dismal Swamp. 
+
+</Text>
+      <Title>Bob</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>110</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>- 17 May 1946	William Jefferson Blythe II killed in automobile accident, near Sikeston MO.	
+- 19 Aug 1946	William Jefferson Blythe III born, Hope AR.	
+- 26 Oct 1947	Hillary Rodham &lt;/library/bio/usa/hillary-clinton/&gt; born, Chicago IL.	
+- 1968		B.A., International Affairs, Georgetown University.	
+- 1973		Graduates Yale law school.	
+- 11 Oct 1975	Marries Hillary Clinton &lt;/library/bio/usa/hillary-clinton/&gt;.	
+- 25 Apr 1978	
+	- Arkansas state attorney general Bill Clinton allegedly rapes 35-year-old nursing home proprietor Juanita Broaddrick at the Camelot Inn in Little Rock. 
+	- Broaddrick does not come forward with her story until 1998.	
+- 1978
+	Elected governor of Arkansas, age 32.	
+- 27 Feb 1980	
+	Daughter Chelsea Victoria Clinton born. Named after the song "Chelsea Morning," by Joni Mitchell (1969).	
+- 8 May 1991	
+	- In a room at Little Rock's Excelsior Hotel, Arkansas Governor Bill Clinton exposes his penis to state employee Paula Jones and propositions her to perform fellatio &lt;/library/sex/oral-sex/&gt;. In her civil deposition, Jones will later claim to have witnessed 
+	- certain "distinguishing characteristics" of the governor's genitalia, the precise nature of which soon becomes the subject of much speculation. For her trouble, Jones eventually receives an out-of-court settlement for $850,000 and a nude pictorial in Penthouse magazine.	
+- 27 Jan 1992
+	- Candidate Bill Clinton and Gennifer Flowers mutually accuse each other of lying about whether or not they had a 12-year adulterous relationship, between 1977 and 1989. 
+	- Of course, from Clinton's 1998 testimony we know for a fact that they did. For her trouble, Flowers eventually receives an out-of-court settlement for $800,000 and a nude pictorial in Penthouse magazine.	
+- 29 Mar 1992
+	Arkansas Governor and Presidential candidate Bill Clinton tells the New York Times: "When I was in England, I experimented with marijuana a time or two, and I didn't like it. I didn't inhale, and never tried it again."	
+- 3 Nov 1992
+	Elected 42nd President of United States.	
+	</Text>
+      <Title>Bill</Title>
+      <Created>2005-06-13T19:58:24.7500000+02:00</Created>
+      <Id>109</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Everyone</Title>
+      <Created>2005-06-13T19:57:38.9062500+02:00</Created>
+      <Id>108</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2005-06-14 03:13 AM
+We're going to add a lot of people to this kbase, and then we will classify them and send them out in a giant mailing once we understand them as follows:
+- Rich males who are business-ready will go to large, humid cold countries in the Southern hemisphere.
+- Short females who are poor but business-unfriendly will be shipped to small, happy countries where it rains a lot.
+- The rest of the people, big and small, boys and girls, will be sent to different counties based on a random choosing.</Text>
+      <Title>People</Title>
+      <Created>2005-06-13T19:57:34.1875000+02:00</Created>
+      <Id>107</Id>
+      <Color>
+      </Color>
+      <Icon>Blue</Icon>
+    </Snippet>
+  </Snippets>
+</KBase>

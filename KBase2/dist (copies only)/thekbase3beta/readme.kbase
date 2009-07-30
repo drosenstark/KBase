@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kbase>
+  <Version>2008-08-23T03:22:44.8906250-03:00</Version>
+  <Properties>
+    <Child>43</Child>
+  </Properties>
+  <PropertySets>
+  </PropertySets>
+  <TopLevelIds>
+    <Child>43</Child>
+    <Child>59</Child>
+  </TopLevelIds>
+  <Snippets>
+    <Snippet>
+      <Text>Several minor bug fixes. Also, an indicator has been added to inform users that a snippet link is being selected (when users insert snippet links in the text of a snippet).
+
+</Text>
+      <Title>RELEASE 2.0.1 2005-10-15</Title>
+      <Created>2006-04-01T18:16:45.6588750-03:00</Created>
+      <Modified>2006-04-01T18:16:45.6588750-03:00</Modified>
+      <Id>46</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Desktop</Title>
+      <Created>2006-04-01T18:18:52.9870000-03:00</Created>
+      <Modified>2006-04-01T18:18:52.9870000-03:00</Modified>
+      <Id>45</Id>
+      <Color>
+      </Color>
+      <Icon>Folder Green</Icon>
+      <Child>46</Child>
+      <Child>47</Child>
+      <Child>48</Child>
+      <Child>49</Child>
+      <Child>50</Child>
+      <Child>51</Child>
+      <Child>58</Child>
+      <Child>59</Child>
+    </Snippet>
+    <Snippet>
+      <Text>TheKBase Mobile now supports password-protection and retains full compatibility with the Desktop version.</Text>
+      <Title>TheKBase Mobile 2.1.0 2006-08-11</Title>
+      <Created>2006-08-11T19:59:10.3275000-03:00</Created>
+      <Modified>2006-08-11T19:59:10.3275000-03:00</Modified>
+      <Id>44</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Release Platform</Title>
+      <Created>2006-08-12T14:13:58.5781250-03:00</Created>
+      <Modified>2006-08-12T14:13:58.5781250-03:00</Modified>
+      <Id>43</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+      <Child>41</Child>
+      <Child>45</Child>
+      <Child>52</Child>
+    </Snippet>
+    <Snippet>
+      <Text>- Added support for saved searches. TheKBase Mobile does not allow searching, but will preserve saved searches as is.
+
+</Text>
+      <Title>TheKBase Mobile 2.0.1</Title>
+      <Created>2006-04-01T18:17:09.5182500-03:00</Created>
+      <Modified>2006-04-01T18:17:09.5182500-03:00</Modified>
+      <Id>42</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>
+      </Text>
+      <Title>Mobile</Title>
+      <Created>2006-04-01T18:18:39.8932500-03:00</Created>
+      <Modified>2006-04-01T18:18:39.8932500-03:00</Modified>
+      <Id>41</Id>
+      <Color>
+      </Color>
+      <Icon>Folder Green</Icon>
+      <Child>42</Child>
+      <Child>44</Child>
+      <Child>61</Child>
+    </Snippet>
+    <Snippet>
+      <Text>File loads and saves changed to accomodate new additions in Desktop version (properties and property sets). Now properties and property sets remain intact after loading and saving on TheKBase Mobile.</Text>
+      <Title>TheKBase Mobile 2.1.0.1 2007-07-10</Title>
+      <Created>2007-07-17T18:37:47.0937500-03:00</Created>
+      <Modified>2007-07-17T18:37:47.0937500-03:00</Modified>
+      <Id>61</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>After a prolonged beta period, this is the 3.0 release. In response to user requests and internal decisions, new features include:
+- Search by modified or create date has been added.
+- A modified date has been added to TheKBase files. Modified date is initially set to creation date of snippets that do not have one.
+- A Snippet Info pane has been added to view and edit Snippet information. Right-click Info for any snippet.
+- Plug-In API (still in development) so most of the new features are in the plugins directory. Currently plug-ins load under the Tools menu.
+- Plug-In: Multi-language spell-checking for TextPane contents (thanks to Loresoft's NetSpell).
+- Plug-In: Image viewer for Snippets.
+- Files of any type may now be dragged into the TextPane (same as Insert Link To File).
+- Files are saved with better security -- a backup file is made during each save operation.
+- Now you can sort by modified or create date, name, and icon (right click on any Snippet to sort its children).
+- PropertySets is a completely new feature. You can now aggregate properties in an enclosing (parent) snippet. Each property set gets added as a new property pane.
+- Search fields are no longer limited to three.
+- Several bug fixes including forwards-compatability support in TheKBase files.
+
+</Text>
+      <Title>TheKBase Desktop 3.00 2008-08-20</Title>
+      <Created>2007-05-29T20:58:44.9048750-03:00</Created>
+      <Modified>2008-08-23T03:22:43.2187500-03:00</Modified>
+      <Id>59</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2007-01-06 12:02 PM
+- Due to user requests, the license for TheKBase Desktop has changed to the GNU GPL. The code is available at http://sourceforge.net/projects/thekbase/ and http://code.google.com/p/thekbase/
+- UI for encrypted files has been changed to require the user's password if TheKBase is minimized. Also, for password-encrypted files, they are minimized after a 5-minute delay (non-configurable).
+- Includes several small bug fixes (thanks to our users for reporting bugs!).</Text>
+      <Title>RELEASE 2.1.3 2007-01-06</Title>
+      <Created>2007-01-06T12:01:21.5470000-03:00</Created>
+      <Modified>2007-01-06T12:01:21.5470000-03:00</Modified>
+      <Id>58</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2007-01-06 12:00 PM
+This file hasn't been updated as TheKBase Web has changed. TheKBase Web is now open to the public and feature-rich, including downloading, sharing and publishing of online kbases. Check it out at http://www.kbaseweb.com
+
+</Text>
+      <Title>TheKBase Web Alpha 0.0.3</Title>
+      <Created>2007-01-06T11:59:46.7188750-03:00</Created>
+      <Modified>2007-01-06T11:59:46.7188750-03:00</Modified>
+      <Id>57</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>Flash 9 XML Web Services-based multi-user application. By invitation only. Send email to mailto:alpha-invitation@thekbase.com?subject=Sign%20me%20up.  
+</Text>
+      <Title>TheKBase Web Alpha 0.0.1 2006-08-12</Title>
+      <Created>2006-08-12T14:06:51.0625000-03:00</Created>
+      <Modified>2006-08-12T14:06:51.0625000-03:00</Modified>
+      <Id>53</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>2006-04-01 18:19 PM
+Alpha work continues!</Text>
+      <Title>TheKBase Web (was Enterprise)</Title>
+      <Created>2006-04-01T18:18:57.3463750-03:00</Created>
+      <Modified>2006-04-01T18:18:57.3463750-03:00</Modified>
+      <Id>52</Id>
+      <Color>
+      </Color>
+      <Icon>Book Red</Icon>
+      <Child>53</Child>
+      <Child>57</Child>
+    </Snippet>
+    <Snippet>
+      <Text>- TheKBase logs to a file (thekbase.log) now if you turn tracing to true in the kbase.config. To watch the file, try mtail (http://ophilipp.free.fr/op_tail.htm)
+- Last five files showing on File menu.
+- You can now password protect Kbases. The technical details:
+	- TheKBase uses Xml Encryption as specified by http://www.w3.org/Encryption/2001/
+		Encryption uses the Rijndael algorithm (i.e., AES) with a 128-bit key (and block) size. As of 2003, the US Government considers this key-size correct for "Secret" but not "Top Secret" information (http://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
+	- HOWEVER, the key is based on the supplied password (it's a direct MD5 hash). For this reason, you should make your password as long and unpreditable as possible.</Text>
+      <Title>RELEASE 2.1.2 2006-08-11</Title>
+      <Created>2006-07-08T23:05:41.7070000-03:00</Created>
+      <Modified>2006-07-08T23:05:41.7070000-03:00</Modified>
+      <Id>51</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>- Parent Pane is now clickable.
+
+Several improvements that increase the utility of the properties and search panes:
+- You can now TYPE new values into the properties pane: TheKBase will prompt you as to whether to create the new nodes.
+- Searches may be repeated by right clicking on the search snippet (usually starts with "Search for...").
+- Right-click menu now shows only available options (almost).
+- Searches now show enums correctly (e.g., Parent_Or_Own is now "Parent or Own").  
+- Searches on ID are now allowed, and the search results text also shows the title.
+- "Select Snippet" link now shows for Searches, allowing users to choose the Snippet whose ID they want to use in the Search (using the same interface as links between snippets).
+- Bug fixed: Cursor was not returning correctly after the creation of snippet links. 
+	
+Two changes resulted in changes to the file format. .kbase files are fully backward and forward compatible, however:
+- File format has been modified: searches are now saved (a child of Snippet is created with the name 'Criterion' for each search condition).
+- File format has been modified: properties displayed in the properties pane are now automatically saved and loaded.
+
+
+</Text>
+      <Title>RELEASE 2.1.0 2006-04-01</Title>
+      <Created>2006-04-01T18:17:04.2995000-03:00</Created>
+      <Modified>2006-04-01T18:17:04.2995000-03:00</Modified>
+      <Id>50</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>- Multiple changes to accomodate client-server version (coming soon)
+- Speed issues with massive snippet insert have been fixed
+- Tracing now prints version information (turn on trace in the kbase.config, and use View --&gt; Show Tracing Information). NOTE: Turning on tracing in the kbase.config can affect performance.
+
+
+</Text>
+      <Title>RELEASE 2.0.4 2006-03-15</Title>
+      <Created>2006-04-01T18:17:00.4713750-03:00</Created>
+      <Modified>2006-04-01T18:17:00.4713750-03:00</Modified>
+      <Id>49</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>Includes several small bug fixes.  Also:
+- Snippets that have several property values were not showing correctly in the Property Pane (error message was shown).  For instance, if a Snippet such as Color was shown in the properties pane, a selected snippet could not be classified under, for instance, red AND blue. This has been fixed to show *** Multiple Values *** and to handle the selection of *** NONE *** or one of the values.
+- Massive snippet insert into the top-level was not working.  This has been fixed.
+- SnippetIDs were not reseting on file new.   This has been fixed.
+- Moving with alt-shift-up and down was not resetting the focus correctly.  This has been fixed.
+
+
+</Text>
+      <Title>RELEASE 2.0.3 2006-01-23 </Title>
+      <Created>2006-04-01T18:16:55.9870000-03:00</Created>
+      <Modified>2006-04-01T18:16:55.9870000-03:00</Modified>
+      <Id>48</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+    <Snippet>
+      <Text>Several small bug fixes.  Also, "redo formatting" in the text pane has been fixed.
+
+
+</Text>
+      <Title>RELEASE 2.0.2 2005-12-01</Title>
+      <Created>2006-04-01T18:16:50.2213750-03:00</Created>
+      <Modified>2006-04-01T18:16:50.2213750-03:00</Modified>
+      <Id>47</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+  </Snippets>
+</Kbase>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kbase>
+  <Version>2005-08-22T21:23:52.1562500+02:00</Version>
+  <TopLevelIds>
+    <Child>3</Child>
+  </TopLevelIds>
+  <Snippets>
+    <Snippet>
+      <Text>adsfdsafdasadsfdasf</Text>
+      <Title>New Snippet</Title>
+      <Created>2005-08-22T21:23:39.2500000+02:00</Created>
+      <Id>3</Id>
+      <Color>
+      </Color>
+      <Icon>Book Blue</Icon>
+    </Snippet>
+  </Snippets>
+</Kbase>

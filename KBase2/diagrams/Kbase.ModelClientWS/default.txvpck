@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="idiytxwecz0oip7ecz0omwo">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.Server">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference41" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.FindSnippetByIdCompletedEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference42" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.UpdateSnippetCompletedEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference43" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.GetSnippetsCompletedEventArgs">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference44" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.GetTextCompletedEventArgs">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference45" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.MakeNewSnippetCompletedEventArgs">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference46" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.FindSnippetByTitleCompletedEventArgs">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference47" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.GetTopLevelSnippetCompletedEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference48" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.RemoveChildCompletedEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference49" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.GetSnippetsCompletedEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference50" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.AddChildCompletedEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference51" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.PrintInfoCompletedEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference52" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.GetTextCompletedEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference53" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.FindSnippetByTitleCompletedEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference54" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.RemoveChildCompletedEventArgs">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference55" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.MakeNewSnippetCompletedEventHandler">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference56" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.GetTopLevelSnippetCompletedEventArgs">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference57" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.ModelClientWS.FindSnippetByIdCompletedEventArgs">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

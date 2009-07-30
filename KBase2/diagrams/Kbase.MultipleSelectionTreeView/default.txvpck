@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="id5jvbbebw5d79bebw5pf1s">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="@__options" value=""/>
+        <reference df-class-name="reference" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference7" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.MultipleSelectionTreeView.NavigationHistory">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference8" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.MultipleSelectionTreeView.TreeNodeMultipleSelect">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference9" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.MultipleSelectionTreeView.ScrollingTreeView">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference df-class-name="reference10" referencedUin="csharp:e_class:src:Kbase2Client:Kbase.MultipleSelectionTreeView.TreeNodeMultipleSelectArrayList">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="csharp:l_ast:src:kbase:Kbase.MultipleSelectionTreeView.NavigationHistory.tree">
+            <property name="$shortcutReference" value="true"/>
+            <property name="sourceAnchor" value="403,347"/>
+            <property name="bendpoints" value=""/>
+            <property name="targetAnchor" value="283,347"/>
+        </reference>
+        <reference referencedUin="csharp:l_ast:src:kbase:Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.history">
+            <property name="$shortcutReference" value="true"/>
+            <property name="sourceAnchor" value="283,402"/>
+            <property name="bendpoints" value=""/>
+            <property name="targetAnchor" value="403,402"/>
+        </reference>
+        <reference referencedUin="csharp:l_ast:src:kbase:Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.selectedNodes">
+            <property name="$shortcutReference" value="true"/>
+            <property name="sourceAnchor" value="167,292"/>
+            <property name="bendpoints" value=""/>
+            <property name="targetAnchor" value="167,175"/>
+        </reference>
+        <reference referencedUin="csharp:l_ast:src:kbase:Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.SelectedNodes">
+            <property name="$shortcutReference" value="true"/>
+            <property name="sourceAnchor" value="125,292"/>
+            <property name="bendpoints" value=""/>
+            <property name="targetAnchor" value="125,175"/>
+        </reference>
+        <reference referencedUin="csharp:l_ast:src:kbase:Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.MenuPoppedUpNode">
+            <property name="$shortcutReference" value="true"/>
+            <property name="sourceAnchor" value="256,292"/>
+            <property name="bendpoints" value=""/>
+            <property name="targetAnchor" value="256,232"/>
+        </reference>
+        <property name="$defaultDiagram" value=""/>
+    </view>
+</nodeSet>

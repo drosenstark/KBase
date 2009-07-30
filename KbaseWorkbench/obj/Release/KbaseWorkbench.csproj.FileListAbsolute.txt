@@ -1,0 +1,10 @@
+C:\data\KbaseWorkbench\bin\Release\KbaseWorkbench.exe
+C:\data\KbaseWorkbench\bin\Release\KbaseWorkbench.pdb
+C:\data\KbaseWorkbench\bin\Release\ConfusionUtilities.dll
+C:\data\KbaseWorkbench\bin\Release\ConfusionUtilities.pdb
+C:\data\KbaseWorkbench\obj\Release\ResolveAssemblyReference.cache
+C:\data\KbaseWorkbench\obj\Release\KbaseWorkbench.Form1.resources
+C:\data\KbaseWorkbench\obj\Release\KbaseWorkbench.Properties.Resources.resources
+C:\data\KbaseWorkbench\obj\Release\KbaseWorkbench.csproj.GenerateResource.Cache
+C:\data\KbaseWorkbench\obj\Release\KbaseWorkbench.exe
+C:\data\KbaseWorkbench\obj\Release\KbaseWorkbench.pdb
