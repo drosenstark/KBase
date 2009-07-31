@@ -16,6 +16,7 @@ the GNU GPL or any other queries, please contact Daniel Rosenstark
 using System;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Drawing;
 
 namespace Kbase.MultipleSelectionTreeView
 {
@@ -66,6 +67,7 @@ namespace Kbase.MultipleSelectionTreeView
 
 		protected virtual void PaintAsSelected() 
 		{
+
 			// shouldn't we be worried that this means there's a memory leak?  No.
 			// The selection changes all the time, so the references to these nodes in the selected
 			// group will be released very soon.  I.e., it's not a problem here.
@@ -73,11 +75,11 @@ namespace Kbase.MultipleSelectionTreeView
 			{
 				BackColor = System.Drawing.SystemColors.Highlight;
 				ForeColor = System.Drawing.SystemColors.HighlightText;
-			}
+            }
 		}
 
 		public virtual void PaintAsUnselected() {
-			// shouldn't we be worried that this means there's a memory leak?  No.
+            // shouldn't we be worried that this means there's a memory leak?  No.
 			// The selection changes all the time, so the references to these nodes in the selected
 			// group will be released very soon.  I.e., it's not a problem here.
 			if (!Dead) 
@@ -85,7 +87,10 @@ namespace Kbase.MultipleSelectionTreeView
 				ImageIndex = DefaultImageIndexUnselected;
 				BackColor = TreeView.BackColor;
 				ForeColor = TreeView.ForeColor;
-			}
+            }
+            Universe.Instance.snippetPane.ResetFont(); // this breaks all the OO independence of thi class, etc., but this fixes a strange mono bug
+            // where stuff gets bolded randomly. Very strange, but not our fault :)
+
 		}
 		
 		private bool selected = false;

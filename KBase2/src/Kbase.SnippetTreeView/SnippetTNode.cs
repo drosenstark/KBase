@@ -32,7 +32,7 @@ namespace Kbase.SnippetTreeView
 	{
 		public SnippetInstance SnippetInstance;
 		public IList SearchCriteria;
-		public static Color HighlightBack = Color.LightCyan;
+		public static Color HighlightBack = Color.Cyan;
 
 		public Snippet Snippet {
 			get 
@@ -60,7 +60,7 @@ namespace Kbase.SnippetTreeView
 
 		public void Highlight() 
 		{
-			Debug.Assert(!Dead && this.TreeView != null);
+            Debug.Assert(!Dead && this.TreeView != null);
 
 			// if it's not selected highlight it
 			if (!Selected) 
@@ -72,7 +72,7 @@ namespace Kbase.SnippetTreeView
 
 		public void RemoveHighlight() 
 		{
-			//THIS SHOULD NOT HAPPEN, HOWEVER, if it does, when TheKBase is saved, this SnippetTNode
+            // THIS SHOULD NOT HAPPEN, HOWEVER, if it does, when TheKBase is saved, this SnippetTNode
 			// (which is not on a tree) will not get saved
 			if (Dead || this.TreeView == null)
 				return;
@@ -105,7 +105,7 @@ namespace Kbase.SnippetTreeView
 		public override void PaintAsUnselected()
 		{
 			base.PaintAsUnselected();
-			SetColor(SnippetPane.ConvertToColor(Snippet.Color));
+			//SetColor(SnippetPane.ConvertToColor(Snippet.Color));
 			ImageIndex = IconList.Instance.GetIconIndexUnselected(Snippet.Icon);
 		}
 
@@ -131,6 +131,17 @@ namespace Kbase.SnippetTreeView
 			return "SnippetTNode " + Text + " with snippet " + Snippet.GetHashCode();
 		}
 
+        public override int GetHashCode()
+        {
+            return base.GetHashCode(); // just to avoid the warning for overriding equals
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+                return false;
+            return base.Equals(obj);
+        }
 		
 	}
 }

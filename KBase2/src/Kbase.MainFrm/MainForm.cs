@@ -895,6 +895,7 @@ namespace Kbase.MainFrm
             ShowError(null, text);
         }
 
+        private static bool messageBoxShowing = false;
 
         public static void ShowError(Exception ex, string text)
         {
@@ -907,7 +908,13 @@ namespace Kbase.MainFrm
             if (text == null || text.Length == 0)
                 text = header;
 
-            MessageBox.Show("An error has ocurred (" + text + "). Please see the log file for error details.", header);
+            if (!messageBoxShowing)
+            {
+                messageBoxShowing = true;
+                MessageBox.Show("An error has ocurred (" + text + "). Please see the log file for error details.", header);
+                messageBoxShowing = false;
+            }
+
             if (ex != null)
                 ShowErrorSilent(ex);
 

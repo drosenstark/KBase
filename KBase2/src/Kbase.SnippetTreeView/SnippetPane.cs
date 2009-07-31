@@ -1488,6 +1488,13 @@ namespace Kbase.SnippetTreeView
         }
 
         /// <summary>
+        /// Bizarre Mono Bug that bolds the fonts all the time. We use this method to get rid of the bolding
+        /// </summary>
+        public new void ResetFont() {
+            Font = new Font(Font.FontFamily, Font.Size);
+        }
+
+        /// <summary>
         /// override the TreeViewMultipleSelect 
         /// </summary>
         /// <param name="e"></param>
@@ -1501,5 +1508,16 @@ namespace Kbase.SnippetTreeView
             MainForm.ShowErrorSilent(e);
         }
 
+
+        protected override void OnMouseWheel(MouseEventArgs e)
+        {
+            try
+            {
+                base.OnMouseWheel(e);
+            }
+            catch (Exception ex) {
+                OnErrorSilent(ex); // mono problems
+            }
+        }
     }
 }

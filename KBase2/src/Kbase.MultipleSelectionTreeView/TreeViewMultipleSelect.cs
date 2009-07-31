@@ -95,9 +95,8 @@ namespace Kbase.MultipleSelectionTreeView
 		/// <param name="e"></param>
 		protected override void OnBeforeSelect(TreeViewCancelEventArgs e)
 		{
-				base.OnBeforeSelect(e);
 				e.Cancel = true;
-
+                //base.OnBeforeSelect(e);
 		}
 
 		protected override void OnAfterSelect(TreeViewEventArgs e)
@@ -156,9 +155,13 @@ namespace Kbase.MultipleSelectionTreeView
 			base.OnMouseUp (e);
 			object thing = GetNodeAt(e.X, e.Y);
 
-			// handle left clicking OUTSIDE of the selection, which changes the
+
+            bool control = (ModifierKeys == Keys.Control);
+            bool shift = (ModifierKeys == Keys.Shift);
+            
+            // handle left clicking OUTSIDE of the selection, which changes the
 			// selection and then call the onrightclick event.
-			if (lastButton != MouseButtons.Left) 
+			if (lastButton != MouseButtons.Left && !control) // !control: Mono/OSX seems control is getting interpreted as right click 
 			{
 				if (thing != null && !SelectedNodes.Contains(thing)) 
 					ReplaceSelectionWith((TreeNode)thing);
@@ -166,8 +169,6 @@ namespace Kbase.MultipleSelectionTreeView
 				return;
 			}
 
-			bool control = (ModifierKeys==Keys.Control);
-			bool shift = (ModifierKeys==Keys.Shift);
 
 			if (thing != null) 
 			{
@@ -459,9 +460,17 @@ namespace Kbase.MultipleSelectionTreeView
 				}
 			}
 
-			selectedNodes.AddRange( myQueue );
+            try
+            {
+                selectedNodes.AddRange(myQueue);
 
-			firstNode = node; // let us chain several SHIFTs if we like it
+                firstNode = node; // let us chain several SHIFTs 
+            }
+            catch (Exception ex) {
+                OnErrorSilent(ex);
+                // trying to figure out what's up on Mono and why I'm getting this
+                Logger.Log("2115: what up? " + myQueue.Count);
+            }
 		}
 
 		void PlainClick(TreeNode node) 
