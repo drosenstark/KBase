@@ -908,7 +908,6 @@ namespace Kbase.MainFrm
                 text = header;
 
             MessageBox.Show("An error has ocurred (" + text + "). Please see the log file for error details.", header);
-
             if (ex != null)
                 ShowErrorSilent(ex);
 

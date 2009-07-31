@@ -136,6 +136,7 @@
     <Compile Include="src\Kbase.DetailPanel\DetailPaneDragDropSupport.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="src\Kbase.DetailPanel\ExternalSnippet.cs" />
     <Compile Include="src\Kbase.DetailPanel\FindForm.cs">
       <SubType>Form</SubType>
     </Compile>

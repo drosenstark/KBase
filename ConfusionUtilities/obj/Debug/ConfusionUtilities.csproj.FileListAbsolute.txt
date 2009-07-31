@@ -12,3 +12,10 @@ C:\data\ConfusionUtilities\obj\Debug\ConfusionUtilities.Tester.Tester.resources
 C:\data\ConfusionUtilities\obj\Debug\ConfusionUtilities.csproj.GenerateResource.Cache
 C:\data\ConfusionUtilities\obj\Debug\ConfusionUtilities.dll
 C:\data\ConfusionUtilities\obj\Debug\ConfusionUtilities.pdb
+C:\data\TheKBaseReborn\ConfusionUtilities\bin\Debug\ConfusionUtilities.dll
+C:\data\TheKBaseReborn\ConfusionUtilities\bin\Debug\ConfusionUtilities.pdb
+C:\data\TheKBaseReborn\ConfusionUtilities\obj\Debug\ResolveAssemblyReference.cache
+C:\data\TheKBaseReborn\ConfusionUtilities\obj\Debug\ConfusionUtilities.Tester.Tester.resources
+C:\data\TheKBaseReborn\ConfusionUtilities\obj\Debug\ConfusionUtilities.csproj.GenerateResource.Cache
+C:\data\TheKBaseReborn\ConfusionUtilities\obj\Debug\ConfusionUtilities.dll
+C:\data\TheKBaseReborn\ConfusionUtilities\obj\Debug\ConfusionUtilities.pdb

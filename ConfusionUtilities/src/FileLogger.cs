@@ -119,6 +119,8 @@ namespace ConfusionUtilities
 
         public override string getInfo()
         {
+            if (file == null)
+                return "No log file";
             return base.getInfo() + " filename: " + file.FullName;
         }
 

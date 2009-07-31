@@ -19,6 +19,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Data;
 using System.Windows.Forms;
+using Kbase.LibraryWrap;
 
 namespace Kbase.MultipleSelectionTreeView
 {
@@ -107,7 +108,19 @@ namespace Kbase.MultipleSelectionTreeView
 
 		protected override void OnMouseMove(MouseEventArgs e)
 		{
-			base.OnMouseMove (e);
+            if (e == null)
+                return;
+            try
+            {
+                base.OnMouseMove(e);
+            }
+            catch (NullReferenceException)
+            { 
+                // this freaky error is happening in Winforms on Mono, not sure what's up yet, but we can't debug Mono, you know?
+            }
+            catch (Exception ex) {
+                MainFrm.MainForm.ShowError(ex);
+            }
 		}
 
 		protected override void OnBeforeCollapse(TreeViewCancelEventArgs e)
@@ -607,7 +620,7 @@ namespace Kbase.MultipleSelectionTreeView
 				object toDrag = OnSelectedNodesDrag();
                 if (toDrag != null)
                 {
-                    DoDragDrop(toDrag, DragDropEffects.Copy);
+                    DoDragDrop(toDrag, DragDropEffects.Move);
                 }
 			} 
 			catch (Exception e2) 

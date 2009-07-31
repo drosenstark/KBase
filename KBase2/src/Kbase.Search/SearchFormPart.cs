@@ -42,7 +42,7 @@ namespace Kbase.Search
 			LoadBox(boxTextOrTitle,SearchTypeTextTitle.Text);
 			LoadBox(boxContainsIs,SearchTypeIsContains.Contains);
 			LoadBox(boxConcat,SearchTypeConcat.And);
-            dateTimePicker1.Text = DateTime.Today.ToString();
+            dateTimePicker1.Value = DateTime.Today;
             doneLoading = true;
 		}
 

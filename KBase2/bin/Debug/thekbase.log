@@ -1,0 +1,109 @@
+[2009-07-31 03:04:51 Information Pid 3347] - Testing Log Write
+[2009-07-31 03:04:51 Information Pid 3347] - Starting TheKBase
+[2009-07-31 03:04:57 Information Pid 3347] - Restoring from /data/notes/AllTechStuff.kbase
+[2009-07-31 03:04:57 Information Pid 3347] - Disk restore: 0h0m0s170ms
+[2009-07-31 03:04:57 Information Pid 3347] - Model Creation: 0h0m0s112ms
+[2009-07-31 03:05:08 Error Pid 3347] - EXCEPTION: Value does not fall within the expected range.
+[2009-07-31 03:05:08 Error Pid 3347] - Value does not fall within the expected range.(ArgumentException)
+[2009-07-31 03:05:08 Error Pid 3347] -   at System.Collections.Queue.CopyTo (System.Array array, Int32 index) [0x00000] 
+  at System.Collections.ArrayList.InsertRange (Int32 index, ICollection c) [0x00000] 
+  at System.Collections.ArrayList.AddRange (ICollection c) [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.ShiftClick (System.Windows.Forms.TreeNode node) [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-07-31 03:07:11 Information Pid 3347] - Saving TheKBase File to /data/notes/AllTechStuff.kbase
+[2009-07-31 03:07:11 Information Pid 3347] - Saving file: 0h0m0s112ms
+[2009-07-31 03:07:11 Information Pid 3347] - Saving Settings to /Volumes/data/TheKBaseReborn/KBase2/bin/Debug//kbase.config
+[2009-07-31 03:07:11 Information Pid 3347] - Saving Settings: 0h0m0s37ms
+[2009-07-31 03:07:14 Information Pid 3352] - Testing Log Write
+[2009-07-31 03:07:14 Information Pid 3352] - Starting TheKBase
+[2009-07-31 03:07:19 Information Pid 3352] - Restoring from /data/notes/AllTechStuff.kbase
+[2009-07-31 03:07:19 Information Pid 3352] - Disk restore: 0h0m0s173ms
+[2009-07-31 03:07:19 Information Pid 3352] - Model Creation: 0h0m0s128ms
+[2009-07-31 03:07:38 Information Pid 3352] - Restoring from /Users/apple/Desktop/test.kbase
+[2009-07-31 03:07:38 Information Pid 3352] - Disk restore: 0h0m0s153ms
+[2009-07-31 03:07:38 Information Pid 3352] - Model Creation: 0h0m0s99ms
+[2009-07-31 03:08:01 Information Pid 3352] - Saving TheKBase File to /Users/apple/Desktop/test.kbase
+[2009-07-31 03:08:01 Information Pid 3352] - Saving file: 0h0m0s149ms
+[2009-07-31 03:08:01 Information Pid 3352] - Saving Settings to /Volumes/data/TheKBaseReborn/KBase2/bin/Debug//kbase.config
+[2009-07-31 03:08:01 Information Pid 3352] - Saving Settings: 0h0m0s33ms
+[2009-07-31 03:10:43 Information Pid 3364] - Testing Log Write
+[2009-07-31 03:10:43 Information Pid 3364] - Starting TheKBase
+[2009-07-31 03:10:50 Information Pid 3364] - Restoring from /Users/apple/Desktop/test.kbase
+[2009-07-31 03:10:50 Information Pid 3364] - Disk restore: 0h0m0s178ms
+[2009-07-31 03:10:50 Information Pid 3364] - Model Creation: 0h0m0s115ms
+[2009-07-31 03:11:06 Error Pid 3364] - EXCEPTION: Value does not fall within the expected range.
+[2009-07-31 03:11:06 Error Pid 3364] - Value does not fall within the expected range.(ArgumentException)
+[2009-07-31 03:11:06 Error Pid 3364] -   at System.Collections.Queue.CopyTo (System.Array array, Int32 index) [0x00000] 
+  at System.Collections.ArrayList.InsertRange (Int32 index, ICollection c) [0x00000] 
+  at System.Collections.ArrayList.AddRange (ICollection c) [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.ShiftClick (System.Windows.Forms.TreeNode node) [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-07-31 03:11:35 Error Pid 3364] - EXCEPTION: Exception has been thrown by the target of an invocation.
+[2009-07-31 03:11:35 Error Pid 3364] - Exception has been thrown by the target of an invocation.(TargetInvocationException)
+[2009-07-31 03:11:35 Error Pid 3364] -   at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] 
+  at System.ComponentModel.ReflectionPropertyDescriptor.GetValue (System.Object component) [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.GridEntry.get_Value () [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.GridEntry.get_Values () [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.GridEntry.GetChildGridItems () [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.GridEntry.GetChildGridItemsCached () [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.GridEntry.get_Expandable () [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.CalculateItemY (System.Windows.Forms.PropertyGridInternal.GridEntry entry, System.Windows.Forms.GridItemCollection items, System.Int32& y) [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.CalculateItemY (System.Windows.Forms.PropertyGridInternal.GridEntry entry, System.Windows.Forms.GridItemCollection items, System.Int32& y) [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.UpdateGridTextBoxBounds (System.Windows.Forms.PropertyGridInternal.GridEntry entry) [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.UpdateItem (System.Windows.Forms.PropertyGridInternal.GridEntry entry) [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.SelectItem (System.Windows.Forms.PropertyGridInternal.GridEntry oldItem, System.Windows.Forms.PropertyGridInternal.GridEntry newItem) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.PropertyGridInternal.PropertyGridView:SelectItem (System.Windows.Forms.PropertyGridInternal.GridEntry,System.Windows.Forms.PropertyGridInternal.GridEntry)
+  at System.Windows.Forms.PropertyGrid.SelectItemCore (System.Windows.Forms.PropertyGridInternal.GridEntry oldItem, System.Windows.Forms.PropertyGridInternal.GridEntry item) [0x00000] 
+  at System.Windows.Forms.PropertyGrid.set_SelectedObjects (System.Object[] value) [0x00000] 
+  at System.Windows.Forms.PropertyGrid.set_SelectedObject (System.Object value) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.PropertyGrid:set_SelectedObject (object)
+  at Kbase.PropertiesForm.SnippetInfoForm.addProperty (System.String title, System.Object obj) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.PropertiesForm.SnippetInfoForm:addProperty (string,object)
+  at Kbase.PropertiesForm.SnippetInfoForm.showProps (System.String title, System.Object obj) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.ShowInfo (System.Object sender, System.EventArgs e) [0x00000] 
+[2009-07-31 03:11:35 Error Pid 3364] - EXCEPTION: Not a search snippet.
+[2009-07-31 03:11:35 Error Pid 3364] - Not a search snippet.(Exception)
+[2009-07-31 03:11:35 Error Pid 3364] -   at Kbase.Model.Snippet.get_SearchCriteriaForDisplay () [0x00000] 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] 
+[2009-07-31 03:12:03 Information Pid 3364] - Saving TheKBase File to /Users/apple/Desktop/test.kbase
+[2009-07-31 03:12:03 Information Pid 3364] - Saving file: 0h0m0s148ms
+[2009-07-31 03:12:03 Information Pid 3364] - Saving Settings to /Volumes/data/TheKBaseReborn/KBase2/bin/Debug//kbase.config
+[2009-07-31 03:12:03 Information Pid 3364] - Saving Settings: 0h0m0s25ms
+[2009-07-31 03:12:06 Information Pid 3369] - Testing Log Write
+[2009-07-31 03:12:06 Information Pid 3369] - Starting TheKBase
+[2009-07-31 03:12:11 Information Pid 3369] - Restoring from /Users/apple/Desktop/test.kbase
+[2009-07-31 03:12:11 Information Pid 3369] - Disk restore: 0h0m0s173ms
+[2009-07-31 03:12:11 Information Pid 3369] - Model Creation: 0h0m0s123ms
+[2009-07-31 03:12:33 Error Pid 3369] - EXCEPTION: Exception has been thrown by the target of an invocation.
+[2009-07-31 03:12:33 Error Pid 3369] - Exception has been thrown by the target of an invocation.(TargetInvocationException)
+[2009-07-31 03:12:33 Error Pid 3369] -   at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] 
+  at System.ComponentModel.ReflectionPropertyDescriptor.GetValue (System.Object component) [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.GridEntry.get_Value () [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.GridEntry.get_Values () [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.GridEntry.GetChildGridItems () [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.GridEntry.GetChildGridItemsCached () [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.GridEntry.get_Expandable () [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.CalculateItemY (System.Windows.Forms.PropertyGridInternal.GridEntry entry, System.Windows.Forms.GridItemCollection items, System.Int32& y) [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.CalculateItemY (System.Windows.Forms.PropertyGridInternal.GridEntry entry, System.Windows.Forms.GridItemCollection items, System.Int32& y) [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.UpdateGridTextBoxBounds (System.Windows.Forms.PropertyGridInternal.GridEntry entry) [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.UpdateItem (System.Windows.Forms.PropertyGridInternal.GridEntry entry) [0x00000] 
+  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.SelectItem (System.Windows.Forms.PropertyGridInternal.GridEntry oldItem, System.Windows.Forms.PropertyGridInternal.GridEntry newItem) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.PropertyGridInternal.PropertyGridView:SelectItem (System.Windows.Forms.PropertyGridInternal.GridEntry,System.Windows.Forms.PropertyGridInternal.GridEntry)
+  at System.Windows.Forms.PropertyGrid.SelectItemCore (System.Windows.Forms.PropertyGridInternal.GridEntry oldItem, System.Windows.Forms.PropertyGridInternal.GridEntry item) [0x00000] 
+  at System.Windows.Forms.PropertyGrid.set_SelectedObjects (System.Object[] value) [0x00000] 
+  at System.Windows.Forms.PropertyGrid.set_SelectedObject (System.Object value) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.PropertyGrid:set_SelectedObject (object)
+  at Kbase.PropertiesForm.SnippetInfoForm.addProperty (System.String title, System.Object obj) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.PropertiesForm.SnippetInfoForm:addProperty (string,object)
+  at Kbase.PropertiesForm.SnippetInfoForm.showProps (System.String title, System.Object obj) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.ShowInfo (System.Object sender, System.EventArgs e) [0x00000] 
+[2009-07-31 03:12:33 Error Pid 3369] - EXCEPTION: Not a search snippet.
+[2009-07-31 03:12:33 Error Pid 3369] - Not a search snippet.(Exception)
+[2009-07-31 03:12:33 Error Pid 3369] -   at Kbase.Model.Snippet.get_SearchCriteriaForDisplay () [0x00000] 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] 
+[2009-07-31 03:13:02 Information Pid 3369] - Saving Settings to /Volumes/data/TheKBaseReborn/KBase2/bin/Debug//kbase.config
+[2009-07-31 03:13:02 Information Pid 3369] - Saving Settings: 0h0m0s34ms
