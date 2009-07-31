@@ -107,7 +107,7 @@ namespace Kbase.Properties
             this.snippetDate.Width = this.ClientSize.Width;
             this.snippetDate.Height = standardLabelHeight;
             this.snippetDate.AutoSize = true;
-            //this.snippetDate.Dock = DockStyle.Right;
+            this.snippetDate.Dock = DockStyle.Right;
             this.snippetDate.Text = new DateTime().ToString();
             this.snippetDate.BorderStyle = BorderStyle.Fixed3D;
 
@@ -116,6 +116,7 @@ namespace Kbase.Properties
 			topPanel.Dock = DockStyle.Top;
             topPanel.Controls.Add(this.snippetDate);
 			topPanel.Controls.Add(this.snippetTitle);
+
 
 
             // ParentPane which is the tree backwards
@@ -206,8 +207,9 @@ namespace Kbase.Properties
 
             propertiesPaneHolder.Edit(selectedSnippets);
 
-			snippetTitle.Edit(instance.Snippet);
             snippetDate.Edit(instance.Snippet);
+            snippetTitle.Edit(instance.Snippet);
+            snippetTitle.Width = this.Width - snippetDate.Width - 10;
 
             parentPane.Edit(instance);
 

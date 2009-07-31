@@ -368,3 +368,60 @@
 [2009-07-31 20:33:49 Information Pid 5470] - Starting v. 0.0.1b
 [2009-07-31 20:34:02 Information Pid 5470] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
 [2009-07-31 20:34:02 Information Pid 5470] - Saving Settings: 0h0m0s29ms
+[2009-07-31 20:40:02 Information Pid 5483] - Testing Log Write
+[2009-07-31 20:40:02 Information Pid 5483] - Starting TheKBase
+[2009-07-31 20:40:03 Information Pid 5483] - Starting v. 0.0.1b
+[2009-07-31 20:40:13 Information Pid 5483] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 20:40:13 Information Pid 5483] - Saving Settings: 0h0m0s30ms
+[2009-07-31 20:43:13 Information Pid 5490] - Testing Log Write
+[2009-07-31 20:43:13 Information Pid 5490] - Starting TheKBase
+[2009-07-31 20:43:15 Information Pid 5490] - Starting v. 0.0.1b
+[2009-07-31 20:43:28 Information Pid 5490] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 20:43:28 Information Pid 5490] - Saving Settings: 0h0m0s27ms
+[2009-07-31 20:50:12 Information Pid 5500] - Testing Log Write
+[2009-07-31 20:50:12 Information Pid 5500] - Starting TheKBase
+[2009-07-31 20:50:13 Information Pid 5500] - Starting v. 0.0.1b
+[2009-07-31 20:50:28 Information Pid 5500] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 20:50:28 Information Pid 5500] - Saving Settings: 0h0m0s29ms
+[2009-07-31 20:50:47 Information Pid 5503] - Testing Log Write
+[2009-07-31 20:50:47 Information Pid 5503] - Starting TheKBase
+[2009-07-31 20:50:49 Information Pid 5503] - Starting v. 0.0.1b
+[2009-07-31 20:51:47 Information Pid 5505] - Testing Log Write
+[2009-07-31 20:51:47 Information Pid 5505] - Starting TheKBase
+[2009-07-31 20:51:49 Information Pid 5505] - Starting v. 0.0.1b
+[2009-07-31 20:52:28 Information Pid 5505] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 20:52:28 Information Pid 5505] - Saving Settings: 0h0m0s34ms
+[2009-07-31 21:04:27 Information Pid 5523] - Testing Log Write
+[2009-07-31 21:04:27 Information Pid 5523] - Starting TheKBase
+[2009-07-31 21:04:28 Information Pid 5523] - Starting v. 0.0.1b
+[2009-07-31 21:04:43 Information Pid 5523] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 21:04:43 Information Pid 5523] - Saving Settings: 0h0m0s29ms
+[2009-07-31 21:05:37 Information Pid 5525] - Testing Log Write
+[2009-07-31 21:05:37 Information Pid 5525] - Starting TheKBase
+[2009-07-31 21:05:39 Information Pid 5525] - Starting v. 0.0.1b
+[2009-07-31 21:05:53 Information Pid 5525] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 21:05:53 Information Pid 5525] - Saving Settings: 0h0m0s30ms
+[2009-07-31 21:06:06 Information Pid 5532] - Testing Log Write
+[2009-07-31 21:06:06 Information Pid 5532] - Starting TheKBase
+[2009-07-31 21:06:08 Information Pid 5532] - Starting v. 0.0.1b
+[2009-07-31 21:06:16 Information Pid 5532] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 21:06:16 Information Pid 5532] - Saving Settings: 0h0m0s31ms
+[2009-07-31 21:08:51 Information Pid 5534] - Testing Log Write
+[2009-07-31 21:08:51 Information Pid 5534] - Starting TheKBase
+[2009-07-31 21:08:53 Information Pid 5534] - Starting v. 0.0.1b
+[2009-07-31 21:09:09 Information Pid 5534] - Got a rename down to the SnippetInstance level New Snippet what
+[2009-07-31 21:09:25 Information Pid 5534] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 21:09:25 Information Pid 5534] - Saving Settings: 0h0m0s31ms
+[2009-07-31 21:10:17 Information Pid 5538] - Testing Log Write
+[2009-07-31 21:10:17 Information Pid 5538] - Starting TheKBase
+[2009-07-31 21:10:19 Information Pid 5538] - Starting v. 0.0.1b
+[2009-07-31 21:10:58 Information Pid 5538] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 21:10:58 Information Pid 5538] - Saving Settings: 0h0m0s35ms
+[2009-07-31 21:11:15 Information Pid 5540] - Testing Log Write
+[2009-07-31 21:11:15 Information Pid 5540] - Starting TheKBase
+[2009-07-31 21:11:19 Information Pid 5540] - Starting v. 0.0.1b
+[2009-07-31 21:12:15 Error Pid 5540] - EXCEPTION: Array index is out of range.
+[2009-07-31 21:12:15 Error Pid 5540] - Array index is out of range.(IndexOutOfRangeException)
+[2009-07-31 21:12:15 Error Pid 5540] -   at Kbase.DetailPanel.DetailPane.SaveClipboard () [0x00000] 
+[2009-07-31 21:12:34 Information Pid 5540] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 21:12:34 Information Pid 5540] - Saving Settings: 0h0m0s31ms

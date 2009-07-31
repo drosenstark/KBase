@@ -57,7 +57,8 @@ namespace Kbase.Model
 
 		public void Rename(string name)
 		{
-                node.Text = name;
+            node.Text = name;
+            node.RedoPaintjob();
 		}
 
 		public void Highlight()
