@@ -68,8 +68,7 @@ namespace Kbase.Model
                     }
                 }
                 else {
-                    throw new Exception("Not a search snippet.");
-                    //retVal.Add("Not a search snippet");
+                    retVal.Add("Not a search snippet");
                 }
                 return retVal.ToArray();
             

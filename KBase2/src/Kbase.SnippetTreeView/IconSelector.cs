@@ -17,6 +17,7 @@ using System;
 using System.Windows.Forms;
 using Kbase.Icon;
 using System.Collections.Generic;
+using Kbase.LibraryWrap;
 
 namespace Kbase.SnippetTreeView
 {
@@ -38,11 +39,10 @@ namespace Kbase.SnippetTreeView
 			this.Text = "Select An Icon";
 		}
 
-
 		public string SelectedIcon {
 			get 
 			{
-				TreeNodeIconSelector node = treeView.SelectedNode as TreeNodeIconSelector;
+				TreeNodeIconSelector node = treeView.SelectedNodeCached; // we should be able to use SelectedNode, but Mono changes it to something else
                 return node.iconSet.FancyName;
 			}
 			set {

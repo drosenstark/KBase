@@ -18,6 +18,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 using Kbase.Icon;
+using Kbase.LibraryWrap;
 
 namespace Kbase.SnippetTreeView
 {
@@ -76,6 +77,7 @@ namespace Kbase.SnippetTreeView
                 e.Cancel = true;
         }
 
+        public TreeNodeIconSelector SelectedNodeCached = null; // we cache this because on close something else gets selected in Mono
 
         // so we don't close the form on the first select
         bool initializing = true;
@@ -85,8 +87,12 @@ namespace Kbase.SnippetTreeView
             if (initializing)
                 initializing = false;
             else
+            {
+				SelectedNodeCached = SelectedNode as TreeNodeIconSelector;
                 this.FindForm().Close();
+            }
         }
+
 
         public void ResetSelectedNode(TreeNode node)
         {

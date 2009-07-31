@@ -33,8 +33,6 @@ C:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.exe.manifest
 C:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.application
 C:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.exe
 C:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.pdb
-D:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.exe
-D:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.pdb
 D:\data\TheKBaseReborn\KBase2\bin\Debug\TheKBase.exe.manifest
 D:\data\TheKBaseReborn\KBase2\bin\Debug\TheKBase.application
 D:\data\TheKBaseReborn\KBase2\bin\Debug\TheKBase.exe
@@ -68,3 +66,5 @@ D:\data\TheKBaseReborn\KBase2\obj\Debug\Kbase.SnippetTreeView.SelectSnippetForm.
 D:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.csproj.GenerateResource.Cache
 D:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.exe.manifest
 D:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.application
+D:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.exe
+D:\data\TheKBaseReborn\KBase2\obj\Debug\TheKBase.pdb

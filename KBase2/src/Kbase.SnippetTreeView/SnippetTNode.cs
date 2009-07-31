@@ -105,7 +105,7 @@ namespace Kbase.SnippetTreeView
 		public override void PaintAsUnselected()
 		{
 			base.PaintAsUnselected();
-			//SetColor(SnippetPane.ConvertToColor(Snippet.Color));
+			SetColor(SnippetPane.ConvertToColor(Snippet.Color));
 			ImageIndex = IconList.Instance.GetIconIndexUnselected(Snippet.Icon);
 		}
 
