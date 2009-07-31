@@ -1,75 +1,236 @@
-[2009-07-31 18:01:23 Information Pid 5099] - Painting as unselected Search Results
-[2009-07-31 18:01:23 Information Pid 5099] - Painting as selected before OSX and evernote
-[2009-07-31 18:01:23 Information Pid 5099] - Painting as selected before OSX and evernote
-[2009-07-31 18:01:23 Information Pid 5099] - highlight before OSX and evernote
-[2009-07-31 18:01:36 Information Pid 5099] - Painting as unselected before OSX and evernote
-[2009-07-31 18:01:36 Information Pid 5099] - Painting as selected Search Results
-[2009-07-31 18:01:36 Information Pid 5099] - Painting as selected Search Results
-[2009-07-31 18:01:36 Information Pid 5099] - highlight Search Results
-[2009-07-31 18:02:11 Information Pid 5099] - Painting as unselected Search Results
-[2009-07-31 18:02:11 Information Pid 5099] - Painting as selected Foote and RUP
-[2009-07-31 18:02:11 Information Pid 5099] - Painting as selected Foote and RUP
-[2009-07-31 18:02:11 Information Pid 5099] - highlight Foote and RUP
-[2009-07-31 18:02:11 Information Pid 5099] - highlight Foote and RUP
-[2009-07-31 18:02:11 Information Pid 5099] - highlight Foote and RUP
-[2009-07-31 18:02:13 Information Pid 5099] - Painting as unselected Foote and RUP
-[2009-07-31 18:02:13 Information Pid 5099] - Remove highlight Foote and RUP
-[2009-07-31 18:02:13 Information Pid 5099] - Painting as unselected Foote and RUP
-[2009-07-31 18:02:13 Information Pid 5099] - Remove highlight Foote and RUP
-[2009-07-31 18:02:13 Information Pid 5099] - Painting as unselected Foote and RUP
-[2009-07-31 18:02:14 Information Pid 5099] - Painting as selected Search Results
-[2009-07-31 18:02:14 Information Pid 5099] - Painting as selected Search Results
-[2009-07-31 18:02:14 Information Pid 5099] - highlight Search Results
-[2009-07-31 18:02:15 Information Pid 5099] - Painting as unselected Search Results
-[2009-07-31 18:02:15 Information Pid 5099] - Painting as selected Scratch Pad
-[2009-07-31 18:02:15 Information Pid 5099] - Painting as selected Scratch Pad
-[2009-07-31 18:02:15 Information Pid 5099] - highlight Scratch Pad
-[2009-07-31 18:02:23 Information Pid 5099] - Saving Settings to /Volumes/data/TheKBaseReborn/KBase2/bin/Debug//kbase.config
-[2009-07-31 18:02:23 Information Pid 5099] - Saving Settings: 0h0m0s26ms
-[2009-07-31 18:05:18 Information Pid 5107] - Testing Log Write
-[2009-07-31 18:05:19 Information Pid 5107] - Starting TheKBase
-[2009-07-31 18:05:19 Information Pid 5107] - Starting v. 0.0.1b
-[2009-07-31 18:05:22 Information Pid 5107] - Restoring from /Users/apple/Desktop/test.kbase
-[2009-07-31 18:05:23 Information Pid 5107] - Disk restore: 0h0m0s175ms
-[2009-07-31 18:05:24 Error Pid 5107] - EXCEPTION: Object reference not set to an instance of an object
-[2009-07-31 18:05:24 Error Pid 5107] - Object reference not set to an instance of an object(NullReferenceException)
-[2009-07-31 18:05:24 Error Pid 5107] -   at Kbase.MultipleSelectionTreeView.TreeNodeMultipleSelect.PaintAsUnselected () [0x00000] 
-  at Kbase.SnippetTreeView.SnippetTNode.PaintAsUnselected () [0x00000] 
-  at Kbase.SnippetTreeView.SnippetTNode.RedoPaintjob () [0x00000] 
-  at (wrapper remoting-invoke-with-check) Kbase.SnippetTreeView.SnippetTNode:RedoPaintjob ()
-  at Kbase.Model.SnippetInstanceTopLevel.AddChild (Kbase.Model.Snippet child) [0x00000] 
-  at Kbase.Model.SnippetUI.OnAfterAddChildSnippet (Kbase.Model.Snippet child) [0x00000] 
-  at Kbase.Model.SnippetUI.Show (Kbase.Model.Snippet child) [0x00000] 
-  at Kbase.ModelInMemory.SnippetInMemory.AddChildSnippet (Kbase.ModelInMemory.SnippetInMemory child) [0x00000] 
-  at Kbase.ModelInMemory.SnippetInMemory.AddChildSnippet () [0x00000] 
-  at Kbase.Serialization.SerializableSnippet.MakeSnippetInModel (Kbase.Model.Snippet where, System.Collections.Hashtable serializableSnippets, Boolean merge) [0x00000] 
-  at Kbase.Serialization.SerializableUniverse.Restore (Kbase.Model.Snippet where, Boolean merge) [0x00000] 
-  at Kbase.Serialization.SerializableUniverse.Restore (System.String path, Kbase.Serialization.Serializer serializer, Kbase.Model.Snippet where, Boolean merge) [0x00000] 
-  at Kbase.Serialization.SerializableUniverse.Restore (System.String path, Kbase.Model.Snippet where, Boolean resetFirst) [0x00000] 
-  at Kbase.Universe.Restore (System.String newPath, Boolean mergeIntoCurrent) [0x00000] 
-[2009-07-31 18:05:42 Information Pid 5107] - Saving Settings to /Volumes/data/TheKBaseReborn/KBase2/bin/Debug//kbase.config
-[2009-07-31 18:05:42 Information Pid 5107] - Saving Settings: 0h0m0s26ms
-[2009-07-31 18:07:09 Information Pid 5113] - Testing Log Write
-[2009-07-31 18:07:09 Information Pid 5113] - Starting TheKBase
-[2009-07-31 18:07:10 Information Pid 5113] - Starting v. 0.0.1b
-[2009-07-31 18:07:13 Information Pid 5113] - Restoring from /Users/apple/Desktop/test.kbase
-[2009-07-31 18:07:13 Information Pid 5113] - Disk restore: 0h0m0s177ms
-[2009-07-31 18:07:14 Information Pid 5113] - Model Creation: 0h0m0s351ms
-[2009-07-31 18:07:51 Information Pid 5113] - Saving Settings to /Volumes/data/TheKBaseReborn/KBase2/bin/Debug//kbase.config
-[2009-07-31 18:07:51 Information Pid 5113] - Saving Settings: 0h0m0s35ms
-[2009-07-31 18:08:15 Information Pid 5114] - Testing Log Write
-[2009-07-31 18:08:15 Information Pid 5114] - Starting TheKBase
-[2009-07-31 18:08:16 Information Pid 5114] - Starting v. 0.0.1b
-[2009-07-31 18:08:18 Information Pid 5114] - Restoring from /Users/apple/Desktop/test.kbase
-[2009-07-31 18:08:19 Information Pid 5114] - Disk restore: 0h0m0s175ms
-[2009-07-31 18:08:19 Information Pid 5114] - Model Creation: 0h0m0s93ms
-[2009-07-31 18:08:22 Information Pid 5114] - Saving Settings to /Volumes/data/TheKBaseReborn/KBase2/bin/Debug//kbase.config
-[2009-07-31 18:08:22 Information Pid 5114] - Saving Settings: 0h0m0s27ms
-[2009-07-31 18:09:56 Information Pid 5115] - Testing Log Write
-[2009-07-31 18:09:56 Information Pid 5115] - Starting TheKBase
-[2009-07-31 18:09:57 Information Pid 5115] - Starting v. 0.0.1b
-[2009-07-31 18:10:00 Information Pid 5115] - Restoring from /Users/apple/Desktop/test.kbase
-[2009-07-31 18:10:00 Information Pid 5115] - Disk restore: 0h0m0s178ms
-[2009-07-31 18:10:00 Information Pid 5115] - Model Creation: 0h0m0s409ms
-[2009-07-31 18:11:05 Information Pid 5115] - Saving Settings to /Volumes/data/TheKBaseReborn/KBase2/bin/Debug//kbase.config
-[2009-07-31 18:11:05 Information Pid 5115] - Saving Settings: 0h0m0s30ms
+[2009-07-31 19:11:05 Information Pid 5272] - Testing Log Write
+[2009-07-31 19:11:05 Information Pid 5272] - Starting TheKBase
+[2009-07-31 19:11:07 Information Pid 5272] - Starting v. 0.0.1b
+[2009-07-31 19:11:19 Information Pid 5272] - In onShown a focus man.
+[2009-07-31 19:12:10 Information Pid 5272] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:12:10 Information Pid 5272] - Saving Settings: 0h0m0s34ms
+[2009-07-31 19:13:12 Information Pid 5280] - Testing Log Write
+[2009-07-31 19:13:12 Information Pid 5280] - Starting TheKBase
+[2009-07-31 19:13:14 Information Pid 5280] - Starting v. 0.0.1b
+[2009-07-31 19:13:26 Information Pid 5280] - In onShown a focus man.
+[2009-07-31 19:13:26 Information Pid 5280] - In onShown a focus man.
+[2009-07-31 19:13:30 Information Pid 5280] - In onShown a focus man.
+[2009-07-31 19:13:30 Information Pid 5280] - In onShown a focus man.
+[2009-07-31 19:13:41 Information Pid 5280] - In onShown a focus man.
+[2009-07-31 19:13:41 Information Pid 5280] - In onShown a focus man.
+[2009-07-31 19:14:01 Information Pid 5280] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:14:01 Information Pid 5280] - Saving Settings: 0h0m0s34ms
+[2009-07-31 19:16:19 Information Pid 5283] - Testing Log Write
+[2009-07-31 19:16:19 Information Pid 5283] - Starting TheKBase
+[2009-07-31 19:16:21 Information Pid 5283] - Starting v. 0.0.1b
+[2009-07-31 19:16:26 Information Pid 5283] - visible changed to here a focus man.
+[2009-07-31 19:16:26 Information Pid 5283] - visible changed to here a focus man.
+[2009-07-31 19:16:35 Information Pid 5283] - visible changed to here a focus man.
+[2009-07-31 19:16:35 Information Pid 5283] - visible changed to here a focus man.
+[2009-07-31 19:16:57 Information Pid 5283] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:16:57 Information Pid 5283] - Saving Settings: 0h0m0s35ms
+[2009-07-31 19:18:00 Information Pid 5291] - Testing Log Write
+[2009-07-31 19:18:00 Information Pid 5291] - Starting TheKBase
+[2009-07-31 19:18:01 Information Pid 5291] - Starting v. 0.0.1b
+[2009-07-31 19:18:04 Information Pid 5291] - visible changed to here a focus man.
+[2009-07-31 19:18:04 Information Pid 5291] - visible changed to here a focus man.
+[2009-07-31 19:18:08 Information Pid 5291] - visible changed to here a focus man.
+[2009-07-31 19:18:08 Information Pid 5291] - visible changed to here a focus man.
+[2009-07-31 19:18:16 Information Pid 5291] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:18:16 Information Pid 5291] - Saving Settings: 0h0m0s32ms
+[2009-07-31 19:21:10 Information Pid 5294] - Testing Log Write
+[2009-07-31 19:21:10 Information Pid 5294] - Starting TheKBase
+[2009-07-31 19:21:11 Information Pid 5294] - Starting v. 0.0.1b
+[2009-07-31 19:21:13 Information Pid 5294] - visible changed to here a focus man.
+[2009-07-31 19:21:14 Information Pid 5294] - visible changed to here a focus man.
+[2009-07-31 19:21:19 Information Pid 5294] - visible changed to here a focus man.
+[2009-07-31 19:21:19 Information Pid 5294] - visible changed to here a focus man.
+[2009-07-31 19:21:43 Information Pid 5296] - Testing Log Write
+[2009-07-31 19:21:43 Information Pid 5296] - Starting TheKBase
+[2009-07-31 19:21:45 Information Pid 5296] - Starting v. 0.0.1b
+[2009-07-31 19:21:48 Information Pid 5296] - visible changed to here a focus man.
+[2009-07-31 19:21:48 Information Pid 5296] - visible changed to here a focus man.
+[2009-07-31 19:21:55 Information Pid 5296] - visible changed to here a focus man.
+[2009-07-31 19:21:55 Information Pid 5296] - visible changed to here a focus man.
+[2009-07-31 19:22:19 Information Pid 5296] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:22:19 Information Pid 5296] - Saving Settings: 0h0m0s33ms
+[2009-07-31 19:22:24 Information Pid 5298] - Testing Log Write
+[2009-07-31 19:22:24 Information Pid 5298] - Starting TheKBase
+[2009-07-31 19:22:25 Information Pid 5298] - Starting v. 0.0.1b
+[2009-07-31 19:22:29 Information Pid 5298] - visible changed to here a focus man.
+[2009-07-31 19:22:29 Information Pid 5298] - visible changed to here a focus man.
+[2009-07-31 19:22:32 Information Pid 5298] - visible changed to here a focus man.
+[2009-07-31 19:22:32 Information Pid 5298] - visible changed to here a focus man.
+[2009-07-31 19:22:38 Information Pid 5298] - visible changed to here a focus man.
+[2009-07-31 19:22:38 Information Pid 5298] - visible changed to here a focus man.
+[2009-07-31 19:22:46 Information Pid 5298] - visible changed to here a focus man.
+[2009-07-31 19:22:46 Information Pid 5298] - visible changed to here a focus man.
+[2009-07-31 19:22:52 Information Pid 5298] - visible changed to here a focus man.
+[2009-07-31 19:22:52 Information Pid 5298] - visible changed to here a focus man.
+[2009-07-31 19:22:58 Information Pid 5298] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:22:58 Information Pid 5298] - Saving Settings: 0h0m0s32ms
+[2009-07-31 19:23:20 Information Pid 5301] - Testing Log Write
+[2009-07-31 19:23:20 Information Pid 5301] - Starting TheKBase
+[2009-07-31 19:23:22 Information Pid 5301] - Starting v. 0.0.1b
+[2009-07-31 19:23:25 Information Pid 5301] - visible changed to here a focus man.
+[2009-07-31 19:23:25 Information Pid 5301] - visible changed to here a focus man.
+[2009-07-31 19:23:29 Information Pid 5301] - visible changed to here a focus man.
+[2009-07-31 19:23:29 Information Pid 5301] - visible changed to here a focus man.
+[2009-07-31 19:23:33 Information Pid 5301] - visible changed to here a focus man.
+[2009-07-31 19:23:33 Information Pid 5301] - visible changed to here a focus man.
+[2009-07-31 19:23:39 Information Pid 5301] - visible changed to here a focus man.
+[2009-07-31 19:23:39 Information Pid 5301] - visible changed to here a focus man.
+[2009-07-31 19:24:45 Information Pid 5301] - visible changed to here a focus man.
+[2009-07-31 19:24:45 Information Pid 5301] - visible changed to here a focus man.
+[2009-07-31 19:24:54 Information Pid 5301] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:24:54 Information Pid 5301] - Saving Settings: 0h0m0s30ms
+[2009-07-31 19:26:07 Information Pid 5308] - Testing Log Write
+[2009-07-31 19:26:07 Information Pid 5308] - Starting TheKBase
+[2009-07-31 19:26:09 Information Pid 5308] - Starting v. 0.0.1b
+[2009-07-31 19:26:12 Information Pid 5308] - visible changed to here a focus man.
+[2009-07-31 19:26:12 Information Pid 5308] - visible changed to here a focus man.
+[2009-07-31 19:26:22 Information Pid 5308] - visible changed to here a focus man.
+[2009-07-31 19:26:22 Information Pid 5308] - visible changed to here a focus man.
+[2009-07-31 19:26:28 Information Pid 5308] - visible changed to here a focus man.
+[2009-07-31 19:26:28 Information Pid 5308] - visible changed to here a focus man.
+[2009-07-31 19:26:38 Information Pid 5308] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:26:38 Information Pid 5308] - Saving Settings: 0h0m0s34ms
+[2009-07-31 19:35:02 Information Pid 5316] - Testing Log Write
+[2009-07-31 19:35:02 Information Pid 5316] - Starting TheKBase
+[2009-07-31 19:35:03 Information Pid 5316] - Starting v. 0.0.1b
+[2009-07-31 19:35:15 Information Pid 5316] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:35:15 Information Pid 5316] - Saving Settings: 0h0m0s28ms
+[2009-07-31 19:35:17 Information Pid 5318] - Testing Log Write
+[2009-07-31 19:35:17 Information Pid 5318] - Starting TheKBase
+[2009-07-31 19:35:19 Information Pid 5318] - Starting v. 0.0.1b
+[2009-07-31 19:35:25 Information Pid 5318] - visible changed to here a focus man.
+[2009-07-31 19:35:25 Information Pid 5318] - visible changed to here a focus man.
+[2009-07-31 19:35:29 Information Pid 5318] - visible changed to here a focus man.
+[2009-07-31 19:35:29 Information Pid 5318] - visible changed to here a focus man.
+[2009-07-31 19:35:33 Information Pid 5318] - visible changed to here a focus man.
+[2009-07-31 19:35:33 Information Pid 5318] - visible changed to here a focus man.
+[2009-07-31 19:35:39 Information Pid 5318] - visible changed to here a focus man.
+[2009-07-31 19:35:39 Information Pid 5318] - visible changed to here a focus man.
+[2009-07-31 19:35:48 Information Pid 5318] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:35:48 Information Pid 5318] - Saving Settings: 0h0m0s33ms
+[2009-07-31 19:36:45 Information Pid 5327] - Testing Log Write
+[2009-07-31 19:36:45 Information Pid 5327] - Starting TheKBase
+[2009-07-31 19:36:46 Information Pid 5327] - Starting v. 0.0.1b
+[2009-07-31 19:36:52 Information Pid 5327] - visible changed to here a focus man.
+[2009-07-31 19:36:52 Information Pid 5327] - visible changed to here a focus man.
+[2009-07-31 19:36:58 Information Pid 5327] - visible changed to here a focus man.
+[2009-07-31 19:36:58 Information Pid 5327] - visible changed to here a focus man.
+[2009-07-31 19:37:18 Information Pid 5327] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:37:18 Information Pid 5327] - Saving Settings: 0h0m0s33ms
+[2009-07-31 19:38:57 Information Pid 5329] - Testing Log Write
+[2009-07-31 19:38:57 Information Pid 5329] - Starting TheKBase
+[2009-07-31 19:38:59 Information Pid 5329] - Starting v. 0.0.1b
+[2009-07-31 19:39:01 Information Pid 5329] - did that!
+[2009-07-31 19:39:01 Information Pid 5329] - visible changed to here a focus man.
+[2009-07-31 19:39:02 Information Pid 5329] - did that!
+[2009-07-31 19:39:02 Information Pid 5329] - visible changed to here a focus man.
+[2009-07-31 19:39:06 Information Pid 5329] - did that!
+[2009-07-31 19:39:06 Information Pid 5329] - visible changed to here a focus man.
+[2009-07-31 19:39:06 Information Pid 5329] - did that!
+[2009-07-31 19:39:06 Information Pid 5329] - visible changed to here a focus man.
+[2009-07-31 19:39:13 Information Pid 5329] - did that!
+[2009-07-31 19:39:21 Information Pid 5329] - did that!
+[2009-07-31 19:39:21 Information Pid 5329] - visible changed to here a focus man.
+[2009-07-31 19:39:21 Information Pid 5329] - did that!
+[2009-07-31 19:39:21 Information Pid 5329] - visible changed to here a focus man.
+[2009-07-31 19:39:31 Information Pid 5329] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:39:31 Information Pid 5329] - Saving Settings: 0h0m0s34ms
+[2009-07-31 19:40:19 Information Pid 5331] - Testing Log Write
+[2009-07-31 19:40:19 Information Pid 5331] - Starting TheKBase
+[2009-07-31 19:40:20 Information Pid 5331] - Starting v. 0.0.1b
+[2009-07-31 19:40:23 Information Pid 5331] - visible changed to here a focus man.
+[2009-07-31 19:40:23 Information Pid 5331] - visible changed to here a focus man.
+[2009-07-31 19:40:28 Information Pid 5331] - visible changed to here a focus man.
+[2009-07-31 19:40:28 Information Pid 5331] - visible changed to here a focus man.
+[2009-07-31 19:40:42 Information Pid 5331] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:40:42 Information Pid 5331] - Saving Settings: 0h0m0s34ms
+[2009-07-31 19:41:19 Information Pid 5345] - Testing Log Write
+[2009-07-31 19:41:19 Information Pid 5345] - Starting TheKBase
+[2009-07-31 19:41:20 Information Pid 5345] - Starting v. 0.0.1b
+[2009-07-31 19:41:23 Information Pid 5345] - visible changed to here a focus man.
+[2009-07-31 19:41:23 Information Pid 5345] - visible changed to here a focus man.
+[2009-07-31 19:41:50 Information Pid 5352] - Testing Log Write
+[2009-07-31 19:41:50 Information Pid 5352] - Starting TheKBase
+[2009-07-31 19:41:51 Information Pid 5352] - Starting v. 0.0.1b
+[2009-07-31 19:41:54 Information Pid 5352] - visible changed to here a focus man.
+[2009-07-31 19:41:54 Information Pid 5352] - visible changed to here a focus man.
+[2009-07-31 19:42:03 Information Pid 5352] - visible changed to here a focus man.
+[2009-07-31 19:42:03 Information Pid 5352] - visible changed to here a focus man.
+[2009-07-31 19:42:15 Information Pid 5352] - visible changed to here a focus man.
+[2009-07-31 19:42:15 Information Pid 5352] - visible changed to here a focus man.
+[2009-07-31 19:42:26 Information Pid 5352] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:42:26 Information Pid 5352] - Saving Settings: 0h0m0s35ms
+[2009-07-31 19:44:37 Information Pid 5354] - Testing Log Write
+[2009-07-31 19:44:37 Information Pid 5354] - Starting TheKBase
+[2009-07-31 19:44:38 Information Pid 5354] - Starting v. 0.0.1b
+[2009-07-31 19:44:43 Information Pid 5354] - visible changed to here a focus man.
+[2009-07-31 19:44:44 Information Pid 5354] - visible changed to here a focus man.
+[2009-07-31 19:44:48 Information Pid 5354] - visible changed to here a focus man.
+[2009-07-31 19:44:48 Information Pid 5354] - visible changed to here a focus man.
+[2009-07-31 19:44:54 Information Pid 5354] - visible changed to here a focus man.
+[2009-07-31 19:44:54 Information Pid 5354] - visible changed to here a focus man.
+[2009-07-31 19:46:50 Information Pid 5356] - Testing Log Write
+[2009-07-31 19:46:50 Information Pid 5356] - Starting TheKBase
+[2009-07-31 19:46:52 Information Pid 5356] - Starting v. 0.0.1b
+[2009-07-31 19:48:11 Information Pid 5363] - Testing Log Write
+[2009-07-31 19:48:11 Information Pid 5363] - Starting TheKBase
+[2009-07-31 19:48:12 Information Pid 5363] - Starting v. 0.0.1b
+[2009-07-31 19:48:15 Information Pid 5363] - visible changed to here a focus man.
+[2009-07-31 19:48:15 Information Pid 5363] - visible changed to here a focus man.
+[2009-07-31 19:48:19 Information Pid 5363] - visible changed to here a focus man.
+[2009-07-31 19:48:19 Information Pid 5363] - visible changed to here a focus man.
+[2009-07-31 19:48:51 Information Pid 5365] - Testing Log Write
+[2009-07-31 19:48:51 Information Pid 5365] - Starting TheKBase
+[2009-07-31 19:48:52 Information Pid 5365] - Starting v. 0.0.1b
+[2009-07-31 19:48:58 Information Pid 5365] - visible changed to here a focus man.
+[2009-07-31 19:48:58 Information Pid 5365] - visible changed to here a focus man.
+[2009-07-31 19:49:02 Information Pid 5365] - visible changed to here a focus man.
+[2009-07-31 19:49:02 Information Pid 5365] - visible changed to here a focus man.
+[2009-07-31 19:49:06 Information Pid 5365] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:49:06 Information Pid 5365] - Saving Settings: 0h0m0s34ms
+[2009-07-31 19:49:22 Information Pid 5367] - Testing Log Write
+[2009-07-31 19:49:22 Information Pid 5367] - Starting TheKBase
+[2009-07-31 19:49:23 Information Pid 5367] - Starting v. 0.0.1b
+[2009-07-31 19:49:26 Information Pid 5367] - visible changed to here a focus man.
+[2009-07-31 19:49:26 Information Pid 5367] - visible changed to here a focus man.
+[2009-07-31 19:49:30 Information Pid 5367] - visible changed to here a focus man.
+[2009-07-31 19:49:30 Information Pid 5367] - visible changed to here a focus man.
+[2009-07-31 19:49:37 Information Pid 5367] - visible changed to here a focus man.
+[2009-07-31 19:49:37 Information Pid 5367] - visible changed to here a focus man.
+[2009-07-31 19:49:42 Information Pid 5367] - visible changed to here a focus man.
+[2009-07-31 19:49:42 Information Pid 5367] - visible changed to here a focus man.
+[2009-07-31 19:49:46 Information Pid 5367] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:49:46 Information Pid 5367] - Saving Settings: 0h0m0s34ms
+[2009-07-31 19:53:09 Information Pid 5375] - Testing Log Write
+[2009-07-31 19:53:09 Information Pid 5375] - Starting TheKBase
+[2009-07-31 19:53:11 Information Pid 5375] - Starting v. 0.0.1b
+[2009-07-31 19:53:15 Information Pid 5375] - visible changed to here a focus man.
+[2009-07-31 19:53:15 Information Pid 5375] - visible changed to here a focus man.
+[2009-07-31 19:53:19 Information Pid 5375] - visible changed to here a focus man.
+[2009-07-31 19:53:19 Information Pid 5375] - visible changed to here a focus man.
+[2009-07-31 19:53:24 Information Pid 5375] - visible changed to here a focus man.
+[2009-07-31 19:53:24 Information Pid 5375] - visible changed to here a focus man.
+[2009-07-31 19:53:29 Information Pid 5375] - visible changed to here a focus man.
+[2009-07-31 19:53:29 Information Pid 5375] - visible changed to here a focus man.
+[2009-07-31 19:53:33 Information Pid 5375] - visible changed to here a focus man.
+[2009-07-31 19:53:33 Information Pid 5375] - visible changed to here a focus man.
+[2009-07-31 19:53:54 Information Pid 5382] - Testing Log Write
+[2009-07-31 19:53:54 Information Pid 5382] - Starting TheKBase
+[2009-07-31 19:53:56 Information Pid 5382] - Starting v. 0.0.1b
+[2009-07-31 19:53:58 Information Pid 5382] - visible changed to here a focus man.
+[2009-07-31 19:53:58 Information Pid 5382] - visible changed to here a focus man.
+[2009-07-31 19:54:03 Information Pid 5382] - visible changed to here a focus man.
+[2009-07-31 19:54:03 Information Pid 5382] - visible changed to here a focus man.
+[2009-07-31 19:54:09 Information Pid 5382] - visible changed to here a focus man.
+[2009-07-31 19:54:09 Information Pid 5382] - visible changed to here a focus man.
+[2009-07-31 19:54:40 Information Pid 5382] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:54:40 Information Pid 5382] - Saving Settings: 0h0m0s40ms
+[2009-07-31 19:54:42 Information Pid 5384] - Testing Log Write
+[2009-07-31 19:54:42 Information Pid 5384] - Starting TheKBase
+[2009-07-31 19:54:44 Information Pid 5384] - Starting v. 0.0.1b
+[2009-07-31 19:54:47 Information Pid 5384] - visible changed to here a focus man.
+[2009-07-31 19:54:47 Information Pid 5384] - visible changed to here a focus man.
+[2009-07-31 19:54:52 Information Pid 5384] - visible changed to here a focus man.
+[2009-07-31 19:54:52 Information Pid 5384] - visible changed to here a focus man.
+[2009-07-31 19:55:53 Information Pid 5384] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-07-31 19:55:53 Information Pid 5384] - Saving Settings: 0h0m0s31ms

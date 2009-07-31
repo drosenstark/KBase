@@ -19,6 +19,7 @@ using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
 using Kbase.MainFrm;
+using Kbase.LibraryWrap;
 
 namespace Kbase.DetailPanel
 {
@@ -43,6 +44,7 @@ namespace Kbase.DetailPanel
 			// Required for Windows Form Designer support
 			//
 			InitializeComponent();
+            this.SizeGripStyle = SizeGripStyle.Hide;
         }
 
 		/// <summary>
@@ -67,82 +69,82 @@ namespace Kbase.DetailPanel
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.textBox = new System.Windows.Forms.TextBox();
-			this.buttonFind = new System.Windows.Forms.Button();
-			this.buttonCancel = new System.Windows.Forms.Button();
-			this.checkFromBeginning = new System.Windows.Forms.CheckBox();
-			this.checkSearchOtherSnippets = new System.Windows.Forms.CheckBox();
-			this.SuspendLayout();
-			// 
-			// textBox
-			// 
-			this.textBox.Location = new System.Drawing.Point(8, 8);
-			this.textBox.Name = "textBox";
-			this.textBox.Size = new System.Drawing.Size(280, 20);
-			this.textBox.TabIndex = 1;
-			this.textBox.Text = "";
-			this.textBox.TextChanged += new System.EventHandler(this.textBox_TextChanged);
-			// 
-			// buttonFind
-			// 
-			this.buttonFind.Location = new System.Drawing.Point(216, 56);
-			this.buttonFind.Name = "buttonFind";
-			this.buttonFind.Size = new System.Drawing.Size(72, 24);
-			this.buttonFind.TabIndex = 3;
-			this.buttonFind.Text = "&Find";
-			this.buttonFind.Click += new System.EventHandler(this.buttonFind_Click);
-			// 
-			// buttonCancel
-			// 
-			this.buttonCancel.Location = new System.Drawing.Point(144, 56);
-			this.buttonCancel.Name = "buttonCancel";
-			this.buttonCancel.Size = new System.Drawing.Size(72, 24);
-			this.buttonCancel.TabIndex = 4;
-			this.buttonCancel.Text = "&Cancel";
-			this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
-			// 
-			// checkFromBeginning
-			// 
-			this.checkFromBeginning.Checked = true;
-			this.checkFromBeginning.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkFromBeginning.Location = new System.Drawing.Point(8, 32);
-			this.checkFromBeginning.Name = "checkFromBeginning";
-			this.checkFromBeginning.Size = new System.Drawing.Size(128, 24);
-			this.checkFromBeginning.TabIndex = 2;
-			this.checkFromBeginning.Text = "Start from beginning";
-			// 
-			// checkSearchOtherSnippets
-			// 
-			this.checkSearchOtherSnippets.Checked = true;
-			this.checkSearchOtherSnippets.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkSearchOtherSnippets.Location = new System.Drawing.Point(8, 56);
-			this.checkSearchOtherSnippets.Name = "checkSearchOtherSnippets";
-			this.checkSearchOtherSnippets.Size = new System.Drawing.Size(128, 24);
-			this.checkSearchOtherSnippets.TabIndex = 2;
-			this.checkSearchOtherSnippets.Text = "Search all snippets";
-
-			// 
-			// FindForm
-			// 
-			this.AcceptButton = this.buttonFind;
-			this.AutoScaleDimensions = new SizeF(5, 13);
-			this.ClientSize = new System.Drawing.Size(298, 88);
-			this.ControlBox = false;
-			this.Controls.Add(this.checkFromBeginning);
-			this.Controls.Add(this.buttonFind);
-			this.Controls.Add(this.textBox);
-			this.Controls.Add(this.buttonCancel);
-			this.Controls.Add(this.checkSearchOtherSnippets);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-			this.Name = "FindForm";
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "Find Text";
-			this.TopMost = true;
-			this.ShowInTaskbar = false;
-			this.Closing += new System.ComponentModel.CancelEventHandler(this.FindForm_Closing);
-			this.ResumeLayout(false);
-
-            this.LostFocus += new EventHandler(FindForm_LostFocus);
+            this.textBox = new System.Windows.Forms.TextBox();
+            this.buttonFind = new System.Windows.Forms.Button();
+            this.buttonCancel = new System.Windows.Forms.Button();
+            this.checkFromBeginning = new System.Windows.Forms.CheckBox();
+            this.checkSearchOtherSnippets = new System.Windows.Forms.CheckBox();
+            this.SuspendLayout();
+            // 
+            // textBox
+            // 
+            this.textBox.Location = new System.Drawing.Point(8, 11);
+            this.textBox.Name = "textBox";
+            this.textBox.Size = new System.Drawing.Size(280, 20);
+            this.textBox.TabIndex = 1;
+            this.textBox.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            // 
+            // buttonFind
+            // 
+            this.buttonFind.Location = new System.Drawing.Point(216, 59);
+            this.buttonFind.Name = "buttonFind";
+            this.buttonFind.Size = new System.Drawing.Size(72, 24);
+            this.buttonFind.TabIndex = 3;
+            this.buttonFind.Text = "&Find";
+            this.buttonFind.Click += new System.EventHandler(this.buttonFind_Click);
+            // 
+            // buttonCancel
+            // 
+            this.buttonCancel.Location = new System.Drawing.Point(144, 59);
+            this.buttonCancel.Name = "buttonCancel";
+            this.buttonCancel.Size = new System.Drawing.Size(72, 24);
+            this.buttonCancel.TabIndex = 4;
+            this.buttonCancel.Text = "&Cancel";
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
+            // 
+            // checkFromBeginning
+            // 
+            this.checkFromBeginning.Checked = true;
+            this.checkFromBeginning.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkFromBeginning.Location = new System.Drawing.Point(8, 35);
+            this.checkFromBeginning.Name = "checkFromBeginning";
+            this.checkFromBeginning.Size = new System.Drawing.Size(128, 24);
+            this.checkFromBeginning.TabIndex = 2;
+            this.checkFromBeginning.Text = "Start from beginning";
+            // 
+            // checkSearchOtherSnippets
+            // 
+            this.checkSearchOtherSnippets.Checked = true;
+            this.checkSearchOtherSnippets.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkSearchOtherSnippets.Location = new System.Drawing.Point(8, 59);
+            this.checkSearchOtherSnippets.Name = "checkSearchOtherSnippets";
+            this.checkSearchOtherSnippets.Size = new System.Drawing.Size(128, 24);
+            this.checkSearchOtherSnippets.TabIndex = 2;
+            this.checkSearchOtherSnippets.Text = "Search all snippets";
+            // 
+            // FindForm
+            // 
+            this.AcceptButton = this.buttonFind;
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(296, 115);
+            this.ControlBox = false;
+            this.Controls.Add(this.checkFromBeginning);
+            this.Controls.Add(this.buttonFind);
+            this.Controls.Add(this.textBox);
+            this.Controls.Add(this.buttonCancel);
+            this.Controls.Add(this.checkSearchOtherSnippets);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "FindForm";
+            this.Opacity = 0.9;
+            this.ShowInTaskbar = false;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Find Text";
+            this.TopMost = true;
+            this.LostFocus += new System.EventHandler(this.FindForm_LostFocus);
+            this.Closing += new System.ComponentModel.CancelEventHandler(this.FindForm_Closing);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 
@@ -150,56 +152,25 @@ namespace Kbase.DetailPanel
 
 		private void buttonCancel_Click(object sender, System.EventArgs e)
 		{
-			try 
-			{
                 this.Visible = false;
-			} 
-			catch (Exception ex) 
-			{
-				MainForm.ShowError(ex);
-			}
 		}
 
 		private void FindForm_Closing(object sender, System.ComponentModel.CancelEventArgs e)
 		{
-			try 
-			{
-				this.Visible = false;
-				e.Cancel = true;
-
-			} 
-			catch (Exception ex) 
-			{
-				MainForm.ShowError(ex);
-			}
+	        this.Visible = false;
+	        e.Cancel = true;
 		}
 
 		private void buttonFind_Click(object sender, System.EventArgs e)
 		{
-			try 
-			{
-                Universe.Instance.detailPane.FindText(textBox.Text, checkFromBeginning.Checked, checkSearchOtherSnippets.Checked);
-				if (Universe.Instance.detailPane.Enabled)
-					checkFromBeginning.Checked = false;
-			} 
-			catch (Exception ex) 
-			{
-				MainForm.ShowError(ex);
-			}
-
+            Universe.Instance.detailPane.FindText(textBox.Text, checkFromBeginning.Checked, checkSearchOtherSnippets.Checked);
+			if (Universe.Instance.detailPane.Enabled)
+				checkFromBeginning.Checked = false;
 		}
 
 		private void textBox_TextChanged(object sender, System.EventArgs e)
 		{
-				try 
-		  {
-			  checkFromBeginning.Checked = true;
-		  } 
-		  catch (Exception ex) 
-		  {
-			  MainForm.ShowError(ex);
-		  }
-
+		  checkFromBeginning.Checked = true;
 		}
 
         protected override void OnLoad(EventArgs e)
@@ -213,6 +184,25 @@ namespace Kbase.DetailPanel
 
         void FindForm_LostFocus(object sender, EventArgs e)
         {
+        }
+
+
+        protected override void OnVisibleChanged(EventArgs e)
+        {
+            base.OnVisibleChanged(e);
+            if (Visible) {
+                // this.TopMost = true;
+                // this.Focus();
+                this.Activate();
+                //this.BringToFront();
+                Logger.Log("visible changed to here a focus man.");
+            }
+        }
+
+
+        protected override void OnShown(EventArgs e)
+        {
+            base.OnShown(e);
         }
 
 	}

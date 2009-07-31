@@ -38,6 +38,7 @@
     <ManifestCertificateThumbprint>0BC050AA3CF4E6A695807D99F2C268F64A3B9C83</ManifestCertificateThumbprint>
     <ManifestKeyFile>TheKBase_TemporaryKey.pfx</ManifestKeyFile>
     <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <PublishUrl>d:\eraseme\kbase-publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -104,6 +105,9 @@
   <ItemGroup>
     <Reference Include="System">
       <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data">
       <Name>System.Data</Name>
