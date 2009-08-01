@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Web;
 using System.Diagnostics;
+using System.IO;
 
 namespace ConfusionUtilities
 {
@@ -58,6 +59,9 @@ namespace ConfusionUtilities
         /// <returns>c:\inetpub\wherever\filename</returns>
         public static string getFilenameInAppDir(string filename) {
             string baseDir = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
+            if (!filename.StartsWith(Path.DirectorySeparatorChar.ToString()))
+                filename = Path.DirectorySeparatorChar + filename;
+            
             string retVal = baseDir + filename;
             return retVal;
         }

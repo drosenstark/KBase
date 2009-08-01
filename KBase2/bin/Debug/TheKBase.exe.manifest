@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Support\kbase.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="TheKBase" version="3.0.0.20922" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="TheKBase" version="3.0.0.27418" language="neutral" processorArchitecture="msil" />
     <commandLine file="TheKBase.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -53,14 +53,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConfusionUtilities.dll" size="27648">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConfusionUtilities.dll" size="28160">
       <assemblyIdentity name="ConfusionUtilities" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>OG5E3qrVhV+Bqc05BHV+DZa1QAs=</dsig:DigestValue>
+        <dsig:DigestValue>lYu+Fwjiy8HaeUk2y/OdI/z7b7c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -77,14 +77,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TheKBase.exe" size="286720">
-      <assemblyIdentity name="TheKBase" version="3.0.0.20922" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TheKBase.exe" size="290816">
+      <assemblyIdentity name="TheKBase" version="3.0.0.27418" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>X2hkTvaud+K2Uc6X2PGnTqRzJzg=</dsig:DigestValue>
+        <dsig:DigestValue>EYXqR9qmMdElJYEowItugD6cW84=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

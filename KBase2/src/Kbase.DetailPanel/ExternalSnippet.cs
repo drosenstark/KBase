@@ -17,12 +17,28 @@ namespace Kbase.DetailPanel
         Timer timer;
         Snippet snippet;
 
+        const string DIRECTORY_SUFFIX = "snippets";
+
+        public string FileExtension = ".txt"; // someday we'll make this changeable
+
         public ExternalSnippet(Snippet snippet)
         {
             this.snippet = snippet;
-            string filename = MakeValidFileName(snippet.Id + "_" + snippet.Title);
-            info = new FileInfo(Util.getFilenameInAppDir("/temp/" + filename + ".txt")); // TODO: we have to clean this to avoid kbase viruses!
-        } 
+            Init();
+        }
+
+        private void Init() {
+            string kbaseId = Universe.Instance.ModelGateway.GetHashCode().ToString().Substring(0, 3);
+            string filename = MakeValidFileName(kbaseId + "_" + snippet.Id + "_" + snippet.Title + FileExtension);
+            DirectoryInfo dir = new DirectoryInfo(Util.getFilenameInAppDir(DIRECTORY_SUFFIX));
+            if (!dir.Exists) {
+                Logger.Log("About to create directory " + dir.FullName);
+                dir.Create();
+            }
+            filename = dir.FullName + Path.DirectorySeparatorChar + filename;
+            Logger.Log("--------------------------> " + dir.FullName);
+            info = new FileInfo(filename); 
+        }
 
         public void StartWatching() {
             using (StreamWriter writer = new StreamWriter(info.FullName)) {
@@ -34,6 +50,7 @@ namespace Kbase.DetailPanel
                 timer.Interval = 100;
                 timer.Elapsed += new ElapsedEventHandler(timer_Elapsed);
                 timer.Start();
+                Watchers.Add(this);
             }
         }
 
@@ -44,6 +61,9 @@ namespace Kbase.DetailPanel
             {
                 using (StreamReader reader = new StreamReader(info.FullName)) {
                     snippet.Text = reader.ReadToEnd();
+                    if (Universe.Instance.snippetDetailPane.IsEditingSnippet(snippet)) {
+                        Universe.Instance.detailPane.UpdateTextFromExternal();
+                    }
                     lastWriteTime = info.LastWriteTime;
                 }
             }
@@ -52,13 +72,16 @@ namespace Kbase.DetailPanel
         public void ShutDown()
         {
             timer.Stop();
-            using (StreamWriter writer = new StreamWriter(info.FullName))
+            using (StreamWriter writer = new StreamWriter(info.FullName, true))
             {
-                writer.Write("THIS FILE IS NO LONGER BEING WATCHED");
+                writer.WriteLine("-----------------------------------------");
+                writer.WriteLine("TheKBase: FILE IS NO LONGER BEING WATCHED");
+                writer.WriteLine("TheKBase: This filename " + info.Name + " may be overwritten.");
                 writer.Close();
                 this.snippet = null;
                 info = null;
                 timer = null;
+                Watchers.Remove(this);
             }
         }
 
@@ -67,6 +90,18 @@ namespace Kbase.DetailPanel
             string invalidChars = Regex.Escape(new string(Path.GetInvalidFileNameChars())+" ");
             string invalidReStr = string.Format(@"[{0}]", invalidChars);
             return Regex.Replace(name, invalidReStr, "_");
+        }
+
+        public static List<ExternalSnippet> Watchers = new List<ExternalSnippet>();
+
+        public static void DropWatchers() {
+            // clone to avoid concurrency modification errors
+            ExternalSnippet[] watchersClone = new ExternalSnippet[Watchers.Count];
+            Watchers.CopyTo(watchersClone);
+
+            foreach (ExternalSnippet watcher in watchersClone) {
+                watcher.ShutDown(); 
+            }
         }
 
     }

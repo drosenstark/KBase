@@ -1,0 +1,243 @@
+[2009-08-01 15:35:58 Information Pid 3008] - Testing Log Write
+[2009-08-01 15:35:58 Information Pid 3008] - Starting TheKBase
+[2009-08-01 15:35:59 Information Pid 3008] - Starting v. 0.0.1b
+[2009-08-01 15:36:05 Error Pid 3008] - EXCEPTION: The given path's format is not supported.
+[2009-08-01 15:36:05 Error Pid 3008] - The given path's format is not supported.(NotSupportedException)
+[2009-08-01 15:36:05 Error Pid 3008] -    at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileInfo..ctor(String fileName)
+   at Kbase.DetailPanel.ExternalSnippet.Init() in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 37
+   at Kbase.DetailPanel.ExternalSnippet..ctor(Snippet snippet) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 27
+   at Kbase.DetailPanel.ExternalEditButton.OnCheckedChanged(EventArgs e) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalEditButton.cs:line 69
+   at System.Windows.Forms.CheckBox.set_CheckState(CheckState value)
+   at System.Windows.Forms.CheckBox.OnClick(EventArgs e)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+[2009-08-01 15:37:02 Information Pid 3008] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 15:37:02 Information Pid 3008] - Saving Settings: 0h0m0s30ms
+[2009-08-01 16:03:44 Information Pid 3196] - Testing Log Write
+[2009-08-01 16:03:44 Information Pid 3196] - Starting TheKBase
+[2009-08-01 16:03:44 Information Pid 3196] - Starting v. 0.0.1b
+[2009-08-01 16:03:53 Error Pid 3196] - EXCEPTION: The given path's format is not supported.
+[2009-08-01 16:03:53 Error Pid 3196] - The given path's format is not supported.(NotSupportedException)
+[2009-08-01 16:03:53 Error Pid 3196] -    at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileInfo..ctor(String fileName)
+   at Kbase.DetailPanel.ExternalSnippet.Init() in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 37
+   at Kbase.DetailPanel.ExternalSnippet..ctor(Snippet snippet) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 27
+   at Kbase.DetailPanel.ExternalEditButton.OnCheckedChanged(EventArgs e) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalEditButton.cs:line 69
+   at System.Windows.Forms.CheckBox.set_CheckState(CheckState value)
+   at System.Windows.Forms.CheckBox.OnClick(EventArgs e)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+[2009-08-01 16:04:13 Information Pid 3196] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 16:04:13 Information Pid 3196] - Saving Settings: 0h0m0s20ms
+[2009-08-01 16:04:48 Information Pid 3276] - Testing Log Write
+[2009-08-01 16:04:48 Information Pid 3276] - Starting TheKBase
+[2009-08-01 16:04:48 Information Pid 3276] - Starting v. 0.0.1b
+[2009-08-01 16:04:58 Error Pid 3276] - EXCEPTION: Error on startup.
+[2009-08-01 16:04:58 Error Pid 3276] - Error on startup.(FatalErrorException)
+[2009-08-01 16:04:58 Error Pid 3276] - 
+[2009-08-01 16:04:58 Error Pid 3276] - EXCEPTION: The given path's format is not supported.
+[2009-08-01 16:04:58 Error Pid 3276] - The given path's format is not supported.(NotSupportedException)
+[2009-08-01 16:04:58 Error Pid 3276] -    at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileInfo..ctor(String fileName)
+   at Kbase.DetailPanel.ExternalSnippet.Init() in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 37
+   at Kbase.DetailPanel.ExternalSnippet..ctor(Snippet snippet) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 27
+   at Kbase.DetailPanel.ExternalEditButton.OnCheckedChanged(EventArgs e) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalEditButton.cs:line 69
+   at System.Windows.Forms.CheckBox.set_CheckState(CheckState value)
+   at System.Windows.Forms.CheckBox.OnClick(EventArgs e)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Kbase.Startup.Main(String[] parameters) in D:\data\TheKBaseReborn\KBase2\src\Kbase\Startup.cs:line 49
+[2009-08-01 16:04:58 Information Pid 3276] - MainForm.ShowError: FatalException thrown, MainForm proceeding to emergency exit.
+[2009-08-01 16:07:02 Information Pid 3524] - Testing Log Write
+[2009-08-01 16:07:02 Information Pid 3524] - Starting TheKBase
+[2009-08-01 16:07:02 Information Pid 3524] - Starting v. 0.0.1b
+[2009-08-01 16:07:15 Error Pid 3524] - EXCEPTION: Error on startup.
+[2009-08-01 16:07:15 Error Pid 3524] - Error on startup.(FatalErrorException)
+[2009-08-01 16:07:15 Error Pid 3524] - 
+[2009-08-01 16:07:15 Error Pid 3524] - EXCEPTION: The given path's format is not supported.
+[2009-08-01 16:07:15 Error Pid 3524] - The given path's format is not supported.(NotSupportedException)
+[2009-08-01 16:07:15 Error Pid 3524] -    at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileInfo..ctor(String fileName)
+   at Kbase.DetailPanel.ExternalSnippet.Init() in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 38
+   at Kbase.DetailPanel.ExternalSnippet..ctor(Snippet snippet) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 27
+   at Kbase.DetailPanel.ExternalEditButton.OnCheckedChanged(EventArgs e) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalEditButton.cs:line 69
+   at System.Windows.Forms.CheckBox.set_CheckState(CheckState value)
+   at System.Windows.Forms.CheckBox.OnClick(EventArgs e)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Kbase.Startup.Main(String[] parameters) in D:\data\TheKBaseReborn\KBase2\src\Kbase\Startup.cs:line 49
+[2009-08-01 16:07:15 Information Pid 3524] - MainForm.ShowError: FatalException thrown, MainForm proceeding to emergency exit.
+[2009-08-01 16:08:25 Information Pid 3756] - Testing Log Write
+[2009-08-01 16:08:25 Information Pid 3756] - Starting TheKBase
+[2009-08-01 16:08:25 Information Pid 3756] - Starting v. 0.0.1b
+[2009-08-01 16:08:34 Error Pid 3756] - EXCEPTION: Error on startup.
+[2009-08-01 16:08:34 Error Pid 3756] - Error on startup.(FatalErrorException)
+[2009-08-01 16:08:34 Error Pid 3756] - 
+[2009-08-01 16:08:34 Error Pid 3756] - EXCEPTION: The given path's format is not supported.
+[2009-08-01 16:08:34 Error Pid 3756] - The given path's format is not supported.(NotSupportedException)
+[2009-08-01 16:08:34 Error Pid 3756] -    at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileInfo..ctor(String fileName)
+   at Kbase.DetailPanel.ExternalSnippet.Init() in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 38
+   at Kbase.DetailPanel.ExternalSnippet..ctor(Snippet snippet) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 27
+   at Kbase.DetailPanel.ExternalEditButton.OnCheckedChanged(EventArgs e) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalEditButton.cs:line 69
+   at System.Windows.Forms.CheckBox.set_CheckState(CheckState value)
+   at System.Windows.Forms.CheckBox.OnClick(EventArgs e)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Kbase.Startup.Main(String[] parameters) in D:\data\TheKBaseReborn\KBase2\src\Kbase\Startup.cs:line 49
+[2009-08-01 16:08:34 Information Pid 3756] - MainForm.ShowError: FatalException thrown, MainForm proceeding to emergency exit.
+[2009-08-01 16:09:10 Information Pid 1768] - Testing Log Write
+[2009-08-01 16:09:10 Information Pid 1768] - Starting TheKBase
+[2009-08-01 16:09:11 Information Pid 1768] - Starting v. 0.0.1b
+[2009-08-01 16:09:17 Information Pid 1768] - --------------------------> D:\data\TheKBaseReborn\KBase2\bin\Debug\snippets
+[2009-08-01 16:09:19 Error Pid 1768] - EXCEPTION: Error on startup.
+[2009-08-01 16:09:19 Error Pid 1768] - Error on startup.(FatalErrorException)
+[2009-08-01 16:09:19 Error Pid 1768] - 
+[2009-08-01 16:09:19 Error Pid 1768] - EXCEPTION: The given path's format is not supported.
+[2009-08-01 16:09:19 Error Pid 1768] - The given path's format is not supported.(NotSupportedException)
+[2009-08-01 16:09:19 Error Pid 1768] -    at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileInfo..ctor(String fileName)
+   at Kbase.DetailPanel.ExternalSnippet.Init() in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 39
+   at Kbase.DetailPanel.ExternalSnippet..ctor(Snippet snippet) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 27
+   at Kbase.DetailPanel.ExternalEditButton.OnCheckedChanged(EventArgs e) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalEditButton.cs:line 69
+   at System.Windows.Forms.CheckBox.set_CheckState(CheckState value)
+   at System.Windows.Forms.CheckBox.OnClick(EventArgs e)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Kbase.Startup.Main(String[] parameters) in D:\data\TheKBaseReborn\KBase2\src\Kbase\Startup.cs:line 49
+[2009-08-01 16:09:19 Information Pid 1768] - MainForm.ShowError: FatalException thrown, MainForm proceeding to emergency exit.
+[2009-08-01 16:10:38 Information Pid 1892] - Testing Log Write
+[2009-08-01 16:10:38 Information Pid 1892] - Starting TheKBase
+[2009-08-01 16:10:38 Information Pid 1892] - Starting v. 0.0.1b
+[2009-08-01 16:10:45 Information Pid 1892] - --------------------------> D:\data\TheKBaseReborn\KBase2\bin\Debug\snippets
+[2009-08-01 16:11:27 Information Pid 1892] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 16:11:27 Information Pid 1892] - Saving Settings: 0h0m0s10ms
+[2009-08-01 16:14:01 Information Pid 3924] - Testing Log Write
+[2009-08-01 16:14:01 Information Pid 3924] - Starting TheKBase
+[2009-08-01 16:14:01 Information Pid 3924] - Starting v. 0.0.1b
+[2009-08-01 16:14:07 Information Pid 3924] - --------------------------> D:\data\TheKBaseReborn\KBase2\bin\Debug\snippets
+[2009-08-01 16:14:34 Information Pid 3924] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 16:14:34 Information Pid 3924] - Saving Settings: 0h0m0s10ms

@@ -85,6 +85,18 @@ namespace Kbase.DetailPanel
             Enabled = false;
 		}
 
+        /// <summary>
+        /// caller must make sure it's the right snippet
+        /// </summary>
+        public void UpdateTextFromExternal() {
+            Invoke(new ZeroArgumentEventHandler(UpdateTextFromExternalInner));
+        }
+
+        private void UpdateTextFromExternalInner()
+        {
+            Edit(snippet);
+        }
+
 		public void Edit(Snippet snippet) 
 		{
 			float oldFactor = ZoomFactor;

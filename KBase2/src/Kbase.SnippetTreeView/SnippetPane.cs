@@ -12,7 +12,6 @@ using Kbase.MainFrm;
 using Kbase.Model.Search;
 using Kbase.LibraryWrap;
 
-
 namespace Kbase.SnippetTreeView
 {
     /// <summary>

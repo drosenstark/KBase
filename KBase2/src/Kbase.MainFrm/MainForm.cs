@@ -27,6 +27,7 @@ using System.Reflection;
 using System.Collections.Generic;
 using System.IO;
 using Kbase.LibraryWrap;
+using Kbase.DetailPanel;
 
 namespace Kbase.MainFrm
 {
@@ -366,6 +367,16 @@ namespace Kbase.MainFrm
             // if we haven't loaded yet, return.
             if (Universe.Instance.detailPane == null || !Universe.Instance.isModelGatewayInitialized)
                 return true;
+
+            if (ExternalSnippet.Watchers.Count > 0) {
+                string message = "You are editing " + (ExternalSnippet.Watchers.Count+1) + " snippets externally. If they have been saved, press OK.";
+                DialogResult result = MessageBox.Show(message, DialogCaption, MessageBoxButtons.OKCancel);
+                if (result == DialogResult.Cancel)
+                    return false;
+                else
+                    ExternalSnippet.DropWatchers(); // no problem if they cancel later, we've shutdown the watchers
+            }
+            
             Universe.Instance.detailPane.Save();
             if (Universe.Instance.ModelGateway.Dirty)
             {

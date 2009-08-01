@@ -29,7 +29,10 @@ namespace Kbase.DetailPanel
             initing = true;
             this.snippet = snippet;
             if (snippet == null)
+            {
+                this.Visible = false;
                 return;
+            }
 
             if (snippet.WatchSnippet != null)
             {
@@ -47,7 +50,12 @@ namespace Kbase.DetailPanel
                 tip.SetToolTip(this, "Press to launch an external editor with this snippet.");
                 this.Checked = false;
             }
+            this.Visible = true;
             initing = false;
+        }
+
+        private void RefreshText() {
+            Edit(snippet);
         }
 
         protected override void OnCheckedChanged(EventArgs e)
@@ -57,14 +65,19 @@ namespace Kbase.DetailPanel
                 return;
             if (Checked && snippet.WatchSnippet == null)
             {
+                Universe.Instance.detailPane.Save();
                 ExternalSnippet eSnippet = new ExternalSnippet(snippet);
                 snippet.WatchSnippet = eSnippet;
                 eSnippet.StartWatching();
+                Universe.Instance.detailPane.Edit(snippet);
+                RefreshText();
             }
             else if (!Checked && snippet.WatchSnippet != null)
             {
                 snippet.WatchSnippet.ShutDown();
                 snippet.WatchSnippet = null;
+                Universe.Instance.detailPane.Edit(snippet);
+                RefreshText();
             }
             else
             {
