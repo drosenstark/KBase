@@ -22,6 +22,7 @@ using Kbase.SnippetTreeView;
 using Kbase.Model;
 using Kbase.MainFrm;
 using System.Drawing;
+using ConfusionUtilities;
 
 namespace Kbase.DetailPanel
 {
@@ -589,9 +590,13 @@ namespace Kbase.DetailPanel
 			{
 				if (Dirty) 
 				{
-					string newText = RtfConverter.GetTextFromRtf(Rtf);
-					snippet.Text = newText;
-					snippet.UI.Rtf = Rtf;
+                    if (Util.IsRichTextBoxBroken())
+                        snippet.Text = Text;
+                    else
+                    {
+                        snippet.Text = RtfConverter.GetTextFromRtf(Rtf);
+                        snippet.UI.Rtf = Rtf;
+                    }
 				}
 			}		
 		}
@@ -622,12 +627,19 @@ namespace Kbase.DetailPanel
                 return false;
             }
 
-            /* we used to cache the Rtf but with external editing that's sometimes impossible 
-			if (snippet.UI.Rtf != null) 
-				this.Rtf = snippet.UI.Rtf;
-             */
-			Rtf = RtfConverter.Load(text, Font);
-			snippet.UI.Rtf = Rtf;
+            if (Util.IsRichTextBoxBroken())
+            {
+                Text = text;
+            }
+            else {
+                if (snippet.UI.Rtf != null)
+                    this.Rtf = snippet.UI.Rtf; // we used cached RTF if we can
+                else
+                {
+                    Rtf = RtfConverter.Load(text, Font);
+                    snippet.UI.Rtf = Rtf;
+                }
+            }
             return !snippet.WatchingExternalFile;
 		}
 

@@ -29,14 +29,13 @@ namespace Kbase.DetailPanel
 
         private void Init() {
             string kbaseId = Universe.Instance.ModelGateway.GetHashCode().ToString().Substring(0, 3);
-            string filename = MakeValidFileName(kbaseId + "_" + snippet.Id + "_" + snippet.Title + FileExtension);
+            string filename = MakeValidFileName(snippet.Title + "_" + kbaseId + "_" + snippet.Id + FileExtension);
             DirectoryInfo dir = new DirectoryInfo(Util.getFilenameInAppDir(DIRECTORY_SUFFIX));
             if (!dir.Exists) {
                 Logger.Log("About to create directory " + dir.FullName);
                 dir.Create();
             }
             filename = dir.FullName + Path.DirectorySeparatorChar + filename;
-            Logger.Log("--------------------------> " + dir.FullName);
             info = new FileInfo(filename); 
         }
 

@@ -241,3 +241,8 @@
 [2009-08-01 16:14:07 Information Pid 3924] - --------------------------> D:\data\TheKBaseReborn\KBase2\bin\Debug\snippets
 [2009-08-01 16:14:34 Information Pid 3924] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
 [2009-08-01 16:14:34 Information Pid 3924] - Saving Settings: 0h0m0s10ms
+[2009-08-01 17:59:59 Information Pid 443] - Testing Log Write
+[2009-08-01 17:59:59 Information Pid 443] - Starting TheKBase
+[2009-08-01 18:00:02 Information Pid 443] - Starting v. 0.0.1b
+[2009-08-01 18:00:28 Information Pid 443] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-08-01 18:00:28 Information Pid 443] - Saving Settings: 0h0m0s38ms

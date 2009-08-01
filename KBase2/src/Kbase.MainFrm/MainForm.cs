@@ -369,7 +369,7 @@ namespace Kbase.MainFrm
                 return true;
 
             if (ExternalSnippet.Watchers.Count > 0) {
-                string message = "You are editing " + (ExternalSnippet.Watchers.Count+1) + " snippets externally. If they have been saved, press OK.";
+                string message = "You are editing " + (ExternalSnippet.Watchers.Count) + " snippets externally. If they have been saved, press OK.";
                 DialogResult result = MessageBox.Show(message, DialogCaption, MessageBoxButtons.OKCancel);
                 if (result == DialogResult.Cancel)
                     return false;

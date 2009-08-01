@@ -1,0 +1,23 @@
+hey come on now! {\rtf1\ansi\ansicpg1252\deff0\deflang1033
+								{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+								{\*\generator Mono RichTextBox;}\pard\f0\fs18 what
+okay, what?
+				what
+		\par
+		what who
+		\par
+		when where
+		\par
+		why
+		\par
+
+							\par
+							hello
+							\par
+
+\par
+\par
+}
+-----------------------------------------
+TheKBase: FILE IS NO LONGER BEING WATCHED
+TheKBase: This filename test_257_2.txt may be overwritten.

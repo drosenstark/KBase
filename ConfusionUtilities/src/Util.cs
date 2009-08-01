@@ -4,6 +4,7 @@ using System.Text;
 using System.Web;
 using System.Diagnostics;
 using System.IO;
+using System.Windows.Forms;
 
 namespace ConfusionUtilities
 {
@@ -83,6 +84,32 @@ namespace ConfusionUtilities
                 ExecuteCommand("open", "", command);
             else if (os.StartsWith("Win"))
                 ExecuteCommand("cmd.exe", "/C",command);
+        }
+
+        private static bool richTextBoxBroken;
+        private static bool ranRichTextBoxTest = false;
+
+        /// <summary>
+        /// This is a Mono thing, the RichTextBox is crap on Mono
+        /// </summary>
+        /// <returns></returns>
+        public static bool IsRichTextBoxBroken()
+        {
+            if (!ranRichTextBoxTest)
+            {
+                RichTextBox rtf = new RichTextBox();
+                rtf.Text = "what";
+                string rtfBefore = rtf.Rtf;
+                rtf.SelectAll();
+                rtf.SelectionIndent = 20;
+                string rtfAfter = rtf.Rtf;
+                if (rtfAfter == rtfBefore)
+                    richTextBoxBroken = true;
+                else
+                    richTextBoxBroken = false;
+                ranRichTextBoxTest = true;
+            }
+            return richTextBoxBroken;
         }
 
 
