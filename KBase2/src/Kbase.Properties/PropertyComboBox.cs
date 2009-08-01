@@ -130,7 +130,8 @@ namespace Kbase.Properties
 
 		public void Edit(List<Snippet> editingTheseSnippets) 
 		{
-            comboBox1.Items.Remove(PropertyValue.MULTIPLE_VALUES);
+            if (comboBox1.Items.Contains(PropertyValue.MULTIPLE_VALUES))
+                comboBox1.Items.Remove(PropertyValue.MULTIPLE_VALUES);
             // if there's no change, don't redo this processing
 			if (this.propertySnippet == null || editingTheseSnippets.Equals(this.editingTheseSnippets))
 				return;
@@ -193,7 +194,8 @@ namespace Kbase.Properties
                 }
                 else
                 {
-                    comboBox1.Items.Remove(PropertyValue.MULTIPLE_VALUES);
+                    if (comboBox1.Items.Contains(PropertyValue.MULTIPLE_VALUES))
+                        comboBox1.Items.Remove(PropertyValue.MULTIPLE_VALUES);
                     foreach (PropertyValue val in comboBox1.Items)
                     {
                         if (val.Equals(hopingFor))
