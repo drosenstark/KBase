@@ -21,6 +21,7 @@ using System.Text;
 using Kbase.SnippetTreeView;
 using Kbase.Model;
 using Kbase.MainFrm;
+using System.Drawing;
 
 namespace Kbase.DetailPanel
 {
@@ -59,11 +60,29 @@ namespace Kbase.DetailPanel
             return this.snippet.Id == id;
         }
 
-		
+        /// <summary>
+        /// We use this AND enabled... enabled off is only for EditNone.
+        /// </summary>
+        public bool Editable {
+            get {
+                return !ReadOnly;
+            }
+
+            set {
+                ReadOnly = !value;
+                if (value)
+                {
+                    BackColor = Color.White; // bug in winforms, this doesn't reset correctly even if we're enabled AND readonly
+                }
+            }
+        }
+
+
 		public void EditNone() 
 		{
 			Save();
 			Reset();
+            Enabled = false;
 		}
 
 		public void Edit(Snippet snippet) 
@@ -73,6 +92,8 @@ namespace Kbase.DetailPanel
 			Save();
 			Reset();
 
+            Enabled = true;
+
 			this.snippet = snippet;
 
             bool activate = Load(false);
@@ -81,7 +102,7 @@ namespace Kbase.DetailPanel
             {
                 Universe.Instance.mainForm.AnnounceEditing(snippet);
 
-                this.Enabled = true;
+                this.Editable = true;
                 ZoomFactor = oldFactor;
                 if (ZoomFactor != oldFactor)
                 {
@@ -119,7 +140,7 @@ namespace Kbase.DetailPanel
 			Load(true);
 			snippet = null;
 			Universe.Instance.mainForm.AnnounceEditing(null);
-			this.Enabled = false;
+			this.Editable = false;
 		}
 
 		bool handlingInKeyDown = false;
@@ -128,7 +149,7 @@ namespace Kbase.DetailPanel
 			try 
 			{
 				base.OnLinkClicked (e);
-			if (!Enabled)
+			if (!Editable)
 				return;
 				// could cache this, but how often are they going to hit it?
 				new HyperlinkUtil(Universe.Instance.Path).Open(e.LinkText);
@@ -144,7 +165,7 @@ namespace Kbase.DetailPanel
 		{
 			try 
 			{
-				if (!Enabled)
+				if (!Editable)
 					return;
 				base.OnKeyDown (e);
 				// if there is text selected and tab is pressed, this is an indent
@@ -196,7 +217,7 @@ namespace Kbase.DetailPanel
 		static string dateTimeFormat = "yyyy-MM-dd HH:mm tt";
 		private void InsertDate() 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Paste(DateTime.Now.ToString(dateTimeFormat));
 		}
@@ -204,7 +225,7 @@ namespace Kbase.DetailPanel
 
 		private void InsertHyperlink() 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			OpenFileDialog fileDialog = new OpenFileDialog();
 			DialogResult result = fileDialog.ShowDialog();
@@ -233,7 +254,7 @@ namespace Kbase.DetailPanel
 
 		public void PasteSnippetLink(Snippet snippet) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			string link = snippet.Title + " <file://this#" + snippet.Id + ">";
 			Paste(link);
@@ -262,7 +283,7 @@ namespace Kbase.DetailPanel
 			try 
 			{
 				base.OnMouseDown (e);
-				if (!Enabled)
+				if (!Editable)
 					return;
 				if (e.Button == MouseButtons.Right)
 					OnRightClick(e);
@@ -346,14 +367,14 @@ namespace Kbase.DetailPanel
 
 		public void ClickZoomIn(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			ZoomIn();
 		}
 
 		public void ClickZoomOut(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			ZoomOut();
 		}
@@ -362,14 +383,14 @@ namespace Kbase.DetailPanel
 
 		public void ClickCopy(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Copy();
 		}
 
 		public void ClickCut(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Cut();
 		}
@@ -377,14 +398,14 @@ namespace Kbase.DetailPanel
 
 		public void ClickCopyPlainText(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			CopySpecial();
 		}
 
 		public void ClickPastePlainText(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			PasteSpecial();
 		}
@@ -392,21 +413,21 @@ namespace Kbase.DetailPanel
 
 		public void ClickUndo(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Undo();
 		}
 
 		public void ClickRedo(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Redo();
 		}
 
 		public void ClickRedoFormatting(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			RedoFormatting();
 		}
@@ -430,7 +451,7 @@ namespace Kbase.DetailPanel
 
 		public void CopySpecial() 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Selection oldSelection = new Selection(SelectionStart, SelectionLength);
 			string copyThis = RtfConverter.Serialize(Rtf, SelectionStart,SelectionLength);
@@ -440,7 +461,7 @@ namespace Kbase.DetailPanel
 		
 		public void ClickPaste(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			SaveClipboard();
 			RtfConverter.FormatClipboard(Font);
@@ -451,14 +472,14 @@ namespace Kbase.DetailPanel
 
 		public void ClickInsertDate(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			InsertDate();
 		}
 
 		public void ClickInsertHyperlink(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			InsertHyperlink();
 		}
@@ -466,7 +487,7 @@ namespace Kbase.DetailPanel
 
 		public void ClickInsertSnippetlink(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			InsertSnippetLink();
 		}
@@ -490,7 +511,7 @@ namespace Kbase.DetailPanel
 			try 
 			{
 				base.OnKeyPress (e);
-				if (!Enabled)
+				if (!Editable)
 					return;
 				// this is necessary because the tab, for instance, doesn't get handled in
 				// key down but rather here.  Must avoid this hence this logic.
@@ -550,7 +571,7 @@ namespace Kbase.DetailPanel
 
 		public void Save() 
 		{
-            if (!Enabled)
+            if (!Editable)
                 return;
 			if (this.snippet != null) 
 			{
@@ -644,7 +665,7 @@ namespace Kbase.DetailPanel
         {
             int found = -1;
             Selection oldSelection = null;
-            if (Enabled)
+            if (Editable)
             {
                 oldSelection = new Selection(SelectionStart, SelectionLength);
                 int startFrom = 0;

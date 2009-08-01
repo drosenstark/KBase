@@ -164,7 +164,7 @@ namespace Kbase.DetailPanel
 		private void buttonFind_Click(object sender, System.EventArgs e)
 		{
             Universe.Instance.detailPane.FindText(textBox.Text, checkFromBeginning.Checked, checkSearchOtherSnippets.Checked);
-			if (Universe.Instance.detailPane.Enabled)
+			if (Universe.Instance.detailPane.Editable)
 				checkFromBeginning.Checked = false;
 		}
 
