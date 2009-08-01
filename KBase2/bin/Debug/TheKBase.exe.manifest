@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Support\kbase.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="TheKBase" version="3.0.0.34505" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="TheKBase" version="3.0.0.3803" language="neutral" processorArchitecture="msil" />
     <commandLine file="TheKBase.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -60,7 +60,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>jSIAnCRJly5I7Iv/wG55YB99hU8=</dsig:DigestValue>
+        <dsig:DigestValue>OG5E3qrVhV+Bqc05BHV+DZa1QAs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -72,19 +72,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>p2BYAh2BmxGW0IC5g7dlOzfk1JE=</dsig:DigestValue>
+        <dsig:DigestValue>frW5fppNGRoeXujHXDDf0xCiWxo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TheKBase.exe" size="286720">
-      <assemblyIdentity name="TheKBase" version="3.0.0.34505" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="TheKBase" version="3.0.0.3803" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>IZbf3mLkmfCrJfNA7TQSolHmOmk=</dsig:DigestValue>
+        <dsig:DigestValue>qZJKSKWBCmSd3t+gs3Ba65Opa7o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

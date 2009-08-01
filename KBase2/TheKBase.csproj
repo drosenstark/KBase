@@ -244,6 +244,9 @@
     <Compile Include="src\Kbase.Properties\SnippetDateBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="src\Kbase.DetailPanel\ExternalEditButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="src\Kbase.Properties\SnippetTitleBox.cs">
       <SubType>Component</SubType>
     </Compile>

@@ -11,14 +11,14 @@
     <deploymentProvider codebase="file:///d:/eraseme/kbase-publish/TheKBase.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="TheKBase.exe.manifest" size="5689">
+    <dependentAssembly dependencyType="install" codebase="TheKBase.exe.manifest" size="5687">
       <assemblyIdentity name="TheKBase.exe" version="2.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>PaN52Oc2RY689qMEI0pOD1ArslQ=</dsig:DigestValue>
+        <dsig:DigestValue>3iitzbBeTEWYnDeclE5bHVSd708=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

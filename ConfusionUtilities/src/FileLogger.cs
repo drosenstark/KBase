@@ -85,7 +85,8 @@ namespace ConfusionUtilities
                 StreamWriter sw = null;
                 try
                 {
-                    Debug.Assert(file != null);
+                    if (file == null)
+                        return;
                     if (logBuffer.Length == 0)
                         return;
                     sw = new StreamWriter(file.FullName, true);

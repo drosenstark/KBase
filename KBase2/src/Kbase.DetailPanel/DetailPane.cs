@@ -589,14 +589,13 @@ namespace Kbase.DetailPanel
                 return false;
             }
 
+            /* we used to cache the Rtf but with external editing that's sometimes impossible 
 			if (snippet.UI.Rtf != null) 
 				this.Rtf = snippet.UI.Rtf;
-			else 
-			{
-				Rtf = RtfConverter.Load(text, Font);
-				snippet.UI.Rtf = Rtf;
-			}
-            return true;
+             */
+			Rtf = RtfConverter.Load(text, Font);
+			snippet.UI.Rtf = Rtf;
+            return !snippet.WatchingExternalFile;
 		}
 
 

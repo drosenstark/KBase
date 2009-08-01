@@ -23,6 +23,7 @@ using Kbase.SnippetTreeView;
 using Kbase.Model;
 using Kbase.MainFrm;
 using System.Diagnostics;
+using Kbase.DetailPanel;
 
 
 
@@ -50,6 +51,8 @@ namespace Kbase.Properties
 
 		SnippetTitleBox snippetTitle;
         SnippetDateBox snippetDate;
+        ExternalEditButton externalEditButton;
+
 		Panel topPanel;
         PropertiesPaneHolder propertiesPaneHolder;
         internal List<Snippet> selectedSnippets = null;
@@ -87,17 +90,6 @@ namespace Kbase.Properties
             bottomHalfSplitContainer.Dock = DockStyle.Fill;
 
 			
-			// 
-			// snippetTitle
-			// 
-			this.snippetTitle = new SnippetTitleBox();
-			this.snippetTitle.Location = new System.Drawing.Point(0, 0);
-			this.snippetTitle.Width = this.ClientSize.Width;
-			this.snippetTitle.Height = standardLabelHeight;
-			this.snippetTitle.Multiline = false;
-			this.snippetTitle.Name = "Snippet Title";
-			this.snippetTitle.TabIndex = 0;
-			this.snippetTitle.ReadOnly = false;
 
             // 
             // snippetDate
@@ -107,17 +99,39 @@ namespace Kbase.Properties
             this.snippetDate.Width = this.ClientSize.Width;
             this.snippetDate.Height = standardLabelHeight;
             this.snippetDate.AutoSize = true;
-            this.snippetDate.Dock = DockStyle.Right;
+            this.snippetDate.Dock = DockStyle.Left;
             this.snippetDate.Text = new DateTime().ToString();
             this.snippetDate.BorderStyle = BorderStyle.Fixed3D;
+
+            // 
+            // snippetTitle
+            // 
+            this.snippetTitle = new SnippetTitleBox();
+            this.snippetTitle.Location = new System.Drawing.Point(0, 0);
+            //this.snippetTitle.Width = this.ClientSize.Width;
+            this.snippetTitle.Height = standardLabelHeight;
+            this.snippetTitle.Multiline = false;
+            this.snippetTitle.Name = "Snippet Title";
+            this.snippetTitle.TabIndex = 0;
+            this.snippetTitle.ReadOnly = false;
+            this.snippetTitle.Dock = DockStyle.Fill;
+
+            
+            // 
+            // externalEditButton
+            // 
+            externalEditButton = new ExternalEditButton();
+            externalEditButton.Location = new System.Drawing.Point(0, 0);
+            externalEditButton.Height = standardLabelHeight - 10;
+            externalEditButton.AutoSize = true;
+            externalEditButton.Dock = DockStyle.Right;
 
 			// Top Panel
 			topPanel = new Panel();
 			topPanel.Dock = DockStyle.Top;
+            topPanel.Controls.Add(this.externalEditButton);
+            topPanel.Controls.Add(this.snippetTitle);
             topPanel.Controls.Add(this.snippetDate);
-			topPanel.Controls.Add(this.snippetTitle);
-
-
 
             // ParentPane which is the tree backwards
             this.parentPane = new ParentPane.ParentPane();
@@ -186,6 +200,7 @@ namespace Kbase.Properties
                 this.selectedSnippets.Clear();
             snippetTitle.Edit(null);
             snippetDate.Edit(null);
+            externalEditButton.Edit(null);
             parentPane.Clear();
             locationPane.Clear();
             LayoutProperties();
@@ -206,13 +221,10 @@ namespace Kbase.Properties
 
 
             propertiesPaneHolder.Edit(selectedSnippets);
-
+            externalEditButton.Edit(instance.Snippet);
             snippetDate.Edit(instance.Snippet);
             snippetTitle.Edit(instance.Snippet);
-            snippetTitle.Width = this.Width - snippetDate.Width - 10;
-
             parentPane.Edit(instance);
-
 
             locationPane.Edit(instance);
 
@@ -229,10 +241,12 @@ namespace Kbase.Properties
             propertiesPaneHolder.Edit(selectedSnippets);
 
 			Text = "- Multiple Selection ("+ selectedSnippets.Count +" Snippets) -\n";
+            /*
 			foreach (Snippet snippet in selectedSnippets) 
 			{
-                //Text += node.Text + " (" + node.Location + ")\n";
+                Text += node.Text + " (" + node.Location + ")\n";
 			}
+            */
             parentPane.Clear();
             locationPane.Clear();
             LayoutProperties();

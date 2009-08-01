@@ -1,427 +1,534 @@
-[2009-07-31 19:11:05 Information Pid 5272] - Testing Log Write
-[2009-07-31 19:11:05 Information Pid 5272] - Starting TheKBase
-[2009-07-31 19:11:07 Information Pid 5272] - Starting v. 0.0.1b
-[2009-07-31 19:11:19 Information Pid 5272] - In onShown a focus man.
-[2009-07-31 19:12:10 Information Pid 5272] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:12:10 Information Pid 5272] - Saving Settings: 0h0m0s34ms
-[2009-07-31 19:13:12 Information Pid 5280] - Testing Log Write
-[2009-07-31 19:13:12 Information Pid 5280] - Starting TheKBase
-[2009-07-31 19:13:14 Information Pid 5280] - Starting v. 0.0.1b
-[2009-07-31 19:13:26 Information Pid 5280] - In onShown a focus man.
-[2009-07-31 19:13:26 Information Pid 5280] - In onShown a focus man.
-[2009-07-31 19:13:30 Information Pid 5280] - In onShown a focus man.
-[2009-07-31 19:13:30 Information Pid 5280] - In onShown a focus man.
-[2009-07-31 19:13:41 Information Pid 5280] - In onShown a focus man.
-[2009-07-31 19:13:41 Information Pid 5280] - In onShown a focus man.
-[2009-07-31 19:14:01 Information Pid 5280] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:14:01 Information Pid 5280] - Saving Settings: 0h0m0s34ms
-[2009-07-31 19:16:19 Information Pid 5283] - Testing Log Write
-[2009-07-31 19:16:19 Information Pid 5283] - Starting TheKBase
-[2009-07-31 19:16:21 Information Pid 5283] - Starting v. 0.0.1b
-[2009-07-31 19:16:26 Information Pid 5283] - visible changed to here a focus man.
-[2009-07-31 19:16:26 Information Pid 5283] - visible changed to here a focus man.
-[2009-07-31 19:16:35 Information Pid 5283] - visible changed to here a focus man.
-[2009-07-31 19:16:35 Information Pid 5283] - visible changed to here a focus man.
-[2009-07-31 19:16:57 Information Pid 5283] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:16:57 Information Pid 5283] - Saving Settings: 0h0m0s35ms
-[2009-07-31 19:18:00 Information Pid 5291] - Testing Log Write
-[2009-07-31 19:18:00 Information Pid 5291] - Starting TheKBase
-[2009-07-31 19:18:01 Information Pid 5291] - Starting v. 0.0.1b
-[2009-07-31 19:18:04 Information Pid 5291] - visible changed to here a focus man.
-[2009-07-31 19:18:04 Information Pid 5291] - visible changed to here a focus man.
-[2009-07-31 19:18:08 Information Pid 5291] - visible changed to here a focus man.
-[2009-07-31 19:18:08 Information Pid 5291] - visible changed to here a focus man.
-[2009-07-31 19:18:16 Information Pid 5291] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:18:16 Information Pid 5291] - Saving Settings: 0h0m0s32ms
-[2009-07-31 19:21:10 Information Pid 5294] - Testing Log Write
-[2009-07-31 19:21:10 Information Pid 5294] - Starting TheKBase
-[2009-07-31 19:21:11 Information Pid 5294] - Starting v. 0.0.1b
-[2009-07-31 19:21:13 Information Pid 5294] - visible changed to here a focus man.
-[2009-07-31 19:21:14 Information Pid 5294] - visible changed to here a focus man.
-[2009-07-31 19:21:19 Information Pid 5294] - visible changed to here a focus man.
-[2009-07-31 19:21:19 Information Pid 5294] - visible changed to here a focus man.
-[2009-07-31 19:21:43 Information Pid 5296] - Testing Log Write
-[2009-07-31 19:21:43 Information Pid 5296] - Starting TheKBase
-[2009-07-31 19:21:45 Information Pid 5296] - Starting v. 0.0.1b
-[2009-07-31 19:21:48 Information Pid 5296] - visible changed to here a focus man.
-[2009-07-31 19:21:48 Information Pid 5296] - visible changed to here a focus man.
-[2009-07-31 19:21:55 Information Pid 5296] - visible changed to here a focus man.
-[2009-07-31 19:21:55 Information Pid 5296] - visible changed to here a focus man.
-[2009-07-31 19:22:19 Information Pid 5296] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:22:19 Information Pid 5296] - Saving Settings: 0h0m0s33ms
-[2009-07-31 19:22:24 Information Pid 5298] - Testing Log Write
-[2009-07-31 19:22:24 Information Pid 5298] - Starting TheKBase
-[2009-07-31 19:22:25 Information Pid 5298] - Starting v. 0.0.1b
-[2009-07-31 19:22:29 Information Pid 5298] - visible changed to here a focus man.
-[2009-07-31 19:22:29 Information Pid 5298] - visible changed to here a focus man.
-[2009-07-31 19:22:32 Information Pid 5298] - visible changed to here a focus man.
-[2009-07-31 19:22:32 Information Pid 5298] - visible changed to here a focus man.
-[2009-07-31 19:22:38 Information Pid 5298] - visible changed to here a focus man.
-[2009-07-31 19:22:38 Information Pid 5298] - visible changed to here a focus man.
-[2009-07-31 19:22:46 Information Pid 5298] - visible changed to here a focus man.
-[2009-07-31 19:22:46 Information Pid 5298] - visible changed to here a focus man.
-[2009-07-31 19:22:52 Information Pid 5298] - visible changed to here a focus man.
-[2009-07-31 19:22:52 Information Pid 5298] - visible changed to here a focus man.
-[2009-07-31 19:22:58 Information Pid 5298] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:22:58 Information Pid 5298] - Saving Settings: 0h0m0s32ms
-[2009-07-31 19:23:20 Information Pid 5301] - Testing Log Write
-[2009-07-31 19:23:20 Information Pid 5301] - Starting TheKBase
-[2009-07-31 19:23:22 Information Pid 5301] - Starting v. 0.0.1b
-[2009-07-31 19:23:25 Information Pid 5301] - visible changed to here a focus man.
-[2009-07-31 19:23:25 Information Pid 5301] - visible changed to here a focus man.
-[2009-07-31 19:23:29 Information Pid 5301] - visible changed to here a focus man.
-[2009-07-31 19:23:29 Information Pid 5301] - visible changed to here a focus man.
-[2009-07-31 19:23:33 Information Pid 5301] - visible changed to here a focus man.
-[2009-07-31 19:23:33 Information Pid 5301] - visible changed to here a focus man.
-[2009-07-31 19:23:39 Information Pid 5301] - visible changed to here a focus man.
-[2009-07-31 19:23:39 Information Pid 5301] - visible changed to here a focus man.
-[2009-07-31 19:24:45 Information Pid 5301] - visible changed to here a focus man.
-[2009-07-31 19:24:45 Information Pid 5301] - visible changed to here a focus man.
-[2009-07-31 19:24:54 Information Pid 5301] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:24:54 Information Pid 5301] - Saving Settings: 0h0m0s30ms
-[2009-07-31 19:26:07 Information Pid 5308] - Testing Log Write
-[2009-07-31 19:26:07 Information Pid 5308] - Starting TheKBase
-[2009-07-31 19:26:09 Information Pid 5308] - Starting v. 0.0.1b
-[2009-07-31 19:26:12 Information Pid 5308] - visible changed to here a focus man.
-[2009-07-31 19:26:12 Information Pid 5308] - visible changed to here a focus man.
-[2009-07-31 19:26:22 Information Pid 5308] - visible changed to here a focus man.
-[2009-07-31 19:26:22 Information Pid 5308] - visible changed to here a focus man.
-[2009-07-31 19:26:28 Information Pid 5308] - visible changed to here a focus man.
-[2009-07-31 19:26:28 Information Pid 5308] - visible changed to here a focus man.
-[2009-07-31 19:26:38 Information Pid 5308] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:26:38 Information Pid 5308] - Saving Settings: 0h0m0s34ms
-[2009-07-31 19:35:02 Information Pid 5316] - Testing Log Write
-[2009-07-31 19:35:02 Information Pid 5316] - Starting TheKBase
-[2009-07-31 19:35:03 Information Pid 5316] - Starting v. 0.0.1b
-[2009-07-31 19:35:15 Information Pid 5316] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:35:15 Information Pid 5316] - Saving Settings: 0h0m0s28ms
-[2009-07-31 19:35:17 Information Pid 5318] - Testing Log Write
-[2009-07-31 19:35:17 Information Pid 5318] - Starting TheKBase
-[2009-07-31 19:35:19 Information Pid 5318] - Starting v. 0.0.1b
-[2009-07-31 19:35:25 Information Pid 5318] - visible changed to here a focus man.
-[2009-07-31 19:35:25 Information Pid 5318] - visible changed to here a focus man.
-[2009-07-31 19:35:29 Information Pid 5318] - visible changed to here a focus man.
-[2009-07-31 19:35:29 Information Pid 5318] - visible changed to here a focus man.
-[2009-07-31 19:35:33 Information Pid 5318] - visible changed to here a focus man.
-[2009-07-31 19:35:33 Information Pid 5318] - visible changed to here a focus man.
-[2009-07-31 19:35:39 Information Pid 5318] - visible changed to here a focus man.
-[2009-07-31 19:35:39 Information Pid 5318] - visible changed to here a focus man.
-[2009-07-31 19:35:48 Information Pid 5318] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:35:48 Information Pid 5318] - Saving Settings: 0h0m0s33ms
-[2009-07-31 19:36:45 Information Pid 5327] - Testing Log Write
-[2009-07-31 19:36:45 Information Pid 5327] - Starting TheKBase
-[2009-07-31 19:36:46 Information Pid 5327] - Starting v. 0.0.1b
-[2009-07-31 19:36:52 Information Pid 5327] - visible changed to here a focus man.
-[2009-07-31 19:36:52 Information Pid 5327] - visible changed to here a focus man.
-[2009-07-31 19:36:58 Information Pid 5327] - visible changed to here a focus man.
-[2009-07-31 19:36:58 Information Pid 5327] - visible changed to here a focus man.
-[2009-07-31 19:37:18 Information Pid 5327] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:37:18 Information Pid 5327] - Saving Settings: 0h0m0s33ms
-[2009-07-31 19:38:57 Information Pid 5329] - Testing Log Write
-[2009-07-31 19:38:57 Information Pid 5329] - Starting TheKBase
-[2009-07-31 19:38:59 Information Pid 5329] - Starting v. 0.0.1b
-[2009-07-31 19:39:01 Information Pid 5329] - did that!
-[2009-07-31 19:39:01 Information Pid 5329] - visible changed to here a focus man.
-[2009-07-31 19:39:02 Information Pid 5329] - did that!
-[2009-07-31 19:39:02 Information Pid 5329] - visible changed to here a focus man.
-[2009-07-31 19:39:06 Information Pid 5329] - did that!
-[2009-07-31 19:39:06 Information Pid 5329] - visible changed to here a focus man.
-[2009-07-31 19:39:06 Information Pid 5329] - did that!
-[2009-07-31 19:39:06 Information Pid 5329] - visible changed to here a focus man.
-[2009-07-31 19:39:13 Information Pid 5329] - did that!
-[2009-07-31 19:39:21 Information Pid 5329] - did that!
-[2009-07-31 19:39:21 Information Pid 5329] - visible changed to here a focus man.
-[2009-07-31 19:39:21 Information Pid 5329] - did that!
-[2009-07-31 19:39:21 Information Pid 5329] - visible changed to here a focus man.
-[2009-07-31 19:39:31 Information Pid 5329] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:39:31 Information Pid 5329] - Saving Settings: 0h0m0s34ms
-[2009-07-31 19:40:19 Information Pid 5331] - Testing Log Write
-[2009-07-31 19:40:19 Information Pid 5331] - Starting TheKBase
-[2009-07-31 19:40:20 Information Pid 5331] - Starting v. 0.0.1b
-[2009-07-31 19:40:23 Information Pid 5331] - visible changed to here a focus man.
-[2009-07-31 19:40:23 Information Pid 5331] - visible changed to here a focus man.
-[2009-07-31 19:40:28 Information Pid 5331] - visible changed to here a focus man.
-[2009-07-31 19:40:28 Information Pid 5331] - visible changed to here a focus man.
-[2009-07-31 19:40:42 Information Pid 5331] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:40:42 Information Pid 5331] - Saving Settings: 0h0m0s34ms
-[2009-07-31 19:41:19 Information Pid 5345] - Testing Log Write
-[2009-07-31 19:41:19 Information Pid 5345] - Starting TheKBase
-[2009-07-31 19:41:20 Information Pid 5345] - Starting v. 0.0.1b
-[2009-07-31 19:41:23 Information Pid 5345] - visible changed to here a focus man.
-[2009-07-31 19:41:23 Information Pid 5345] - visible changed to here a focus man.
-[2009-07-31 19:41:50 Information Pid 5352] - Testing Log Write
-[2009-07-31 19:41:50 Information Pid 5352] - Starting TheKBase
-[2009-07-31 19:41:51 Information Pid 5352] - Starting v. 0.0.1b
-[2009-07-31 19:41:54 Information Pid 5352] - visible changed to here a focus man.
-[2009-07-31 19:41:54 Information Pid 5352] - visible changed to here a focus man.
-[2009-07-31 19:42:03 Information Pid 5352] - visible changed to here a focus man.
-[2009-07-31 19:42:03 Information Pid 5352] - visible changed to here a focus man.
-[2009-07-31 19:42:15 Information Pid 5352] - visible changed to here a focus man.
-[2009-07-31 19:42:15 Information Pid 5352] - visible changed to here a focus man.
-[2009-07-31 19:42:26 Information Pid 5352] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:42:26 Information Pid 5352] - Saving Settings: 0h0m0s35ms
-[2009-07-31 19:44:37 Information Pid 5354] - Testing Log Write
-[2009-07-31 19:44:37 Information Pid 5354] - Starting TheKBase
-[2009-07-31 19:44:38 Information Pid 5354] - Starting v. 0.0.1b
-[2009-07-31 19:44:43 Information Pid 5354] - visible changed to here a focus man.
-[2009-07-31 19:44:44 Information Pid 5354] - visible changed to here a focus man.
-[2009-07-31 19:44:48 Information Pid 5354] - visible changed to here a focus man.
-[2009-07-31 19:44:48 Information Pid 5354] - visible changed to here a focus man.
-[2009-07-31 19:44:54 Information Pid 5354] - visible changed to here a focus man.
-[2009-07-31 19:44:54 Information Pid 5354] - visible changed to here a focus man.
-[2009-07-31 19:46:50 Information Pid 5356] - Testing Log Write
-[2009-07-31 19:46:50 Information Pid 5356] - Starting TheKBase
-[2009-07-31 19:46:52 Information Pid 5356] - Starting v. 0.0.1b
-[2009-07-31 19:48:11 Information Pid 5363] - Testing Log Write
-[2009-07-31 19:48:11 Information Pid 5363] - Starting TheKBase
-[2009-07-31 19:48:12 Information Pid 5363] - Starting v. 0.0.1b
-[2009-07-31 19:48:15 Information Pid 5363] - visible changed to here a focus man.
-[2009-07-31 19:48:15 Information Pid 5363] - visible changed to here a focus man.
-[2009-07-31 19:48:19 Information Pid 5363] - visible changed to here a focus man.
-[2009-07-31 19:48:19 Information Pid 5363] - visible changed to here a focus man.
-[2009-07-31 19:48:51 Information Pid 5365] - Testing Log Write
-[2009-07-31 19:48:51 Information Pid 5365] - Starting TheKBase
-[2009-07-31 19:48:52 Information Pid 5365] - Starting v. 0.0.1b
-[2009-07-31 19:48:58 Information Pid 5365] - visible changed to here a focus man.
-[2009-07-31 19:48:58 Information Pid 5365] - visible changed to here a focus man.
-[2009-07-31 19:49:02 Information Pid 5365] - visible changed to here a focus man.
-[2009-07-31 19:49:02 Information Pid 5365] - visible changed to here a focus man.
-[2009-07-31 19:49:06 Information Pid 5365] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:49:06 Information Pid 5365] - Saving Settings: 0h0m0s34ms
-[2009-07-31 19:49:22 Information Pid 5367] - Testing Log Write
-[2009-07-31 19:49:22 Information Pid 5367] - Starting TheKBase
-[2009-07-31 19:49:23 Information Pid 5367] - Starting v. 0.0.1b
-[2009-07-31 19:49:26 Information Pid 5367] - visible changed to here a focus man.
-[2009-07-31 19:49:26 Information Pid 5367] - visible changed to here a focus man.
-[2009-07-31 19:49:30 Information Pid 5367] - visible changed to here a focus man.
-[2009-07-31 19:49:30 Information Pid 5367] - visible changed to here a focus man.
-[2009-07-31 19:49:37 Information Pid 5367] - visible changed to here a focus man.
-[2009-07-31 19:49:37 Information Pid 5367] - visible changed to here a focus man.
-[2009-07-31 19:49:42 Information Pid 5367] - visible changed to here a focus man.
-[2009-07-31 19:49:42 Information Pid 5367] - visible changed to here a focus man.
-[2009-07-31 19:49:46 Information Pid 5367] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:49:46 Information Pid 5367] - Saving Settings: 0h0m0s34ms
-[2009-07-31 19:53:09 Information Pid 5375] - Testing Log Write
-[2009-07-31 19:53:09 Information Pid 5375] - Starting TheKBase
-[2009-07-31 19:53:11 Information Pid 5375] - Starting v. 0.0.1b
-[2009-07-31 19:53:15 Information Pid 5375] - visible changed to here a focus man.
-[2009-07-31 19:53:15 Information Pid 5375] - visible changed to here a focus man.
-[2009-07-31 19:53:19 Information Pid 5375] - visible changed to here a focus man.
-[2009-07-31 19:53:19 Information Pid 5375] - visible changed to here a focus man.
-[2009-07-31 19:53:24 Information Pid 5375] - visible changed to here a focus man.
-[2009-07-31 19:53:24 Information Pid 5375] - visible changed to here a focus man.
-[2009-07-31 19:53:29 Information Pid 5375] - visible changed to here a focus man.
-[2009-07-31 19:53:29 Information Pid 5375] - visible changed to here a focus man.
-[2009-07-31 19:53:33 Information Pid 5375] - visible changed to here a focus man.
-[2009-07-31 19:53:33 Information Pid 5375] - visible changed to here a focus man.
-[2009-07-31 19:53:54 Information Pid 5382] - Testing Log Write
-[2009-07-31 19:53:54 Information Pid 5382] - Starting TheKBase
-[2009-07-31 19:53:56 Information Pid 5382] - Starting v. 0.0.1b
-[2009-07-31 19:53:58 Information Pid 5382] - visible changed to here a focus man.
-[2009-07-31 19:53:58 Information Pid 5382] - visible changed to here a focus man.
-[2009-07-31 19:54:03 Information Pid 5382] - visible changed to here a focus man.
-[2009-07-31 19:54:03 Information Pid 5382] - visible changed to here a focus man.
-[2009-07-31 19:54:09 Information Pid 5382] - visible changed to here a focus man.
-[2009-07-31 19:54:09 Information Pid 5382] - visible changed to here a focus man.
-[2009-07-31 19:54:40 Information Pid 5382] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:54:40 Information Pid 5382] - Saving Settings: 0h0m0s40ms
-[2009-07-31 19:54:42 Information Pid 5384] - Testing Log Write
-[2009-07-31 19:54:42 Information Pid 5384] - Starting TheKBase
-[2009-07-31 19:54:44 Information Pid 5384] - Starting v. 0.0.1b
-[2009-07-31 19:54:47 Information Pid 5384] - visible changed to here a focus man.
-[2009-07-31 19:54:47 Information Pid 5384] - visible changed to here a focus man.
-[2009-07-31 19:54:52 Information Pid 5384] - visible changed to here a focus man.
-[2009-07-31 19:54:52 Information Pid 5384] - visible changed to here a focus man.
-[2009-07-31 19:55:53 Information Pid 5384] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 19:55:53 Information Pid 5384] - Saving Settings: 0h0m0s31ms
-[2009-07-31 19:57:22 Information Pid 5389] - Testing Log Write
-[2009-07-31 19:57:22 Information Pid 5389] - Starting TheKBase
-[2009-07-31 19:57:24 Information Pid 5389] - Starting v. 0.0.1b
-[2009-07-31 20:00:31 Information Pid 5404] - Testing Log Write
-[2009-07-31 20:00:31 Information Pid 5404] - Starting TheKBase
-[2009-07-31 20:00:32 Information Pid 5404] - Starting v. 0.0.1b
-[2009-07-31 20:00:41 Information Pid 5404] - Got a selected icon Book Blue
-[2009-07-31 20:00:55 Information Pid 5404] - Got a selected icon Book Blue
-[2009-07-31 20:01:00 Information Pid 5404] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:01:00 Information Pid 5404] - Saving Settings: 0h0m0s35ms
-[2009-07-31 20:08:19 Information Pid 5412] - Testing Log Write
-[2009-07-31 20:08:19 Information Pid 5412] - Starting TheKBase
-[2009-07-31 20:08:21 Information Pid 5412] - Starting v. 0.0.1b
-[2009-07-31 20:08:47 Information Pid 5412] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:08:47 Information Pid 5412] - Saving Settings: 0h0m0s29ms
-[2009-07-31 20:10:46 Information Pid 5415] - Testing Log Write
-[2009-07-31 20:10:46 Information Pid 5415] - Starting TheKBase
-[2009-07-31 20:10:48 Information Pid 5415] - Starting v. 0.0.1b
-[2009-07-31 20:10:54 Information Pid 5415] - Book Purple
-[2009-07-31 20:11:01 Information Pid 5415] - Book Yellow
-[2009-07-31 20:11:42 Information Pid 5415] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:11:42 Information Pid 5415] - Saving Settings: 0h0m0s33ms
-[2009-07-31 20:12:44 Information Pid 5425] - Testing Log Write
-[2009-07-31 20:12:44 Information Pid 5425] - Starting TheKBase
-[2009-07-31 20:12:46 Information Pid 5425] - Starting v. 0.0.1b
-[2009-07-31 20:12:53 Information Pid 5425] - closing with this name Book Purple
-[2009-07-31 20:12:53 Information Pid 5425] - got the fancy name Book Blue
-[2009-07-31 20:13:14 Information Pid 5425] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:13:14 Information Pid 5425] - Saving Settings: 0h0m0s36ms
-[2009-07-31 20:17:22 Information Pid 5427] - Testing Log Write
-[2009-07-31 20:17:22 Information Pid 5427] - Starting TheKBase
-[2009-07-31 20:17:23 Information Pid 5427] - Starting v. 0.0.1b
-[2009-07-31 20:17:43 Information Pid 5427] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:17:43 Information Pid 5427] - Saving Settings: 0h0m0s27ms
-[2009-07-31 20:18:44 Information Pid 5434] - Testing Log Write
-[2009-07-31 20:18:44 Information Pid 5434] - Starting TheKBase
-[2009-07-31 20:18:45 Information Pid 5434] - Starting v. 0.0.1b
-[2009-07-31 20:18:53 Information Pid 5434] - Restoring from /Users/apple/Desktop/test.kbase
-[2009-07-31 20:18:53 Information Pid 5434] - Disk restore: 0h0m0s165ms
-[2009-07-31 20:18:54 Information Pid 5434] - Model Creation: 0h0m0s364ms
-[2009-07-31 20:20:27 Information Pid 5434] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:20:27 Information Pid 5434] - Saving Settings: 0h0m0s35ms
-[2009-07-31 20:21:11 Information Pid 5436] - Testing Log Write
-[2009-07-31 20:21:11 Information Pid 5436] - Starting TheKBase
-[2009-07-31 20:21:13 Information Pid 5436] - Starting v. 0.0.1b
-[2009-07-31 20:21:27 Information Pid 5436] - Restoring from /Volumes/data/eraseme.kbase
-[2009-07-31 20:21:27 Information Pid 5436] - Disk restore: 0h0m0s14ms
-[2009-07-31 20:21:27 Information Pid 5436] - Model Creation: 0h0m0s11ms
-[2009-07-31 20:21:33 Information Pid 5436] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:21:33 Information Pid 5436] - Saving Settings: 0h0m0s35ms
-[2009-07-31 20:22:23 Information Pid 5438] - Testing Log Write
-[2009-07-31 20:22:23 Information Pid 5438] - Starting TheKBase
-[2009-07-31 20:22:25 Information Pid 5438] - Starting v. 0.0.1b
-[2009-07-31 20:22:27 Information Pid 5438] - Restoring from /Volumes/data/eraseme.kbase
-[2009-07-31 20:22:27 Information Pid 5438] - Disk restore: 0h0m0s26ms
-[2009-07-31 20:22:27 Information Pid 5438] - Model Creation: 0h0m0s13ms
-[2009-07-31 20:24:29 Information Pid 5438] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:24:29 Information Pid 5438] - Saving Settings: 0h0m0s38ms
-[2009-07-31 20:24:32 Information Pid 5449] - Testing Log Write
-[2009-07-31 20:24:32 Information Pid 5449] - Starting TheKBase
-[2009-07-31 20:24:33 Information Pid 5449] - Starting v. 0.0.1b
-[2009-07-31 20:24:41 Information Pid 5449] - Restoring from /Volumes/data/eraseme.kbase
-[2009-07-31 20:24:41 Information Pid 5449] - Disk restore: 0h0m0s26ms
-[2009-07-31 20:24:41 Information Pid 5449] - Model Creation: 0h0m0s14ms
-[2009-07-31 20:24:47 Information Pid 5449] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:24:47 Information Pid 5449] - Saving Settings: 0h0m0s39ms
-[2009-07-31 20:24:58 Information Pid 5451] - Testing Log Write
-[2009-07-31 20:24:58 Information Pid 5451] - Starting TheKBase
-[2009-07-31 20:25:00 Information Pid 5451] - Starting v. 0.0.1b
-[2009-07-31 20:25:02 Information Pid 5451] - Restoring from /Volumes/data/eraseme.kbase
-[2009-07-31 20:25:02 Information Pid 5451] - Disk restore: 0h0m0s26ms
-[2009-07-31 20:25:02 Information Pid 5451] - Model Creation: 0h0m0s13ms
-[2009-07-31 20:25:09 Error Pid 5451] - EXCEPTION: Exception has been thrown by the target of an invocation.
-[2009-07-31 20:25:09 Error Pid 5451] - Exception has been thrown by the target of an invocation.(TargetInvocationException)
-[2009-07-31 20:25:09 Error Pid 5451] -   at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] 
-  at System.ComponentModel.ReflectionPropertyDescriptor.GetValue (System.Object component) [0x00000] 
-  at System.Windows.Forms.PropertyGridInternal.GridEntry.get_Value () [0x00000] 
-  at System.Windows.Forms.PropertyGridInternal.GridEntry.get_Values () [0x00000] 
-  at System.Windows.Forms.PropertyGridInternal.GridEntry.GetChildGridItems () [0x00000] 
-  at System.Windows.Forms.PropertyGridInternal.GridEntry.GetChildGridItemsCached () [0x00000] 
-  at System.Windows.Forms.PropertyGridInternal.GridEntry.get_Expandable () [0x00000] 
-  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.CalculateItemY (System.Windows.Forms.PropertyGridInternal.GridEntry entry, System.Windows.Forms.GridItemCollection items, System.Int32& y) [0x00000] 
-  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.CalculateItemY (System.Windows.Forms.PropertyGridInternal.GridEntry entry, System.Windows.Forms.GridItemCollection items, System.Int32& y) [0x00000] 
-  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.UpdateGridTextBoxBounds (System.Windows.Forms.PropertyGridInternal.GridEntry entry) [0x00000] 
-  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.UpdateItem (System.Windows.Forms.PropertyGridInternal.GridEntry entry) [0x00000] 
-  at System.Windows.Forms.PropertyGridInternal.PropertyGridView.SelectItem (System.Windows.Forms.PropertyGridInternal.GridEntry oldItem, System.Windows.Forms.PropertyGridInternal.GridEntry newItem) [0x00000] 
-  at (wrapper remoting-invoke-with-check) System.Windows.Forms.PropertyGridInternal.PropertyGridView:SelectItem (System.Windows.Forms.PropertyGridInternal.GridEntry,System.Windows.Forms.PropertyGridInternal.GridEntry)
-  at System.Windows.Forms.PropertyGrid.SelectItemCore (System.Windows.Forms.PropertyGridInternal.GridEntry oldItem, System.Windows.Forms.PropertyGridInternal.GridEntry item) [0x00000] 
-  at System.Windows.Forms.PropertyGrid.set_SelectedObjects (System.Object[] value) [0x00000] 
-  at System.Windows.Forms.PropertyGrid.set_SelectedObject (System.Object value) [0x00000] 
-  at (wrapper remoting-invoke-with-check) System.Windows.Forms.PropertyGrid:set_SelectedObject (object)
-  at Kbase.PropertiesForm.SnippetInfoForm.addProperty (System.String title, System.Object obj) [0x00000] 
-  at (wrapper remoting-invoke-with-check) Kbase.PropertiesForm.SnippetInfoForm:addProperty (string,object)
-  at Kbase.PropertiesForm.SnippetInfoForm.showProps (System.String title, System.Object obj) [0x00000] 
-  at Kbase.SnippetTreeView.SnippetPane.ShowInfo (System.Object sender, System.EventArgs e) [0x00000] 
-[2009-07-31 20:25:09 Error Pid 5451] - EXCEPTION: Not a search snippet.
-[2009-07-31 20:25:09 Error Pid 5451] - Not a search snippet.(Exception)
-[2009-07-31 20:25:09 Error Pid 5451] -   at Kbase.Model.Snippet.get_SearchCriteriaForDisplay () [0x00000] 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] 
-[2009-07-31 20:25:12 Information Pid 5451] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:25:12 Information Pid 5451] - Saving Settings: 0h0m0s26ms
-[2009-07-31 20:27:11 Information Pid 5453] - Testing Log Write
-[2009-07-31 20:27:11 Information Pid 5453] - Starting TheKBase
-[2009-07-31 20:27:13 Information Pid 5453] - Starting v. 0.0.1b
-[2009-07-31 20:27:16 Information Pid 5453] - Restoring from /Volumes/data/eraseme.kbase
-[2009-07-31 20:27:16 Information Pid 5453] - Disk restore: 0h0m0s25ms
-[2009-07-31 20:27:16 Information Pid 5453] - Model Creation: 0h0m0s14ms
-[2009-07-31 20:27:42 Information Pid 5453] - Dictionary contains 1 snippets. Average parents per snippet 1 average children 0
-[2009-07-31 20:27:42 Information Pid 5453] - Top level node child counts 1
-[2009-07-31 20:27:42 Information Pid 5453] - Snippets showing with instances: 
-[2009-07-31 20:27:42 Information Pid 5453] - Snippets showing 1 instances: 1
-[2009-07-31 20:27:47 Information Pid 5453] - Dictionary contains 1 snippets. Average parents per snippet 1 average children 0
-[2009-07-31 20:27:47 Information Pid 5453] - Top level node child counts 1
-[2009-07-31 20:27:47 Information Pid 5453] - Snippets showing with instances: 
-[2009-07-31 20:27:47 Information Pid 5453] - Snippets showing 1 instances: 1
-[2009-07-31 20:28:32 Information Pid 5453] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:28:32 Information Pid 5453] - Saving Settings: 0h0m0s29ms
-[2009-07-31 20:29:21 Information Pid 5456] - Testing Log Write
-[2009-07-31 20:29:21 Information Pid 5456] - Starting TheKBase
-[2009-07-31 20:29:22 Information Pid 5456] - Starting v. 0.0.1b
-[2009-07-31 20:29:43 Information Pid 5456] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:29:43 Information Pid 5456] - Saving Settings: 0h0m0s38ms
-[2009-07-31 20:31:29 Information Pid 5463] - Testing Log Write
-[2009-07-31 20:31:29 Information Pid 5463] - Starting TheKBase
-[2009-07-31 20:31:31 Information Pid 5463] - Starting v. 0.0.1b
-[2009-07-31 20:31:50 Information Pid 5463] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:31:50 Information Pid 5463] - Saving Settings: 0h0m0s34ms
-[2009-07-31 20:33:48 Information Pid 5470] - Testing Log Write
-[2009-07-31 20:33:48 Information Pid 5470] - Starting TheKBase
-[2009-07-31 20:33:49 Information Pid 5470] - Starting v. 0.0.1b
-[2009-07-31 20:34:02 Information Pid 5470] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:34:02 Information Pid 5470] - Saving Settings: 0h0m0s29ms
-[2009-07-31 20:40:02 Information Pid 5483] - Testing Log Write
-[2009-07-31 20:40:02 Information Pid 5483] - Starting TheKBase
-[2009-07-31 20:40:03 Information Pid 5483] - Starting v. 0.0.1b
-[2009-07-31 20:40:13 Information Pid 5483] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:40:13 Information Pid 5483] - Saving Settings: 0h0m0s30ms
-[2009-07-31 20:43:13 Information Pid 5490] - Testing Log Write
-[2009-07-31 20:43:13 Information Pid 5490] - Starting TheKBase
-[2009-07-31 20:43:15 Information Pid 5490] - Starting v. 0.0.1b
-[2009-07-31 20:43:28 Information Pid 5490] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:43:28 Information Pid 5490] - Saving Settings: 0h0m0s27ms
-[2009-07-31 20:50:12 Information Pid 5500] - Testing Log Write
-[2009-07-31 20:50:12 Information Pid 5500] - Starting TheKBase
-[2009-07-31 20:50:13 Information Pid 5500] - Starting v. 0.0.1b
-[2009-07-31 20:50:28 Information Pid 5500] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:50:28 Information Pid 5500] - Saving Settings: 0h0m0s29ms
-[2009-07-31 20:50:47 Information Pid 5503] - Testing Log Write
-[2009-07-31 20:50:47 Information Pid 5503] - Starting TheKBase
-[2009-07-31 20:50:49 Information Pid 5503] - Starting v. 0.0.1b
-[2009-07-31 20:51:47 Information Pid 5505] - Testing Log Write
-[2009-07-31 20:51:47 Information Pid 5505] - Starting TheKBase
-[2009-07-31 20:51:49 Information Pid 5505] - Starting v. 0.0.1b
-[2009-07-31 20:52:28 Information Pid 5505] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 20:52:28 Information Pid 5505] - Saving Settings: 0h0m0s34ms
-[2009-07-31 21:04:27 Information Pid 5523] - Testing Log Write
-[2009-07-31 21:04:27 Information Pid 5523] - Starting TheKBase
-[2009-07-31 21:04:28 Information Pid 5523] - Starting v. 0.0.1b
-[2009-07-31 21:04:43 Information Pid 5523] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 21:04:43 Information Pid 5523] - Saving Settings: 0h0m0s29ms
-[2009-07-31 21:05:37 Information Pid 5525] - Testing Log Write
-[2009-07-31 21:05:37 Information Pid 5525] - Starting TheKBase
-[2009-07-31 21:05:39 Information Pid 5525] - Starting v. 0.0.1b
-[2009-07-31 21:05:53 Information Pid 5525] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 21:05:53 Information Pid 5525] - Saving Settings: 0h0m0s30ms
-[2009-07-31 21:06:06 Information Pid 5532] - Testing Log Write
-[2009-07-31 21:06:06 Information Pid 5532] - Starting TheKBase
-[2009-07-31 21:06:08 Information Pid 5532] - Starting v. 0.0.1b
-[2009-07-31 21:06:16 Information Pid 5532] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 21:06:16 Information Pid 5532] - Saving Settings: 0h0m0s31ms
-[2009-07-31 21:08:51 Information Pid 5534] - Testing Log Write
-[2009-07-31 21:08:51 Information Pid 5534] - Starting TheKBase
-[2009-07-31 21:08:53 Information Pid 5534] - Starting v. 0.0.1b
-[2009-07-31 21:09:09 Information Pid 5534] - Got a rename down to the SnippetInstance level New Snippet what
-[2009-07-31 21:09:25 Information Pid 5534] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 21:09:25 Information Pid 5534] - Saving Settings: 0h0m0s31ms
-[2009-07-31 21:10:17 Information Pid 5538] - Testing Log Write
-[2009-07-31 21:10:17 Information Pid 5538] - Starting TheKBase
-[2009-07-31 21:10:19 Information Pid 5538] - Starting v. 0.0.1b
-[2009-07-31 21:10:58 Information Pid 5538] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 21:10:58 Information Pid 5538] - Saving Settings: 0h0m0s35ms
-[2009-07-31 21:11:15 Information Pid 5540] - Testing Log Write
-[2009-07-31 21:11:15 Information Pid 5540] - Starting TheKBase
-[2009-07-31 21:11:19 Information Pid 5540] - Starting v. 0.0.1b
-[2009-07-31 21:12:15 Error Pid 5540] - EXCEPTION: Array index is out of range.
-[2009-07-31 21:12:15 Error Pid 5540] - Array index is out of range.(IndexOutOfRangeException)
-[2009-07-31 21:12:15 Error Pid 5540] -   at Kbase.DetailPanel.DetailPane.SaveClipboard () [0x00000] 
-[2009-07-31 21:12:34 Information Pid 5540] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
-[2009-07-31 21:12:34 Information Pid 5540] - Saving Settings: 0h0m0s31ms
+[2009-08-01 02:15:12 Information Pid 3264] - Testing Log Write
+[2009-08-01 02:15:12 Information Pid 3264] - Starting TheKBase
+[2009-08-01 02:15:13 Information Pid 3264] - Starting v. 0.0.1b
+[2009-08-01 02:15:42 Error Pid 3264] - EXCEPTION: Error on startup.
+[2009-08-01 02:15:42 Error Pid 3264] - Error on startup.(FatalErrorException)
+[2009-08-01 02:15:42 Error Pid 3264] - 
+[2009-08-01 02:15:42 Error Pid 3264] - EXCEPTION: Could not find a part of the path 'D:\data\TheKBaseReborn\KBase2\bin\Debug\temp\2-New Snippet'.
+[2009-08-01 02:15:42 Error Pid 3264] - Could not find a part of the path 'D:\data\TheKBaseReborn\KBase2\bin\Debug\temp\2-New Snippet'.(DirectoryNotFoundException)
+[2009-08-01 02:15:42 Error Pid 3264] -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at Kbase.DetailPanel.ExternalSnippet.StartWatching() in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalSnippet.cs:line 26
+   at Kbase.DetailPanel.ExternalEditButton.OnCheckedChanged(EventArgs e) in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\ExternalEditButton.cs:line 57
+   at System.Windows.Forms.CheckBox.set_CheckState(CheckState value)
+   at System.Windows.Forms.CheckBox.OnClick(EventArgs e)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.Control.SendMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.Control.ReflectMessageInternal(IntPtr hWnd, Message& m)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.CallWindowProc(IntPtr wndProc, IntPtr hWnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at System.Windows.Forms.NativeWindow.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.DefWndProc(Message& m)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Kbase.Startup.Main(String[] parameters) in D:\data\TheKBaseReborn\KBase2\src\Kbase\Startup.cs:line 49
+[2009-08-01 02:15:42 Information Pid 3264] - MainForm.ShowError: FatalException thrown, MainForm proceeding to emergency exit.
+[2009-08-01 02:16:40 Information Pid 3420] - Testing Log Write
+[2009-08-01 02:16:40 Information Pid 3420] - Starting TheKBase
+[2009-08-01 02:16:40 Information Pid 3420] - Starting v. 0.0.1b
+[2009-08-01 02:17:23 Information Pid 3420] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 02:17:23 Information Pid 3420] - Saving Settings: 0h0m0s10ms
+[2009-08-01 02:17:51 Information Pid 3684] - Testing Log Write
+[2009-08-01 02:17:51 Information Pid 3684] - Starting TheKBase
+[2009-08-01 02:17:52 Information Pid 3684] - Starting v. 0.0.1b
+[2009-08-01 02:17:59 Error Pid 3684] - EXCEPTION: Requested Clipboard operation did not succeed.
+[2009-08-01 02:17:59 Error Pid 3684] - Requested Clipboard operation did not succeed.(ExternalException)
+[2009-08-01 02:17:59 Error Pid 3684] -    at System.Windows.Forms.Clipboard.ThrowIfFailed(Int32 hr)
+   at System.Windows.Forms.Clipboard.SetDataObject(Object data, Boolean copy, Int32 retryTimes, Int32 retryDelay)
+   at System.Windows.Forms.Clipboard.SetDataObject(Object data, Boolean copy)
+   at Kbase.DetailPanel.DetailPane.RestoreClipboard() in D:\data\TheKBaseReborn\KBase2\src\Kbase.DetailPanel\DetailPane.cs:line 614
+[2009-08-01 02:18:51 Information Pid 3684] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 02:18:51 Information Pid 3684] - Saving Settings: 0h0m0s20ms
+[2009-08-01 02:19:52 Information Pid 3928] - Testing Log Write
+[2009-08-01 02:19:52 Information Pid 3928] - Starting TheKBase
+[2009-08-01 02:19:52 Information Pid 3928] - Starting v. 0.0.1b
+[2009-08-01 02:21:38 Information Pid 3928] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 02:21:38 Information Pid 3928] - Saving Settings: 0h0m0s10ms
+[2009-08-01 02:29:34 Information Pid 1916] - Testing Log Write
+[2009-08-01 02:29:34 Information Pid 1916] - Starting TheKBase
+[2009-08-01 02:29:35 Information Pid 1916] - Starting v. 0.0.1b
+[2009-08-01 02:30:16 Information Pid 1916] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 02:30:16 Information Pid 1916] - Saving Settings: 0h0m0s10ms
+[2009-08-01 02:30:34 Information Pid 2116] - Testing Log Write
+[2009-08-01 02:30:34 Information Pid 2116] - Starting TheKBase
+[2009-08-01 02:30:35 Information Pid 2116] - Starting v. 0.0.1b
+[2009-08-01 02:32:01 Information Pid 2116] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 02:32:01 Information Pid 2116] - Saving Settings: 0h0m0s10ms
+[2009-08-01 02:32:54 Information Pid 2364] - Testing Log Write
+[2009-08-01 02:32:54 Information Pid 2364] - Starting TheKBase
+[2009-08-01 02:32:54 Information Pid 2364] - Starting v. 0.0.1b
+[2009-08-01 02:33:25 Information Pid 2364] - Saving TheKBase File to C:\Documents and Settings\Administrator\My Documents\eraseme.kbase
+[2009-08-01 02:33:25 Information Pid 2364] - Saving file: 0h0m0s40ms
+[2009-08-01 02:34:08 Information Pid 2364] - read the snippet text 57
+[2009-08-01 02:34:10 Information Pid 2364] - read the snippet text 57
+[2009-08-01 02:34:38 Information Pid 2364] - read the snippet text 73
+[2009-08-01 02:35:26 Information Pid 2364] - read the snippet text 87
+[2009-08-01 02:39:18 Information Pid 2584] - Testing Log Write
+[2009-08-01 02:39:18 Information Pid 2584] - Starting TheKBase
+[2009-08-01 02:39:19 Information Pid 2584] - Starting v. 0.0.1b
+[2009-08-01 02:39:24 Information Pid 2584] - Restoring from C:\Documents and Settings\Administrator\My Documents\eraseme.kbase
+[2009-08-01 02:39:24 Information Pid 2584] - Disk restore: 0h0m0s60ms
+[2009-08-01 02:39:27 Information Pid 2584] - Model Creation: 0h0m3s174ms
+[2009-08-01 02:40:11 Information Pid 2584] - read the snippet text 36
+[2009-08-01 02:49:49 Information Pid 2792] - Testing Log Write
+[2009-08-01 02:49:49 Information Pid 2792] - Starting TheKBase
+[2009-08-01 02:49:50 Information Pid 2792] - Starting v. 0.0.1b
+[2009-08-01 02:49:59 Information Pid 2792] - Restoring from C:\Documents and Settings\Administrator\My Documents\eraseme.kbase
+[2009-08-01 02:49:59 Information Pid 2792] - Disk restore: 0h0m0s30ms
+[2009-08-01 02:49:59 Information Pid 2792] - Model Creation: 0h0m0s10ms
+[2009-08-01 02:50:23 Information Pid 2792] - read the snippet text 44
+[2009-08-01 02:50:36 Information Pid 2792] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 02:50:36 Information Pid 2792] - Saving Settings: 0h0m0s20ms
+[2009-08-01 03:06:52 Information Pid 3384] - Testing Log Write
+[2009-08-01 03:06:52 Information Pid 3384] - Starting TheKBase
+[2009-08-01 03:06:53 Information Pid 3384] - Starting v. 0.0.1b
+[2009-08-01 03:06:59 Information Pid 3384] - Restoring from C:\Documents and Settings\Administrator\My Documents\eraseme.kbase
+[2009-08-01 03:06:59 Information Pid 3384] - Disk restore: 0h0m0s20ms
+[2009-08-01 03:06:59 Information Pid 3384] - Model Creation: 0h0m0s30ms
+[2009-08-01 03:08:35 Information Pid 3384] - Saving Settings to D:\data\TheKBaseReborn\KBase2\bin\Debug\/kbase.config
+[2009-08-01 03:08:35 Information Pid 3384] - Saving Settings: 0h0m0s10ms
+[2009-08-01 04:08:52 Information Pid 6586] - Testing Log Write
+[2009-08-01 04:08:52 Information Pid 6586] - Starting TheKBase
+[2009-08-01 04:08:54 Information Pid 6586] - Starting v. 0.0.1b
+[2009-08-01 04:08:59 Error Pid 6586] - EXCEPTION: File could not be loaded.
+[2009-08-01 04:08:59 Error Pid 6586] - File could not be loaded.(Exception)
+[2009-08-01 04:08:59 Error Pid 6586] - 
+[2009-08-01 04:08:59 Error Pid 6586] - EXCEPTION: File not found /C:\Documents and Settings\Administrator\My Documents\eraseme.kbase
+[2009-08-01 04:08:59 Error Pid 6586] - File not found /C:\Documents and Settings\Administrator\My Documents\eraseme.kbase(FatalErrorException)
+[2009-08-01 04:08:59 Error Pid 6586] -   at Kbase.Universe.Restore (System.String newPath, Boolean mergeIntoCurrent) [0x00000] 
+[2009-08-01 04:31:17 Information Pid 368] - Testing Log Write
+[2009-08-01 04:31:17 Information Pid 368] - Starting TheKBase
+[2009-08-01 04:31:20 Information Pid 368] - Starting v. 0.0.1b
+[2009-08-01 04:31:27 Information Pid 368] - Restoring from /Users/apple/Desktop/AllTechStuff.kbase
+[2009-08-01 04:31:27 Information Pid 368] - Disk restore: 0h0m0s240ms
+[2009-08-01 04:31:27 Information Pid 368] - Model Creation: 0h0m0s492ms
+[2009-08-01 04:31:38 Error Pid 368] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 04:31:38 Error Pid 368] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 04:31:38 Error Pid 368] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertySet.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.SnippetDetailPane.Edit (Kbase.Model.SnippetInstance instance) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.SnippetDetailPane:Edit (Kbase.Model.SnippetInstance)
+  at Kbase.Universe.OnAfterSelect (Kbase.Model.SnippetInstance instance) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.OnAfterSingleSelect (Kbase.MultipleSelectionTreeView.TreeNodeMultipleSelect node) [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.CallEvents () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-08-01 04:31:44 Error Pid 368] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 04:31:44 Error Pid 368] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 04:31:44 Error Pid 368] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertySet.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.SnippetDetailPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.SnippetDetailPane:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Universe.OnAfterSelect (System.Collections.Generic.List`1 snippets) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.OnAfterMultipleSelect () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.CallEvents () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-08-01 04:31:46 Error Pid 368] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 04:31:46 Error Pid 368] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 04:31:46 Error Pid 368] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertySet.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.SnippetDetailPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.SnippetDetailPane:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Universe.OnAfterSelect (System.Collections.Generic.List`1 snippets) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.OnAfterMultipleSelect () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.CallEvents () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-08-01 04:31:48 Error Pid 368] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 04:31:48 Error Pid 368] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 04:31:48 Error Pid 368] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertySet.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.SnippetDetailPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.SnippetDetailPane:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Universe.OnAfterSelect (System.Collections.Generic.List`1 snippets) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.OnAfterMultipleSelect () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.CallEvents () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-08-01 04:31:51 Error Pid 368] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 04:31:51 Error Pid 368] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 04:31:51 Error Pid 368] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertySet.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.SnippetDetailPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.SnippetDetailPane:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Universe.OnAfterSelect (System.Collections.Generic.List`1 snippets) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.OnAfterMultipleSelect () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.CallEvents () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-08-01 04:31:53 Error Pid 368] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 04:31:53 Error Pid 368] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 04:31:53 Error Pid 368] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertySet.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.SnippetDetailPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.SnippetDetailPane:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Universe.OnAfterSelect (System.Collections.Generic.List`1 snippets) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.OnAfterMultipleSelect () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.CallEvents () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-08-01 04:31:58 Error Pid 368] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 04:31:58 Error Pid 368] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 04:31:58 Error Pid 368] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertySet.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.SnippetDetailPane.Edit (Kbase.Model.SnippetInstance instance) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.SnippetDetailPane:Edit (Kbase.Model.SnippetInstance)
+  at Kbase.Universe.OnAfterSelect (Kbase.Model.SnippetInstance instance) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.OnAfterSingleSelect (Kbase.MultipleSelectionTreeView.TreeNodeMultipleSelect node) [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.CallEvents () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-08-01 04:32:04 Error Pid 368] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 04:32:04 Error Pid 368] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 04:32:04 Error Pid 368] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertySet.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.SnippetDetailPane.Edit (Kbase.Model.SnippetInstance instance) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.SnippetDetailPane:Edit (Kbase.Model.SnippetInstance)
+  at Kbase.Universe.OnAfterSelect (Kbase.Model.SnippetInstance instance) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.OnAfterSingleSelect (Kbase.MultipleSelectionTreeView.TreeNodeMultipleSelect node) [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.CallEvents () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-08-01 04:32:19 Information Pid 368] - Saving TheKBase File to /Users/apple/Desktop/blah.kbase
+[2009-08-01 04:32:19 Information Pid 368] - Saving file: 0h0m0s147ms
+[2009-08-01 04:32:30 Information Pid 368] - Restoring from /Users/apple/Desktop/blah.kbase
+[2009-08-01 04:32:30 Information Pid 368] - Disk restore: 0h0m0s155ms
+[2009-08-01 04:32:31 Information Pid 368] - Model Creation: 0h0m0s411ms
+[2009-08-01 04:32:36 Error Pid 368] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 04:32:36 Error Pid 368] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 04:32:36 Error Pid 368] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertySet.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.SnippetDetailPane.Edit (Kbase.Model.SnippetInstance instance) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.SnippetDetailPane:Edit (Kbase.Model.SnippetInstance)
+  at Kbase.Universe.OnAfterSelect (Kbase.Model.SnippetInstance instance) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.OnAfterSingleSelect (Kbase.MultipleSelectionTreeView.TreeNodeMultipleSelect node) [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.CallEvents () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-08-01 04:32:39 Information Pid 368] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-08-01 04:32:39 Information Pid 368] - Saving Settings: 0h0m0s33ms
+[2009-08-01 12:29:20 Information Pid 673] - Testing Log Write
+[2009-08-01 12:29:20 Information Pid 673] - Starting TheKBase
+[2009-08-01 12:29:22 Information Pid 673] - Starting v. 0.0.1b
+[2009-08-01 12:30:16 Information Pid 673] - Restoring from /Users/apple/Desktop/AllTechStuff.kbase copy
+[2009-08-01 12:30:16 Information Pid 673] - Disk restore: 0h0m0s373ms
+[2009-08-01 12:30:17 Information Pid 673] - Model Creation: 0h0m0s530ms
+[2009-08-01 12:30:21 Error Pid 673] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 12:30:21 Error Pid 673] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 12:30:21 Error Pid 673] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertySet.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Edit (System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.SnippetDetailPane.Edit (Kbase.Model.SnippetInstance instance) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.SnippetDetailPane:Edit (Kbase.Model.SnippetInstance)
+  at Kbase.Universe.OnAfterSelect (Kbase.Model.SnippetInstance instance) [0x00000] 
+  at Kbase.SnippetTreeView.SnippetPane.OnAfterSingleSelect (Kbase.MultipleSelectionTreeView.TreeNodeMultipleSelect node) [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.CallEvents () [0x00000] 
+  at Kbase.MultipleSelectionTreeView.TreeViewMultipleSelect.DoMultipleSelectionStuff (System.Windows.Forms.TreeNode node) [0x00000] 
+[2009-08-01 12:30:32 Error Pid 673] - EXCEPTION: ControlCollection does not have that many controls
+Parameter name: index
+1
+[2009-08-01 12:30:32 Error Pid 673] - ControlCollection does not have that many controls
+Parameter name: index
+1(ArgumentOutOfRangeException)
+[2009-08-01 12:30:32 Error Pid 673] -   at System.Windows.Forms.Control+ControlCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTab (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTabRect (Int32 index) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.TabControl:GetTabRect (int)
+  at System.Windows.Forms.Theming.Default.TabControlPainter.Draw (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.ThemeWin32Classic.DrawTabControl (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.TabControl.Draw (System.Drawing.Graphics dc, Rectangle clip) [0x00000] 
+  at System.Windows.Forms.TabControl.OnPaintInternal (System.Windows.Forms.PaintEventArgs pe) [0x00000] 
+  at System.Windows.Forms.Control.WmPaint (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.TabControl.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlWindowTarget.OnMessage (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlNativeWindow.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.NativeWindow.WndProc (IntPtr hWnd, Msg msg, IntPtr wParam, IntPtr lParam) [0x00000] 
+[2009-08-01 12:30:32 Error Pid 673] - EXCEPTION: ControlCollection does not have that many controls
+Parameter name: index
+1
+[2009-08-01 12:30:32 Error Pid 673] - ControlCollection does not have that many controls
+Parameter name: index
+1(ArgumentOutOfRangeException)
+[2009-08-01 12:30:32 Error Pid 673] -   at System.Windows.Forms.Control+ControlCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTab (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTabRect (Int32 index) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.TabControl:GetTabRect (int)
+  at System.Windows.Forms.Theming.Default.TabControlPainter.Draw (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.ThemeWin32Classic.DrawTabControl (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.TabControl.Draw (System.Drawing.Graphics dc, Rectangle clip) [0x00000] 
+  at System.Windows.Forms.TabControl.OnPaintInternal (System.Windows.Forms.PaintEventArgs pe) [0x00000] 
+  at System.Windows.Forms.Control.WmPaint (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.TabControl.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlWindowTarget.OnMessage (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlNativeWindow.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.NativeWindow.WndProc (IntPtr hWnd, Msg msg, IntPtr wParam, IntPtr lParam) [0x00000] 
+[2009-08-01 12:30:32 Error Pid 673] - EXCEPTION: ControlCollection does not have that many controls
+Parameter name: index
+1
+[2009-08-01 12:30:32 Error Pid 673] - ControlCollection does not have that many controls
+Parameter name: index
+1(ArgumentOutOfRangeException)
+[2009-08-01 12:30:32 Error Pid 673] -   at System.Windows.Forms.Control+ControlCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTab (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTabRect (Int32 index) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.TabControl:GetTabRect (int)
+  at System.Windows.Forms.Theming.Default.TabControlPainter.Draw (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.ThemeWin32Classic.DrawTabControl (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.TabControl.Draw (System.Drawing.Graphics dc, Rectangle clip) [0x00000] 
+  at System.Windows.Forms.TabControl.OnPaintInternal (System.Windows.Forms.PaintEventArgs pe) [0x00000] 
+  at System.Windows.Forms.Control.WmPaint (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.TabControl.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlWindowTarget.OnMessage (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlNativeWindow.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.NativeWindow.WndProc (IntPtr hWnd, Msg msg, IntPtr wParam, IntPtr lParam) [0x00000] 
+[2009-08-01 12:30:32 Error Pid 673] - EXCEPTION: ControlCollection does not have that many controls
+Parameter name: index
+1
+[2009-08-01 12:30:32 Error Pid 673] - ControlCollection does not have that many controls
+Parameter name: index
+1(ArgumentOutOfRangeException)
+[2009-08-01 12:30:32 Error Pid 673] -   at System.Windows.Forms.Control+ControlCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTab (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTabRect (Int32 index) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.TabControl:GetTabRect (int)
+  at System.Windows.Forms.Theming.Default.TabControlPainter.Draw (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.ThemeWin32Classic.DrawTabControl (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.TabControl.Draw (System.Drawing.Graphics dc, Rectangle clip) [0x00000] 
+  at System.Windows.Forms.TabControl.OnPaintInternal (System.Windows.Forms.PaintEventArgs pe) [0x00000] 
+  at System.Windows.Forms.Control.WmPaint (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.TabControl.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlWindowTarget.OnMessage (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlNativeWindow.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.NativeWindow.WndProc (IntPtr hWnd, Msg msg, IntPtr wParam, IntPtr lParam) [0x00000] 
+[2009-08-01 12:30:32 Error Pid 673] - EXCEPTION: ControlCollection does not have that many controls
+Parameter name: index
+1
+[2009-08-01 12:30:32 Error Pid 673] - ControlCollection does not have that many controls
+Parameter name: index
+1(ArgumentOutOfRangeException)
+[2009-08-01 12:30:32 Error Pid 673] -   at System.Windows.Forms.Control+ControlCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTab (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTabRect (Int32 index) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.TabControl:GetTabRect (int)
+  at System.Windows.Forms.Theming.Default.TabControlPainter.Draw (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.ThemeWin32Classic.DrawTabControl (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.TabControl.Draw (System.Drawing.Graphics dc, Rectangle clip) [0x00000] 
+  at System.Windows.Forms.TabControl.OnPaintInternal (System.Windows.Forms.PaintEventArgs pe) [0x00000] 
+  at System.Windows.Forms.Control.WmPaint (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.TabControl.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlWindowTarget.OnMessage (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlNativeWindow.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.NativeWindow.WndProc (IntPtr hWnd, Msg msg, IntPtr wParam, IntPtr lParam) [0x00000] 
+[2009-08-01 12:30:32 Error Pid 673] - EXCEPTION: ControlCollection does not have that many controls
+Parameter name: index
+1
+[2009-08-01 12:30:32 Error Pid 673] - ControlCollection does not have that many controls
+Parameter name: index
+1(ArgumentOutOfRangeException)
+[2009-08-01 12:30:32 Error Pid 673] -   at System.Windows.Forms.Control+ControlCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTab (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTabRect (Int32 index) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.TabControl:GetTabRect (int)
+  at System.Windows.Forms.Theming.Default.TabControlPainter.Draw (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.ThemeWin32Classic.DrawTabControl (System.Drawing.Graphics dc, Rectangle area, System.Windows.Forms.TabControl tab) [0x00000] 
+  at System.Windows.Forms.TabControl.Draw (System.Drawing.Graphics dc, Rectangle clip) [0x00000] 
+  at System.Windows.Forms.TabControl.OnPaintInternal (System.Windows.Forms.PaintEventArgs pe) [0x00000] 
+  at System.Windows.Forms.Control.WmPaint (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.TabControl.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlWindowTarget.OnMessage (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlNativeWindow.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.NativeWindow.WndProc (IntPtr hWnd, Msg msg, IntPtr wParam, IntPtr lParam) [0x00000] 
+[2009-08-01 12:30:32 Error Pid 673] - EXCEPTION: ControlCollection does not have that many controls
+Parameter name: index
+1
+[2009-08-01 12:30:32 Error Pid 673] - ControlCollection does not have that many controls
+Parameter name: index
+1(ArgumentOutOfRangeException)
+[2009-08-01 12:30:32 Error Pid 673] -   at System.Windows.Forms.Control+ControlCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTab (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTabRect (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlWindowTarget.OnMessage (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlNativeWindow.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.NativeWindow.WndProc (IntPtr hWnd, Msg msg, IntPtr wParam, IntPtr lParam) [0x00000] 
+[2009-08-01 12:30:34 Error Pid 673] - EXCEPTION: ControlCollection does not have that many controls
+Parameter name: index
+1
+[2009-08-01 12:30:34 Error Pid 673] - ControlCollection does not have that many controls
+Parameter name: index
+1(ArgumentOutOfRangeException)
+[2009-08-01 12:30:34 Error Pid 673] -   at System.Windows.Forms.Control+ControlCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTab (Int32 index) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.TabControl:GetTab (int)
+  at System.Windows.Forms.TabControl+TabPageCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.get_SelectedTab () [0x00000] 
+  at System.Windows.Forms.TabControl.OnLeave (System.EventArgs e) [0x00000] 
+  at System.Windows.Forms.Control.FireLeave () [0x00000] 
+  at System.Windows.Forms.ContainerControl.set_ActiveControl (System.Windows.Forms.Control value) [0x00000] 
+  at System.Windows.Forms.Control.Select (System.Windows.Forms.Control control) [0x00000] 
+  at System.Windows.Forms.Form.SelectActiveControl () [0x00000] 
+  at System.Windows.Forms.Form.WmActivate (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Form.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlWindowTarget.OnMessage (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlNativeWindow.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.NativeWindow.WndProc (IntPtr hWnd, Msg msg, IntPtr wParam, IntPtr lParam) [0x00000] 
+[2009-08-01 12:30:34 Error Pid 673] - EXCEPTION: ControlCollection does not have that many controls
+Parameter name: index
+1
+[2009-08-01 12:30:34 Error Pid 673] - ControlCollection does not have that many controls
+Parameter name: index
+1(ArgumentOutOfRangeException)
+[2009-08-01 12:30:34 Error Pid 673] -   at System.Windows.Forms.Control+ControlCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTab (Int32 index) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.TabControl:GetTab (int)
+  at System.Windows.Forms.TabControl+TabPageCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.get_SelectedTab () [0x00000] 
+  at System.Windows.Forms.TabControl.OnLeave (System.EventArgs e) [0x00000] 
+  at System.Windows.Forms.Control.FireLeave () [0x00000] 
+  at System.Windows.Forms.ContainerControl.set_ActiveControl (System.Windows.Forms.Control value) [0x00000] 
+  at System.Windows.Forms.Control.Select (System.Windows.Forms.Control control) [0x00000] 
+  at System.Windows.Forms.Form.SelectActiveControl () [0x00000] 
+  at System.Windows.Forms.Form.WmActivate (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Form.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlWindowTarget.OnMessage (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.Control+ControlNativeWindow.WndProc (System.Windows.Forms.Message& m) [0x00000] 
+  at System.Windows.Forms.NativeWindow.WndProc (IntPtr hWnd, Msg msg, IntPtr wParam, IntPtr lParam) [0x00000] 
+[2009-08-01 12:30:34 Error Pid 673] - EXCEPTION: Could not reset, exiting.
+[2009-08-01 12:30:34 Error Pid 673] - Could not reset, exiting.(FatalErrorException)
+[2009-08-01 12:30:34 Error Pid 673] -   at Kbase.Universe.Reset () [0x00000] 
+  at Kbase.MainFrm.MainForm.ClickNew (System.Object sender, System.EventArgs e) [0x00000] 
+[2009-08-01 12:30:34 Error Pid 673] - EXCEPTION: ControlCollection does not have that many controls
+Parameter name: index
+1
+[2009-08-01 12:30:34 Error Pid 673] - ControlCollection does not have that many controls
+Parameter name: index
+1(ArgumentOutOfRangeException)
+[2009-08-01 12:30:34 Error Pid 673] -   at System.Windows.Forms.Control+ControlCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.GetTab (Int32 index) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.TabControl:GetTab (int)
+  at System.Windows.Forms.TabControl+TabPageCollection.get_Item (Int32 index) [0x00000] 
+  at System.Windows.Forms.TabControl.get_SelectedTab () [0x00000] 
+  at System.Windows.Forms.TabControl.set_SelectedIndex (Int32 value) [0x00000] 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.TabControl:set_SelectedIndex (int)
+  at System.Windows.Forms.TabControl+ControlCollection.Remove (System.Windows.Forms.Control value) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.RemovePropertySet (Kbase.Properties.PropertySet set) [0x00000] 
+  at Kbase.Properties.PropertiesPaneHolder.Reset () [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertiesPaneHolder:Reset ()
+  at Kbase.Universe.Reset () [0x00000] 
+[2009-08-01 12:30:34 Information Pid 673] - MainForm.ShowError: FatalException thrown, MainForm proceeding to emergency exit.
+[2009-08-01 12:30:34 Information Pid 673] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-08-01 12:30:34 Information Pid 673] - Saving Settings: 0h0m0s29ms
+[2009-08-01 12:30:39 Information Pid 681] - Testing Log Write
+[2009-08-01 12:30:39 Information Pid 681] - Starting TheKBase
+[2009-08-01 12:30:40 Information Pid 681] - Starting v. 0.0.1b
+[2009-08-01 12:31:01 Error Pid 681] - EXCEPTION: Argument is out of range.
+Parameter name: index
+[2009-08-01 12:31:01 Error Pid 681] - Argument is out of range.
+Parameter name: index(ArgumentOutOfRangeException)
+[2009-08-01 12:31:01 Error Pid 681] -   at System.Windows.Forms.ComboBox+ObjectCollection.RemoveAt (Int32 index) [0x00000] 
+  at System.Windows.Forms.ComboBox+ObjectCollection.Remove (System.Object value) [0x00000] 
+  at Kbase.Properties.PropertyComboBox.Edit (System.Collections.Generic.List`1 editingTheseSnippets) [0x00000] 
+  at (wrapper remoting-invoke-with-check) Kbase.Properties.PropertyComboBox:Edit (System.Collections.Generic.List`1<Kbase.Model.Snippet>)
+  at Kbase.Properties.PropertiesPane.RegisterProperty (Kbase.Model.Snippet property, System.Collections.Generic.List`1 selectedSnippets) [0x00000] 
+  at Kbase.Properties.DefaultPropertiesPane.OnDragDrop (System.Windows.Forms.DragEventArgs e) [0x00000] 
+[2009-08-01 12:31:12 Information Pid 681] - Saving Settings to /Volumes/data/TheKBaseReborn/Kbase2/bin/Debug//kbase.config
+[2009-08-01 12:31:12 Information Pid 681] - Saving Settings: 0h0m0s31ms

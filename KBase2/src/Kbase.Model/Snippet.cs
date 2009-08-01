@@ -353,7 +353,13 @@ namespace Kbase.Model
 		public abstract void RemoveFromMemory();
 
 
+        public Kbase.DetailPanel.ExternalSnippet WatchSnippet = null;
 
+        public bool WatchingExternalFile {
+            get {
+                return (WatchSnippet != null);
+            }
+        }
 
 
 	}
