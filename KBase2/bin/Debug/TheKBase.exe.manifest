@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Support\kbase.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="TheKBase" version="3.0.0.29970" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="TheKBase" version="3.0.0.4816" language="neutral" processorArchitecture="msil" />
     <commandLine file="TheKBase.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -53,14 +53,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConfusionUtilities.dll" size="28160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConfusionUtilities.dll" size="28672">
       <assemblyIdentity name="ConfusionUtilities" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>bx4RSIYm9ibtSfvJu2ELtZ7c8gg=</dsig:DigestValue>
+        <dsig:DigestValue>ntS+cn+Ql00MRkbOM70l77TZ0OE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -78,13 +78,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TheKBase.exe" size="290816">
-      <assemblyIdentity name="TheKBase" version="3.0.0.29970" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="TheKBase" version="3.0.0.4816" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>4Wa4IQT+Cw+VWxpxh3V0hKIQmTE=</dsig:DigestValue>
+        <dsig:DigestValue>JjfNbSWrExIjSNpRRAzvht2tBR4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -467,7 +467,15 @@ namespace Kbase.DetailPanel
 			if (!Editable)
 				return;
 			Selection oldSelection = new Selection(SelectionStart, SelectionLength);
-			string copyThis = RtfConverter.Serialize(Rtf, SelectionStart,SelectionLength);
+            string copyThis;
+            if (Util.IsRichTextBoxBroken())
+            {
+                copyThis = Text.Substring(SelectionStart, SelectionLength);
+            }
+            else
+            {
+                copyThis = RtfConverter.Serialize(Rtf, SelectionStart, SelectionLength);
+            }
 			Clipboard.SetDataObject(new DataObject(DataFormats.StringFormat, copyThis));
 			Select(oldSelection);
 		}
@@ -477,11 +485,30 @@ namespace Kbase.DetailPanel
 			if (!Editable)
 				return;
 			SaveClipboard();
-			RtfConverter.FormatClipboard(Font);
+            if (!Util.IsRichTextBoxBroken())
+                RtfConverter.FormatClipboard(Font);
 			Paste();
+            if (Util.IsRichTextBoxBroken())
+                base.Refresh();
+
+
 			RestoreClipboard();
 		}
 
+/*
+        private new void Paste() {
+            if (Util.IsRichTextBoxBroken()) {
+                string beforeText = Text.Substring(0, SelectionStart);
+                string afterText = Text.Substring(SelectionStart + SelectionLength);
+                string text = Clipboard.GetText();
+                Text = beforeText + text +afterText;
+                Select(SelectionStart, text.Length);
+            }
+            else {
+                base.Paste();            
+            }
+        }
+*/
 
 		public void ClickInsertDate(object sender, System.EventArgs e) 
 		{

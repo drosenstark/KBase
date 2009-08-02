@@ -11,6 +11,7 @@ using Kbase.Icon;
 using Kbase.MainFrm;
 using Kbase.Model.Search;
 using Kbase.LibraryWrap;
+using ConfusionUtilities;
 
 namespace Kbase.SnippetTreeView
 {
@@ -45,8 +46,8 @@ namespace Kbase.SnippetTreeView
             ImageList = singletonImageList;
             ImageIndex = IconList.Instance.defaultIconIndex;
 
-            AllowDrop = true;
-            LabelEdit = true; // in client server, this is impossible
+            AllowDrop = !Util.IsMono();
+            LabelEdit = !Util.IsMono(); // in client server, this is impossible
         }
 
 
@@ -771,8 +772,8 @@ namespace Kbase.SnippetTreeView
                     retVal = (System.Drawing.Color)colorConverter.ConvertFromInvariantString(text);
                 }
                 catch (Exception ex) {
-                    Logger.Log("Problem converting color " + text);
-                    Logger.Log(ex);
+                    Kbase.LibraryWrap.Logger.Log("Problem converting color " + text);
+                    Kbase.LibraryWrap.Logger.Log(ex);
                 }
             }
             return retVal;

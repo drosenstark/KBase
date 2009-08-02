@@ -112,6 +112,10 @@ namespace ConfusionUtilities
             return richTextBoxBroken;
         }
 
+        public static bool IsMono() {
+            Type t = Type.GetType("Mono.Runtime");
+            return (t != null);
+        }
 
 
     }

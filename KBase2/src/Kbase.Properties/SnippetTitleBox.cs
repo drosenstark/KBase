@@ -44,11 +44,13 @@ namespace Kbase.Properties
 
         protected override void OnLostFocus(EventArgs e)
         {
+            base.OnLostFocus(e);
             UpdateTitle();
         }
 
         protected override void OnKeyDown(KeyEventArgs e)
         {
+            base.OnKeyDown(e);
             if (e.KeyData == Keys.Return)
                 UpdateTitle();
         }
