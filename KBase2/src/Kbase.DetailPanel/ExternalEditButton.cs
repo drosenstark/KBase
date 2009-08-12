@@ -26,8 +26,12 @@ namespace Kbase.DetailPanel
 
         public void Edit(Snippet snippet)
         {
+            bool refreshing = false;
             initing = true;
-            this.snippet = snippet;
+            if (this.snippet == snippet)
+                refreshing = true;
+            else
+                this.snippet = snippet;
             if (snippet == null)
             {
                 this.Visible = false;
@@ -41,6 +45,7 @@ namespace Kbase.DetailPanel
                 tip.ToolTipTitle = "Snippet In External Editor";
                 tip.SetToolTip(this, "The snippet is being edited in an external editor. Click to stop 'watching' that file.");
                 this.Checked = true;
+                if (!refreshing) snippet.WatchSnippet.popOpen();
             }
             else
             {
@@ -55,6 +60,7 @@ namespace Kbase.DetailPanel
         }
 
         private void RefreshText() {
+
             Edit(snippet);
         }
 

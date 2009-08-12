@@ -29,8 +29,8 @@ namespace Kbase.DetailPanel
 
         private void Init() {
             string kbaseId = Universe.Instance.ModelGateway.GetHashCode().ToString().Substring(0, 3);
-            string filename = MakeValidFileName(snippet.Title.ToLower().Trim() + "_" + kbaseId + "_" + snippet.Id + "." + FileExtension);
-            DirectoryInfo dir = new DirectoryInfo(Util.getFilenameInAppDir(DIRECTORY_SUFFIX));
+            string filename = MakeValidFileName(snippet.Title.ToLower().Trim() + "_" + snippet.Id + "." + FileExtension);
+            DirectoryInfo dir = new DirectoryInfo(Util.getFilenameInAppDir(DIRECTORY_SUFFIX + Path.DirectorySeparatorChar + "session" + kbaseId));
             if (!dir.Exists) {
                 Logger.Log("About to create directory " + dir.FullName);
                 dir.Create();
@@ -39,12 +39,16 @@ namespace Kbase.DetailPanel
             info = new FileInfo(filename); 
         }
 
+        public void popOpen() { 
+            Util.ExecuteCommand(info.FullName);
+        }
+
         public void StartWatching() {
             using (StreamWriter writer = new StreamWriter(info.FullName)) {
                 writer.Write(snippet.TextReadOnce);
                 writer.Close();
                 lastWriteTime = info.LastWriteTime;
-                Util.ExecuteCommand(info.FullName);
+                popOpen();
                 timer = new Timer();
                 timer.Interval = 100;
                 timer.Elapsed += new ElapsedEventHandler(timer_Elapsed);
