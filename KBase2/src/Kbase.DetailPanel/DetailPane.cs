@@ -331,17 +331,21 @@ namespace Kbase.DetailPanel
 				menuItem.Click +=new EventHandler(ClickPaste);
 				rightClickMenu.MenuItems.Add(menuItem);
 
-				rightClickMenu.MenuItems.Add(new MenuItem("-"));
+                if (!Util.IsRichTextBoxBroken())
+                {
 
-				menuItem = new MenuItem("Copy &Plain Text");
-				menuItem.Click +=new EventHandler(ClickCopyPlainText);
-				rightClickMenu.MenuItems.Add(menuItem);
+                    rightClickMenu.MenuItems.Add(new MenuItem("-"));
 
-				menuItem = new MenuItem("Paste &Plain Text");
-				menuItem.Click +=new EventHandler(ClickPastePlainText);
-				rightClickMenu.MenuItems.Add(menuItem);
-				
-				rightClickMenu.MenuItems.Add(new MenuItem("-"));
+                    menuItem = new MenuItem("Copy &Plain Text");
+                    menuItem.Click += new EventHandler(ClickCopyPlainText);
+                    rightClickMenu.MenuItems.Add(menuItem);
+
+                    menuItem = new MenuItem("Paste &Plain Text");
+                    menuItem.Click += new EventHandler(ClickPastePlainText);
+                    rightClickMenu.MenuItems.Add(menuItem);
+
+                    rightClickMenu.MenuItems.Add(new MenuItem("-"));
+                }
 
 				menuItem = new MenuItem("Insert Link to &File");
 				menuItem.Click +=new EventHandler(ClickInsertHyperlink);
@@ -484,9 +488,13 @@ namespace Kbase.DetailPanel
 		{
 			if (!Editable)
 				return;
+            if (!Util.IsRichTextBoxBroken()) {
+                base.Paste();
+                return;
+            }
+
 			SaveClipboard();
-            if (!Util.IsRichTextBoxBroken())
-                RtfConverter.FormatClipboard(Font);
+            RtfConverter.FormatClipboard(Font);
 			Paste();
             if (Util.IsRichTextBoxBroken())
                 base.Refresh();

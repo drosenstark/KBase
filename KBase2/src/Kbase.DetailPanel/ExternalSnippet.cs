@@ -19,7 +19,7 @@ namespace Kbase.DetailPanel
 
         const string DIRECTORY_SUFFIX = "snippets";
 
-        public string FileExtension = ".txt"; // someday we'll make this changeable
+        public string FileExtension = "txt"; // someday we'll make this changeable
 
         public ExternalSnippet(Snippet snippet)
         {
@@ -29,7 +29,7 @@ namespace Kbase.DetailPanel
 
         private void Init() {
             string kbaseId = Universe.Instance.ModelGateway.GetHashCode().ToString().Substring(0, 3);
-            string filename = MakeValidFileName(snippet.Title + "_" + kbaseId + "_" + snippet.Id + FileExtension);
+            string filename = MakeValidFileName(snippet.Title.ToLower().Trim() + "_" + kbaseId + "_" + snippet.Id + "." + FileExtension);
             DirectoryInfo dir = new DirectoryInfo(Util.getFilenameInAppDir(DIRECTORY_SUFFIX));
             if (!dir.Exists) {
                 Logger.Log("About to create directory " + dir.FullName);
