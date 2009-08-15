@@ -1,0 +1,3 @@
+-----------------------------------------
+TheKBase: FILE IS NO LONGER BEING WATCHED
+TheKBase: This filename bob_3.txt may be overwritten.
