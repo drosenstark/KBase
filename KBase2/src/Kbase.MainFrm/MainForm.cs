@@ -203,6 +203,7 @@ namespace Kbase.MainFrm
 
 
         MenuItem fileMenu;
+        MenuItem autoSaveMenu;
 
         void LoadMenus()
         {
@@ -213,7 +214,6 @@ namespace Kbase.MainFrm
             mainMenu1.MenuItems.Add(fileMenu);
 
             MenuItem item;
-
 
             item = new MenuItem("&New");
             item.Click += new System.EventHandler(this.ClickNew);
@@ -243,6 +243,10 @@ namespace Kbase.MainFrm
             menuItemPutRecentFilesAfter = item;
             fileMenu.MenuItems.Add(item);
             fileMenu.MenuItems.Add(new MenuItem("-"));
+
+            autoSaveMenu = new MenuItem("&Autosave");
+            fileMenu.MenuItems.Add(autoSaveMenu);
+            autoSaveMenu.Click += new System.EventHandler(this.ClickAutoSaveToggle);
 
             item = new MenuItem("E&xit");
             item.Click += new System.EventHandler(this.ClickExit);
@@ -338,7 +342,8 @@ namespace Kbase.MainFrm
 
             PlugInManager.Init();
             List<MenuItem> plugInItems = PlugInManager.getPluginItems();
-            foreach (MenuItem plugInItem in plugInItems) {
+            foreach (MenuItem plugInItem in plugInItems)
+            {
                 toolsMenu.MenuItems.Add(plugInItem);
             }
 
@@ -368,7 +373,8 @@ namespace Kbase.MainFrm
             if (Universe.Instance.detailPane == null || !Universe.Instance.isModelGatewayInitialized)
                 return true;
 
-            if (ExternalSnippet.Watchers.Count > 0) {
+            if (ExternalSnippet.Watchers.Count > 0)
+            {
                 string message = "You are editing " + (ExternalSnippet.Watchers.Count) + " snippets externally. If they have been saved, press OK.";
                 DialogResult result = MessageBox.Show(message, DialogCaption, MessageBoxButtons.OKCancel);
                 if (result == DialogResult.Cancel)
@@ -376,7 +382,7 @@ namespace Kbase.MainFrm
                 else
                     ExternalSnippet.DropWatchers(); // no problem if they cancel later, we've shutdown the watchers
             }
-            
+
             Universe.Instance.detailPane.Save();
             if (Universe.Instance.ModelGateway.Dirty)
             {
@@ -659,11 +665,12 @@ namespace Kbase.MainFrm
         {
             try
             {
-                string message = "Donate via PayPal to help support TheKBase development. You choose the amount to donate.\n"+
+                string message = "Donate via PayPal to help support TheKBase development. You choose the amount to donate.\n" +
                     "Click OK to go to PayPal now.";
                 DialogResult result = MessageBox.Show(message, DialogCaption, MessageBoxButtons.OKCancel);
-                if (result == DialogResult.OK) {
-                    string donateHere = "https://www.paypal.com/cgi-bin/webscr?business=paypal@confusionists.com&cmd=_xclick&item_name=Donation to support software development at Confusionists, Inc.";   
+                if (result == DialogResult.OK)
+                {
+                    string donateHere = "https://www.paypal.com/cgi-bin/webscr?business=paypal@confusionists.com&cmd=_xclick&item_name=Donation to support software development at Confusionists, Inc.";
                     System.Diagnostics.Process.Start(donateHere);
                 }
             }
@@ -692,6 +699,28 @@ namespace Kbase.MainFrm
             try
             {
                 Universe.Instance.ModelGateway.PrintInfo();
+            }
+            catch (Exception e2)
+            {
+                MainForm.ShowError(e2);
+            }
+
+        }
+
+
+        private void ClickAutoSaveToggle(object sender, System.EventArgs e)
+        {
+            try
+            {
+                autoSaveMenu.Checked = !autoSaveMenu.Checked;
+                if (autoSaveMenu.Checked)
+                {
+                    Universe.Instance.startAutoSave();
+                }
+                else
+                {
+                    Universe.Instance.stopAutoSave();
+                }
             }
             catch (Exception e2)
             {
@@ -900,7 +929,7 @@ namespace Kbase.MainFrm
             ShowError(ex, ex.Message);
         }
 
-        
+
         public static void ShowError(string text)
         {
             ShowError(null, text);
@@ -982,7 +1011,8 @@ namespace Kbase.MainFrm
             startLockTimer();
         }
 
-        void OnActivate(object sender, EventArgs e) {
+        void OnActivate(object sender, EventArgs e)
+        {
             stopLockTimer();
         }
 
@@ -1003,7 +1033,7 @@ namespace Kbase.MainFrm
                 passOkay = Universe.Instance.encryption.SolicitPasswordOnUIBlock();
             return passOkay;
         }
-        
+
         bool shouldBeMinimized = false;
 
         protected override void OnResize(EventArgs e)
@@ -1029,7 +1059,7 @@ namespace Kbase.MainFrm
                 }
             }
         }
-#endregion 
+        #endregion
 
     }
 }

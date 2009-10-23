@@ -25,8 +25,8 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TheKBase for .NET 2")]
-[assembly: AssemblyCopyright("© Daniel Rosenstark 2004-2008")]
+[assembly: AssemblyProduct("TheKBase Preview for .NET 3.5 and Mono 2.4")]
+[assembly: AssemblyCopyright("© Daniel Rosenstark 2004-2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]		
 
@@ -41,7 +41,7 @@ using System.Runtime.CompilerServices;
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
 
-[assembly: AssemblyVersion("3.0.0.*")]
+[assembly: AssemblyVersion("3.5.0.*")]
 
 //
 // In order to sign your assembly you must specify a key to use. Refer to the 

@@ -16,6 +16,7 @@ the GNU GPL or any other queries, please contact Daniel Rosenstark
 using System;
 using System.Drawing;
 using System.Collections.Generic;
+using System.Timers;
 using System.Windows.Forms;
 using System.Diagnostics;
 using Kbase.Serialization;
@@ -280,6 +281,37 @@ namespace Kbase
                 }
             }
         }
+
+        System.Timers.Timer autoSaveTimer;
+        public void startAutoSave() {
+            if (autoSaveTimer == null) {
+                autoSaveTimer= new System.Timers.Timer();
+                autoSaveTimer.Interval = 1000;
+                autoSaveTimer.Elapsed += new System.Timers.ElapsedEventHandler(autoSaveTimer_Elapsed);
+            }
+            autoSaveTimer.Start();
+        }
+
+        public void stopAutoSave() {
+            if (autoSaveTimer != null) autoSaveTimer.Stop();
+        }
+
+        void autoSaveTimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            try
+            {
+                mainForm.Invoke(new ZeroArgumentEventHandler(autoSaveTimerInner));
+            }
+            catch (InvalidOperationException) { 
+                // mainform is disposed
+            }
+        }
+
+        void autoSaveTimerInner() {
+            if (Universe.Instance.ModelGateway.Dirty && Universe.Instance.Path != null)
+                Save();
+        }
+
 
         /// <summary>
         ///  Don't call me directly, please.<br>
