@@ -126,9 +126,20 @@ namespace Kbase.Properties
             externalEditButton.AutoSize = true;
             externalEditButton.Dock = DockStyle.Right;
 
+
+            // 
+            // externalEditButton
+            // 
+            ExternalEditStopButton externalEditStopButton = externalEditButton.externalEditStopButton;
+            externalEditStopButton.Location = new System.Drawing.Point(0, 0);
+            externalEditStopButton.Height = standardLabelHeight - 10;
+            externalEditStopButton.AutoSize = true;
+            externalEditStopButton.Dock = DockStyle.Right;
+
 			// Top Panel
 			topPanel = new Panel();
 			topPanel.Dock = DockStyle.Top;
+            topPanel.Controls.Add(externalEditStopButton);
             topPanel.Controls.Add(this.externalEditButton);
             topPanel.Controls.Add(this.snippetTitle);
             topPanel.Controls.Add(this.snippetDate);

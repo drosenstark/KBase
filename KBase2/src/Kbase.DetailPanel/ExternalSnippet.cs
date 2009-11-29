@@ -77,6 +77,7 @@ namespace Kbase.DetailPanel
             timer.Stop();
             using (StreamWriter writer = new StreamWriter(info.FullName, true))
             {
+                writer.WriteLine();
                 writer.WriteLine("-----------------------------------------");
                 writer.WriteLine("TheKBase: FILE IS NO LONGER BEING WATCHED");
                 writer.WriteLine("TheKBase: This filename " + info.Name + " may be overwritten.");

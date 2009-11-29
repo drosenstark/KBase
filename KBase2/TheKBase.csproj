@@ -140,6 +140,9 @@
     <Compile Include="src\Kbase.DetailPanel\DetailPaneDragDropSupport.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="src\Kbase.DetailPanel\ExternalEditStopButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="src\Kbase.DetailPanel\ExternalSnippet.cs" />
     <Compile Include="src\Kbase.DetailPanel\FindForm.cs">
       <SubType>Form</SubType>
@@ -476,9 +479,9 @@
     <PublishFile Include="KbaseServer">
       <Visible>False</Visible>
       <Group>Server</Group>
+      <PublishState>Auto</PublishState>
       <TargetPath>
       </TargetPath>
-      <PublishState>Auto</PublishState>
       <FileType>Assembly</FileType>
     </PublishFile>
   </ItemGroup>
