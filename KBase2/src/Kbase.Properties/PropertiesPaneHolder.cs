@@ -16,11 +16,6 @@ namespace Kbase.Properties
         
         
         public PropertiesPaneHolder() {
-            Search.SearchForm searchForm = Universe.Instance.mainForm.searchForm;
-            searchForm.Dock = DockStyle.Fill;
-            TabPage searchTab = new TabPage("Search");
-            searchTab.Controls.Add(searchForm);
-            this.TabPages.Add(searchTab);
 
 
             // Properties Panes

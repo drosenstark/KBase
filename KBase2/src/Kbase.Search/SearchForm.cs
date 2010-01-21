@@ -112,7 +112,7 @@ namespace Kbase.Search
 
             AddNewFormPart();
             AddNewFormPart();
-            AddNewFormPart();
+            //AddNewFormPart();
 
         }
 

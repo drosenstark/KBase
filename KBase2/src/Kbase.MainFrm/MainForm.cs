@@ -40,6 +40,7 @@ namespace Kbase.MainFrm
         public static string DialogCaption = "Confusionists KBase";
         public Splitter splitter = new Splitter();
         public Splitter splitter2 = new Splitter();
+        public Splitter splitter3 = new Splitter();
 
 
 
@@ -141,7 +142,6 @@ namespace Kbase.MainFrm
             splitter2.Name = "splitter2";
             splitter2.TabStop = false;
 
-            Splitter splitter3 = new Splitter();
             splitter3.Location = new System.Drawing.Point(0, 0);
             splitter3.Name = "splitter2";
             splitter3.TabStop = false;
@@ -170,25 +170,31 @@ namespace Kbase.MainFrm
             // set up the subpanel
             Panel panel = new Panel();
             Universe.Instance.detailPane.Dock = DockStyle.Fill;
-            splitter2.Dock = DockStyle.Top;
+            splitter3.Dock = DockStyle.Top;
             Universe.Instance.snippetDetailPane.Dock = DockStyle.Top;
             panel.Controls.Add(Universe.Instance.detailPane);
-            panel.Controls.Add(splitter2);
+            panel.Controls.Add(splitter3);
             panel.Controls.Add(Universe.Instance.snippetDetailPane);
+            panel.Dock = DockStyle.Fill;
+
+            Panel biggerOuterRightPanel = new Panel();
+            searchForm.Dock = DockStyle.Top;
+            splitter2.Dock = DockStyle.Top;
+            biggerOuterRightPanel.Controls.Add(panel);
+            biggerOuterRightPanel.Controls.Add(splitter2);
+            biggerOuterRightPanel.Controls.Add(searchForm);
+            biggerOuterRightPanel.Dock = DockStyle.Fill;
+
 
             Universe.Instance.snippetPane.Dock = DockStyle.Fill;
             snippetPanePanel.Dock = DockStyle.Left;
             splitter.Dock = DockStyle.Left;
-            panel.Dock = DockStyle.Fill;
             statusBar.Dock = DockStyle.Bottom;
 
-
-            this.Controls.Add(panel);
+            this.Controls.Add(biggerOuterRightPanel);
             this.Controls.Add(splitter);
             this.Controls.Add(snippetPanePanel);
             this.Controls.Add(statusBar);
-
-
 
             // 
             // MainForm
