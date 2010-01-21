@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Support\kbase.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="TheKBase" version="3.5.0.29276" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="TheKBase" version="3.5.0.26210" language="neutral" processorArchitecture="msil" />
     <commandLine file="TheKBase.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -78,13 +78,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TheKBase.exe" size="274432">
-      <assemblyIdentity name="TheKBase" version="3.5.0.29276" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="TheKBase" version="3.5.0.26210" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>so6vurBcE0KXWW3AZxdQZCsPbj0=</dsig:DigestValue>
+        <dsig:DigestValue>SdKhHyYTOH1VhlQvNETh6d33RBc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
