@@ -9,7 +9,7 @@ using Kbase.Model.Search;
 
 namespace Kbase.Search
 {
-	public class SearchForm : System.Windows.Forms.Form
+    public class SearchForm : System.Windows.Forms.Panel
 	{
 		private System.Windows.Forms.Button buttonSearch;
 		private System.Windows.Forms.Button buttonCancel;
@@ -65,7 +65,6 @@ namespace Kbase.Search
 			this.buttonSearch.TabIndex = 4;
 			this.buttonSearch.Text = "Search";
 			this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
-			this.AcceptButton = buttonSearch;
 			// 
 			// buttonCancel
 			// 
@@ -119,25 +118,19 @@ namespace Kbase.Search
             // 
 			// SearchForm
 			// 
-			this.AutoScaleDimensions = new SizeF(5, 13);
-			this.ClientSize = new System.Drawing.Size(670, 120);
-			this.ControlBox = false;
 			this.Controls.Add(this.buttonReset);
 			// this.Controls.Add(this.searchFormPart);
 			this.Controls.Add(this.buttonSearch);
 			this.Controls.Add(this.buttonCancel);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
 			this.Name = "SearchForm";
-			ShowInTaskbar = false;
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "Search For Snippets";
-			this.Load += new System.EventHandler(this.SearchForm_Load);
 			this.ResumeLayout(false);
 
             this.LostFocus += new EventHandler(SearchForm_LostFocus);
             AddNewFormPart();
             AddNewFormPart();
             AddNewFormPart();
+
         }
 
         void AddNewFormPart() {
@@ -198,6 +191,10 @@ namespace Kbase.Search
 
 		}
 
+        public void Search()
+        {
+            buttonSearch_Click(null, null);
+        }
 		private void buttonSearch_Click(object sender, System.EventArgs e)
 		{
 			try 
@@ -207,7 +204,6 @@ namespace Kbase.Search
                     criteria.Add(part.GetSearchCriterion());
                 }
                 Universe.Instance.ModelGateway.Search(criteria);
-                this.Visible = false;
             } 
 			catch (Exception e2) 
 			{
@@ -216,10 +212,6 @@ namespace Kbase.Search
 
 		}
 
-		private void SearchForm_Load(object sender, System.EventArgs e)
-		{
-		
-		}
 
 		private void buttonReset_Click(object sender, System.EventArgs e)
 		{
@@ -235,5 +227,6 @@ namespace Kbase.Search
 				MainForm.ShowError(e2);
 			}
 		}
+
 	}
 }

@@ -255,7 +255,7 @@
     </Compile>
     <Compile Include="src\Kbase.Model\Search\SearchCriterion.cs" />
     <Compile Include="src\Kbase.Search\SearchForm.cs">
-      <SubType>Form</SubType>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="src\Kbase.Search\SearchFormPart.cs">
       <SubType>UserControl</SubType>
@@ -479,9 +479,9 @@
     <PublishFile Include="KbaseServer">
       <Visible>False</Visible>
       <Group>Server</Group>
-      <PublishState>Auto</PublishState>
       <TargetPath>
       </TargetPath>
+      <PublishState>Auto</PublishState>
       <FileType>Assembly</FileType>
     </PublishFile>
   </ItemGroup>

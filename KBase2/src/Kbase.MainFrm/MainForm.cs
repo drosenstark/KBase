@@ -137,12 +137,14 @@ namespace Kbase.MainFrm
             splitter.Name = "splitter";
             splitter.TabStop = false;
 
-            // 
-            // splitter
-            // 
             splitter2.Location = new System.Drawing.Point(0, 0);
             splitter2.Name = "splitter2";
             splitter2.TabStop = false;
+
+            Splitter splitter3 = new Splitter();
+            splitter3.Location = new System.Drawing.Point(0, 0);
+            splitter3.Name = "splitter2";
+            splitter3.TabStop = false;
 
             // 
             // statusBar
@@ -185,6 +187,11 @@ namespace Kbase.MainFrm
             this.Controls.Add(splitter);
             this.Controls.Add(snippetPanePanel);
             this.Controls.Add(statusBar);
+
+            searchForm.Dock = DockStyle.Fill;
+            TabPage searchTab = new TabPage("Search");
+            searchTab.Controls.Add(searchForm);
+            Universe.Instance.propertiesPaneHolder.TabPages.Add(searchTab);
 
 
             // 
@@ -331,10 +338,6 @@ namespace Kbase.MainFrm
             // TOOLS MENU
             MenuItem toolsMenu = new MenuItem("&Tools");
             mainMenu1.MenuItems.Add(toolsMenu);
-
-            item = new MenuItem("&Search");
-            item.Click += new System.EventHandler(this.ClickSearch);
-            toolsMenu.MenuItems.Add(item);
 
             item = new MenuItem("&Export using XSLT");
             item.Click += new System.EventHandler(this.ClickExport);
@@ -600,22 +603,7 @@ namespace Kbase.MainFrm
         }
 
 
-        Search.SearchForm searchForm = null;
-        public void ClickSearch(object sender, System.EventArgs e)
-        {
-            try
-            {
-                if (searchForm == null)
-                    searchForm = new Search.SearchForm();
-                searchForm.Show();
-                searchForm.Focus();
-            }
-            catch (Exception e2)
-            {
-                MainForm.ShowError(e2);
-            }
-
-        }
+        public Search.SearchForm searchForm = new Search.SearchForm();
 
         private void ClickExport(object sender, System.EventArgs e)
         {
