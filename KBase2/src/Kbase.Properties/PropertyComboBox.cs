@@ -319,7 +319,7 @@ namespace Kbase.Properties
         {
             DialogResult okay = DialogResult.Yes;
             if (selectedVal == PropertyValue.UNDEFINED_PROPERTY) {
-                if (currentValues.Count == snippet.ParentCount) { 
+                if (currentValues.Count == snippet.ParentCount) {
                     okay = MessageBox.Show(
                         "You are about to permanently delete " + snippet.Title + ". " +
                         "Are you sure?", MainForm.DialogCaption, MessageBoxButtons.YesNo);

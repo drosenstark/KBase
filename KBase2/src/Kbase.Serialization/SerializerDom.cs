@@ -74,12 +74,18 @@ namespace Kbase.Serialization
                 makeChildXmlAndAppend(doc, topLevelIdsNode, id);
             }
 
-            XmlElement snippetsNode = (XmlElement)kbaseNode.ChildNodes[4];
+            XmlElement lastXIdsNode = (XmlElement)kbaseNode.ChildNodes[4];
+            foreach (int id in serializablePiece.lastXIds)
+            {
+                makeChildXmlAndAppend(doc, lastXIdsNode, id);
+            }
+
+
+            XmlElement snippetsNode = (XmlElement)kbaseNode.ChildNodes[5]; // explanation of nums above
             foreach (SerializableSnippet snippet in serializablePiece.snippets.Values)
             {
                 makeSnippetXmlAndAppend(doc, snippetsNode, snippet);
             }
-
 
             Encryption encryption = Universe.Instance.encryption;
             if (encryption.On)
@@ -192,6 +198,22 @@ namespace Kbase.Serialization
 
                 // deleting as we go
                 kbaseNode.RemoveChild(topLevelIdNode);
+
+
+                XmlNodeList elements = kbaseNode.GetElementsByTagName("LastXIds");
+                if (elements != null && elements.Count > 0)
+                {
+                    XmlElement lastXIdsNode = (XmlElement)elements[0];
+                    foreach (XmlElement idXml in lastXIdsNode.ChildNodes)
+                    {
+                        int id = HandleId(idXml);
+                        retVal.lastXIds.Add(id);
+                    }
+
+                    // deleting as we go
+                    kbaseNode.RemoveChild(lastXIdsNode);
+                }
+
 
                 XmlElement snippetsNode = (XmlElement)kbaseNode.GetElementsByTagName("Snippets")[0];
 				foreach (XmlElement snippetXml in snippetsNode.ChildNodes) 
@@ -331,7 +353,7 @@ namespace Kbase.Serialization
 		}
 
 
-        static string DEFAULT_DOC = @"<Kbase><Version></Version><Properties></Properties><PropertySets></PropertySets><TopLevelIds></TopLevelIds><Snippets></Snippets></Kbase>";	
+        static string DEFAULT_DOC = @"<Kbase><Version></Version><Properties></Properties><PropertySets></PropertySets><TopLevelIds></TopLevelIds><LastXIds></LastXIds><Snippets></Snippets></Kbase>";	
 
 
 	}

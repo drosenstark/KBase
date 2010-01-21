@@ -320,7 +320,7 @@ namespace Kbase.Icon
         bool warned = false;
         void Warn(string iconName) {
             if (!warned)
-                MessageBox.Show("You are missing one or more icon files (including " + iconName + ").\nSnippets will be shown with the default icon but will remain intact.", MainForm.DialogCaption, MessageBoxButtons.OK);
+              MessageBox.Show("You are missing one or more icon files (including " + iconName + ").\nSnippets will be shown with the default icon but will remain intact.", MainForm.DialogCaption, MessageBoxButtons.OK);
             warned = true;    
         }
 

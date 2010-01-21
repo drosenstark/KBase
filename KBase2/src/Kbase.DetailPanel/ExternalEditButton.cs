@@ -49,9 +49,21 @@ namespace Kbase.DetailPanel
             }
         }
 
+        static bool botheredForAutosave = false;
+
         protected override void OnClick(EventArgs e)
         {
             base.OnClick(e);
+            if (!botheredForAutosave && !Universe.Instance.mainForm.autoSaveMenu.Checked)
+            {
+                string message = "Autosave is off. It should be on so that when you save the external file, TheKBase is saved as well. Turn it on?";
+                DialogResult result = MessageBox.Show(message, MainForm.DialogCaption, MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+                {
+                    Universe.Instance.mainForm.ClickAutoSaveToggle(null, null);
+                }
+                botheredForAutosave = true;
+            }
             if (snippet.WatchSnippet == null)
             {
                 Universe.Instance.detailPane.Save();

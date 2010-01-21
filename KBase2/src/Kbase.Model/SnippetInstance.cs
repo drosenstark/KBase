@@ -43,7 +43,7 @@ namespace Kbase.Model
 
 		public SnippetInstance(Snippet snippet, SnippetInstance parent) 
 		{
-			Debug.Assert(!snippet.TopLevel);
+			Debug.Assert(!snippet.IsTopLevel);
 			this.Snippet = snippet;
 			this.Snippet.UI.SnippetInstances.Add(this);
 			this.parent = parent;
@@ -156,7 +156,7 @@ namespace Kbase.Model
 
 			foreach (SnippetInstance childInstance in childrenCopy) 
 			{
-				if (Snippet.TopLevel) 
+				if (Snippet.IsTopLevel) 
 				{
 					Universe.Instance.snippetPane.Nodes.Remove(childInstance.node);
 				} 
@@ -209,7 +209,7 @@ namespace Kbase.Model
 		{
 			get
 			{
-				if (this.Snippet.TopLevel)
+				if (this.Snippet.IsTopLevel)
 					return true;
 				else
 					return this.node.IsVisible;

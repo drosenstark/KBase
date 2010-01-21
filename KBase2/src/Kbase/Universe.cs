@@ -198,6 +198,8 @@ namespace Kbase
 		public void Reset() {
 			try 
 			{
+                if (mainForm.autoSaveMenu.Checked)
+                    mainForm.ClickAutoSaveToggle(null, null);
 				Snippet topLevel = ModelGateway.TopLevelSnippet;
 				topLevel.RemoveAllChildSnippets();
                 OnAfterSelectNone();

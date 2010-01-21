@@ -35,10 +35,19 @@ namespace Kbase.Model
 			set;
 		}
 
+        public bool SuspendEvents;
+
 		public abstract Snippet TopLevelSnippet 
 		{
 			get;
 		}
+
+        public abstract Snippet LastXSnippet
+        {
+            get;
+        }
+
+        public abstract void AddSnippetToLastXSnippets(Snippet snippet);
 
         public object UnknownPieceToReserialize = null;
 

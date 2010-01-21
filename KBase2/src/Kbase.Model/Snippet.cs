@@ -44,7 +44,8 @@ namespace Kbase.Model
 		// cached local variables for the UI
 		public SnippetUI UI = null;
         // if this is the actual TopLevel master snippet guy
-		public bool TopLevel = false;
+		public bool IsTopLevel = false;
+        public bool IsLastX = false; // if this is the dynamic snippet that displays the last ten
 
         [Browsable(true), ReadOnly(true),
             Bindable(false), DefaultValueAttribute(""), DesignOnly(false),

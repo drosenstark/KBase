@@ -203,7 +203,7 @@ namespace Kbase.MainFrm
 
 
         MenuItem fileMenu;
-        MenuItem autoSaveMenu;
+        public MenuItem autoSaveMenu;
 
         void LoadMenus()
         {
@@ -708,7 +708,7 @@ namespace Kbase.MainFrm
         }
 
 
-        private void ClickAutoSaveToggle(object sender, System.EventArgs e)
+        public void ClickAutoSaveToggle(object sender, System.EventArgs e)
         {
             try
             {

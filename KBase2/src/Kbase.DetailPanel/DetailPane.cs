@@ -95,14 +95,19 @@ namespace Kbase.DetailPanel
 
         private void UpdateTextFromExternalInner()
         {
-            Edit(snippet);
+            snippet.UI.Rtf = null; // reset all cached text
+            Edit(snippet, false);
         }
 
-		public void Edit(Snippet snippet) 
+        public void Edit(Snippet snippet) {
+            Edit(snippet, true);
+        }
+
+		public void Edit(Snippet snippet, bool saveCurrent) 
 		{
 			float oldFactor = ZoomFactor;
-			// save the current snippet
-			Save();
+            if (saveCurrent)
+    			Save();
 			Reset();
 
             Enabled = true;
@@ -641,7 +646,7 @@ namespace Kbase.DetailPanel
         }
 
         /// <summary>
-        /// returns true if text was loaded, false otherwise
+        /// returns true if text was loaded, false otherwise. If the snippet is being edited externally, returns false
         /// </summary>
         /// <param name="clearAllText"></param>
         /// <returns></returns>
@@ -676,6 +681,7 @@ namespace Kbase.DetailPanel
                 }
             }
             return !snippet.WatchingExternalFile;
+            //return !Util.IsRichTextBoxBroken();
 		}
 
 

@@ -42,6 +42,7 @@ namespace Kbase.Serialization
 		public DateTime Version = DateTime.Now;
         public Hashtable snippets = new Hashtable();
 		public List<int> topLevelIds = new List<int>();
+        public List<int> lastXIds = new List<int>();
         [NonSerialized()]
         public List<int> propertyIds = new List<int>();
         [NonSerialized()]
@@ -58,7 +59,6 @@ namespace Kbase.Serialization
 		/// <param name="theParents">Kbase.Model.Snippet snippets</param>
 		public SerializableUniverse(List<Snippet> theParents) : this(theParents, Serializer.GetDefaultSerializer())
 		{
-			
 		}
 
 		// create an empty serializable universe
@@ -76,8 +76,11 @@ namespace Kbase.Serialization
 			this.serializer = serializer;
 			foreach (Snippet snippet in parents) 
 			{
-				this.topLevelIds.Add(snippet.Id);
-				Handle(snippet);
+                if (!snippet.IsLastX)
+                {
+                    this.topLevelIds.Add(snippet.Id);
+                    Handle(snippet);
+                }
 			}
 
             // now handle the other bits, which are the properties, propertySets and unknown bit
@@ -91,6 +94,12 @@ namespace Kbase.Serialization
                 propertySetIds.Add(snippet.Id);
             }
 
+            foreach (Snippet snippet in Universe.Instance.ModelGateway.LastXSnippet.Children)
+            {
+                lastXIds.Add(snippet.Id);
+            }
+
+
             UnknownPieceToReserialize = Universe.Instance.ModelGateway.UnknownPieceToReserialize;
 		}
 
@@ -100,7 +109,7 @@ namespace Kbase.Serialization
 		/// <param name="snippet"></param>
 		/// <param name="storeWhere"></param>
 		public void Handle(Snippet snippet) {
-			if (!snippets.ContainsKey(snippet.Id)) 
+			if (!snippets.ContainsKey(snippet.Id) && !snippet.IsLastX) 
 			{
 				SerializableSnippet sSnippet = new SerializableSnippet(snippet);
 				snippets.Add(sSnippet.Id, sSnippet);
@@ -175,6 +184,7 @@ namespace Kbase.Serialization
 		/// <param name="merge"></param>
 		public List<Snippet> Restore(Snippet where, bool merge) 
 		{
+            Universe.Instance.ModelGateway.SuspendEvents = true;
             List<Snippet> retVal = new List<Snippet>();
 		    if (!merge) {
 			    Universe.Instance.snippetPane.Reset();
@@ -192,9 +202,11 @@ namespace Kbase.Serialization
 			    Snippet realSnippet = sSnippet.MakeSnippetInModel(where, snippets, merge);
                 retVal.Add(realSnippet);
 		    }
+            Universe.Instance.ModelGateway.SuspendEvents = false;
 
             RestoreProperties();
             RestorePropertySets();
+            RestoreLastXIds();
             
             // restore the unknown piece, which basically amounts to storing it in the model gateway
             Universe.Instance.ModelGateway.UnknownPieceToReserialize = UnknownPieceToReserialize; // null is okay
@@ -208,11 +220,23 @@ namespace Kbase.Serialization
 
             Logger.LogTimer(marker, "Model Creation");
 
-//            Debug.Assert(retVal.Count > 0);
-
-
             return retVal;
 		}
+
+        private void RestoreLastXIds()
+        {
+            // this is necessary for kbase to kbase cutting and pasting
+            // the propertyIds, if empty, comes over as null
+            if (lastXIds == null)
+                return;
+            Snippet lastXIdSnippet = Universe.Instance.ModelGateway.LastXSnippet;
+            foreach (int id in lastXIds)
+            {
+                Snippet snippet = Universe.Instance.ModelGateway.FindSnippet(id);
+                if (snippet != null)
+                    lastXIdSnippet.AddChildSnippet(snippet);
+            }
+        }
 				
 
 		public static SerializableUniverse Restore(string path, Serializer serializer) 

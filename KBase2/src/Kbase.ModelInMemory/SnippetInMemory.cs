@@ -123,7 +123,8 @@ namespace Kbase.ModelInMemory
 
 			set 
 			{
-				title = value;
+                AddToLastXSnippets();
+                title = value;
                 model.Dirty = true;
                 Modified = DateTime.Now;
                 UI.OnTitleChange();
@@ -150,6 +151,7 @@ namespace Kbase.ModelInMemory
 
 			set 
 			{ 
+                AddToLastXSnippets();
 				text = value;
                 Modified = DateTime.Now;
                 model.Dirty = true;
@@ -172,7 +174,8 @@ namespace Kbase.ModelInMemory
 
 			set 
 			{
-				icon = value;
+                AddToLastXSnippets();
+                icon = value;
                 model.Dirty = true;
                 UI.OnIconChange();
 			}
@@ -189,7 +192,8 @@ namespace Kbase.ModelInMemory
 
 			set 
 			{
-				color = value;
+                AddToLastXSnippets();
+                color = value;
                 model.Dirty = true;
                 UI.OnColorChange();
 			}
@@ -563,7 +567,10 @@ namespace Kbase.ModelInMemory
 
         #endregion
 
-
+        void AddToLastXSnippets() {
+            if (!this.IsTopLevel && !this.IsLastX)
+                model.AddSnippetToLastXSnippets(this);
+        }
 
 
 

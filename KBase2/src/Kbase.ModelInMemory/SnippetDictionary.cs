@@ -28,6 +28,7 @@ namespace Kbase.ModelInMemory
 	/// </summary>
 	public class SnippetDictionary : Kbase.Model.ModelGateway
 	{
+        const int LAST_X_QUANTITY = 10;
 
         internal static PersistentIdGenerator idGenerator =
             new PersistentIdGenerator();
@@ -77,8 +78,8 @@ namespace Kbase.ModelInMemory
 			{
 				if (topLevelSnippet == null) {
 					topLevelSnippet = new SnippetInMemory(this);
-					topLevelSnippet.TopLevel = true;
-					topLevelSnippet.Title = "*** TOP TOP TOPPPP ***";
+					topLevelSnippet.IsTopLevel = true;
+					//stopLevelSnippet.Title = "*** TOP TOP TOPPPP ***";
 					// here is where we decide on WinForms
 					Kbase.Model.SnippetInstance instance = new Kbase.Model.SnippetInstanceTopLevel(topLevelSnippet);
 					topLevelSnippet.UI.ShowChildren();
@@ -92,7 +93,39 @@ namespace Kbase.ModelInMemory
 			}
 		}
 
+        static SnippetInMemory lastXSnippet = null;
 
+        public override Kbase.Model.Snippet LastXSnippet
+        {
+            get
+            {
+                if (lastXSnippet == null)
+                {
+                    lastXSnippet = new SnippetInMemory(this);
+                    lastXSnippet.IsLastX = true;
+                    lastXSnippet.Title = "Last " + LAST_X_QUANTITY + " Snippets";
+                    TopLevelSnippet.AddChildSnippet(lastXSnippet);
+                }
+                return lastXSnippet;
+            }
+        }
+
+        public override void AddSnippetToLastXSnippets(Snippet snippet)
+        {
+            if (SuspendEvents)
+                return;
+
+            Universe.Instance.mainForm.Invoke(new SomeSnippetEventHandler(AddSnippetToLastXSnippetsInner), snippet);
+        }
+
+        public void AddSnippetToLastXSnippetsInner(Snippet snippet) {
+            if (LastXSnippet.Children.Contains(snippet))
+                LastXSnippet.RemoveChildSnippet(snippet);
+            LastXSnippet.AddChildSnippet(snippet as SnippetInMemory);
+            if (LastXSnippet.ChildrenCount > LAST_X_QUANTITY) {
+                LastXSnippet.Children.RemoveAt(0);
+            }
+        }
 	
 		/// <summary>
 		/// Searches after and before the startPoint for a snippet that contains the text (in titles or text)

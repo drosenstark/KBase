@@ -64,8 +64,8 @@ namespace Kbase.Model
             if (results.Count == 0)
             {
                 DialogResult okay = MessageBox.Show(
-                    "No results were found for your search. " +
-                    "Create results Snippet anyway?", MainForm.DialogCaption, MessageBoxButtons.YesNo);
+                     "No results were found for your search. " +
+                     "Create results Snippet anyway?", MainForm.DialogCaption, MessageBoxButtons.YesNo);
                 if (okay == DialogResult.No)
                     return;
             }

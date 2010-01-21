@@ -102,7 +102,7 @@ namespace Kbase.Model
 
 		public void OnAfterAddChildSnippet(Snippet child) 
 		{
-            if (this.snippet.TopLevel)
+            if (this.snippet.IsTopLevel)
                 child.UI.ShowChildren();
             SnippetInstance childInstance;
 			foreach (SnippetInstance instance in SnippetInstances) 
