@@ -16,6 +16,13 @@ namespace Kbase.Properties
         
         
         public PropertiesPaneHolder() {
+            Search.SearchForm searchForm = Universe.Instance.mainForm.searchForm;
+            searchForm.Dock = DockStyle.Fill;
+            TabPage searchTab = new TabPage("Search");
+            searchTab.Controls.Add(searchForm);
+            this.TabPages.Add(searchTab);
+
+
             // Properties Panes
             DefaultPropertiesPane defaultPropertiesPane = new DefaultPropertiesPane();
             defaultPropertiesPane.ParentContainer = this;
@@ -32,6 +39,8 @@ namespace Kbase.Properties
             tip.ToolTipTitle = "Add Properties Or Property Sets";
             Universe.Instance.propertiesPaneHolder = this;
             this.ImageList = Kbase.Icon.IconList.Instance.GetImageList(false);
+
+
         
         }
 

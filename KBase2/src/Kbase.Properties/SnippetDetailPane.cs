@@ -216,7 +216,6 @@ namespace Kbase.Properties
             locationPane.Clear();
             LayoutProperties();
             this.Enabled = false;
-		
 		}
 
 		internal void Edit(SnippetInstance instance) 

@@ -148,6 +148,9 @@ namespace Kbase
 		{
             try
             {
+                if (!mergeIntoCurrent)
+                    Universe.Instance.mainForm.ForceAutosaveOff();
+
                 mainForm.UseWaitCursor = true;
                 System.IO.FileInfo file = new System.IO.FileInfo(newPath);
                 if (!file.Exists)
@@ -198,8 +201,7 @@ namespace Kbase
 		public void Reset() {
 			try 
 			{
-                if (mainForm.autoSaveMenu.Checked)
-                    mainForm.ClickAutoSaveToggle(null, null);
+                Universe.Instance.mainForm.ForceAutosaveOff();
 				Snippet topLevel = ModelGateway.TopLevelSnippet;
 				topLevel.RemoveAllChildSnippets();
                 OnAfterSelectNone();

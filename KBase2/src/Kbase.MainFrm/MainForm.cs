@@ -188,10 +188,6 @@ namespace Kbase.MainFrm
             this.Controls.Add(snippetPanePanel);
             this.Controls.Add(statusBar);
 
-            searchForm.Dock = DockStyle.Fill;
-            TabPage searchTab = new TabPage("Search");
-            searchTab.Controls.Add(searchForm);
-            Universe.Instance.propertiesPaneHolder.TabPages.Add(searchTab);
 
 
             // 
@@ -695,6 +691,10 @@ namespace Kbase.MainFrm
 
         }
 
+        public void ForceAutosaveOff() {
+            if (autoSaveMenu.Checked)
+                ClickAutoSaveToggle(null, null);
+        }
 
         public void ClickAutoSaveToggle(object sender, System.EventArgs e)
         {

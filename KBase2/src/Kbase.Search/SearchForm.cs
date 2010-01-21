@@ -12,7 +12,6 @@ namespace Kbase.Search
     public class SearchForm : System.Windows.Forms.Panel
 	{
 		private System.Windows.Forms.Button buttonSearch;
-		private System.Windows.Forms.Button buttonCancel;
 		private List<SearchFormPart> searchFormParts = new List<SearchFormPart>();
 		private System.Windows.Forms.Button buttonReset;
         private System.Windows.Forms.Button buttonMore;
@@ -53,8 +52,6 @@ namespace Kbase.Search
 		private void InitializeComponent()
 		{
 			this.buttonSearch = new System.Windows.Forms.Button();
-			this.buttonCancel = new System.Windows.Forms.Button();
-			// this.searchFormPart = new SearchFormPart();
 			this.buttonReset = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
@@ -65,19 +62,7 @@ namespace Kbase.Search
 			this.buttonSearch.TabIndex = 4;
 			this.buttonSearch.Text = "Search";
 			this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
-			// 
-			// buttonCancel
-			// 
-			this.buttonCancel.Location = new System.Drawing.Point(408, 88);
-			this.buttonCancel.Name = "buttonCancel";
-			this.buttonCancel.TabIndex = 4;
-			this.buttonCancel.Text = "Cancel";
-			this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
-			// 
-			// searchFormPart
-			// 
-			// this.searchFormPart.Location = new System.Drawing.Point(8, 8);
-			// this.searchFormPart.Size = new System.Drawing.Size(652, 24);
+
 
             // 
 			// buttonReset
@@ -121,12 +106,10 @@ namespace Kbase.Search
 			this.Controls.Add(this.buttonReset);
 			// this.Controls.Add(this.searchFormPart);
 			this.Controls.Add(this.buttonSearch);
-			this.Controls.Add(this.buttonCancel);
 			this.Name = "SearchForm";
 			this.Text = "Search For Snippets";
 			this.ResumeLayout(false);
 
-            this.LostFocus += new EventHandler(SearchForm_LostFocus);
             AddNewFormPart();
             AddNewFormPart();
             AddNewFormPart();
@@ -148,26 +131,19 @@ namespace Kbase.Search
                 part.Location = new Point(8, y);
                 y = y + part.Height;
             }
-            buttonCancel.Location = new Point(buttonCancel.Location.X, y);
             buttonReset.Location = new Point(buttonReset.Location.X, y);
             buttonSearch.Location = new Point(buttonSearch.Location.X, y);
             buttonMore.Location = new Point(buttonMore.Location.X, y);
             buttonLess.Location = new Point(buttonLess.Location.X, y);
-            ClientSize = new Size(ClientSize.Width, y + buttonCancel.Height + 8);
+//            ClientSize = new Size(ClientSize.Width, y + buttonCancel.Height + 8);
         }
 
-        void SearchForm_LostFocus(object sender, EventArgs e)
-        {
-        }
 
-		private void comboBoxConcat_SelectedIndexChanged(object sender, System.EventArgs e)
-		{
-		
-		}
         private void buttonMore_Click(object sender, System.EventArgs e)
         {
             AddNewFormPart();
         }
+
         private void buttonLess_Click(object sender, System.EventArgs e)
         {
             if (this.searchFormParts.Count > 1) {
@@ -178,18 +154,6 @@ namespace Kbase.Search
             }
 
         }
-        private void buttonCancel_Click(object sender, System.EventArgs e)
-		{
-			try 
-			{
-				this.Visible = false;
-			} 
-			catch (Exception e2) 
-			{
-				MainForm.ShowError(e2);
-			}
-
-		}
 
         public void Search()
         {
