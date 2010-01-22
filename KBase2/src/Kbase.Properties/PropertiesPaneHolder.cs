@@ -15,8 +15,10 @@ namespace Kbase.Properties
         List<PropertiesPane> propertiesPanes = new List<PropertiesPane>();
         
         
-        public PropertiesPaneHolder() {
-
+        public PropertiesPaneHolder(List<TabPage> firstPages) {
+            foreach (TabPage page in firstPages) {
+                this.TabPages.Add(page);
+            }
 
             // Properties Panes
             DefaultPropertiesPane defaultPropertiesPane = new DefaultPropertiesPane();

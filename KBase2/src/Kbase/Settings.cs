@@ -129,7 +129,6 @@ namespace Kbase
 			mainFormLocation = universe.mainForm.Location;
 			mainFormSplitterSplitPosition = universe.mainForm.splitter.SplitPosition;
 			mainFormSplitter2SplitPosition = universe.mainForm.splitter2.SplitPosition;
-            mainFormSplitter3SplitPosition = universe.mainForm.splitter3.SplitPosition;
             mainFormSnippetPaneSize = Universe.Instance.snippetPane.Size;
             mainFormDetailPaneSize = Universe.Instance.detailPane.Size;
             recentFiles = Universe.Instance.mainForm.RecentFiles;
@@ -184,7 +183,6 @@ namespace Kbase
 			universe.mainForm.Location = mainFormLocation;
 			universe.mainForm.splitter.SplitPosition= mainFormSplitterSplitPosition;
 			universe.mainForm.splitter2.SplitPosition = mainFormSplitter2SplitPosition;
-            universe.mainForm.splitter3.SplitPosition = mainFormSplitter3SplitPosition;
             Universe.Instance.snippetPane.Size = mainFormSnippetPaneSize;
             Universe.Instance.detailPane.Size = mainFormDetailPaneSize;
             Universe.Instance.mainForm.RecentFiles = recentFiles;

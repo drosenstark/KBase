@@ -44,10 +44,8 @@ namespace Kbase.Properties
 
         ParentPane.ParentPane parentPane;
         LocationPane2.LocationPane locationPane;
-        TabControl locationPanes;
-        TabPage locationPanesPageLocations;
-        TabPage locationPanesPageParents;
-        SplitContainer bottomHalfSplitContainer;
+        protected TabPage locationPanesPageLocations;
+        protected TabPage locationPanesPageParents;
 
 		SnippetTitleBox snippetTitle;
         SnippetDateBox snippetDate;
@@ -83,11 +81,7 @@ namespace Kbase.Properties
 			this.SuspendLayout();
 
             // this thing is set up as follows: you have a topPanel that holds the snippet date and the 
-            // snippet title. Then under that, filling up the rest of the space, is the bottomHalfSplitPane
-            // which holds the propertiespanes and the locationspanes
-            bottomHalfSplitContainer = new SplitContainer();
-            bottomHalfSplitContainer.Orientation = Orientation.Horizontal;
-            bottomHalfSplitContainer.Dock = DockStyle.Fill;
+            // snippet title. Then under that, filling up the rest of the space, is the propertiesPaneHolder
 
 			
 
@@ -157,22 +151,15 @@ namespace Kbase.Properties
             this.locationPane.AutoSize = true;
 
 
-            // Locationpanes house both the parent pane and the location pane
-            this.locationPanes = new TabControl();
-            this.locationPanes.Dock = DockStyle.Fill;
-            this.locationPanes.AutoSize = true;
-
-            locationPanes.SelectedIndexChanged += new EventHandler(locationPanes_SelectedIndexChanged);
-
             locationPanesPageLocations = new TabPage("Parents");
             locationPanesPageLocations.Controls.Add(parentPane);
             locationPanesPageParents = new TabPage("Locations");
             locationPanesPageParents.Controls.Add(locationPane);
-            locationPanes.TabPages.Add(locationPanesPageParents);
-            locationPanes.TabPages.Add(locationPanesPageLocations);
+            List<TabPage> pages = new List<TabPage>(2);
+            pages.Add(locationPanesPageLocations);
+            pages.Add(locationPanesPageParents);
 
-
-            propertiesPaneHolder = new PropertiesPaneHolder();
+            propertiesPaneHolder = new PropertiesPaneHolder(pages);
 
 			
 			// 
@@ -181,9 +168,7 @@ namespace Kbase.Properties
 			// this.AllowDrop = true;
 			this.AutoScroll = true;
 			this.VScroll = true;
-            bottomHalfSplitContainer.Panel1.Controls.Add(propertiesPaneHolder);
-            bottomHalfSplitContainer.Panel2.Controls.Add(locationPanes);
-            this.Controls.Add(bottomHalfSplitContainer);
+            this.Controls.Add(propertiesPaneHolder);
             this.Controls.Add(topPanel);
             this.Cursor = System.Windows.Forms.Cursors.Default;
 			this.Name = "PropertiesPane";
@@ -195,13 +180,6 @@ namespace Kbase.Properties
 
 
 
-        void locationPanes_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (locationPanes.SelectedIndex == 0)
-                parentPane.Focus();
-            else
-                locationPane.Focus();
-        }
 
 
 
@@ -337,8 +315,6 @@ namespace Kbase.Properties
             }
 
             propertiesPaneHolder.LayoutProperties();
-            locationPanes.Refresh();
-            locationPanes.TabIndex = tabIndex++;
 
             ResumeLayout(true);
 
