@@ -45,7 +45,10 @@ namespace Kbase.Model
 		public SnippetUI UI = null;
         // if this is the actual TopLevel master snippet guy
 		public bool IsTopLevel = false;
-        public bool IsLastX = false; // if this is the dynamic snippet that displays the last ten
+        public abstract bool IsLastX
+        {
+            get;
+        }
 
         [Browsable(true), ReadOnly(true),
             Bindable(false), DefaultValueAttribute(""), DesignOnly(false),

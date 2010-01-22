@@ -151,13 +151,13 @@ namespace Kbase.Properties
             this.locationPane.AutoSize = true;
 
 
-            locationPanesPageLocations = new TabPage("Parents");
-            locationPanesPageLocations.Controls.Add(parentPane);
-            locationPanesPageParents = new TabPage("Locations");
-            locationPanesPageParents.Controls.Add(locationPane);
+            locationPanesPageParents = new TabPage("Parents");
+            locationPanesPageParents.Controls.Add(parentPane);
+            locationPanesPageLocations = new TabPage("Locations");
+            locationPanesPageLocations.Controls.Add(locationPane);
             List<TabPage> pages = new List<TabPage>(2);
-            pages.Add(locationPanesPageLocations);
             pages.Add(locationPanesPageParents);
+            pages.Add(locationPanesPageLocations);
 
             propertiesPaneHolder = new PropertiesPaneHolder(pages);
 

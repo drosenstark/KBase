@@ -36,6 +36,13 @@ namespace Kbase.ModelInMemory
 		private SnippetDictionary model = null;
 		static bool collapsingAndExpanding = false;
 
+        public static SnippetInMemory MakeLastXSnippet(SnippetDictionary model) {
+            SnippetInMemory retVal = new SnippetInMemory(model);
+            retVal.title = LAST_X_TEXT;
+            model.TopLevelSnippet.AddChildSnippet(retVal);
+            return retVal;
+        }
+
 		public SnippetInMemory(SnippetDictionary model)
 		{
 			this.model = (SnippetDictionary)model;
@@ -53,7 +60,18 @@ namespace Kbase.ModelInMemory
                 return (Criteria != null);
             }
         }
-        
+
+
+        public override bool IsLastX
+        {
+            get {
+                //if (ConfusionUtilities.Util.IsMono())
+                //    return false;
+                return (this.Parents.Contains(model.TopLevelSnippet) && LAST_X_TEXT == this.title);
+            }
+        }
+
+
         IList<SearchCriterion> criteria = null;
         public override IList<SearchCriterion> Criteria
         {
@@ -123,7 +141,8 @@ namespace Kbase.ModelInMemory
 
 			set 
 			{
-                AddToLastXSnippets();
+                if (value != Universe.Instance.Settings.DEFAULT_TEXT)
+                    AddToLastXSnippets();
                 title = value;
                 model.Dirty = true;
                 Modified = DateTime.Now;
@@ -387,6 +406,8 @@ namespace Kbase.ModelInMemory
         }
 
 
+        public const string LAST_X_TEXT = "Recent Snippets";
+
 
         #region Search Support *****************
         public bool Matches(SearchCriterion criterion)
@@ -568,7 +589,9 @@ namespace Kbase.ModelInMemory
         #endregion
 
         void AddToLastXSnippets() {
-            if (!this.IsTopLevel && !this.IsLastX)
+            if (ConfusionUtilities.Util.IsMono())
+                return; // problems still with this on mono
+           if (this.title != LAST_X_TEXT && !this.IsTopLevel && !this.IsLastX)
                 model.AddSnippetToLastXSnippets(this);
         }
 

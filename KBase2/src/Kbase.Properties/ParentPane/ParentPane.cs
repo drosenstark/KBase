@@ -108,7 +108,7 @@ namespace Kbase.Properties.ParentPane
         protected override void OnBeforeSelect(TreeViewCancelEventArgs e)
         {
             // first time selection is OK!
-            if (SelectedNode == null)
+            if (SelectedNode == null || settingUp)
                 return;
 
             e.Cancel = true;

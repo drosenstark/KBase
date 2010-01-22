@@ -74,14 +74,8 @@ namespace Kbase.Serialization
                 makeChildXmlAndAppend(doc, topLevelIdsNode, id);
             }
 
-            XmlElement lastXIdsNode = (XmlElement)kbaseNode.ChildNodes[4];
-            foreach (int id in serializablePiece.lastXIds)
-            {
-                makeChildXmlAndAppend(doc, lastXIdsNode, id);
-            }
 
-
-            XmlElement snippetsNode = (XmlElement)kbaseNode.ChildNodes[5]; // explanation of nums above
+            XmlElement snippetsNode = (XmlElement)kbaseNode.ChildNodes[4]; // explanation of nums above
             foreach (SerializableSnippet snippet in serializablePiece.snippets.Values)
             {
                 makeSnippetXmlAndAppend(doc, snippetsNode, snippet);
@@ -198,22 +192,6 @@ namespace Kbase.Serialization
 
                 // deleting as we go
                 kbaseNode.RemoveChild(topLevelIdNode);
-
-
-                XmlNodeList elements = kbaseNode.GetElementsByTagName("LastXIds");
-                if (elements != null && elements.Count > 0)
-                {
-                    XmlElement lastXIdsNode = (XmlElement)elements[0];
-                    foreach (XmlElement idXml in lastXIdsNode.ChildNodes)
-                    {
-                        int id = HandleId(idXml);
-                        retVal.lastXIds.Add(id);
-                    }
-
-                    // deleting as we go
-                    kbaseNode.RemoveChild(lastXIdsNode);
-                }
-
 
                 XmlElement snippetsNode = (XmlElement)kbaseNode.GetElementsByTagName("Snippets")[0];
 				foreach (XmlElement snippetXml in snippetsNode.ChildNodes) 
@@ -347,13 +325,13 @@ namespace Kbase.Serialization
 			return dateTime.ToString(dateTimeFormat);
 		}
 
-		private static DateTime deserializeDateTime(string dateTime) 
+    		private static DateTime deserializeDateTime(string dateTime) 
 		{
 			return Convert.ToDateTime(dateTime);
 		}
 
 
-        static string DEFAULT_DOC = @"<Kbase><Version></Version><Properties></Properties><PropertySets></PropertySets><TopLevelIds></TopLevelIds><LastXIds></LastXIds><Snippets></Snippets></Kbase>";	
+        static string DEFAULT_DOC = @"<Kbase><Version></Version><Properties></Properties><PropertySets></PropertySets><TopLevelIds></TopLevelIds><Snippets></Snippets></Kbase>";	
 
 
 	}

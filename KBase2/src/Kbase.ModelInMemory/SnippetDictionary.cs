@@ -93,32 +93,33 @@ namespace Kbase.ModelInMemory
 			}
 		}
 
-        static SnippetInMemory lastXSnippet = null;
-
         public override Kbase.Model.Snippet LastXSnippet
         {
             get
             {
-                if (lastXSnippet == null)
+                foreach (Snippet child in topLevelSnippet.Children)
                 {
-                    lastXSnippet = new SnippetInMemory(this);
-                    lastXSnippet.IsLastX = true;
-                    lastXSnippet.Title = "Last " + LAST_X_QUANTITY + " Snippets";
-                    TopLevelSnippet.AddChildSnippet(lastXSnippet);
+                    if (child.IsLastX)
+                        return child;
                 }
-                return lastXSnippet;
+
+                // make it if we didn't already
+                return SnippetInMemory.MakeLastXSnippet(this);
             }
         }
+        
 
         public override void AddSnippetToLastXSnippets(Snippet snippet)
         {
             if (SuspendEvents)
                 return;
-
-            Universe.Instance.mainForm.Invoke(new SomeSnippetEventHandler(AddSnippetToLastXSnippetsInner), snippet);
+            if (!snippet.IsLastX)
+                Universe.Instance.mainForm.Invoke(new SomeSnippetEventHandler(AddSnippetToLastXSnippetsInner), snippet);
         }
 
         public void AddSnippetToLastXSnippetsInner(Snippet snippet) {
+            if (snippet.IsLastX)
+                return;
             if (LastXSnippet.Children.Contains(snippet))
                 LastXSnippet.RemoveChildSnippet(snippet);
             LastXSnippet.AddChildSnippet(snippet as SnippetInMemory);
