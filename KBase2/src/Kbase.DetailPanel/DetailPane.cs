@@ -66,6 +66,8 @@ namespace Kbase.DetailPanel
         /// </summary>
         public bool Editable {
             get {
+                if (Util.IsMono())
+                    return false;
                 return !ReadOnly;
             }
 
@@ -120,7 +122,7 @@ namespace Kbase.DetailPanel
             {
                 Universe.Instance.mainForm.AnnounceEditing(snippet);
 
-                this.Editable = true;
+                this.Editable = !Util.IsMono();
                 ZoomFactor = oldFactor;
                 if (ZoomFactor != oldFactor)
                 {
