@@ -21,6 +21,7 @@ using ConfusionUtilities;
 using System.Timers;
 using Kbase.Model;
 using System.Text.RegularExpressions;
+using Kbase.MainFrm;
 
 namespace Kbase.DetailPanel
 {
@@ -29,12 +30,12 @@ namespace Kbase.DetailPanel
 
         private FileInfo info;
         private DateTime lastWriteTime;
-        Timer timer;
+        System.Timers.Timer timer;
         Snippet snippet;
 
         const string DIRECTORY_SUFFIX = "snippets";
 
-        public string FileExtension = "txt"; // someday we'll make this changeable
+        public string FileExtension = "txt"; // in the future could be changeable via settings file
 
         public ExternalSnippet(Snippet snippet)
         {
@@ -43,14 +44,21 @@ namespace Kbase.DetailPanel
         }
 
         private void Init() {
-            string kbaseId = Universe.Instance.ModelGateway.GetHashCode().ToString().Substring(0, 3);
             string filename = MakeValidFileName(snippet.Title.ToLower().Trim() + "_" + snippet.Id + "." + FileExtension);
-            DirectoryInfo dir = new DirectoryInfo(Util.getFilenameInAppDir(DIRECTORY_SUFFIX + Path.DirectorySeparatorChar + "session" + kbaseId));
+			
+			DirectoryInfo dir = null;
+			
+			if (Universe.Instance.Settings.externalEditLocation == Settings.DEFAULT_EXTERNAL_EDIT_LOCATION) 
+	            dir = new DirectoryInfo(Util.getFilenameInAppDir(DIRECTORY_SUFFIX));
+			else
+				dir = new DirectoryInfo(Universe.Instance.Settings.externalEditLocation);
+			
             if (!dir.Exists) {
                 Logger.Log("About to create directory " + dir.FullName);
                 dir.Create();
             }
             filename = dir.FullName + Path.DirectorySeparatorChar + filename;
+			// order the OS to open the file
             info = new FileInfo(filename); 
         }
 
@@ -59,17 +67,24 @@ namespace Kbase.DetailPanel
         }
 
         public void StartWatching() {
-            using (StreamWriter writer = new StreamWriter(info.FullName)) {
-                writer.Write(snippet.TextReadOnce);
-                writer.Close();
-                lastWriteTime = info.LastWriteTime;
-                popOpen();
-                timer = new Timer();
-                timer.Interval = 100;
-                timer.Elapsed += new ElapsedEventHandler(timer_Elapsed);
-                timer.Start();
-                Watchers.Add(this);
-            }
+			bool overwriteFile = true;
+			if (info.Exists) {
+                string message = "External file " + info.Name + " already exists. Overwrite it?";
+				overwriteFile = Universe.Instance.mainForm.ShowDialogYesNo(message);
+			}
+			if (overwriteFile) {
+	            using (StreamWriter writer = new StreamWriter(info.FullName)) {
+	                writer.Write(snippet.TextReadOnce);
+	                writer.Close();
+				}
+			}
+            lastWriteTime = info.LastWriteTime;
+            popOpen();
+            timer = new Timer();
+            timer.Interval = 100;
+            timer.Elapsed += new ElapsedEventHandler(timer_Elapsed);
+            timer.Start();
+            Watchers.Add(this);
         }
 
         void timer_Elapsed(object sender, ElapsedEventArgs e)
@@ -95,7 +110,6 @@ namespace Kbase.DetailPanel
                 writer.WriteLine();
                 writer.WriteLine("-----------------------------------------");
                 writer.WriteLine("TheKBase: FILE IS NO LONGER BEING WATCHED");
-                writer.WriteLine("TheKBase: This filename " + info.Name + " may be overwritten.");
                 writer.Close();
                 this.snippet = null;
                 info = null;

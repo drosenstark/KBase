@@ -577,7 +577,6 @@ namespace Kbase.MainFrm
 
         private void ClickMerge(object sender, System.EventArgs e)
         {
-            Universe universe = Universe.Instance;
 
             try
             {
@@ -617,7 +616,6 @@ namespace Kbase.MainFrm
                 fileDialogXsl.FilterIndex = 1;
                 fileDialogXsl.RestoreDirectory = true;
                 fileDialogXsl.InitialDirectory = Application.StartupPath;
-                string oldDir = Environment.CurrentDirectory;
                 DialogResult result = fileDialogXsl.ShowDialog();
                 if (result != DialogResult.OK)
                     return;
@@ -975,7 +973,12 @@ namespace Kbase.MainFrm
         {
             MessageBox.Show(text, DialogCaption, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
-
+		
+		public bool ShowDialogYesNo(string message) {
+            DialogResult result = MessageBox.Show(message, DialogCaption, MessageBoxButtons.YesNo);
+			return (result == DialogResult.Yes);
+		}
+		
         #region Code to handle blocking of the UI if the file is password encrypted
         Timer lockForPasswordTimer = null;
 

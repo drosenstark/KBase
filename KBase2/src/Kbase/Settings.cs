@@ -29,6 +29,8 @@ namespace Kbase
 	/// </summary>
 	public class Settings
 	{
+		public const string DEFAULT_EXTERNAL_EDIT_LOCATION = "";
+		
 		public FormWindowState mainFormWindowState;
 		public System.Drawing.Size mainFormSize;
 		// this one doesn't work (???)
@@ -40,6 +42,7 @@ namespace Kbase
 		public System.Drawing.Size mainFormDetailPaneSize;
         public string username = "";
         public string password = "";
+		public string externalEditLocation = DEFAULT_EXTERNAL_EDIT_LOCATION;
 
         public string[] recentFiles;
 
