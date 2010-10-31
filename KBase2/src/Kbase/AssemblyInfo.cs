@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -25,8 +25,8 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TheKBase for .NET 2")]
-[assembly: AssemblyCopyright("© Daniel Rosenstark 2004-2008")]
+[assembly: AssemblyProduct("TheKBase Alpha for .NET and Mono")]
+[assembly: AssemblyCopyright("© Daniel Rosenstark 2004-2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]		
 
@@ -41,7 +41,7 @@ using System.Runtime.CompilerServices;
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
 
-[assembly: AssemblyVersion("3.0.0.*")]
+[assembly: AssemblyVersion("3.6.0.*")]
 
 //
 // In order to sign your assembly you must specify a key to use. Refer to the 

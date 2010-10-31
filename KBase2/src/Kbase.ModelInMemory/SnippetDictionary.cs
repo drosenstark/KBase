@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -28,6 +28,7 @@ namespace Kbase.ModelInMemory
 	/// </summary>
 	public class SnippetDictionary : Kbase.Model.ModelGateway
 	{
+        const int LAST_X_QUANTITY = 10;
 
         internal static PersistentIdGenerator idGenerator =
             new PersistentIdGenerator();
@@ -77,8 +78,8 @@ namespace Kbase.ModelInMemory
 			{
 				if (topLevelSnippet == null) {
 					topLevelSnippet = new SnippetInMemory(this);
-					topLevelSnippet.TopLevel = true;
-					topLevelSnippet.Title = "*** TOP TOP TOPPPP ***";
+					topLevelSnippet.IsTopLevel = true;
+					//stopLevelSnippet.Title = "*** TOP TOP TOPPPP ***";
 					// here is where we decide on WinForms
 					Kbase.Model.SnippetInstance instance = new Kbase.Model.SnippetInstanceTopLevel(topLevelSnippet);
 					topLevelSnippet.UI.ShowChildren();
@@ -92,7 +93,40 @@ namespace Kbase.ModelInMemory
 			}
 		}
 
+        public override Kbase.Model.Snippet LastXSnippet
+        {
+            get
+            {
+                foreach (Snippet child in topLevelSnippet.Children)
+                {
+                    if (child.IsLastX)
+                        return child;
+                }
 
+                // make it if we didn't already
+                return SnippetInMemory.MakeLastXSnippet(this);
+            }
+        }
+        
+
+        public override void AddSnippetToLastXSnippets(Snippet snippet)
+        {
+            if (SuspendEvents)
+                return;
+            if (!snippet.IsLastX)
+                Universe.Instance.mainForm.Invoke(new SomeSnippetEventHandler(AddSnippetToLastXSnippetsInner), snippet);
+        }
+
+        public void AddSnippetToLastXSnippetsInner(Snippet snippet) {
+            if (snippet.IsLastX)
+                return;
+            if (LastXSnippet.Children.Contains(snippet))
+                LastXSnippet.RemoveChildSnippet(snippet);
+            LastXSnippet.AddChildSnippet(snippet as SnippetInMemory);
+            if (LastXSnippet.ChildrenCount > LAST_X_QUANTITY) {
+                LastXSnippet.Children.RemoveAt(0);
+            }
+        }
 	
 		/// <summary>
 		/// Searches after and before the startPoint for a snippet that contains the text (in titles or text)

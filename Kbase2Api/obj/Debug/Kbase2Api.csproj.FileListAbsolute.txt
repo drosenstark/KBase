@@ -8,3 +8,13 @@ C:\data\Kbase2Api\bin\Debug\Kbase2Api.pdb
 C:\data\Kbase2Api\obj\Debug\ResolveAssemblyReference.cache
 C:\data\Kbase2Api\obj\Debug\Kbase2Api.dll
 C:\data\Kbase2Api\obj\Debug\Kbase2Api.pdb
+C:\data\TheKBaseReborn\Kbase2Api\bin\Debug\Kbase2Api.dll
+C:\data\TheKBaseReborn\Kbase2Api\bin\Debug\Kbase2Api.pdb
+C:\data\TheKBaseReborn\Kbase2Api\obj\Debug\ResolveAssemblyReference.cache
+C:\data\TheKBaseReborn\Kbase2Api\obj\Debug\Kbase2Api.dll
+C:\data\TheKBaseReborn\Kbase2Api\obj\Debug\Kbase2Api.pdb
+D:\data\TheKBaseReborn\Kbase2Api\bin\Debug\Kbase2Api.dll
+D:\data\TheKBaseReborn\Kbase2Api\bin\Debug\Kbase2Api.pdb
+D:\data\TheKBaseReborn\Kbase2Api\obj\Debug\ResolveAssemblyReference.cache
+D:\data\TheKBaseReborn\Kbase2Api\obj\Debug\Kbase2Api.dll
+D:\data\TheKBaseReborn\Kbase2Api\obj\Debug\Kbase2Api.pdb

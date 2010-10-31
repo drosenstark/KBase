@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -74,12 +74,12 @@ namespace Kbase.Serialization
                 makeChildXmlAndAppend(doc, topLevelIdsNode, id);
             }
 
-            XmlElement snippetsNode = (XmlElement)kbaseNode.ChildNodes[4];
+
+            XmlElement snippetsNode = (XmlElement)kbaseNode.ChildNodes[4]; // explanation of nums above
             foreach (SerializableSnippet snippet in serializablePiece.snippets.Values)
             {
                 makeSnippetXmlAndAppend(doc, snippetsNode, snippet);
             }
-
 
             Encryption encryption = Universe.Instance.encryption;
             if (encryption.On)
@@ -325,7 +325,7 @@ namespace Kbase.Serialization
 			return dateTime.ToString(dateTimeFormat);
 		}
 
-		private static DateTime deserializeDateTime(string dateTime) 
+    		private static DateTime deserializeDateTime(string dateTime) 
 		{
 			return Convert.ToDateTime(dateTime);
 		}

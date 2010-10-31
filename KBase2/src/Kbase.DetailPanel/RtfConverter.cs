@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -20,6 +20,7 @@ using System.Diagnostics;
 using System.Text;
 using System.Text.RegularExpressions;
 using Kbase.Model;
+using ConfusionUtilities;
 
 namespace Kbase.DetailPanel
 {
@@ -51,8 +52,8 @@ namespace Kbase.DetailPanel
 		{
 			try 
 			{
+                Cursor.Current = Cursors.WaitCursor;
 				string retVal;
-				Cursor.Current = Cursors.WaitCursor;
 				RtfConverter converter = new RtfConverter();
 				converter.Rtf = rtf;
 				retVal = converter.Serialize(0,converter.Text.Length);
@@ -69,7 +70,7 @@ namespace Kbase.DetailPanel
 			try 
 			{
 				Cursor.Current = Cursors.WaitCursor;
-				RtfConverter converter = new RtfConverter();
+                RtfConverter converter = new RtfConverter();
 				converter.Rtf = rtf;
 				return converter.Serialize(start, length);
 			} 
@@ -80,7 +81,7 @@ namespace Kbase.DetailPanel
 		}
 
 		
-		// this is obviously not ready for big strings which will be spooled to 
+		// this is obviously not ready for big strings which will need to be spooled to 
 		// disk, for instance.  All in memory.
 		// Client must save the SelectionStart and SelectionLength and restore them after use.
 		private string Serialize(int start, int length) 

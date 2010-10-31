@@ -15,7 +15,11 @@ namespace Kbase.Properties
         List<PropertiesPane> propertiesPanes = new List<PropertiesPane>();
         
         
-        public PropertiesPaneHolder() {
+        public PropertiesPaneHolder(List<TabPage> firstPages) {
+            foreach (TabPage page in firstPages) {
+                this.TabPages.Add(page);
+            }
+
             // Properties Panes
             DefaultPropertiesPane defaultPropertiesPane = new DefaultPropertiesPane();
             defaultPropertiesPane.ParentContainer = this;
@@ -32,6 +36,8 @@ namespace Kbase.Properties
             tip.ToolTipTitle = "Add Properties Or Property Sets";
             Universe.Instance.propertiesPaneHolder = this;
             this.ImageList = Kbase.Icon.IconList.Instance.GetImageList(false);
+
+
         
         }
 

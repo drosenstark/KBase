@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -130,7 +130,8 @@ namespace Kbase.Properties
 
 		public void Edit(List<Snippet> editingTheseSnippets) 
 		{
-            comboBox1.Items.Remove(PropertyValue.MULTIPLE_VALUES);
+            if (comboBox1.Items.Contains(PropertyValue.MULTIPLE_VALUES))
+                comboBox1.Items.Remove(PropertyValue.MULTIPLE_VALUES);
             // if there's no change, don't redo this processing
 			if (this.propertySnippet == null || editingTheseSnippets.Equals(this.editingTheseSnippets))
 				return;
@@ -193,7 +194,8 @@ namespace Kbase.Properties
                 }
                 else
                 {
-                    comboBox1.Items.Remove(PropertyValue.MULTIPLE_VALUES);
+                    if (comboBox1.Items.Contains(PropertyValue.MULTIPLE_VALUES))
+                        comboBox1.Items.Remove(PropertyValue.MULTIPLE_VALUES);
                     foreach (PropertyValue val in comboBox1.Items)
                     {
                         if (val.Equals(hopingFor))
@@ -317,7 +319,7 @@ namespace Kbase.Properties
         {
             DialogResult okay = DialogResult.Yes;
             if (selectedVal == PropertyValue.UNDEFINED_PROPERTY) {
-                if (currentValues.Count == snippet.ParentCount) { 
+                if (currentValues.Count == snippet.ParentCount) {
                     okay = MessageBox.Show(
                         "You are about to permanently delete " + snippet.Title + ". " +
                         "Are you sure?", MainForm.DialogCaption, MessageBoxButtons.YesNo);

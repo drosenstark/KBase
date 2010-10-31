@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -27,6 +27,7 @@ using System.Reflection;
 using System.Collections.Generic;
 using System.IO;
 using Kbase.LibraryWrap;
+using Kbase.DetailPanel;
 
 namespace Kbase.MainFrm
 {
@@ -39,6 +40,7 @@ namespace Kbase.MainFrm
         public static string DialogCaption = "Confusionists KBase";
         public Splitter splitter = new Splitter();
         public Splitter splitter2 = new Splitter();
+        public Splitter splitter3 = new Splitter();
 
 
 
@@ -136,12 +138,13 @@ namespace Kbase.MainFrm
             splitter.Name = "splitter";
             splitter.TabStop = false;
 
-            // 
-            // splitter
-            // 
             splitter2.Location = new System.Drawing.Point(0, 0);
             splitter2.Name = "splitter2";
             splitter2.TabStop = false;
+
+            splitter3.Location = new System.Drawing.Point(0, 0);
+            splitter3.Name = "splitter2";
+            splitter3.TabStop = false;
 
             // 
             // statusBar
@@ -167,24 +170,31 @@ namespace Kbase.MainFrm
             // set up the subpanel
             Panel panel = new Panel();
             Universe.Instance.detailPane.Dock = DockStyle.Fill;
-            splitter2.Dock = DockStyle.Top;
+            splitter3.Dock = DockStyle.Top;
             Universe.Instance.snippetDetailPane.Dock = DockStyle.Top;
             panel.Controls.Add(Universe.Instance.detailPane);
-            panel.Controls.Add(splitter2);
+            panel.Controls.Add(splitter3);
             panel.Controls.Add(Universe.Instance.snippetDetailPane);
+            panel.Dock = DockStyle.Fill;
+
+            Panel biggerOuterRightPanel = new Panel();
+            searchForm.Dock = DockStyle.Top;
+            splitter2.Dock = DockStyle.Top;
+            biggerOuterRightPanel.Controls.Add(panel);
+            biggerOuterRightPanel.Controls.Add(splitter2);
+            biggerOuterRightPanel.Controls.Add(searchForm);
+            biggerOuterRightPanel.Dock = DockStyle.Fill;
+
 
             Universe.Instance.snippetPane.Dock = DockStyle.Fill;
             snippetPanePanel.Dock = DockStyle.Left;
             splitter.Dock = DockStyle.Left;
-            panel.Dock = DockStyle.Fill;
             statusBar.Dock = DockStyle.Bottom;
 
-
-            this.Controls.Add(panel);
+            this.Controls.Add(biggerOuterRightPanel);
             this.Controls.Add(splitter);
             this.Controls.Add(snippetPanePanel);
             this.Controls.Add(statusBar);
-
 
             // 
             // MainForm
@@ -202,6 +212,7 @@ namespace Kbase.MainFrm
 
 
         MenuItem fileMenu;
+        public MenuItem autoSaveMenu;
 
         void LoadMenus()
         {
@@ -212,7 +223,6 @@ namespace Kbase.MainFrm
             mainMenu1.MenuItems.Add(fileMenu);
 
             MenuItem item;
-
 
             item = new MenuItem("&New");
             item.Click += new System.EventHandler(this.ClickNew);
@@ -242,6 +252,10 @@ namespace Kbase.MainFrm
             menuItemPutRecentFilesAfter = item;
             fileMenu.MenuItems.Add(item);
             fileMenu.MenuItems.Add(new MenuItem("-"));
+
+            autoSaveMenu = new MenuItem("&Autosave");
+            fileMenu.MenuItems.Add(autoSaveMenu);
+            autoSaveMenu.Click += new System.EventHandler(this.ClickAutoSaveToggle);
 
             item = new MenuItem("E&xit");
             item.Click += new System.EventHandler(this.ClickExit);
@@ -327,17 +341,14 @@ namespace Kbase.MainFrm
             MenuItem toolsMenu = new MenuItem("&Tools");
             mainMenu1.MenuItems.Add(toolsMenu);
 
-            item = new MenuItem("&Search");
-            item.Click += new System.EventHandler(this.ClickSearch);
-            toolsMenu.MenuItems.Add(item);
-
             item = new MenuItem("&Export using XSLT");
             item.Click += new System.EventHandler(this.ClickExport);
             toolsMenu.MenuItems.Add(item);
 
             PlugInManager.Init();
             List<MenuItem> plugInItems = PlugInManager.getPluginItems();
-            foreach (MenuItem plugInItem in plugInItems) {
+            foreach (MenuItem plugInItem in plugInItems)
+            {
                 toolsMenu.MenuItems.Add(plugInItem);
             }
 
@@ -366,6 +377,17 @@ namespace Kbase.MainFrm
             // if we haven't loaded yet, return.
             if (Universe.Instance.detailPane == null || !Universe.Instance.isModelGatewayInitialized)
                 return true;
+
+            if (ExternalSnippet.Watchers.Count > 0)
+            {
+                string message = "You are editing " + (ExternalSnippet.Watchers.Count) + " snippets externally. If they have been saved, press OK.";
+                DialogResult result = MessageBox.Show(message, DialogCaption, MessageBoxButtons.OKCancel);
+                if (result == DialogResult.Cancel)
+                    return false;
+                else
+                    ExternalSnippet.DropWatchers(); // no problem if they cancel later, we've shutdown the watchers
+            }
+
             Universe.Instance.detailPane.Save();
             if (Universe.Instance.ModelGateway.Dirty)
             {
@@ -583,22 +605,7 @@ namespace Kbase.MainFrm
         }
 
 
-        Search.SearchForm searchForm = null;
-        public void ClickSearch(object sender, System.EventArgs e)
-        {
-            try
-            {
-                if (searchForm == null)
-                    searchForm = new Search.SearchForm();
-                searchForm.Show();
-                searchForm.Focus();
-            }
-            catch (Exception e2)
-            {
-                MainForm.ShowError(e2);
-            }
-
-        }
+        public Search.SearchForm searchForm = new Search.SearchForm();
 
         private void ClickExport(object sender, System.EventArgs e)
         {
@@ -648,11 +655,12 @@ namespace Kbase.MainFrm
         {
             try
             {
-                string message = "Donate via PayPal to help support TheKBase development. You choose the amount to donate.\n"+
+                string message = "Donate via PayPal to help support TheKBase development. You choose the amount to donate.\n" +
                     "Click OK to go to PayPal now.";
                 DialogResult result = MessageBox.Show(message, DialogCaption, MessageBoxButtons.OKCancel);
-                if (result == DialogResult.OK) {
-                    string donateHere = "https://www.paypal.com/cgi-bin/webscr?business=paypal@confusionists.com&cmd=_xclick&item_name=Donation to support software development at Confusionists, Inc.";   
+                if (result == DialogResult.OK)
+                {
+                    string donateHere = "https://www.paypal.com/cgi-bin/webscr?business=paypal@confusionists.com&cmd=_xclick&item_name=Donation to support software development at Confusionists, Inc.";
                     System.Diagnostics.Process.Start(donateHere);
                 }
             }
@@ -681,6 +689,32 @@ namespace Kbase.MainFrm
             try
             {
                 Universe.Instance.ModelGateway.PrintInfo();
+            }
+            catch (Exception e2)
+            {
+                MainForm.ShowError(e2);
+            }
+
+        }
+
+        public void ForceAutosaveOff() {
+            if (autoSaveMenu.Checked)
+                ClickAutoSaveToggle(null, null);
+        }
+
+        public void ClickAutoSaveToggle(object sender, System.EventArgs e)
+        {
+            try
+            {
+                autoSaveMenu.Checked = !autoSaveMenu.Checked;
+                if (autoSaveMenu.Checked)
+                {
+                    Universe.Instance.startAutoSave();
+                }
+                else
+                {
+                    Universe.Instance.stopAutoSave();
+                }
             }
             catch (Exception e2)
             {
@@ -889,12 +923,13 @@ namespace Kbase.MainFrm
             ShowError(ex, ex.Message);
         }
 
-        
+
         public static void ShowError(string text)
         {
             ShowError(null, text);
         }
 
+        private static bool messageBoxShowing = false;
 
         public static void ShowError(Exception ex, string text)
         {
@@ -907,7 +942,12 @@ namespace Kbase.MainFrm
             if (text == null || text.Length == 0)
                 text = header;
 
-            MessageBox.Show("An error has ocurred (" + text + "). Please see the log file for error details.", header);
+            if (!messageBoxShowing)
+            {
+                messageBoxShowing = true;
+                MessageBox.Show("An error has ocurred (" + text + "). Please see the log file for error details.", header);
+                messageBoxShowing = false;
+            }
 
             if (ex != null)
                 ShowErrorSilent(ex);
@@ -965,7 +1005,8 @@ namespace Kbase.MainFrm
             startLockTimer();
         }
 
-        void OnActivate(object sender, EventArgs e) {
+        void OnActivate(object sender, EventArgs e)
+        {
             stopLockTimer();
         }
 
@@ -986,7 +1027,7 @@ namespace Kbase.MainFrm
                 passOkay = Universe.Instance.encryption.SolicitPasswordOnUIBlock();
             return passOkay;
         }
-        
+
         bool shouldBeMinimized = false;
 
         protected override void OnResize(EventArgs e)
@@ -1012,7 +1053,7 @@ namespace Kbase.MainFrm
                 }
             }
         }
-#endregion 
+        #endregion
 
     }
 }

@@ -42,7 +42,7 @@ namespace Kbase.Search
 			LoadBox(boxTextOrTitle,SearchTypeTextTitle.Text);
 			LoadBox(boxContainsIs,SearchTypeIsContains.Contains);
 			LoadBox(boxConcat,SearchTypeConcat.And);
-            dateTimePicker1.Text = DateTime.Today.ToString();
+            dateTimePicker1.Value = DateTime.Today;
             doneLoading = true;
 		}
 
@@ -165,6 +165,7 @@ namespace Kbase.Search
             this.textBoxSearchText.Name = "textBoxSearchText";
             this.textBoxSearchText.Size = new System.Drawing.Size(232, 20);
             this.textBoxSearchText.TabIndex = 5;
+            this.textBoxSearchText.KeyDown += new KeyEventHandler(textBoxSearchText_KeyDown);
             // 
             // boxTextOrTitle
             // 
@@ -211,6 +212,11 @@ namespace Kbase.Search
             this.PerformLayout();
 
 		}
+
+        void textBoxSearchText_KeyDown(object sender, KeyEventArgs e)
+        {
+            OnKeyDown(e);
+        }
 
         void selectLink_Click(object sender, EventArgs e)
         {
@@ -313,5 +319,14 @@ namespace Kbase.Search
                 textBoxSearchText.Text = dateTimePicker1.Text;
         }
 
+        protected override void OnKeyDown(KeyEventArgs e)
+        {
+            base.OnKeyDown(e);
+            if (e.KeyData == Keys.Enter) {
+                Universe.Instance.mainForm.searchForm.Search();
+            }
+        }
 	}
+
+    
 }

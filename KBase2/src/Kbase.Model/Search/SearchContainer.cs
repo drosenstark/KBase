@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -61,15 +61,14 @@ namespace Kbase.Model
             List<Snippet> results = Search(searchCriteria);
             DateTime StopTime = DateTime.Now;
             timer = StopTime - StartTime;
+            string seconds = Convert.ToString(timer.TotalSeconds);
             if (results.Count == 0)
             {
-                DialogResult okay = MessageBox.Show(
-                    "No results were found for your search. " +
-                    "Create results Snippet anyway?", MainForm.DialogCaption, MessageBoxButtons.YesNo);
-                if (okay == DialogResult.No)
-                    return;
+                Universe.Instance.mainForm.SetStatus("Search completed in " + seconds + " seconds. No results found.");
+                return;
             }
             AddToPane(searchCriteria, results, oldSearch);
+            Universe.Instance.mainForm.SetStatus("Search completed in " + seconds + " seconds. " + results.Count + " results found.");
             
         }
 

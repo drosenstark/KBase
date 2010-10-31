@@ -1,4 +1,5 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>9.0.21022</ProductVersion>
@@ -10,8 +11,6 @@
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
     <AssemblyName>TheKBase</AssemblyName>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
@@ -38,6 +37,7 @@
     <ManifestCertificateThumbprint>0BC050AA3CF4E6A695807D99F2C268F64A3B9C83</ManifestCertificateThumbprint>
     <ManifestKeyFile>TheKBase_TemporaryKey.pfx</ManifestKeyFile>
     <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <PublishUrl>d:\eraseme\kbase-publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -60,9 +60,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
-    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile>
     </ConfigurationOverrideFile>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -70,40 +68,34 @@
     </DocumentationFile>
     <DebugSymbols>true</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
-    <NoStdLib>false</NoStdLib>
-    <NoWarn>
-    </NoWarn>
     <Optimize>false</Optimize>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <WarningLevel>4</WarningLevel>
     <RunFxCop>false</RunFxCop>
+    <DebugType>full</DebugType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
-    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile>
     </ConfigurationOverrideFile>
     <DefineConstants>TRACE</DefineConstants>
     <DocumentationFile>
     </DocumentationFile>
-    <DebugSymbols>false</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
-    <NoStdLib>false</NoStdLib>
-    <NoWarn>
-    </NoWarn>
     <Optimize>true</Optimize>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
       <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data">
       <Name>System.Data</Name>
@@ -111,6 +103,7 @@
     <Reference Include="System.Drawing">
       <Name>System.Drawing</Name>
     </Reference>
+    <Reference Include="System.Security" />
     <Reference Include="System.Web">
       <Name>System.Web</Name>
     </Reference>
@@ -123,6 +116,7 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
+    <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\Resources.Designer.cs">
@@ -130,12 +124,25 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="src\ConfusionUtilities\Cryptography\CipherWrapper.cs" />
+    <Compile Include="src\ConfusionUtilities\Cryptography\EncryptionUtil.cs" />
+    <Compile Include="src\ConfusionUtilities\Cryptography\XmlEncryption.cs" />
+    <Compile Include="src\ConfusionUtilities\Cryptography\XmlEncryptionUsingMsClasses.cs" />
+    <Compile Include="src\ConfusionUtilities\FileLogger.cs" />
+    <Compile Include="src\ConfusionUtilities\Logger.cs" />
+    <Compile Include="src\ConfusionUtilities\StringWriterUtf8.cs" />
+    <Compile Include="src\ConfusionUtilities\Util.cs" />
+    <Compile Include="src\ConfusionUtilities\XmlUtil.cs" />
     <Compile Include="src\Kbase.DetailPanel\DetailPane.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="src\Kbase.DetailPanel\DetailPaneDragDropSupport.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="src\Kbase.DetailPanel\ExternalEditStopButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="src\Kbase.DetailPanel\ExternalSnippet.cs" />
     <Compile Include="src\Kbase.DetailPanel\FindForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -239,12 +246,15 @@
     <Compile Include="src\Kbase.Properties\SnippetDateBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="src\Kbase.DetailPanel\ExternalEditButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="src\Kbase.Properties\SnippetTitleBox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="src\Kbase.Model\Search\SearchCriterion.cs" />
     <Compile Include="src\Kbase.Search\SearchForm.cs">
-      <SubType>Form</SubType>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="src\Kbase.Search\SearchFormPart.cs">
       <SubType>UserControl</SubType>
@@ -468,17 +478,13 @@
     <PublishFile Include="KbaseServer">
       <Visible>False</Visible>
       <Group>Server</Group>
+      <PublishState>Auto</PublishState>
       <TargetPath>
       </TargetPath>
-      <PublishState>Auto</PublishState>
       <FileType>Assembly</FileType>
     </PublishFile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConfusionUtilities\ConfusionUtilities.csproj">
-      <Project>{1CAD6120-5F27-44B6-946E-D68FF5548EFE}</Project>
-      <Name>ConfusionUtilities</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Kbase2Api\Kbase2Api.csproj">
       <Project>{0E6FF538-F398-4D0B-A5DF-6988EA1D9BE9}</Project>
       <Name>Kbase2Api</Name>

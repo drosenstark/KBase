@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -58,7 +58,6 @@ namespace Kbase.Serialization
 		/// <param name="theParents">Kbase.Model.Snippet snippets</param>
 		public SerializableUniverse(List<Snippet> theParents) : this(theParents, Serializer.GetDefaultSerializer())
 		{
-			
 		}
 
 		// create an empty serializable universe
@@ -76,8 +75,8 @@ namespace Kbase.Serialization
 			this.serializer = serializer;
 			foreach (Snippet snippet in parents) 
 			{
-				this.topLevelIds.Add(snippet.Id);
-				Handle(snippet);
+                this.topLevelIds.Add(snippet.Id);
+                Handle(snippet);
 			}
 
             // now handle the other bits, which are the properties, propertySets and unknown bit
@@ -90,6 +89,7 @@ namespace Kbase.Serialization
             {
                 propertySetIds.Add(snippet.Id);
             }
+
 
             UnknownPieceToReserialize = Universe.Instance.ModelGateway.UnknownPieceToReserialize;
 		}
@@ -175,6 +175,7 @@ namespace Kbase.Serialization
 		/// <param name="merge"></param>
 		public List<Snippet> Restore(Snippet where, bool merge) 
 		{
+            Universe.Instance.ModelGateway.SuspendEvents = true;
             List<Snippet> retVal = new List<Snippet>();
 		    if (!merge) {
 			    Universe.Instance.snippetPane.Reset();
@@ -192,6 +193,7 @@ namespace Kbase.Serialization
 			    Snippet realSnippet = sSnippet.MakeSnippetInModel(where, snippets, merge);
                 retVal.Add(realSnippet);
 		    }
+            Universe.Instance.ModelGateway.SuspendEvents = false;
 
             RestoreProperties();
             RestorePropertySets();
@@ -208,12 +210,8 @@ namespace Kbase.Serialization
 
             Logger.LogTimer(marker, "Model Creation");
 
-//            Debug.Assert(retVal.Count > 0);
-
-
             return retVal;
 		}
-				
 
 		public static SerializableUniverse Restore(string path, Serializer serializer) 
 		{

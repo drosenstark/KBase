@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -19,6 +19,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Data;
 using System.Windows.Forms;
+using Kbase.LibraryWrap;
 
 namespace Kbase.MultipleSelectionTreeView
 {
@@ -94,9 +95,8 @@ namespace Kbase.MultipleSelectionTreeView
 		/// <param name="e"></param>
 		protected override void OnBeforeSelect(TreeViewCancelEventArgs e)
 		{
-				base.OnBeforeSelect(e);
 				e.Cancel = true;
-
+                //base.OnBeforeSelect(e);
 		}
 
 		protected override void OnAfterSelect(TreeViewEventArgs e)
@@ -107,7 +107,19 @@ namespace Kbase.MultipleSelectionTreeView
 
 		protected override void OnMouseMove(MouseEventArgs e)
 		{
-			base.OnMouseMove (e);
+            if (e == null)
+                return;
+            try
+            {
+                base.OnMouseMove(e);
+            }
+            catch (NullReferenceException)
+            { 
+                // this freaky error is happening in Winforms on Mono, not sure what's up yet, but we can't debug Mono, you know?
+            }
+            catch (Exception ex) {
+                MainFrm.MainForm.ShowError(ex);
+            }
 		}
 
 		protected override void OnBeforeCollapse(TreeViewCancelEventArgs e)
@@ -143,9 +155,13 @@ namespace Kbase.MultipleSelectionTreeView
 			base.OnMouseUp (e);
 			object thing = GetNodeAt(e.X, e.Y);
 
-			// handle left clicking OUTSIDE of the selection, which changes the
+
+            bool control = (ModifierKeys == Keys.Control);
+            bool shift = (ModifierKeys == Keys.Shift);
+            
+            // handle left clicking OUTSIDE of the selection, which changes the
 			// selection and then call the onrightclick event.
-			if (lastButton != MouseButtons.Left) 
+			if (lastButton != MouseButtons.Left && !control) // !control: Mono/OSX seems control is getting interpreted as right click 
 			{
 				if (thing != null && !SelectedNodes.Contains(thing)) 
 					ReplaceSelectionWith((TreeNode)thing);
@@ -153,8 +169,6 @@ namespace Kbase.MultipleSelectionTreeView
 				return;
 			}
 
-			bool control = (ModifierKeys==Keys.Control);
-			bool shift = (ModifierKeys==Keys.Shift);
 
 			if (thing != null) 
 			{
@@ -446,9 +460,17 @@ namespace Kbase.MultipleSelectionTreeView
 				}
 			}
 
-			selectedNodes.AddRange( myQueue );
+            try
+            {
+                selectedNodes.AddRange(myQueue);
 
-			firstNode = node; // let us chain several SHIFTs if we like it
+                firstNode = node; // let us chain several SHIFTs 
+            }
+            catch (Exception ex) {
+                OnErrorSilent(ex);
+                // trying to figure out what's up on Mono and why I'm getting this
+                Logger.Log("2115: what up? " + myQueue.Count);
+            }
 		}
 
 		void PlainClick(TreeNode node) 
@@ -607,7 +629,7 @@ namespace Kbase.MultipleSelectionTreeView
 				object toDrag = OnSelectedNodesDrag();
                 if (toDrag != null)
                 {
-                    DoDragDrop(toDrag, DragDropEffects.Copy);
+                    DoDragDrop(toDrag, DragDropEffects.Move);
                 }
 			} 
 			catch (Exception e2) 

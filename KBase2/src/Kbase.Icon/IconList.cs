@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -320,7 +320,7 @@ namespace Kbase.Icon
         bool warned = false;
         void Warn(string iconName) {
             if (!warned)
-                MessageBox.Show("You are missing one or more icon files (including " + iconName + ").\nSnippets will be shown with the default icon but will remain intact.", MainForm.DialogCaption, MessageBoxButtons.OK);
+              MessageBox.Show("You are missing one or more icon files (including " + iconName + ").\nSnippets will be shown with the default icon but will remain intact.", MainForm.DialogCaption, MessageBoxButtons.OK);
             warned = true;    
         }
 

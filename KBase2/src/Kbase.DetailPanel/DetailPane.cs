@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -21,6 +21,8 @@ using System.Text;
 using Kbase.SnippetTreeView;
 using Kbase.Model;
 using Kbase.MainFrm;
+using System.Drawing;
+using ConfusionUtilities;
 
 namespace Kbase.DetailPanel
 {
@@ -59,19 +61,58 @@ namespace Kbase.DetailPanel
             return this.snippet.Id == id;
         }
 
-		
+        /// <summary>
+        /// We use this AND enabled... enabled off is only for EditNone.
+        /// </summary>
+        public bool Editable {
+            get {
+                if (Util.IsMono())
+                    return false;
+                return !ReadOnly;
+            }
+
+            set {
+                ReadOnly = !value;
+                if (value)
+                {
+                    BackColor = Color.White; // bug in winforms, this doesn't reset correctly even if we're enabled AND readonly
+                }
+            }
+        }
+
+
 		public void EditNone() 
 		{
 			Save();
 			Reset();
+            Enabled = false;
 		}
 
-		public void Edit(Snippet snippet) 
+        /// <summary>
+        /// caller must make sure it's the right snippet
+        /// </summary>
+        public void UpdateTextFromExternal() {
+            Invoke(new ZeroArgumentEventHandler(UpdateTextFromExternalInner));
+        }
+
+        private void UpdateTextFromExternalInner()
+        {
+            snippet.UI.Rtf = null; // reset all cached text
+            Edit(snippet, false);
+        }
+
+        public void Edit(Snippet snippet) {
+            Edit(snippet, true);
+        }
+
+		public void Edit(Snippet snippet, bool saveCurrent) 
 		{
 			float oldFactor = ZoomFactor;
-			// save the current snippet
-			Save();
+            if (saveCurrent)
+    			Save();
 			Reset();
+
+            Enabled = true;
 
 			this.snippet = snippet;
 
@@ -81,7 +122,7 @@ namespace Kbase.DetailPanel
             {
                 Universe.Instance.mainForm.AnnounceEditing(snippet);
 
-                this.Enabled = true;
+                this.Editable = !Util.IsMono();
                 ZoomFactor = oldFactor;
                 if (ZoomFactor != oldFactor)
                 {
@@ -119,7 +160,7 @@ namespace Kbase.DetailPanel
 			Load(true);
 			snippet = null;
 			Universe.Instance.mainForm.AnnounceEditing(null);
-			this.Enabled = false;
+			this.Editable = false;
 		}
 
 		bool handlingInKeyDown = false;
@@ -128,7 +169,7 @@ namespace Kbase.DetailPanel
 			try 
 			{
 				base.OnLinkClicked (e);
-			if (!Enabled)
+			if (!Editable)
 				return;
 				// could cache this, but how often are they going to hit it?
 				new HyperlinkUtil(Universe.Instance.Path).Open(e.LinkText);
@@ -144,7 +185,7 @@ namespace Kbase.DetailPanel
 		{
 			try 
 			{
-				if (!Enabled)
+				if (!Editable)
 					return;
 				base.OnKeyDown (e);
 				// if there is text selected and tab is pressed, this is an indent
@@ -196,7 +237,7 @@ namespace Kbase.DetailPanel
 		static string dateTimeFormat = "yyyy-MM-dd HH:mm tt";
 		private void InsertDate() 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Paste(DateTime.Now.ToString(dateTimeFormat));
 		}
@@ -204,7 +245,7 @@ namespace Kbase.DetailPanel
 
 		private void InsertHyperlink() 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			OpenFileDialog fileDialog = new OpenFileDialog();
 			DialogResult result = fileDialog.ShowDialog();
@@ -233,7 +274,7 @@ namespace Kbase.DetailPanel
 
 		public void PasteSnippetLink(Snippet snippet) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			string link = snippet.Title + " <file://this#" + snippet.Id + ">";
 			Paste(link);
@@ -262,7 +303,7 @@ namespace Kbase.DetailPanel
 			try 
 			{
 				base.OnMouseDown (e);
-				if (!Enabled)
+				if (!Editable)
 					return;
 				if (e.Button == MouseButtons.Right)
 					OnRightClick(e);
@@ -297,17 +338,21 @@ namespace Kbase.DetailPanel
 				menuItem.Click +=new EventHandler(ClickPaste);
 				rightClickMenu.MenuItems.Add(menuItem);
 
-				rightClickMenu.MenuItems.Add(new MenuItem("-"));
+                if (!Util.IsRichTextBoxBroken())
+                {
 
-				menuItem = new MenuItem("Copy &Plain Text");
-				menuItem.Click +=new EventHandler(ClickCopyPlainText);
-				rightClickMenu.MenuItems.Add(menuItem);
+                    rightClickMenu.MenuItems.Add(new MenuItem("-"));
 
-				menuItem = new MenuItem("Paste &Plain Text");
-				menuItem.Click +=new EventHandler(ClickPastePlainText);
-				rightClickMenu.MenuItems.Add(menuItem);
-				
-				rightClickMenu.MenuItems.Add(new MenuItem("-"));
+                    menuItem = new MenuItem("Copy &Plain Text");
+                    menuItem.Click += new EventHandler(ClickCopyPlainText);
+                    rightClickMenu.MenuItems.Add(menuItem);
+
+                    menuItem = new MenuItem("Paste &Plain Text");
+                    menuItem.Click += new EventHandler(ClickPastePlainText);
+                    rightClickMenu.MenuItems.Add(menuItem);
+
+                    rightClickMenu.MenuItems.Add(new MenuItem("-"));
+                }
 
 				menuItem = new MenuItem("Insert Link to &File");
 				menuItem.Click +=new EventHandler(ClickInsertHyperlink);
@@ -346,14 +391,14 @@ namespace Kbase.DetailPanel
 
 		public void ClickZoomIn(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			ZoomIn();
 		}
 
 		public void ClickZoomOut(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			ZoomOut();
 		}
@@ -362,14 +407,14 @@ namespace Kbase.DetailPanel
 
 		public void ClickCopy(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Copy();
 		}
 
 		public void ClickCut(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Cut();
 		}
@@ -377,14 +422,14 @@ namespace Kbase.DetailPanel
 
 		public void ClickCopyPlainText(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			CopySpecial();
 		}
 
 		public void ClickPastePlainText(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			PasteSpecial();
 		}
@@ -392,21 +437,21 @@ namespace Kbase.DetailPanel
 
 		public void ClickUndo(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Undo();
 		}
 
 		public void ClickRedo(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Redo();
 		}
 
 		public void ClickRedoFormatting(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			RedoFormatting();
 		}
@@ -430,35 +475,66 @@ namespace Kbase.DetailPanel
 
 		public void CopySpecial() 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			Selection oldSelection = new Selection(SelectionStart, SelectionLength);
-			string copyThis = RtfConverter.Serialize(Rtf, SelectionStart,SelectionLength);
+            string copyThis;
+            if (Util.IsRichTextBoxBroken())
+            {
+                copyThis = Text.Substring(SelectionStart, SelectionLength);
+            }
+            else
+            {
+                copyThis = RtfConverter.Serialize(Rtf, SelectionStart, SelectionLength);
+            }
 			Clipboard.SetDataObject(new DataObject(DataFormats.StringFormat, copyThis));
 			Select(oldSelection);
 		}
 		
 		public void ClickPaste(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
+            if (!Util.IsRichTextBoxBroken()) {
+                base.Paste();
+                return;
+            }
+
 			SaveClipboard();
-			RtfConverter.FormatClipboard(Font);
+            RtfConverter.FormatClipboard(Font);
 			Paste();
+            if (Util.IsRichTextBoxBroken())
+                base.Refresh();
+
+
 			RestoreClipboard();
 		}
 
+/*
+        private new void Paste() {
+            if (Util.IsRichTextBoxBroken()) {
+                string beforeText = Text.Substring(0, SelectionStart);
+                string afterText = Text.Substring(SelectionStart + SelectionLength);
+                string text = Clipboard.GetText();
+                Text = beforeText + text +afterText;
+                Select(SelectionStart, text.Length);
+            }
+            else {
+                base.Paste();            
+            }
+        }
+*/
 
 		public void ClickInsertDate(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			InsertDate();
 		}
 
 		public void ClickInsertHyperlink(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			InsertHyperlink();
 		}
@@ -466,7 +542,7 @@ namespace Kbase.DetailPanel
 
 		public void ClickInsertSnippetlink(object sender, System.EventArgs e) 
 		{
-			if (!Enabled)
+			if (!Editable)
 				return;
 			InsertSnippetLink();
 		}
@@ -490,7 +566,7 @@ namespace Kbase.DetailPanel
 			try 
 			{
 				base.OnKeyPress (e);
-				if (!Enabled)
+				if (!Editable)
 					return;
 				// this is necessary because the tab, for instance, doesn't get handled in
 				// key down but rather here.  Must avoid this hence this logic.
@@ -550,15 +626,19 @@ namespace Kbase.DetailPanel
 
 		public void Save() 
 		{
-            if (!Enabled)
+            if (!Editable)
                 return;
 			if (this.snippet != null) 
 			{
 				if (Dirty) 
 				{
-					string newText = RtfConverter.GetTextFromRtf(Rtf);
-					snippet.Text = newText;
-					snippet.UI.Rtf = Rtf;
+                    if (Util.IsRichTextBoxBroken())
+                        snippet.Text = Text;
+                    else
+                    {
+                        snippet.Text = RtfConverter.GetTextFromRtf(Rtf);
+                        snippet.UI.Rtf = Rtf;
+                    }
 				}
 			}		
 		}
@@ -568,7 +648,7 @@ namespace Kbase.DetailPanel
         }
 
         /// <summary>
-        /// returns true if text was loaded, false otherwise
+        /// returns true if text was loaded, false otherwise. If the snippet is being edited externally, returns false
         /// </summary>
         /// <param name="clearAllText"></param>
         /// <returns></returns>
@@ -589,14 +669,21 @@ namespace Kbase.DetailPanel
                 return false;
             }
 
-			if (snippet.UI.Rtf != null) 
-				this.Rtf = snippet.UI.Rtf;
-			else 
-			{
-				Rtf = RtfConverter.Load(text, Font);
-				snippet.UI.Rtf = Rtf;
-			}
-            return true;
+            if (Util.IsRichTextBoxBroken())
+            {
+                Text = text;
+            }
+            else {
+                if (snippet.UI.Rtf != null)
+                    this.Rtf = snippet.UI.Rtf; // we used cached RTF if we can
+                else
+                {
+                    Rtf = RtfConverter.Load(text, Font);
+                    snippet.UI.Rtf = Rtf;
+                }
+            }
+            return !snippet.WatchingExternalFile;
+            //return !Util.IsRichTextBoxBroken();
 		}
 
 
@@ -645,7 +732,7 @@ namespace Kbase.DetailPanel
         {
             int found = -1;
             Selection oldSelection = null;
-            if (Enabled)
+            if (Editable)
             {
                 oldSelection = new Selection(SelectionStart, SelectionLength);
                 int startFrom = 0;

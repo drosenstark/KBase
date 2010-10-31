@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -43,13 +43,22 @@ namespace Kbase
                 MainForm form = new MainForm();
 
                 if (!Universe.emergencyExit)
+                {
+                    Application.ThreadException += new System.Threading.ThreadExceptionEventHandler(Application_ThreadException);
+                    Logger.Log("Starting v. 0.0.1b");
                     Application.Run(form);
+                }
                 // Logger will be shut down in the exit events
             }
             catch (Exception ex)
             {
                 MainForm.ShowError(new FatalErrorException("Error on startup.", ex));
             }
+        }
+
+        static void Application_ThreadException(object sender, System.Threading.ThreadExceptionEventArgs e)
+        {
+            MainForm.ShowErrorSilent(e.Exception);
         }
 
         public static string[] parameters = new string[0];

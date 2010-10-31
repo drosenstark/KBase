@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -44,7 +44,11 @@ namespace Kbase.Model
 		// cached local variables for the UI
 		public SnippetUI UI = null;
         // if this is the actual TopLevel master snippet guy
-		public bool TopLevel = false;
+		public bool IsTopLevel = false;
+        public abstract bool IsLastX
+        {
+            get;
+        }
 
         [Browsable(true), ReadOnly(true),
             Bindable(false), DefaultValueAttribute(""), DesignOnly(false),
@@ -68,8 +72,7 @@ namespace Kbase.Model
                     }
                 }
                 else {
-                    throw new Exception("Not a search snippet.");
-                    //retVal.Add("Not a search snippet");
+                    retVal.Add("Not a search snippet");
                 }
                 return retVal.ToArray();
             
@@ -354,7 +357,13 @@ namespace Kbase.Model
 		public abstract void RemoveFromMemory();
 
 
+        public Kbase.DetailPanel.ExternalSnippet WatchSnippet = null;
 
+        public bool WatchingExternalFile {
+            get {
+                return (WatchSnippet != null);
+            }
+        }
 
 
 	}

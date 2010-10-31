@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -36,6 +36,13 @@ namespace Kbase.ModelInMemory
 		private SnippetDictionary model = null;
 		static bool collapsingAndExpanding = false;
 
+        public static SnippetInMemory MakeLastXSnippet(SnippetDictionary model) {
+            SnippetInMemory retVal = new SnippetInMemory(model);
+            retVal.title = LAST_X_TEXT;
+            model.TopLevelSnippet.AddChildSnippet(retVal);
+            return retVal;
+        }
+
 		public SnippetInMemory(SnippetDictionary model)
 		{
 			this.model = (SnippetDictionary)model;
@@ -53,7 +60,18 @@ namespace Kbase.ModelInMemory
                 return (Criteria != null);
             }
         }
-        
+
+
+        public override bool IsLastX
+        {
+            get {
+                //if (ConfusionUtilities.Util.IsMono())
+                //    return false;
+                return (this.Parents.Contains(model.TopLevelSnippet) && LAST_X_TEXT == this.title);
+            }
+        }
+
+
         IList<SearchCriterion> criteria = null;
         public override IList<SearchCriterion> Criteria
         {
@@ -123,7 +141,9 @@ namespace Kbase.ModelInMemory
 
 			set 
 			{
-				title = value;
+                if (value != Universe.Instance.Settings.DEFAULT_TEXT)
+                    AddToLastXSnippets();
+                title = value;
                 model.Dirty = true;
                 Modified = DateTime.Now;
                 UI.OnTitleChange();
@@ -150,6 +170,7 @@ namespace Kbase.ModelInMemory
 
 			set 
 			{ 
+                AddToLastXSnippets();
 				text = value;
                 Modified = DateTime.Now;
                 model.Dirty = true;
@@ -172,7 +193,8 @@ namespace Kbase.ModelInMemory
 
 			set 
 			{
-				icon = value;
+                AddToLastXSnippets();
+                icon = value;
                 model.Dirty = true;
                 UI.OnIconChange();
 			}
@@ -189,7 +211,8 @@ namespace Kbase.ModelInMemory
 
 			set 
 			{
-				color = value;
+                AddToLastXSnippets();
+                color = value;
                 model.Dirty = true;
                 UI.OnColorChange();
 			}
@@ -383,6 +406,8 @@ namespace Kbase.ModelInMemory
         }
 
 
+        public const string LAST_X_TEXT = "Recent Snippets";
+
 
         #region Search Support *****************
         public bool Matches(SearchCriterion criterion)
@@ -563,7 +588,12 @@ namespace Kbase.ModelInMemory
 
         #endregion
 
-
+        void AddToLastXSnippets() {
+            if (ConfusionUtilities.Util.IsMono())
+                return; // problems still with this on mono
+           if (this.title != LAST_X_TEXT && !this.IsTopLevel && !this.IsLastX)
+                model.AddSnippetToLastXSnippets(this);
+        }
 
 
 

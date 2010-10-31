@@ -1,7 +1,7 @@
 /*
 This file is part of TheKBase Desktop
 A Multi-Hierarchical  Information Manager
-Copyright (C) 2004-2007 Daniel Rosenstark
+Copyright (C) 2004-2010 Daniel Rosenstark
 
 TheKBase Desktop is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -43,7 +43,7 @@ namespace Kbase.Model
 
 		public SnippetInstance(Snippet snippet, SnippetInstance parent) 
 		{
-			Debug.Assert(!snippet.TopLevel);
+			Debug.Assert(!snippet.IsTopLevel);
 			this.Snippet = snippet;
 			this.Snippet.UI.SnippetInstances.Add(this);
 			this.parent = parent;
@@ -57,7 +57,8 @@ namespace Kbase.Model
 
 		public void Rename(string name)
 		{
-                node.Text = name;
+            node.Text = name;
+            node.RedoPaintjob();
 		}
 
 		public void Highlight()
@@ -155,7 +156,7 @@ namespace Kbase.Model
 
 			foreach (SnippetInstance childInstance in childrenCopy) 
 			{
-				if (Snippet.TopLevel) 
+				if (Snippet.IsTopLevel) 
 				{
 					Universe.Instance.snippetPane.Nodes.Remove(childInstance.node);
 				} 
@@ -208,7 +209,7 @@ namespace Kbase.Model
 		{
 			get
 			{
-				if (this.Snippet.TopLevel)
+				if (this.Snippet.IsTopLevel)
 					return true;
 				else
 					return this.node.IsVisible;
