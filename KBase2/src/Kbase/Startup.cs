@@ -20,6 +20,7 @@ using Kbase.Model;
 using System.Windows.Forms;
 using Kbase.MainFrm;
 using Kbase.LibraryWrap;
+using System.IO;
 
 namespace Kbase
 {
@@ -34,7 +35,7 @@ namespace Kbase
         {
             try
             {
-                Settings forceLoad = Universe.Instance.Settings;
+                Settings forceLoad = Universe.Instance.Settings; // force load of settings
                 Logger.Init();
 
 

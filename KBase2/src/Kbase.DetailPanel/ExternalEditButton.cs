@@ -72,8 +72,8 @@ namespace Kbase.DetailPanel
             if (!botheredForAutosave && !Universe.Instance.mainForm.autoSaveMenu.Checked)
             {
                 string message = "Autosave is off. It should be on so that when you save the external file, TheKBase is saved as well. Turn it on?";
-                DialogResult result = MessageBox.Show(message, MainForm.DialogCaption, MessageBoxButtons.YesNo);
-                if (result == DialogResult.Yes)
+				bool result = Universe.Instance.mainForm.ShowDialogYesNo(message);
+                if (result)
                 {
                     Universe.Instance.mainForm.ClickAutoSaveToggle(null, null);
                 }

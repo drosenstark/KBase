@@ -1,11 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="KBase2/src/Kbase/AssemblyInfo.cs" ctype="Workbench">
-    <Files>
-      <File FileName="KBase2/Properties/Resources.resx" Line="59" Column="55" />
-      <File FileName="KBase2/src/Kbase/AssemblyInfo.cs" Line="70" Column="3" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ctype="Workbench" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
