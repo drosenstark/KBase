@@ -23,53 +23,55 @@ namespace Kbase.SnippetTreeView
 {
 	/// <summary>
 	/// The IconSelector form for user to choose custom icons.
-    /// A lot of the stuff is in the package Kbase.Icon.
+	/// A lot of the stuff is in the package Kbase.Icon.
 	/// </summary>
 	public class IconSelector : Form
 	{
 
-	IconSelectorTreeView treeView = new IconSelectorTreeView();
+		IconSelectorTreeView treeView = new IconSelectorTreeView ();
 
-	public IconSelector()
+		public IconSelector ()
 		{
 			this.Height = 500;
 			this.Width = 200;
 			treeView.Size = this.ClientSize;
-			this.Controls.Add(treeView);
+			this.Controls.Add (treeView);
 			this.Text = "Select An Icon";
 		}
 
 		public string SelectedIcon {
-			get 
-			{
-				TreeNodeIconSelector node = treeView.SelectedNodeCached; // we should be able to use SelectedNode, but Mono changes it to something else
-                return node.iconSet.FancyName;
+			get {
+				TreeNodeIconSelector node = treeView.SelectedNodeCached;
+				
+				// we should be able to use SelectedNode, but Mono changes it to something else
+				if (node == null)
+					node = treeView.SelectedNode as TreeNodeIconSelector;
+				return node.iconSet.FancyName;
 			}
 			set {
 				bool breakOut = false;
 				foreach (TreeNode topLevelNode in treeView.Nodes) {
-					foreach (TreeNodeIconSelector node in topLevelNode.Nodes) 
-					{
+					foreach (TreeNodeIconSelector node in topLevelNode.Nodes) {
 						// find the node to select (cannot be a top level node
-						if (node.iconSet.FancyName == value) 
-						{
-							treeView.ResetSelectedNode(node);
+						if (node.iconSet.FancyName == value) {
+							treeView.ResetSelectedNode (node);
 							breakOut = true;
 							break;
 						}
 						if (breakOut)
 							break;
 					}
-				}				
+				}
 			}
 		}
-		protected override void OnResize(EventArgs e)
+		
+		protected override void OnResize (EventArgs e)
 		{
 			base.OnResize (e);
 			treeView.Size = ClientSize;
 		}
-
-
+		
+		
 	}
-
+	
 }
